@@ -1,0 +1,178 @@
+# dwc-dropdown
+![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--dropdown-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
+
+The `<dwc-dropdown>` provides methods for manipulating a UI dropdown list.
+
+
+## Properties 
+
+
+Properties are JavaScript variables that are associated with client web component.
+They are useful for storing data and controlling behavior. Properties make web components more reusable and easier to configure.
+Almost every property has a corresponding attribute, which is useful for setting default values for properties.
+
+Some properties reflect their values to attributes and vice versa. This means that if you set a property, the corresponding attribute is set automatically, and if you set an attribute, the corresponding property is set automatically.
+<div style="overflow-x: auto;">
+
+| Name                          | Attribute                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Reflects | Type                                                                                                                                                                   | Default            |
+| ----------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| ``allowDeselection``          | ``allow-deselection``             | When true, a selected item will be deselected when clicked again.                                                                                                                                                                                                                                                                                                                                                                                                            | &#x2718; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``disabled``                  | ``disabled``                      | When true, the component cannot be interacted with.                                                                                                                                                                                                                                                                                                                                                                                                                          | &#x2714; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``distance``                  | ``distance``                      | The distance in pixels to offset the list away from its trigger.                                                                                                                                                                                                                                                                                                                                                                                                             | &#x2718; | ``number``                                                                                                                                                             | ``3``              |
+| ``expanse``                   | ``expanse``                       | The component's expanse.                                                                                                                                                                                                                                                                                                                                                                                                                                                     | &#x2714; | ``"l" \| "m" \| "s" \| "xl" \| "xs"``                                                                                                                                  | ``'m'``            |
+| ``items``                     |                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | &#x2718; | ``DwcListboxItem[]``                                                                                                                                                   | ``[]``             |
+| ``maxRowCount``               | ``max-row-count``                 | Sets the maximum number of rows that the drop-down list will display.                                                                                                                                                                                                                                                                                                                                                                                                        | &#x2718; | ``number``                                                                                                                                                             |                    |
+| ``multiSelection``            | ``multi-selection``               | When true, the menu will allow menu's multi-selection; otherwise single selection will be enabled.                                                                                                                                                                                                                                                                                                                                                                           | &#x2714; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``openHeight``                | ``open-height``                   | Sets the dropdown max-height.                                                                                                                                                                                                                                                                                                                                                                                                                                                | &#x2718; | ``string``                                                                                                                                                             | ``''``             |
+| ``openOnArrow``               | ``open-on-arrow``                 | When true, the dropdown will open when arrows keys are used.                                                                                                                                                                                                                                                                                                                                                                                                                 | &#x2718; | ``boolean``                                                                                                                                                            | ``true``           |
+| ``openWidth``                 | ``open-width``                    | Sets the dropdown width.                                                                                                                                                                                                                                                                                                                                                                                                                                                     | &#x2718; | ``string``                                                                                                                                                             | ``''``             |
+| ``opened``                    | ``opened``                        | When true, the dropdown is opened; otherwise it will be closed.                                                                                                                                                                                                                                                                                                                                                                                                              | &#x2714; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``placement``                 | ``placement``                     | The preferred placement of the dropdown                                                                                                                                                                                                                                                                                                                                                                                                                                      | &#x2718; | ``"bottom" \| "bottom-end" \| "bottom-start" \| "left" \| "left-end" \| "left-start" \| "right" \| "right-end" \| "right-start" \| "top" \| "top-end" \| "top-start"`` | ``'bottom-start'`` |
+| ``readonly``                  | ``readonly``                      | When true, put the control in readonly mode.                                                                                                                                                                                                                                                                                                                                                                                                                                 | &#x2714; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``renderer``                  | ``renderer``                      | A BBj expression or a function to render the list item's label.                                                                                                                                                                                                                                                                                                                                                                                                              | &#x2718; | ``((...args: any[]) => any) \| ((item: DwcListboxItem) => string) \| string``                                                                                          |                    |
+| ``selected``                  |                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | &#x2718; | ``number[]``                                                                                                                                                           | ``[]``             |
+| ``skidding``                  | ``skidding``                      | The distance in pixels to offset the list along its trigger.                                                                                                                                                                                                                                                                                                                                                                                                                 | &#x2718; | ``number``                                                                                                                                                             | ``0``              |
+| ``tickMark``                  | ``tick-mark``                     | When true, the selected item will have a check icon instead of being highlighted.                                                                                                                                                                                                                                                                                                                                                                                            | &#x2714; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``toggleOnClick``             | ``toggle-on-click``               | When true, the dropdown will be toggled when the handler is clicked.                                                                                                                                                                                                                                                                                                                                                                                                         | &#x2718; | ``boolean``                                                                                                                                                            | ``true``           |
+| ``toggleOnEnter``             | ``toggle-on-enter``               | When true, the dropdown will toggled when enter is pressed.                                                                                                                                                                                                                                                                                                                                                                                                                  | &#x2718; | ``boolean``                                                                                                                                                            | ``true``           |
+| ``type``                      | ``type``                          | Gives the dropdown a custom type attribute.                                                                                                                                                                                                                                                                                                                                                                                                                                  | &#x2714; | ``string``                                                                                                                                                             |                    |
+| ``typeToSelect``              | ``type-to-select``                | Enables or disables the type to select feature.                                                                                                                                                                                                                                                                                                                                                                                                                              | &#x2718; | ``boolean``                                                                                                                                                            | ``true``           |
+| ``typeToSelectCaseSensitive`` | ``type-to-select-case-sensitive`` | When true, the search performed by the typeToSelect feature will be case sensitive.                                                                                                                                                                                                                                                                                                                                                                                          | &#x2718; | ``boolean``                                                                                                                                                            | ``false``          |
+| ``typeToSelectTimeout``       | ``type-to-select-timeout``        | Typing into the list accumulates keystrokes entered within a specified number of milliseconds into a 'typeahead'&nbsp;buffer. This allows the user to, for example, jump directly to New York in a list of all 50 states&nbsp;by typing "NY". Without this 'typeahead' buffer, the user would have to press "N" eight times to skip&nbsp;past the other state codes beginning with "N."&nbsp;&nbsp;The default time window for this feature is 1000 milliseconds (1 second). | &#x2718; | ``number``                                                                                                                                                             | ``1000``           |
+
+
+</div>
+
+## Events
+
+<div style="overflow-x: auto;">
+
+| Event                  | Description                                             | Type                                         |
+| ---------------------- | ------------------------------------------------------- | -------------------------------------------- |
+| ``dwc-canceled``       | Emitted when the dropdown is canceled.                  | ``void``                                     |
+| ``dwc-closed``         | Emits after the dropdown has been closed.               | ``void``                                     |
+| ``dwc-item-clicked``   | Emitted after one of the items has been clicked.        | ``{ index: number; item: DwcListboxItem; }`` |
+| ``dwc-item-dbclicked`` | Emitted after one of the items has been double clicked. | ``{ index: number; item: DwcListboxItem; }`` |
+| ``dwc-opened``         | Emits after the dropdown has been opened.               | ``void``                                     |
+| ``dwc-selected``       | Emitted after one of the items has been selected.       | ``DwcListboxEventPayload[]``                 |
+
+
+</div>
+
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description                                    |
+| ----- | ---------------------------------------------- |
+|       | The place where the handler should be inserted |
+
+
+</div>
+
+## Shadow Parts
+
+
+Shadow Parts allow you to selectively style internal elements without affecting the rest of the component.
+They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
+<div style="overflow-x: auto;">
+
+| Part        | Description                  |
+| ----------- | ---------------------------- |
+| ``control`` | The component's base wrapper |
+| ``handler`` | The dropdown handler         |
+
+
+</div>
+
+## CSS Properties
+
+
+CSS Properties are DWC-defined variables in CSS, denoted by `--`, followed by a name.
+They enable dynamic styling, reusability, and easy customization of components.
+With CSS Properties, you can change the look and feel of a component simply by changing the value of a variable.
+[[Read more]](theme-engine/css-variables).
+<div style="overflow-x: auto;">
+
+| Name                             | Description                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| ``--dwc-dropdown-max-height``    | The dropdown maximum height when opened. (applied to ``.dwc-popup--dropdown``) |
+| ``--dwc-dropdown-max-width``     | The dropdown maximum width when opened. (applied to ``.dwc-popup--dropdown``)  |
+| ``--dwc-dropdown-width``         | The dropdown width when opened. (applied to ``.dwc-popup--dropdown``)          |
+| ``--dwc-dropdown-zindex``        | The dropdown z-index. (applied to ``.dwc-positioner--dropdown``)               |
+| ``--dwc-popover-open-height``    | The height of the popover element when it is open.                             |
+| ``--dwc-popover-open-width``     | The width of the popover element when it is open.                              |
+| ``--dwc-popup-arrow-background`` | The background color of the popup's arrow element.                             |
+| ``--dwc-popup-arrow-size``       | The size of the popup's arrow element.                                         |
+| ``--dwc-popup-background``       | The background color of the popup element.                                     |
+| ``--dwc-popup-border``           | The border of the popup element.                                               |
+| ``--dwc-popup-shadow``           | The shadow of the popup element.                                               |
+
+
+</div>
+
+## Components Dependencies
+
+- [dwc-listbox](web-components/dwc-listbox.md)
+
+
+## Dependent Components
+
+- [dwc-choicebox](web-components/dwc-choicebox.md)
+- [dwc-combobox](web-components/dwc-combobox.md)
+- [dwc-timefield](web-components/dwc-timefield.md)
+
+## Methods
+
+### `close() => Promise<void>`
+
+Closes the dropdown
+
+### Returns
+
+Type: `Promise<void>`
+
+### `forceScroll() => Promise<void>`
+
+Forces the dropdown to re-scroll
+
+### Returns
+
+Type: `Promise<void>`
+
+### `getMenu() => Promise<HTMLDwcListboxElement>`
+
+Gets the menu Instance
+
+### Returns
+
+Type: `Promise<HTMLDwcListboxElement>`
+
+### `open() => Promise<void>`
+
+Opens the dropdown
+
+### Returns
+
+Type: `Promise<void>`
+
+### `reposition() => Promise<void>`
+
+Forces the dropdown to re-position
+
+### Returns
+
+Type: `Promise<void>`
+
+### `toggle() => Promise<void>`
+
+Opens/closes the dropdown
+
+### Returns
+
+Type: `Promise<void>`
+
+
+
+----------------------------------------------
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2024.*

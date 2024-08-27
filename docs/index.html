@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <meta name="description" content="DWC UI">
+</head>
+
+<body>
+  <script>
+    window.onload = function () {
+      const pathSegmentToAdd = "/docs";
+      const currentUrl = new URL(window.location.href);
+
+      const newPathname = currentUrl.pathname.endsWith('/') ? `${currentUrl.pathname}${pathSegmentToAdd.substring(1)}` : `${currentUrl.pathname}${pathSegmentToAdd}`;
+      const newUrl = `${currentUrl.origin}${newPathname}${currentUrl.search}${currentUrl.hash}`;
+
+      if (newUrl !== currentUrl.href) {
+        window.location.href = newUrl;
+      }
+    };
+  </script>
+</body>
+
+</html>
