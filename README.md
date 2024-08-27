@@ -1,2 +1,4 @@
-# dwc-docs
-The DWC Client BBj &amp; Components Documentation
+# DWC Documention 
+
+The place where DWC client documention is hosted
+
