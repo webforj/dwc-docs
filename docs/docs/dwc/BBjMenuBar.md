@@ -35,6 +35,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description                                      |
+| ----- | ------------------------------------------------ |
+|       | The place where dwc-menuitem(s) should be placed |
+
+
+</div>
+
 ## Shadow Parts
 
 

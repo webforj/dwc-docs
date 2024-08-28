@@ -30,6 +30,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description                                                                 |
+| ----- | --------------------------------------------------------------------------- |
+|       | The alert's message. When the slot is provided, the icon wont be displayed. |
+
+
+</div>
+
 ## Shadow Parts
 
 

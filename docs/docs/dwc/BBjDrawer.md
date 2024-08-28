@@ -33,6 +33,20 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot               | Description                                                   |
+| ------------------ | ------------------------------------------------------------- |
+|                    | The default slot                                              |
+| ``footer``         | The footer                                                    |
+| ``header-actions`` | The header actions                                            |
+| ``title``          | The drawer's title section where the label is normally placed |
+
+
+</div>
+
 ## Shadow Parts
 
 

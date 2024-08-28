@@ -65,6 +65,19 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot            | Description                                      |
+| --------------- | ------------------------------------------------ |
+| ``helper-text`` | The slot where the helper text should be placed. |
+| ``prefix``      | Slot for the prefix element                      |
+| ``suffix``      | Slot for the suffix element                      |
+
+
+</div>
+
 ## Shadow Parts
 
 

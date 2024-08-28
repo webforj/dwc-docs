@@ -45,6 +45,23 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot                      | Description                                                                        |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+|                           | The default slot is used to place the content of the layout.                       |
+| ``drawer``                | The drawer slot is used to place the drawer content.                               |
+| ``drawer-footer``         | The drawer-footer slot is used to place the drawer footer content.                 |
+| ``drawer-header-actions`` | The drawer-header-actions slot is used to place the drawer header actions content. |
+| ``drawer-title``          | The drawer-title slot is used to place the drawer title content.                   |
+| ``footer``                | The footer slot is used to place the footer content.                               |
+| ``header``                | The header slot is used to place the header content.                               |
+
+
+</div>
+
 ## Shadow Parts
 
 

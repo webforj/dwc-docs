@@ -36,6 +36,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description          |
+| ----- | -------------------- |
+|       | The dialog's message |
+
+
+</div>
+
 ## Shadow Parts
 
 

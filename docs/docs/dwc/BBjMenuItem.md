@@ -45,6 +45,20 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot       | Description                                                                   |
+| ---------- | ----------------------------------------------------------------------------- |
+|            | The place where dwc-menu should be placed in case the item is a dropdown menu |
+| ``prefix`` | The Item's label                                                              |
+| ``prefix`` | The Item's prefix                                                             |
+| ``suffix`` | The Item's suffix                                                             |
+
+
+</div>
+
 ## Shadow Parts
 
 

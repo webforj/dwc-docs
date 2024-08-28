@@ -29,6 +29,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description          |
+| ----- | -------------------- |
+|       | The panel's content. |
+
+
+</div>
+
 ## Shadow Parts
 
 

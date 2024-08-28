@@ -44,6 +44,21 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot           | Description             |
+| -------------- | ----------------------- |
+|                | The button's label      |
+| ``left-edge``  | The button's left edge  |
+| ``prefix``     | The button's prefix     |
+| ``right-edge`` | The button's right edge |
+| ``suffix``     | The button's suffix     |
+
+
+</div>
+
 ## Shadow Parts
 
 

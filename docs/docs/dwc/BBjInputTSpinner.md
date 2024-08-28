@@ -30,6 +30,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description                                                    |
+| ----- | -------------------------------------------------------------- |
+|       | The main slot where a dwc-timefield component must be inserted |
+
+
+</div>
+
 ## Hosted Classes
 
 

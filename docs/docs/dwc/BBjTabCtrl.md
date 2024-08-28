@@ -44,6 +44,18 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot    | Description                                          |
+| ------- | ---------------------------------------------------- |
+|         | The place where ``dwc-tab-panel`` should be inserted |
+| ``nav`` | The place where ``dwc-tab`` should be inserted       |
+
+
+</div>
+
 ## Shadow Parts
 
 

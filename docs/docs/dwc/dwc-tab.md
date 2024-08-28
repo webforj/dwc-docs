@@ -33,6 +33,19 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot       | Description       |
+| ---------- | ----------------- |
+|            | The tab's label.  |
+| ``prefix`` | The tab's prefix. |
+| ``suffix`` | The tab's suffix. |
+
+
+</div>
+
 ## Shadow Parts
 
 

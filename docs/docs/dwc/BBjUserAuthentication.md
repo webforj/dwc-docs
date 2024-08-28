@@ -39,6 +39,24 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot               | Description                         |
+| ------------------ | ----------------------------------- |
+| ``after-content``  | The dialog's after content section  |
+| ``after-footer``   | The dialog's after footer section   |
+| ``after-form``     | The dialog's after form section     |
+| ``after-header``   | The dialog's after header section   |
+| ``before-content`` | The dialog's before content section |
+| ``before-footer``  | The dialog's before footer section  |
+| ``before-form``    | The dialog's before form section    |
+| ``before-header``  | The dialog's before header section  |
+
+
+</div>
+
 ## Shadow Parts
 
 
