@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-08-28T11:23:19",
+  "timestamp": "2024-09-02T10:26:09",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.20.0",
@@ -240,33 +240,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-alert-background",
-          "annotation": "prop",
-          "docs": "The alert's background"
-        },
-        {
-          "name": "--dwc-alert-border",
-          "annotation": "prop",
-          "docs": "The alert's border"
-        },
-        {
-          "name": "--dwc-alert-color",
-          "annotation": "prop",
-          "docs": "The alert's color"
-        },
-        {
-          "name": "--dwc-alert-icon-color",
-          "annotation": "prop",
-          "docs": "The alert's icon color"
-        },
-        {
-          "name": "--dwc-alert-padding",
-          "annotation": "prop",
-          "docs": "The alert's padding"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -1187,38 +1161,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-app-layout-drawer-width",
-          "annotation": "prop",
-          "docs": "The width of the drawer to be used in the layout. By default, the width will be auto-calculated."
-        },
-        {
-          "name": "--dwc-app-layout-footer-collapse-height",
-          "annotation": "prop",
-          "docs": "The minimum height of the footer when it is hidden. Used to create a sticky footer."
-        },
-        {
-          "name": "--dwc-app-layout-footer-height",
-          "annotation": "prop",
-          "docs": "The padding of the content to be used in the layout. By default, the padding will be auto-calculated."
-        },
-        {
-          "name": "--dwc-app-layout-header-collapse-height",
-          "annotation": "prop",
-          "docs": "The minimum height of the header when it is hidden. Used to create a sticky header."
-        },
-        {
-          "name": "--dwc-app-layout-header-height",
-          "annotation": "prop",
-          "docs": "The height of the header to be used in the layout. By default, the height will be auto-calculated."
-        },
-        {
-          "name": "--dwc-menubar-height",
-          "annotation": "prop",
-          "docs": "The height of the menubar to be used in the layout."
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -1339,18 +1282,7 @@
       "methods": [],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-backdrop-background",
-          "annotation": "prop",
-          "docs": "The background color of the backdrop"
-        },
-        {
-          "name": "--dwc-backdrop-zindex",
-          "annotation": "prop",
-          "docs": "The z-index of the backdrop"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [],
       "dependents": [
@@ -3319,68 +3251,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-checkbox-background",
-          "annotation": "prop",
-          "docs": "The checkbox default background when unchecked"
-        },
-        {
-          "name": "--dwc-checkbox-checked-background",
-          "annotation": "prop",
-          "docs": "The checkbox background when checked"
-        },
-        {
-          "name": "--dwc-checkbox-checked-color",
-          "annotation": "prop",
-          "docs": "The checkbox color when checked"
-        },
-        {
-          "name": "--dwc-checkbox-focus-ring",
-          "annotation": "prop",
-          "docs": "The checkbox focus ring"
-        },
-        {
-          "name": "--dwc-checkbox-hover-background",
-          "annotation": "prop",
-          "docs": "The checkbox hover background when unchecked"
-        },
-        {
-          "name": "--dwc-checkbox-hover-border-color",
-          "annotation": "prop",
-          "docs": "The checkbox hover border color when unchecked"
-        },
-        {
-          "name": "--dwc-checkbox-hover-checked-background",
-          "annotation": "prop",
-          "docs": "The checkbox background when checked and hovered"
-        },
-        {
-          "name": "--dwc-checkbox-hover-checked-border-color",
-          "annotation": "prop",
-          "docs": "The checkbox border color when checked and hovered"
-        },
-        {
-          "name": "--dwc-checkbox-hover-checked-color",
-          "annotation": "prop",
-          "docs": "The checkbox color when checked and hovered"
-        },
-        {
-          "name": "--dwc-checkbox-label-color",
-          "annotation": "prop",
-          "docs": "The checkbox label's color"
-        },
-        {
-          "name": "--dwc-checkbox-padding",
-          "annotation": "prop",
-          "docs": "The checkbox padding (should be equal to or higher than the `--dwc-focus-ring-width`)"
-        },
-        {
-          "name": "--dwc-checkbox-size",
-          "annotation": "prop",
-          "docs": "The checkbox default size (This variable is overridden when the expanse attribute is set)"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -6370,28 +6241,7 @@
       "methods": [],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-columns-layout-horizontal-alignment",
-          "annotation": "prop",
-          "docs": "The horizontal alignment of the columns"
-        },
-        {
-          "name": "--dwc-columns-layout-horizontal-spacing",
-          "annotation": "prop",
-          "docs": "The horizontal spacing between the columns"
-        },
-        {
-          "name": "--dwc-columns-layout-vertical-alignment",
-          "annotation": "prop",
-          "docs": "The vertical alignment of the columns"
-        },
-        {
-          "name": "--dwc-columns-layout-vertical-spacing",
-          "annotation": "prop",
-          "docs": "The vertical spacing between the columns"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -11000,103 +10850,7 @@
           "passive": true
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-dialog-background",
-          "annotation": "prop",
-          "docs": "The dialog's background"
-        },
-        {
-          "name": "--dwc-dialog-border",
-          "annotation": "prop",
-          "docs": "The dialog's border"
-        },
-        {
-          "name": "--dwc-dialog-border-radius",
-          "annotation": "prop",
-          "docs": "The dialog's border radius"
-        },
-        {
-          "name": "--dwc-dialog-color",
-          "annotation": "prop",
-          "docs": "The dialog's color"
-        },
-        {
-          "name": "--dwc-dialog-header-background",
-          "annotation": "prop",
-          "docs": "The dialog's header background"
-        },
-        {
-          "name": "--dwc-dialog-header-color",
-          "annotation": "prop",
-          "docs": "The dialog's header color"
-        },
-        {
-          "name": "--dwc-dialog-height",
-          "annotation": "prop",
-          "docs": "The dialog's height"
-        },
-        {
-          "name": "--dwc-dialog-max-height",
-          "annotation": "prop",
-          "docs": "The dialog's max height"
-        },
-        {
-          "name": "--dwc-dialog-max-width",
-          "annotation": "prop",
-          "docs": "The dialog's max width"
-        },
-        {
-          "name": "--dwc-dialog-modal-background",
-          "annotation": "prop",
-          "docs": "The modal's background"
-        },
-        {
-          "name": "--dwc-dialog-modal-blur",
-          "annotation": "prop",
-          "docs": "The modal's blur value"
-        },
-        {
-          "name": "--dwc-dialog-modal-padding",
-          "annotation": "prop",
-          "docs": "The modal's padding"
-        },
-        {
-          "name": "--dwc-dialog-posx",
-          "annotation": "prop",
-          "docs": "The dialog's x position"
-        },
-        {
-          "name": "--dwc-dialog-posy",
-          "annotation": "prop",
-          "docs": "The dialog's y position"
-        },
-        {
-          "name": "--dwc-dialog-scroll-bottom-shadow",
-          "annotation": "prop",
-          "docs": "The content box shadow when the content is scrolled to the bottom"
-        },
-        {
-          "name": "--dwc-dialog-scroll-top-shadow",
-          "annotation": "prop",
-          "docs": "The content box shadow when the content is scrolled away from the header"
-        },
-        {
-          "name": "--dwc-dialog-shadow",
-          "annotation": "prop",
-          "docs": "The dialog's box shadow"
-        },
-        {
-          "name": "--dwc-dialog-width",
-          "annotation": "prop",
-          "docs": "The dialog's width"
-        },
-        {
-          "name": "--dwc-dialog-zindex",
-          "annotation": "prop",
-          "docs": "The dialog z-index"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "content",
@@ -11466,38 +11220,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-drawer-border",
-          "annotation": "prop",
-          "docs": "The border of the drawer"
-        },
-        {
-          "name": "--dwc-drawer-border-radius",
-          "annotation": "prop",
-          "docs": "The border-radius of the drawer when the placement is `top-center` or `bottom-center`"
-        },
-        {
-          "name": "--dwc-drawer-max-size",
-          "annotation": "prop",
-          "docs": "The max width of the drawer when the placement is `left` or `right` and max height when the placement is `top` or `bottom`"
-        },
-        {
-          "name": "--dwc-drawer-max-width",
-          "annotation": "prop",
-          "docs": "The max width of the drawer when the placement is `top-center` or `bottom-center`"
-        },
-        {
-          "name": "--dwc-drawer-shadow",
-          "annotation": "prop",
-          "docs": "The shadow of the drawer"
-        },
-        {
-          "name": "--dwc-drawer-size",
-          "annotation": "prop",
-          "docs": "The width of the drawer when the placement is `left` or `right` and height when the placement is `top` or `bottom`"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -12438,63 +12161,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-dropdown-max-height",
-          "annotation": "prop",
-          "docs": "The dropdown maximum height when opened. (applied to `.dwc-popup--dropdown`)"
-        },
-        {
-          "name": "--dwc-dropdown-max-width",
-          "annotation": "prop",
-          "docs": "The dropdown maximum width when opened. (applied to `.dwc-popup--dropdown`)"
-        },
-        {
-          "name": "--dwc-dropdown-width",
-          "annotation": "prop",
-          "docs": "The dropdown width when opened. (applied to `.dwc-popup--dropdown`)"
-        },
-        {
-          "name": "--dwc-dropdown-zindex",
-          "annotation": "prop",
-          "docs": "The dropdown z-index. (applied to `.dwc-positioner--dropdown`)"
-        },
-        {
-          "name": "--dwc-popover-open-height",
-          "annotation": "prop",
-          "docs": "The height of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popover-open-width",
-          "annotation": "prop",
-          "docs": "The width of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popup-arrow-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-arrow-size",
-          "annotation": "prop",
-          "docs": "The size of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup element."
-        },
-        {
-          "name": "--dwc-popup-border",
-          "annotation": "prop",
-          "docs": "The border of the popup element."
-        },
-        {
-          "name": "--dwc-popup-shadow",
-          "annotation": "prop",
-          "docs": "The shadow of the popup element."
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -18349,13 +18016,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-icon-size",
-          "annotation": "prop",
-          "docs": "The icon's font size"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -18762,38 +18423,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-icon-button-active-color",
-          "annotation": "prop",
-          "docs": "The button's active color"
-        },
-        {
-          "name": "--dwc-icon-button-border-color",
-          "annotation": "prop",
-          "docs": "The button's border color"
-        },
-        {
-          "name": "--dwc-icon-button-color",
-          "annotation": "prop",
-          "docs": "The button's color"
-        },
-        {
-          "name": "--dwc-icon-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The button's focus ring"
-        },
-        {
-          "name": "--dwc-icon-button-focused-border-color",
-          "annotation": "prop",
-          "docs": "The button's focus border color"
-        },
-        {
-          "name": "--dwc-icon-button-hover-color",
-          "annotation": "prop",
-          "docs": "The button's hover color"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -19465,6 +19095,7 @@
           "reflectToAttr": false,
           "docs": "The component's helper text.",
           "docsTags": [],
+          "default": "''",
           "values": [
             {
               "type": "string"
@@ -20627,73 +20258,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-listbox-background",
-          "annotation": "prop",
-          "docs": "The list's background color"
-        },
-        {
-          "name": "--dwc-listbox-border-color",
-          "annotation": "prop",
-          "docs": "The list's border color"
-        },
-        {
-          "name": "--dwc-listbox-color",
-          "annotation": "prop",
-          "docs": "The list's color"
-        },
-        {
-          "name": "--dwc-listbox-focus-border-color",
-          "annotation": "prop",
-          "docs": "The list's border color when hovered"
-        },
-        {
-          "name": "--dwc-listbox-focus-ring",
-          "annotation": "prop",
-          "docs": "The focus ring of the list"
-        },
-        {
-          "name": "--dwc-listbox-highlighted-background",
-          "annotation": "prop",
-          "docs": "The background of the highlighted (focused) item"
-        },
-        {
-          "name": "--dwc-listbox-highlighted-color",
-          "annotation": "prop",
-          "docs": "The color of the highlighted(focused) item"
-        },
-        {
-          "name": "--dwc-listbox-label-color",
-          "annotation": "prop",
-          "docs": "The color of the label"
-        },
-        {
-          "name": "--dwc-listbox-label-font-weight",
-          "annotation": "prop",
-          "docs": "The font weight of the label"
-        },
-        {
-          "name": "--dwc-listbox-label-hover-color",
-          "annotation": "prop",
-          "docs": "The color of the label when hovered"
-        },
-        {
-          "name": "--dwc-listbox-padding",
-          "annotation": "prop",
-          "docs": "The list items padding"
-        },
-        {
-          "name": "--dwc-listbox-selected-background",
-          "annotation": "prop",
-          "docs": "The background of the selected item"
-        },
-        {
-          "name": "--dwc-listbox-selected-color",
-          "annotation": "prop",
-          "docs": "The color of the selected item"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -21133,18 +20698,7 @@
       "methods": [],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-loading-background",
-          "annotation": "prop",
-          "docs": "The background of the busy indicator"
-        },
-        {
-          "name": "--dwc-loading-border",
-          "annotation": "prop",
-          "docs": "The border of the busy indicator"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -22165,23 +21719,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-menu-background-color",
-          "annotation": "prop",
-          "docs": "The menu's background color"
-        },
-        {
-          "name": "--dwc-menu-border-color",
-          "annotation": "prop",
-          "docs": "The menu's border color"
-        },
-        {
-          "name": "--dwc-menu-shadow",
-          "annotation": "prop",
-          "docs": "The menu's box shadow"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -22619,23 +22157,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-menubar-advancer-colorL The color of the advancers",
-          "annotation": "prop",
-          "docs": ""
-        },
-        {
-          "name": "--dwc-menubar-left-advancer-background",
-          "annotation": "prop",
-          "docs": "The background of the left arrow"
-        },
-        {
-          "name": "--dwc-menubar-right-advancer-background",
-          "annotation": "prop",
-          "docs": "The background of the right arrow"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -23689,83 +23211,7 @@
           "passive": true
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-menuitem-highlighted-background",
-          "annotation": "prop",
-          "docs": "The item background when highlighted (focused)"
-        },
-        {
-          "name": "--dwc-menuitem-highlighted-color",
-          "annotation": "prop",
-          "docs": "The item color when highlighted (focused)"
-        },
-        {
-          "name": "--dwc-menuitem-highlighted-hotkey-color",
-          "annotation": "prop",
-          "docs": "The item hotkey's color when highlighted (focused)"
-        },
-        {
-          "name": "--dwc-menuitem-hotkey-color",
-          "annotation": "prop",
-          "docs": "The item's hotkey color"
-        },
-        {
-          "name": "--dwc-menuitem-icon-check-color",
-          "annotation": "prop",
-          "docs": "The item check icon color"
-        },
-        {
-          "name": "--dwc-menuitem-selected-background",
-          "annotation": "prop",
-          "docs": "The item background when selected"
-        },
-        {
-          "name": "--dwc-menuitem-selected-color",
-          "annotation": "prop",
-          "docs": "The item color when selected"
-        },
-        {
-          "name": "--dwc-menuitem-selected-hotkey-color",
-          "annotation": "prop",
-          "docs": "The item's hotkey color when selected"
-        },
-        {
-          "name": "--dwc-popover-open-height",
-          "annotation": "prop",
-          "docs": "The height of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popover-open-width",
-          "annotation": "prop",
-          "docs": "The width of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popup-arrow-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-arrow-size",
-          "annotation": "prop",
-          "docs": "The size of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup element."
-        },
-        {
-          "name": "--dwc-popup-border",
-          "annotation": "prop",
-          "docs": "The border of the popup element."
-        },
-        {
-          "name": "--dwc-popup-shadow",
-          "annotation": "prop",
-          "docs": "The shadow of the popup element."
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -24844,93 +24290,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-navigator-border-color",
-          "annotation": "prop",
-          "docs": "The border color of different parts."
-        },
-        {
-          "name": "--dwc-navigator-button-active-background",
-          "annotation": "prop",
-          "docs": "The active background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-active-color",
-          "annotation": "prop",
-          "docs": "The active color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-background",
-          "annotation": "prop",
-          "docs": "The background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-color",
-          "annotation": "prop",
-          "docs": "The color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-focus-border",
-          "annotation": "prop",
-          "docs": "The focus border of all buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The focus ring of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-hover-background",
-          "annotation": "prop",
-          "docs": "The hover background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-hover-color",
-          "annotation": "prop",
-          "docs": "The hover color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-width",
-          "annotation": "prop",
-          "docs": "The width of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-background",
-          "annotation": "prop",
-          "docs": "The background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-color",
-          "annotation": "prop",
-          "docs": "The color of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The focus ring of the numbered buttons"
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-hover-background",
-          "annotation": "prop",
-          "docs": "The hover background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-hover-color",
-          "annotation": "prop",
-          "docs": "The hover color of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-selected-background",
-          "annotation": "prop",
-          "docs": "The selected background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-selected-color",
-          "annotation": "prop",
-          "docs": "The selected color of the numbered buttons."
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -27504,43 +26864,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-popover-open-height",
-          "annotation": "prop",
-          "docs": "The height of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popover-open-width",
-          "annotation": "prop",
-          "docs": "The width of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popup-arrow-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-arrow-size",
-          "annotation": "prop",
-          "docs": "The size of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup element."
-        },
-        {
-          "name": "--dwc-popup-border",
-          "annotation": "prop",
-          "docs": "The border of the popup element."
-        },
-        {
-          "name": "--dwc-popup-shadow",
-          "annotation": "prop",
-          "docs": "The shadow of the popup element."
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -28124,43 +27448,7 @@
           "passive": true
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-popover-open-height",
-          "annotation": "prop",
-          "docs": "The height of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popover-open-width",
-          "annotation": "prop",
-          "docs": "The width of the popover element when it is open."
-        },
-        {
-          "name": "--dwc-popup-arrow-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-arrow-size",
-          "annotation": "prop",
-          "docs": "The size of the popup's arrow element."
-        },
-        {
-          "name": "--dwc-popup-background",
-          "annotation": "prop",
-          "docs": "The background color of the popup element."
-        },
-        {
-          "name": "--dwc-popup-border",
-          "annotation": "prop",
-          "docs": "The border of the popup element."
-        },
-        {
-          "name": "--dwc-popup-shadow",
-          "annotation": "prop",
-          "docs": "The shadow of the popup element."
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -28586,48 +27874,7 @@
       ],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-progressbar-back-background",
-          "annotation": "prop",
-          "docs": "The back background of the progressbar"
-        },
-        {
-          "name": "--dwc-progressbar-back-color",
-          "annotation": "prop",
-          "docs": "The back color of the progressbar"
-        },
-        {
-          "name": "--dwc-progressbar-border-color",
-          "annotation": "prop",
-          "docs": "The border color of the progressbar"
-        },
-        {
-          "name": "--dwc-progressbar-front-background",
-          "annotation": "prop",
-          "docs": "The front background of the progressbar"
-        },
-        {
-          "name": "--dwc-progressbar-front-color",
-          "annotation": "prop",
-          "docs": "The front color of the progressbar"
-        },
-        {
-          "name": "--dwc-progressbar-height",
-          "annotation": "prop",
-          "docs": "The default progressbar height"
-        },
-        {
-          "name": "--dwc-progressbar-width",
-          "annotation": "prop",
-          "docs": "The default progressbar width"
-        },
-        {
-          "name": "--dwc-stripes-color",
-          "annotation": "prop",
-          "docs": "The stripes color when the progressbar is progress mode"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -30251,28 +29498,7 @@
       "methods": [],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-separator-border-color",
-          "annotation": "prop",
-          "docs": "The border color"
-        },
-        {
-          "name": "--dwc-separator-border-style",
-          "annotation": "prop",
-          "docs": "The border style"
-        },
-        {
-          "name": "--dwc-separator-border-width",
-          "annotation": "prop",
-          "docs": "The border width"
-        },
-        {
-          "name": "--dwc-separator-margin",
-          "annotation": "prop",
-          "docs": "The border margin (top, bottom)"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -31092,123 +30318,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-slider-background",
-          "annotation": "prop",
-          "docs": "The slider background"
-        },
-        {
-          "name": "--dwc-slider-connect-background",
-          "annotation": "prop",
-          "docs": "The connect bar background"
-        },
-        {
-          "name": "--dwc-slider-handle-active-background",
-          "annotation": "prop",
-          "docs": "The handle background when active"
-        },
-        {
-          "name": "--dwc-slider-handle-background",
-          "annotation": "prop",
-          "docs": "The handle background"
-        },
-        {
-          "name": "--dwc-slider-handler-border-color",
-          "annotation": "prop",
-          "docs": "The border of the handle"
-        },
-        {
-          "name": "--dwc-slider-horizontal-height",
-          "annotation": "prop",
-          "docs": "The default slider height when the orientation is horizontal"
-        },
-        {
-          "name": "--dwc-slider-horizontal-width",
-          "annotation": "prop",
-          "docs": "The default slider width when the orientation is horizontal"
-        },
-        {
-          "name": "--dwc-slider-label-font-size",
-          "annotation": "prop",
-          "docs": "The label marker font size"
-        },
-        {
-          "name": "--dwc-slider-label-marker-height",
-          "annotation": "prop",
-          "docs": "Label markers height"
-        },
-        {
-          "name": "--dwc-slider-label-marker-width",
-          "annotation": "prop",
-          "docs": "Label markers width"
-        },
-        {
-          "name": "--dwc-slider-major-font-size",
-          "annotation": "prop",
-          "docs": "The major marker font size"
-        },
-        {
-          "name": "--dwc-slider-major-marker-height",
-          "annotation": "prop",
-          "docs": "Major markers height"
-        },
-        {
-          "name": "--dwc-slider-major-marker-width",
-          "annotation": "prop",
-          "docs": "Major markers width"
-        },
-        {
-          "name": "--dwc-slider-marker-background",
-          "annotation": "prop",
-          "docs": "The slider markers background"
-        },
-        {
-          "name": "--dwc-slider-minor-marker-height",
-          "annotation": "prop",
-          "docs": "Minor markers height"
-        },
-        {
-          "name": "--dwc-slider-minor-marker-width",
-          "annotation": "prop",
-          "docs": "Minor markers width"
-        },
-        {
-          "name": "--dwc-slider-thumb-border-radius",
-          "annotation": "prop",
-          "docs": "The thumb border radius"
-        },
-        {
-          "name": "--dwc-slider-thumb-size",
-          "annotation": "prop",
-          "docs": "The thumb size"
-        },
-        {
-          "name": "--dwc-slider-track-border-radius",
-          "annotation": "prop",
-          "docs": "The track border radius"
-        },
-        {
-          "name": "--dwc-slider-track-size",
-          "annotation": "prop",
-          "docs": "The track size (width when vertical , height when horizontal)"
-        },
-        {
-          "name": "--dwc-slider-value-color",
-          "annotation": "prop",
-          "docs": "The color of the slider values"
-        },
-        {
-          "name": "--dwc-slider-vertical-height",
-          "annotation": "prop",
-          "docs": "The default slider height when the orientation is vertical"
-        },
-        {
-          "name": "--dwc-slider-vertical-width",
-          "annotation": "prop",
-          "docs": "The default slider width when the orientation is vertical"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -31448,38 +30558,7 @@
       "methods": [],
       "events": [],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-spinner-color",
-          "annotation": "prop",
-          "docs": "The spinner color"
-        },
-        {
-          "name": "--dwc-spinner-size",
-          "annotation": "prop",
-          "docs": "The spinner size"
-        },
-        {
-          "name": "--dwc-spinner-speed",
-          "annotation": "prop",
-          "docs": "The animation speed of the spinner"
-        },
-        {
-          "name": "--dwc-spinner-stoke-size",
-          "annotation": "prop",
-          "docs": "The spinner stoke size"
-        },
-        {
-          "name": "--dwc-spinner-stoke-width",
-          "annotation": "prop",
-          "docs": "The spinner stoke width"
-        },
-        {
-          "name": "--dwc-spinner-track-color",
-          "annotation": "prop",
-          "docs": "The spinner track color"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
@@ -31888,53 +30967,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-splitter-gutter-handle-border",
-          "annotation": "prop",
-          "docs": "The border of the gutter handle."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-border-color",
-          "annotation": "prop",
-          "docs": "The border color of the gutter handle."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-border-radius",
-          "annotation": "prop",
-          "docs": "The border radius of the gutter handle."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-color",
-          "annotation": "prop",
-          "docs": "The color of the gutter handle."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-height",
-          "annotation": "prop",
-          "docs": "The height of the gutter handle if orientation is horizontal. The width of the gutter handle if orientation is vertical."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-hover-background",
-          "annotation": "prop",
-          "docs": "The background of the gutter handle when hovered."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-hover-color",
-          "annotation": "prop",
-          "docs": "The color of the gutter handle when hovered. @pro --dwc-splitter-gutter-handle-focus-border-color: The border color of the gutter handle when focused."
-        },
-        {
-          "name": "--dwc-splitter-gutter-handle-width",
-          "annotation": "prop",
-          "docs": "The width of the gutter handle if orientation is horizontal. The height of the gutter handle if orientation is vertical."
-        },
-        {
-          "name": "--dwc-splitter-gutter-size",
-          "annotation": "prop",
-          "docs": "The size of the gutter between the two panes."
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "detail",
@@ -32358,73 +31391,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-tab-active-background",
-          "annotation": "prop",
-          "docs": "The tab's background when active (selected)"
-        },
-        {
-          "name": "--dwc-tab-active-color",
-          "annotation": "prop",
-          "docs": "The tab's color when active (selected)"
-        },
-        {
-          "name": "--dwc-tab-background",
-          "annotation": "prop",
-          "docs": "The tab's background"
-        },
-        {
-          "name": "--dwc-tab-close-button-color",
-          "annotation": "prop",
-          "docs": "The tab's close button color"
-        },
-        {
-          "name": "--dwc-tab-close-button-order",
-          "annotation": "prop",
-          "docs": "close button flex order"
-        },
-        {
-          "name": "--dwc-tab-close-button-padding",
-          "annotation": "prop",
-          "docs": "The padding of the close button"
-        },
-        {
-          "name": "--dwc-tab-color",
-          "annotation": "prop",
-          "docs": "The tab's color"
-        },
-        {
-          "name": "--dwc-tab-font-weight",
-          "annotation": "prop",
-          "docs": "The tab's font-weight"
-        },
-        {
-          "name": "--dwc-tab-height",
-          "annotation": "prop",
-          "docs": "The tab's height"
-        },
-        {
-          "name": "--dwc-tab-hover-background",
-          "annotation": "prop",
-          "docs": "The tab's background when hovered"
-        },
-        {
-          "name": "--dwc-tab-hover-color",
-          "annotation": "prop",
-          "docs": "The tab's color when hovered"
-        },
-        {
-          "name": "--dwc-tab-wrapper-justify-content",
-          "annotation": "prop",
-          "docs": "tab-wrapper flex justify-content"
-        },
-        {
-          "name": "--dwc-tab-wrapper-order",
-          "annotation": "prop",
-          "docs": "tab-wrapper flex order"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -32712,23 +31679,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-tab-panel-border",
-          "annotation": "prop",
-          "docs": "The panel's border"
-        },
-        {
-          "name": "--dwc-tab-panel-focus-border-color",
-          "annotation": "prop",
-          "docs": "The panel's border color when focused"
-        },
-        {
-          "name": "--dwc-tab-panel-focus-ring",
-          "annotation": "prop",
-          "docs": "the panel's focus ring"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -33624,58 +32575,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-tabbed-pane-advancer-color",
-          "annotation": "prop",
-          "docs": "The advancer color"
-        },
-        {
-          "name": "--dwc-tabbed-pane-border",
-          "annotation": "prop",
-          "docs": "The tabs border. (The one which separates the tabs from the panels)"
-        },
-        {
-          "name": "--dwc-tabbed-pane-border-color",
-          "annotation": "prop",
-          "docs": "The tabs border color. (The one which separates the tabs from the panels)"
-        },
-        {
-          "name": "--dwc-tabbed-pane-bottom-advancer-background",
-          "annotation": "prop",
-          "docs": "Bottom advancer background"
-        },
-        {
-          "name": "--dwc-tabbed-pane-indicator-border",
-          "annotation": "prop",
-          "docs": "The border of the indicator."
-        },
-        {
-          "name": "--dwc-tabbed-pane-indicator-border-color",
-          "annotation": "prop",
-          "docs": "The border color of the active tab indicator."
-        },
-        {
-          "name": "--dwc-tabbed-pane-indicator-height",
-          "annotation": "prop",
-          "docs": "The height of the active tab indicator. (border width)"
-        },
-        {
-          "name": "--dwc-tabbed-pane-left-advancer-background",
-          "annotation": "prop",
-          "docs": "Left advancer background"
-        },
-        {
-          "name": "--dwc-tabbed-pane-right-advancer-background",
-          "annotation": "prop",
-          "docs": "Right advancer background"
-        },
-        {
-          "name": "--dwc-tabbed-pane-top-advancer-background",
-          "annotation": "prop",
-          "docs": "Top advancer background"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -41769,68 +40669,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-toast-background",
-          "annotation": "prop",
-          "docs": "The toast background"
-        },
-        {
-          "name": "--dwc-toast-border-color",
-          "annotation": "prop",
-          "docs": "The toast border-color"
-        },
-        {
-          "name": "--dwc-toast-border-radius",
-          "annotation": "prop",
-          "docs": "The toast border-radius"
-        },
-        {
-          "name": "--dwc-toast-border-style",
-          "annotation": "prop",
-          "docs": "The toast border-style"
-        },
-        {
-          "name": "--dwc-toast-border-width",
-          "annotation": "prop",
-          "docs": "The toast border-width"
-        },
-        {
-          "name": "--dwc-toast-button-color",
-          "annotation": "prop",
-          "docs": "The toast button colors"
-        },
-        {
-          "name": "--dwc-toast-button-font-weight",
-          "annotation": "prop",
-          "docs": "The toast button font-weight"
-        },
-        {
-          "name": "--dwc-toast-color",
-          "annotation": "prop",
-          "docs": "The toast color"
-        },
-        {
-          "name": "--dwc-toast-maxWidth",
-          "annotation": "prop",
-          "docs": "The toast max width"
-        },
-        {
-          "name": "--dwc-toast-minWidth",
-          "annotation": "prop",
-          "docs": "The toast min width"
-        },
-        {
-          "name": "--dwc-toast-shadow",
-          "annotation": "prop",
-          "docs": "The toast box shadow"
-        },
-        {
-          "name": "--dwc-toast-width",
-          "annotation": "prop",
-          "docs": "The toast width"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
@@ -43979,48 +42818,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-tree-icon-background",
-          "annotation": "prop",
-          "docs": "The icons background color"
-        },
-        {
-          "name": "--dwc-tree-icon-color",
-          "annotation": "prop",
-          "docs": "The icon color"
-        },
-        {
-          "name": "--dwc-tree-icon-fill",
-          "annotation": "prop",
-          "docs": "The icon fill color"
-        },
-        {
-          "name": "--dwc-tree-node-border-color",
-          "annotation": "prop",
-          "docs": "The node connectors border color"
-        },
-        {
-          "name": "--dwc-tree-node-border-radius",
-          "annotation": "prop",
-          "docs": "The node connectors border radius"
-        },
-        {
-          "name": "--dwc-tree-node-border-style",
-          "annotation": "prop",
-          "docs": "The node connectors border style"
-        },
-        {
-          "name": "--dwc-tree-node-border-width",
-          "annotation": "prop",
-          "docs": "The node connectors border width"
-        },
-        {
-          "name": "--dwc-tree-node-margin",
-          "annotation": "prop",
-          "docs": "The nodes margin"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "",
