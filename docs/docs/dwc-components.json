@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-09-02T10:26:09",
+  "timestamp": "2024-09-03T09:49:12",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.20.0",
@@ -1480,6 +1480,37 @@
       ],
       "usage": {},
       "props": [
+        {
+          "name": "alignment",
+          "type": "\"center\" | \"left\" | \"right\"",
+          "complexType": {
+            "original": "'left' | 'center' | 'right'",
+            "resolved": "\"center\" | \"left\" | \"right\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "alignment",
+          "reflectToAttr": true,
+          "docs": "Sets the horizontal alignment of the button's label.",
+          "docsTags": [],
+          "default": "'center'",
+          "values": [
+            {
+              "value": "center",
+              "type": "string"
+            },
+            {
+              "value": "left",
+              "type": "string"
+            },
+            {
+              "value": "right",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
         {
           "name": "autofocus",
           "type": "boolean",
@@ -3556,6 +3587,41 @@
       ],
       "usage": {},
       "props": [
+        {
+          "name": "alignment",
+          "type": "\"center\" | \"default\" | \"left\" | \"right\"",
+          "complexType": {
+            "original": "'left' | 'center' | 'right' | 'default'",
+            "resolved": "\"center\" | \"default\" | \"left\" | \"right\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "alignment",
+          "reflectToAttr": true,
+          "docs": "Sets the horizontal alignment of the button's label and the list items.",
+          "docsTags": [],
+          "default": "'default'",
+          "values": [
+            {
+              "value": "center",
+              "type": "string"
+            },
+            {
+              "value": "default",
+              "type": "string"
+            },
+            {
+              "value": "left",
+              "type": "string"
+            },
+            {
+              "value": "right",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
         {
           "name": "autoValidate",
           "type": "boolean",
@@ -6483,6 +6549,41 @@
       ],
       "usage": {},
       "props": [
+        {
+          "name": "alignment",
+          "type": "\"center\" | \"default\" | \"left\" | \"right\"",
+          "complexType": {
+            "original": "'left' | 'center' | 'right' | 'default'",
+            "resolved": "\"center\" | \"default\" | \"left\" | \"right\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "alignment",
+          "reflectToAttr": true,
+          "docs": "Sets the horizontal alignment of the input's label and the list items.",
+          "docsTags": [],
+          "default": "'default'",
+          "values": [
+            {
+              "value": "center",
+              "type": "string"
+            },
+            {
+              "value": "default",
+              "type": "string"
+            },
+            {
+              "value": "left",
+              "type": "string"
+            },
+            {
+              "value": "right",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
         {
           "name": "autoValidate",
           "type": "boolean",
@@ -9729,118 +9830,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-calendar-background",
-          "annotation": "prop",
-          "docs": "The calendar background color."
-        },
-        {
-          "name": "--dwc-calendar-border-color",
-          "annotation": "prop",
-          "docs": "The calendar border color."
-        },
-        {
-          "name": "--dwc-calendar-border-radius",
-          "annotation": "prop",
-          "docs": "The calendar border radius."
-        },
-        {
-          "name": "--dwc-calendar-border-width",
-          "annotation": "prop",
-          "docs": "The calendar border width."
-        },
-        {
-          "name": "--dwc-calendar-days-foreground",
-          "annotation": "prop",
-          "docs": "The calendar days text color"
-        },
-        {
-          "name": "--dwc-calendar-days-hover-background",
-          "annotation": "prop",
-          "docs": "The calendar week days hover background."
-        },
-        {
-          "name": "--dwc-calendar-month-arrow-hover-color",
-          "annotation": "prop",
-          "docs": "The hover color of months arrows"
-        },
-        {
-          "name": "--dwc-calendar-month-background",
-          "annotation": "prop",
-          "docs": "The calendar month background."
-        },
-        {
-          "name": "--dwc-calendar-month-foreground",
-          "annotation": "prop",
-          "docs": "The calendar month text color."
-        },
-        {
-          "name": "--dwc-calendar-selected-day-background",
-          "annotation": "prop",
-          "docs": "The background of the current selected day"
-        },
-        {
-          "name": "--dwc-calendar-selected-day-foreground",
-          "annotation": "prop",
-          "docs": "The text color of the current selected day"
-        },
-        {
-          "name": "--dwc-calendar-today-color",
-          "annotation": "prop",
-          "docs": "The calendar current border color"
-        },
-        {
-          "name": "--dwc-calendar-weekdays-background",
-          "annotation": "prop",
-          "docs": "The calendar week days background."
-        },
-        {
-          "name": "--dwc-calendar-weekdays-foreground",
-          "annotation": "prop",
-          "docs": "The calendar week days text color."
-        },
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -11318,6 +11308,37 @@
       ],
       "usage": {},
       "props": [
+        {
+          "name": "alignment",
+          "type": "\"center\" | \"left\" | \"right\"",
+          "complexType": {
+            "original": "'left' | 'center' | 'right'",
+            "resolved": "\"center\" | \"left\" | \"right\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "alignment",
+          "reflectToAttr": true,
+          "docs": "Sets the horizontal alignment of items in the list.",
+          "docsTags": [],
+          "default": "'left'",
+          "values": [
+            {
+              "value": "center",
+              "type": "string"
+            },
+            {
+              "value": "left",
+              "type": "string"
+            },
+            {
+              "value": "right",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
         {
           "name": "allowDeselection",
           "type": "boolean",
@@ -13910,48 +13931,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -18903,6 +18883,37 @@
       "usage": {},
       "props": [
         {
+          "name": "alignment",
+          "type": "\"center\" | \"left\" | \"right\"",
+          "complexType": {
+            "original": "'left' | 'center' | 'right'",
+            "resolved": "\"center\" | \"left\" | \"right\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "alignment",
+          "reflectToAttr": true,
+          "docs": "Sets the horizontal alignment of items in the list.",
+          "docsTags": [],
+          "default": "'left'",
+          "values": [
+            {
+              "value": "center",
+              "type": "string"
+            },
+            {
+              "value": "left",
+              "type": "string"
+            },
+            {
+              "value": "right",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
           "name": "allowDeselection",
           "type": "boolean",
           "complexType": {
@@ -20258,7 +20269,73 @@
           "passive": false
         }
       ],
-      "styles": [],
+      "styles": [
+        {
+          "name": "--dwc-listbox-background",
+          "annotation": "prop",
+          "docs": "The list's background color"
+        },
+        {
+          "name": "--dwc-listbox-border-color",
+          "annotation": "prop",
+          "docs": "The list's border color"
+        },
+        {
+          "name": "--dwc-listbox-color",
+          "annotation": "prop",
+          "docs": "The list's color"
+        },
+        {
+          "name": "--dwc-listbox-focus-border-color",
+          "annotation": "prop",
+          "docs": "The list's border color when hovered"
+        },
+        {
+          "name": "--dwc-listbox-focus-ring",
+          "annotation": "prop",
+          "docs": "The focus ring of the list"
+        },
+        {
+          "name": "--dwc-listbox-highlighted-background",
+          "annotation": "prop",
+          "docs": "The background of the highlighted (focused) item"
+        },
+        {
+          "name": "--dwc-listbox-highlighted-color",
+          "annotation": "prop",
+          "docs": "The color of the highlighted(focused) item"
+        },
+        {
+          "name": "--dwc-listbox-label-color",
+          "annotation": "prop",
+          "docs": "The color of the label"
+        },
+        {
+          "name": "--dwc-listbox-label-font-weight",
+          "annotation": "prop",
+          "docs": "The font weight of the label"
+        },
+        {
+          "name": "--dwc-listbox-label-hover-color",
+          "annotation": "prop",
+          "docs": "The color of the label when hovered"
+        },
+        {
+          "name": "--dwc-listbox-padding",
+          "annotation": "prop",
+          "docs": "The list items padding"
+        },
+        {
+          "name": "--dwc-listbox-selected-background",
+          "annotation": "prop",
+          "docs": "The background of the selected item"
+        },
+        {
+          "name": "--dwc-listbox-selected-color",
+          "annotation": "prop",
+          "docs": "The color of the selected item"
+        }
+      ],
       "slots": [
         {
           "name": "helper-text",
@@ -25956,48 +26033,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -35926,53 +35962,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-predicted-color",
-          "annotation": "prop",
-          "docs": "The color of the predicted text"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -37569,53 +37559,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-pad-color",
-          "annotation": "prop",
-          "docs": "The color of the pad input"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",
@@ -39876,48 +39820,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-input-color",
-          "annotation": "prop",
-          "docs": "The input's color"
-        },
-        {
-          "name": "--dwc-input-font-weight",
-          "annotation": "prop",
-          "docs": "The input's font weight"
-        },
-        {
-          "name": "--dwc-input-label-color",
-          "annotation": "prop",
-          "docs": "The input's label color"
-        },
-        {
-          "name": "--dwc-input-label-hover-color",
-          "annotation": "prop",
-          "docs": "The input's label color when the input is hovered"
-        },
-        {
-          "name": "--dwc-input-placeholder-color",
-          "annotation": "prop",
-          "docs": "The color of the placeholder"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator",
-          "annotation": "prop",
-          "docs": "The symbol of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-required-field-indicator-color",
-          "annotation": "prop",
-          "docs": "The color of the required field indicator"
-        },
-        {
-          "name": "--dwc-input-spinner-color",
-          "annotation": "prop",
-          "docs": "The color of the spinner arrows"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "helper-text",

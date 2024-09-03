@@ -299,6 +299,21 @@
       },
       "attributes": [
         {
+          "name": "alignment",
+          "description": "Sets the horizontal alignment of the button's label.",
+          "values": [
+            {
+              "name": "center"
+            },
+            {
+              "name": "left"
+            },
+            {
+              "name": "right"
+            }
+          ]
+        },
+        {
           "name": "autofocus",
           "description": "Automatically focuses the button when the page is loaded."
         },
@@ -600,6 +615,24 @@
         "value": "The `BBjListButton<dwc-choicebox>` provides methods for manipulating a UI list button control."
       },
       "attributes": [
+        {
+          "name": "alignment",
+          "description": "Sets the horizontal alignment of the button's label and the list items.",
+          "values": [
+            {
+              "name": "center"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "left"
+            },
+            {
+              "name": "right"
+            }
+          ]
+        },
         {
           "name": "auto-validate",
           "description": "When true, the control will be validated with every change."
@@ -1131,6 +1164,24 @@
         "value": "The `BBjListEdit<dwc-combobox>` provides methods for manipulating a UI list edit control."
       },
       "attributes": [
+        {
+          "name": "alignment",
+          "description": "Sets the horizontal alignment of the input's label and the list items.",
+          "values": [
+            {
+              "name": "center"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "left"
+            },
+            {
+              "name": "right"
+            }
+          ]
+        },
         {
           "name": "auto-validate",
           "description": "When true, the control will be validated with every change."
@@ -1848,6 +1899,21 @@
         "value": "The `<dwc-dropdown>` provides methods for manipulating a UI dropdown list."
       },
       "attributes": [
+        {
+          "name": "alignment",
+          "description": "Sets the horizontal alignment of items in the list.",
+          "values": [
+            {
+              "name": "center"
+            },
+            {
+              "name": "left"
+            },
+            {
+              "name": "right"
+            }
+          ]
+        },
         {
           "name": "allow-deselection",
           "description": "When true, a selected item will be deselected when clicked again."
@@ -2911,6 +2977,21 @@
         "value": "The `BBjListBox<dwc-listbox>` provides methods for manipulating a UI listbox control."
       },
       "attributes": [
+        {
+          "name": "alignment",
+          "description": "Sets the horizontal alignment of items in the list.",
+          "values": [
+            {
+              "name": "center"
+            },
+            {
+              "name": "left"
+            },
+            {
+              "name": "right"
+            }
+          ]
+        },
         {
           "name": "allow-deselection",
           "description": "When true, clicking on a selected item will deselect it."
