@@ -62,9 +62,14 @@ html[data-app-theme='new-theme'] {
 }
 ```
 
+## Applying Themes from BBj
+
+Themes can be dynamically injected from BBj using [BBjWebManager](https://documentation.basis.cloud/BASISHelp/WebHelp/bui/BBjBuiManager/bbjbuimanager.htm). To inject a theme, you can use the method [`BBjWebManager::injectStyle`](https://documentation.basis.cloud/BASISHelp/WebHelp/bui/BBjBuiManager/BBjBuiManager_injectStyle.htm). If the theme is a physical file hosted on the BBj webserver/htdocs or any other web server, use [`BBjWebManager::injectStyleUrl`](https://documentation.basis.cloud/BASISHelp/WebHelp/bui/BBjBuiManager/BBjBuiManager_injectStyleUrl.htm). Once the theme is injected, it can be activated using [`BBjWebManager::setTheme`](https://documentation.basis.cloud/BASISHelp/WebHelp/bui/BBjBuiManager/BBjWebManager_setTheme.htm). If you have a custom theme that doesn't extend any of the built-in themes, the same method can accept the name of that theme.
+
+
 ## Automatically Enable Dark Mode
 
-In the JavaScript, the `data-app-theme="dark"` attribute can be added to the `<html>` tag by checking if the document matches the media query using [matchMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia). This will enable dark mode to still work based on the user preference.
+In JavaScript, the `data-app-theme="dark"` attribute can be added to the `<html>` tag by checking if the document matches the media query using [matchMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia). This will enable dark mode to still work based on the user preference.
 
 ```js
 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
@@ -77,6 +82,8 @@ prefersDark.addListener(mediaQuery => switchTheme(mediaQuery.matches));
 
 switchTheme(prefersDark.matches);
 ```
+
+?> **Note:** In BBj, you can enable the preferred theme using the method [`BBjWebManager::setTheme`](https://documentation.basis.cloud/BASISHelp/WebHelp/bui/BBjBuiManager/BBjWebManager_setTheme.htm).
 
 # Component Themes
 
