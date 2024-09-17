@@ -95,4 +95,5 @@
   - [dwc-tab-panel](dwc/dwc-tab-panel)
   - [dwc-table](dwc/dwc-table)
   - [dwc-terminal](dwc/dwc-terminal)
+  - [dwc-toolbar](dwc/dwc-toolbar)
   - [dwc-tree-node](dwc/dwc-tree-node)

@@ -6045,6 +6045,46 @@
       ]
     },
     {
+      "name": "dwc-toolbar",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-toolbar` provides a flexible container for grouping and aligning\nelements and components in a toolbar layout."
+      },
+      "attributes": [
+        {
+          "name": "compact",
+          "description": "If `true`, the toolbar will be rendered without padding."
+        },
+        {
+          "name": "theme",
+          "description": "The theme name.",
+          "values": [
+            {
+              "name": "danger"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "gray"
+            },
+            {
+              "name": "info"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "success"
+            },
+            {
+              "name": "warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "dwc-tree",
       "description": {
         "kind": "markdown",

@@ -59,6 +59,7 @@
   - [dwc-timefield](web-components/dwc-timefield)
   - [dwc-timefield-spinner](web-components/dwc-timefield-spinner)
   - [dwc-toast](web-components/dwc-toast)
+  - [dwc-toolbar](web-components/dwc-toolbar)
   - [dwc-tree](web-components/dwc-tree)
   - [dwc-tree-node](web-components/dwc-tree-node)
   - [dwc-upload](web-components/dwc-upload)
