@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-09-17T13:25:46",
+  "timestamp": "2024-09-24T08:27:19",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.20.0",
@@ -1185,6 +1185,11 @@
           "target": "window",
           "capture": false,
           "passive": false
+        },
+        {
+          "event": "dwc-location-changed",
+          "capture": false,
+          "passive": false
         }
       ],
       "styles": [
@@ -1296,6 +1301,357 @@
           "dwc-icon-button"
         ],
         "dwc-icon-button": [
+          "dwc-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "src/components/dwc-app-nav/dwc-app-nav.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-app-nav",
+      "docs": "A side navigation menu with support for hierarchical and flat menus.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The default slot where the nav items are placed."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "autoOpen",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "auto-open",
+          "reflectToAttr": false,
+          "docs": "Whether the nav should open automatically the selected item",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "popstate",
+          "target": "window",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "dwc-navigated",
+          "target": "window",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "dwc-location-changed",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot where the nav items are placed."
+        }
+      ],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "src/components/dwc-app-nav-item/dwc-app-nav-item.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-app-nav-item",
+      "docs": "A menu item for the application navigator AppNav.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The default slot where the nav items are placed."
+        },
+        {
+          "name": "slot",
+          "text": "prefix - The slot for the prefix content."
+        },
+        {
+          "name": "slot",
+          "text": "suffix - The slot for the suffix content."
+        },
+        {
+          "name": "slot",
+          "text": "items - The slot for the items."
+        },
+        {
+          "name": "part",
+          "text": "control - The control part."
+        },
+        {
+          "name": "part",
+          "text": "link-wrapper - The link wrapper part."
+        },
+        {
+          "name": "part",
+          "text": "link - The link part."
+        },
+        {
+          "name": "part",
+          "text": "suffix - The suffix part."
+        },
+        {
+          "name": "part",
+          "text": "chevron - The chevron part."
+        },
+        {
+          "name": "part",
+          "text": "items - The items part."
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "disabled",
+          "reflectToAttr": false,
+          "docs": "Whether the item is disabled or not",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hasItems",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "has-items",
+          "reflectToAttr": true,
+          "docs": "Whether the item has children or not",
+          "docsTags": [
+            {
+              "name": "readonly"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "opened",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "opened",
+          "reflectToAttr": true,
+          "docs": "Whether the item is opened or not",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "path",
+          "reflectToAttr": false,
+          "docs": "The path of the item",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "routerIgnore",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "router-ignore",
+          "reflectToAttr": false,
+          "docs": "Whether the item represents a router link or not",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "selected",
+          "reflectToAttr": true,
+          "docs": "Whether the item is selected or not",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "target",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "target",
+          "reflectToAttr": false,
+          "docs": "The target of the item",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "dwc-location-changed",
+          "detail": "string",
+          "bubbles": true,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Event emitted when the item is clicked",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot where the nav items are placed."
+        },
+        {
+          "name": "items",
+          "docs": "The slot for the items."
+        },
+        {
+          "name": "prefix",
+          "docs": "The slot for the prefix content."
+        },
+        {
+          "name": "suffix",
+          "docs": "The slot for the suffix content."
+        }
+      ],
+      "parts": [
+        {
+          "name": "chevron",
+          "docs": "The chevron part."
+        },
+        {
+          "name": "control",
+          "docs": "The control part."
+        },
+        {
+          "name": "items",
+          "docs": "The items part."
+        },
+        {
+          "name": "link",
+          "docs": "The link part."
+        },
+        {
+          "name": "link-wrapper",
+          "docs": "The link wrapper part."
+        },
+        {
+          "name": "suffix",
+          "docs": "The suffix part."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [
+        "dwc-icon"
+      ],
+      "dependencyGraph": {
+        "dwc-app-nav-item": [
           "dwc-icon"
         ]
       }
@@ -18497,6 +18853,7 @@
       ],
       "dependents": [
         "dwc-alert",
+        "dwc-app-nav-item",
         "dwc-button",
         "dwc-choicebox",
         "dwc-combobox",
@@ -18517,6 +18874,9 @@
       "dependencies": [],
       "dependencyGraph": {
         "dwc-alert": [
+          "dwc-icon"
+        ],
+        "dwc-app-nav-item": [
           "dwc-icon"
         ],
         "dwc-button": [

@@ -279,6 +279,56 @@
       ]
     },
     {
+      "name": "dwc-app-nav",
+      "description": {
+        "kind": "markdown",
+        "value": "A side navigation menu with support for hierarchical and flat menus."
+      },
+      "attributes": [
+        {
+          "name": "auto-open",
+          "description": "Whether the nav should open automatically the selected item"
+        }
+      ]
+    },
+    {
+      "name": "dwc-app-nav-item",
+      "description": {
+        "kind": "markdown",
+        "value": "A menu item for the application navigator AppNav."
+      },
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "Whether the item is disabled or not"
+        },
+        {
+          "name": "has-items",
+          "description": "Whether the item has children or not"
+        },
+        {
+          "name": "opened",
+          "description": "Whether the item is opened or not"
+        },
+        {
+          "name": "path",
+          "description": "The path of the item"
+        },
+        {
+          "name": "router-ignore",
+          "description": "Whether the item represents a router link or not"
+        },
+        {
+          "name": "selected",
+          "description": "Whether the item is selected or not"
+        },
+        {
+          "name": "target",
+          "description": "The target of the item"
+        }
+      ]
+    },
+    {
       "name": "dwc-backdrop",
       "description": {
         "kind": "markdown",

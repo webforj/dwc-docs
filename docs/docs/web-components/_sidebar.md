@@ -9,6 +9,8 @@
   - [dwc-alert](web-components/dwc-alert)
   - [dwc-alert-popover](web-components/dwc-alert-popover)
   - [dwc-app-layout](web-components/dwc-app-layout)
+  - [dwc-app-nav](web-components/dwc-app-nav)
+  - [dwc-app-nav-item](web-components/dwc-app-nav-item)
   - [dwc-backdrop](web-components/dwc-backdrop)
   - [dwc-button](web-components/dwc-button)
   - [dwc-checkbox](web-components/dwc-checkbox)

@@ -83,6 +83,8 @@
 
   - [dwc-alert](dwc/dwc-alert)
   - [dwc-alert-popover](dwc/dwc-alert-popover)
+  - [dwc-app-nav](dwc/dwc-app-nav)
+  - [dwc-app-nav-item](dwc/dwc-app-nav-item)
   - [dwc-backdrop](dwc/dwc-backdrop)
   - [dwc-columns-layout](dwc/dwc-columns-layout)
   - [dwc-dropdown](dwc/dwc-dropdown)
