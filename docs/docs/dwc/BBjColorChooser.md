@@ -90,12 +90,11 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                                   | Description                                        |
-| -------------------------------------- | -------------------------------------------------- |
-| ``--dwc-color-chooser-box-height``     | The height of the saturation box                   |
-| ``--dwc-color-chooser-pointer-size``   | The size of the saturation, hue and alpha pointers |
-| ``--dwc-color-chooser-slider-height``  | The height of the hue and alpha sliders            |
-| ``--dwc-color-chooser-swatch-per-row`` | Number of swatches per row                         |
+| Name                                  | Description                                        |
+| ------------------------------------- | -------------------------------------------------- |
+| ``--dwc-color-chooser-box-height``    | The height of the saturation box                   |
+| ``--dwc-color-chooser-pointer-size``  | The size of the saturation, hue and alpha pointers |
+| ``--dwc-color-chooser-slider-height`` | The height of the hue and alpha sliders            |
 
 
 </div>
