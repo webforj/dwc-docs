@@ -1007,7 +1007,22 @@
         },
         {
           "name": "components",
-          "description": "The list of UI components to render."
+          "description": "The list of UI components to render. <br>\n\n<div style=\"color: #FFA500\">\nThe EyeDropper and Copy components are only rendered if the browser supports both the\nClipboard and EyeDropper APIs and requires a [secure context](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts).\n</div>"
+        },
+        {
+          "name": "default-color-format",
+          "description": "The default color format to use when setting the value in the input.",
+          "values": [
+            {
+              "name": "hex"
+            },
+            {
+              "name": "hsl"
+            },
+            {
+              "name": "rgb"
+            }
+          ]
         },
         {
           "name": "disabled",
