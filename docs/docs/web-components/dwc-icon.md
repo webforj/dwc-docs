@@ -117,7 +117,7 @@ Some properties reflect their values to attributes and vice versa. This means th
 | ------------ | ----------- | ------------------------- | :------: | ------------------------------------------------------------------------------------ | ------------- |
 | ``expanse``  | ``expanse`` | The icon's expanse        | &#x2714; | ``"2xl" \| "2xs" \| "3xl" \| "l" \| "m" \| "s" \| "xl" \| "xs"``                     | ``'xs'``      |
 | ``label``    | ``label``   | The icon's label          | &#x2718; | ``string``                                                                           |               |
-| ``modifier`` |             | An icon modified function | &#x2718; | ``(icon: HTMLImageElement \| SVGElement) => void``                                   |               |
+| ``modifier`` |             | An icon modified function | &#x2718; | ``(icon: SVGElement \| HTMLImageElement) => void``                                   |               |
 | ``name``     | ``name``    | The icon's name           | &#x2714; | ``string``                                                                           |               |
 | ``pool``     | ``pool``    | The icon's pool name      | &#x2714; | ``string``                                                                           | ``'tabler'``  |
 | ``src``      | ``src``     | The icon's src            | &#x2718; | ``string``                                                                           |               |
