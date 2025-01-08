@@ -33,4 +33,4 @@ Some properties reflect their values to attributes and vice versa. This means th
 </div>
 
 ----------------------------------------------
-*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2024.*
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2025.*

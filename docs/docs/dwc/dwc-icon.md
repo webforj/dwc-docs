@@ -121,7 +121,7 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 | ------------ | ----------- | ------------------------- | :------: | ------------------------------------------------------------------------------------ | ------------- |
 | ``expanse``  | ``expanse`` | The icon's expanse        | &#x2714; | ``"2xl" \| "2xs" \| "3xl" \| "l" \| "m" \| "s" \| "xl" \| "xs"``                     | ``'xs'``      |
 | ``label``    | ``label``   | The icon's label          | &#x2718; | ``string``                                                                           |               |
-| ``modifier`` |             | An icon modified function | &#x2718; | ``(icon: SVGElement \| HTMLImageElement) => void``                                   |               |
+| ``modifier`` |             | An icon modified function | &#x2718; | ``(icon: HTMLImageElement \| SVGElement) => void``                                   |               |
 | ``name``     | ``name``    | The icon's name           | &#x2714; | ``string``                                                                           |               |
 | ``pool``     | ``pool``    | The icon's pool name      | &#x2714; | ``string``                                                                           | ``'tabler'``  |
 | ``src``      | ``src``     | The icon's src            | &#x2718; | ``string``                                                                           |               |
@@ -140,6 +140,7 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 | Part        | Description                  |
 | ----------- | ---------------------------- |
 | ``control`` | The component's base wrapper |
+| ``icon``    | The rendered SVG icon        |
 
 
 </div>
@@ -183,4 +184,4 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 
 ----------------------------------------------
-*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2024.*
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2025.*
