@@ -153,7 +153,7 @@ Deletes a specific tab by name, index or instance.
 
 Type: `Promise<void>`
 
-### `select(tab: HTMLDwcTabElement | string | number) => Promise<void>`
+### `select(tab: HTMLDwcTabElement | string | number, emitEvents?: boolean) => Promise<void>`
 
 Selects a specific tab by name , index or instance.
 
