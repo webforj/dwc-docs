@@ -32,7 +32,7 @@ Use these properties to adjust the sizing of the component (Width , Height). `M`
 | `--dwc-size-l`    | 2.75rem             |
 | `--dwc-size-xl`   | 3.5rem              |
 | `--dwc-size-2xl`  | 4rem                |
-| `--dwc-size-32xl` | 4.25rem             |
+| `--dwc-size-3xl`  | 4.25rem             |
 | `--dwc-size`      | `var(--dwc-size-m)` |
 
 ## Spacing
