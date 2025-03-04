@@ -196,7 +196,7 @@ Type: `Promise<unknown>`
 
 ### `getSelectionRange() => Promise<{ start: number; end: number; }>`
 
-Gets the input selection range.
+Gets the component selection range.
 
 ### Returns
 
@@ -252,7 +252,7 @@ Type: `Promise<void>`
 
 ### `setSelectionRange(start: number, end: number) => Promise<void>`
 
-Set the input selection range.
+Sets the input selection range
 
 ### Returns
 

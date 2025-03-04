@@ -186,6 +186,14 @@ Query one of the component supported parts
 
 Type: `Promise<unknown>`
 
+### `getSelectionRange() => Promise<{ start: number; end: number; }>`
+
+Gets the component selection range.
+
+### Returns
+
+Type: `Promise<{ start: number; end: number; }>`
+
 ### `removeFocus() => Promise<void>`
 
 Removes focus from the input.
@@ -212,7 +220,7 @@ Type: `Promise<void>`
 
 ### `setCursorPos(position: number) => Promise<void>`
 
-Sets the caret position in the input. *
+Sets the caret position in the input.
 
 ### Returns
 

@@ -188,7 +188,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 ### `getCursorPos() => Promise<number>`
 
-Gets the caret position in the component. *
+Gets the caret position in the input. *
 
 ### Returns
 
@@ -220,7 +220,7 @@ Type: `Promise<void>`
 
 ### `selectAll() => Promise<void>`
 
-Selects the component text.
+Selects the input text.
 
 ### Returns
 
@@ -228,7 +228,7 @@ Type: `Promise<void>`
 
 ### `setCursorPos(position: number) => Promise<void>`
 
-Sets the caret position in the component. *
+Sets the caret position in the input.
 
 ### Returns
 
@@ -244,7 +244,7 @@ Type: `Promise<void>`
 
 ### `setSelectionRange(start: number, end: number) => Promise<void>`
 
-Sets the component selection range.
+Sets the input selection range
 
 ### Returns
 
