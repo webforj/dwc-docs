@@ -68,9 +68,9 @@ The following is the list of all variables which control the generated palettes.
 
 | **Variable**                             | **Default Value** |
 | ---------------------------------------- | ----------------- |
-| `--dwc-color-warning-h`                | 39                |
+| `--dwc-color-warning-h`                | 48                |
 | `--dwc-color-warning-s`         | 100%              |
-| `--dwc-color-warning-c` | 35                |
+| `--dwc-color-warning-c` | 30                |
 
 #### **Danger**
 
@@ -177,16 +177,16 @@ The abstract variables are divided into four groups: `normal`, `dark`, `light` a
 #### **Success**
 
 ```css
---dwc-color-success-dark: var(--dwc-color-success-35);
---dwc-color-on-success-text-dark: var(--dwc-color-success-text-35);
+--dwc-color-success-dark: var(--dwc-color-success-20);
+--dwc-color-on-success-text-dark: var(--dwc-color-success-text-20);
 --dwc-color-success-text-dark: var(--dwc-color-success-15);
 
---dwc-color-success: var(--dwc-color-success-40);
---dwc-color-on-success-text: var(--dwc-color-success-text-40);
+--dwc-color-success: var(--dwc-color-success-25);
+--dwc-color-on-success-text: var(--dwc-color-success-text-25);
 --dwc-color-success-text: var(--dwc-color-success-20);
 
---dwc-color-success-light: var(--dwc-color-success-45);
---dwc-color-on-success-text-light: var(--dwc-color-success-text-45);
+--dwc-color-success-light: var(--dwc-color-success-30);
+--dwc-color-on-success-text-light: var(--dwc-color-success-text-30);
 --dwc-color-success-text-light: var(--dwc-color-success-25);
 
 --dwc-color-success-alt: var(--dwc-color-success-95);
