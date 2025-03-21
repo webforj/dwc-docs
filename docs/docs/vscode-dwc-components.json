@@ -5196,6 +5196,10 @@
           "description": "Set to true to allow multiple rows to be selected with clicks.\nFor example, if you click to select one row and then click to select\nanother row, the first row will stay selected as well.\nClicking a selected row in this mode will deselect the row.\nThis is useful for touch devices where Ctrl and Shift clicking is not an option."
         },
         {
+          "name": "multi-sorting",
+          "description": "Set to true to allow multiple columns to be sorted at once. By default\nonly one column can be sorted at a time. Clicking on a column header\nwill sort the column and remove the sorting from the other columns."
+        },
+        {
           "name": "overscan",
           "description": "The number of rows to pre render beyond the visible scrolling area.\nThe bigger the number the slower the performance. keep this value small"
         },
