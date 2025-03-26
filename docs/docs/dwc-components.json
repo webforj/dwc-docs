@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-03-21T11:03:51",
+  "timestamp": "2025-03-26T14:44:26",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.27.1",
@@ -36146,6 +36146,38 @@
           "setter": false
         },
         {
+          "name": "getCellPart",
+          "type": "((...args: any[]) => any) | string",
+          "complexType": {
+            "original": "DwcExpression",
+            "resolved": "((...args: any[]) => any) | string",
+            "references": {
+              "DwcExpression": {
+                "location": "import",
+                "path": "../../utils/dwc-expression",
+                "id": "src/utils/dwc-expression.ts::DwcExpression"
+              }
+            }
+          },
+          "mutable": false,
+          "attr": "get-cell-part",
+          "reflectToAttr": false,
+          "docs": "A function or an expression to set parts for each cell individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "((...args: any[]) => any)"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "getRowId",
           "type": "((...args: any[]) => any) | string",
           "complexType": {
@@ -36163,6 +36195,38 @@
           "attr": "get-row-id",
           "reflectToAttr": false,
           "docs": "A function or an expression to generate a row id",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "((...args: any[]) => any)"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "getRowPart",
+          "type": "((...args: any[]) => any) | string",
+          "complexType": {
+            "original": "DwcExpression",
+            "resolved": "((...args: any[]) => any) | string",
+            "references": {
+              "DwcExpression": {
+                "location": "import",
+                "path": "../../utils/dwc-expression",
+                "id": "src/utils/dwc-expression.ts::DwcExpression"
+              }
+            }
+          },
+          "mutable": false,
+          "attr": "get-row-part",
+          "reflectToAttr": false,
+          "docs": "A function or an expression to set parts for each row individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part.",
           "docsTags": [],
           "values": [
             {

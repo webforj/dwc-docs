@@ -5176,8 +5176,16 @@
           "description": "Set to false to prevent rows from being deselected if you hold down Ctrl\nand click the row (i.e. once a row is selected, it remains selected\nuntil another row is selected in its place).\n\nBy default the table allows deselection of rows."
         },
         {
+          "name": "get-cell-part",
+          "description": "A function or an expression to set parts for each cell individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part."
+        },
+        {
           "name": "get-row-id",
           "description": "A function or an expression to generate a row id"
+        },
+        {
+          "name": "get-row-part",
+          "description": "A function or an expression to set parts for each row individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part."
         },
         {
           "name": "header-checkbox-selection",
