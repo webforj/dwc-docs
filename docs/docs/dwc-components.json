@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-03-26T14:44:26",
+  "timestamp": "2025-03-31T07:28:27",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.27.1",
@@ -35949,6 +35949,22 @@
         },
         {
           "name": "part",
+          "text": "row-odd - Odd-numbered rows."
+        },
+        {
+          "name": "part",
+          "text": "row-even - Even-numbered rows."
+        },
+        {
+          "name": "part",
+          "text": "row-first - The first row in the table."
+        },
+        {
+          "name": "part",
+          "text": "row-last - The last row in the table."
+        },
+        {
+          "name": "part",
           "text": "cell - The basic unit within the table for displaying data or content."
         },
         {
@@ -35977,6 +35993,22 @@
         },
         {
           "name": "part",
+          "text": "cell-last - The last cell in a row."
+        },
+        {
+          "name": "part",
+          "text": "cell-first - The first cell in a row."
+        },
+        {
+          "name": "part",
+          "text": "cell-odd - odd-numbered cells."
+        },
+        {
+          "name": "part",
+          "text": "cell-even - even-numbered cells."
+        },
+        {
+          "name": "part",
           "text": "cell-content - Cells containing the main content or data."
         },
         {
@@ -35997,6 +36029,30 @@
       ],
       "usage": {},
       "props": [
+        {
+          "name": "border",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "border",
+          "reflectToAttr": true,
+          "docs": "When true, the table will render a border around the table.",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
         {
           "name": "checkboxSelection",
           "type": "boolean",
@@ -36088,6 +36144,30 @@
           "docs": "When true, the column headers are rendered, hidden otherwise.",
           "docsTags": [],
           "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "columnsBorder",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "columns-border",
+          "reflectToAttr": true,
+          "docs": "When true, the table will render borders between columns.",
+          "docsTags": [],
+          "default": "false",
           "values": [
             {
               "type": "boolean"
@@ -36418,6 +36498,30 @@
           "setter": false
         },
         {
+          "name": "rowsBorder",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "rows-border",
+          "reflectToAttr": true,
+          "docs": "When true, the table will render borders between rows.",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "selected",
           "type": "string[]",
           "complexType": {
@@ -36466,6 +36570,30 @@
             {
               "value": "single",
               "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "striped",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "striped",
+          "reflectToAttr": true,
+          "docs": "When true then it produces a background color for every other row.",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
             }
           ],
           "optional": false,
@@ -36979,6 +37107,14 @@
           "docs": "The main content or data within header cells."
         },
         {
+          "name": "cell-even",
+          "docs": "even-numbered cells."
+        },
+        {
+          "name": "cell-first",
+          "docs": "The first cell in a row."
+        },
+        {
           "name": "cell-header",
           "docs": "Individual cells located in the header row, typically containing labels or titles for the columns."
         },
@@ -36989,6 +37125,14 @@
         {
           "name": "cell-label-header",
           "docs": "Header cells that are specifically used for displaying text labels for columns."
+        },
+        {
+          "name": "cell-last",
+          "docs": "The last cell in a row."
+        },
+        {
+          "name": "cell-odd",
+          "docs": "odd-numbered cells."
         },
         {
           "name": "cell-pinned-left",
@@ -37031,8 +37175,24 @@
           "docs": "Individual rows within the table body, used for organizing cells horizontally."
         },
         {
+          "name": "row-even",
+          "docs": "Even-numbered rows."
+        },
+        {
+          "name": "row-first",
+          "docs": "The first row in the table."
+        },
+        {
           "name": "row-header",
           "docs": "The row within the header that contains cell headers."
+        },
+        {
+          "name": "row-last",
+          "docs": "The last row in the table."
+        },
+        {
+          "name": "row-odd",
+          "docs": "Odd-numbered rows."
         },
         {
           "name": "table",

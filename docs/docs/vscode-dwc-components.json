@@ -5160,6 +5160,10 @@
       },
       "attributes": [
         {
+          "name": "border",
+          "description": "When true, the table will render a border around the table."
+        },
+        {
           "name": "checkbox-selection",
           "description": "When false, the table won't render the selection\ncheckboxes for each row.\n\nThis option works only when `multiSelection` is enabled"
         },
@@ -5170,6 +5174,10 @@
         {
           "name": "column-headers",
           "description": "When true, the column headers are rendered, hidden otherwise."
+        },
+        {
+          "name": "columns-border",
+          "description": "When true, the table will render borders between columns."
         },
         {
           "name": "deselection",
@@ -5216,6 +5224,10 @@
           "description": "The height of each row in pixels."
         },
         {
+          "name": "rows-border",
+          "description": "When true, the table will render borders between rows."
+        },
+        {
           "name": "selection-mode",
           "description": "The selection mode of the table.",
           "values": [
@@ -5229,6 +5241,10 @@
               "name": "single"
             }
           ]
+        },
+        {
+          "name": "striped",
+          "description": "When true then it produces a background color for every other row."
         }
       ]
     },
