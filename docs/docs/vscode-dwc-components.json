@@ -376,6 +376,10 @@
           "description": "The distance in pixels to offset the dropdown away from the button."
         },
         {
+          "name": "dropdown",
+          "description": ""
+        },
+        {
           "name": "dropdown-button-width",
           "description": "Sets the dropdown button's width."
         },
@@ -753,6 +757,10 @@
           "description": "The selected item's value"
         },
         {
+          "name": "items",
+          "description": ""
+        },
+        {
           "name": "label",
           "description": "The list label"
         },
@@ -1072,8 +1080,16 @@
           "description": "The value as a hex8 string."
         },
         {
+          "name": "hsl",
+          "description": "The value as a hsl object."
+        },
+        {
           "name": "hsl-string",
           "description": "The value as a hsl string."
+        },
+        {
+          "name": "hsv",
+          "description": "The value as a hsv object."
         },
         {
           "name": "hsv-string",
@@ -1166,6 +1182,10 @@
           "description": "The red value, which ranges from 0 to 255."
         },
         {
+          "name": "rgb",
+          "description": "The value as a rgb object."
+        },
+        {
           "name": "rgb-string",
           "description": "The value as a rgb string."
         },
@@ -1220,7 +1240,12 @@
         "kind": "markdown",
         "value": "The `dwc-columns-layout` component provides a flexible layout with dynamic columns based on the width of the layout.\nIt adjusts the number of columns automatically according to the specified breakpoints."
       },
-      "attributes": []
+      "attributes": [
+        {
+          "name": "breakpoints",
+          "description": "Breakpoints for the number of columns depending on the layout width."
+        }
+      ]
     },
     {
       "name": "dwc-combobox",
@@ -1305,6 +1330,10 @@
           "description": "The component's helper text."
         },
         {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.</li>\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.</li>\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.</li>\n</ol>"
+        },
+        {
           "name": "invalid",
           "description": "Set to true to indicate that the user input is invalid."
         },
@@ -1319,6 +1348,10 @@
         {
           "name": "item-value",
           "description": "The selected item's value"
+        },
+        {
+          "name": "items",
+          "description": ""
         },
         {
           "name": "label",
@@ -1587,6 +1620,10 @@
           "description": "The component's helper text."
         },
         {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>"
+        },
+        {
           "name": "insert-mode",
           "description": "If in insert mode, then characters are inserted into the control when typed. Otherwise, the characters are overwritten."
         },
@@ -1832,6 +1869,10 @@
           "description": "Set to false to disable canceling the overlay by clicking outside it."
         },
         {
+          "name": "container",
+          "description": "The dialog container."
+        },
+        {
           "name": "fullscreen",
           "description": "When true, the dialog will fill the available screen space."
         },
@@ -2013,6 +2054,10 @@
           ]
         },
         {
+          "name": "items",
+          "description": ""
+        },
+        {
           "name": "max-row-count",
           "description": "Sets the maximum number of rows that the drop-down list will display."
         },
@@ -2085,6 +2130,10 @@
         {
           "name": "renderer",
           "description": "A BBj expression or a function to render the list item's label."
+        },
+        {
+          "name": "selected",
+          "description": ""
         },
         {
           "name": "skidding",
@@ -2195,6 +2244,10 @@
         {
           "name": "helper-text",
           "description": "The component's helper text."
+        },
+        {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component gets focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component gets focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component gets focus under program control by calling the `setFocus` method.\n</ol>"
         },
         {
           "name": "invalid",
@@ -2415,6 +2468,10 @@
       },
       "attributes": [
         {
+          "name": "list",
+          "description": "The list of values to display when spinning."
+        },
+        {
           "name": "list-index",
           "description": "Sets the currently displayed value to the one at the specified index in the list."
         },
@@ -2484,6 +2541,14 @@
           "description": "When true, the component cannot be interacted with."
         },
         {
+          "name": "entries",
+          "description": ""
+        },
+        {
+          "name": "filters",
+          "description": ""
+        },
+        {
           "name": "grid-columns",
           "description": "Number of columns to render when the view type is `grid`."
         },
@@ -2502,6 +2567,14 @@
         {
           "name": "restricted-directory",
           "description": "When defined then the user cannot navigate outside the given directory path.\nThe path must be under the `directory` path."
+        },
+        {
+          "name": "roots",
+          "description": ""
+        },
+        {
+          "name": "selected",
+          "description": ""
         },
         {
           "name": "selection-mode",
@@ -2629,6 +2702,10 @@
         {
           "name": "disabled",
           "description": "True to disable the component, false to enable it."
+        },
+        {
+          "name": "filters",
+          "description": "Array of filters to show."
         },
         {
           "name": "i18n",
@@ -2865,6 +2942,10 @@
         {
           "name": "label",
           "description": "The icon's label"
+        },
+        {
+          "name": "modifier",
+          "description": "An icon modified function"
         },
         {
           "name": "name",
@@ -3115,6 +3196,10 @@
           "description": "An error message to present to the user when the control is invalid."
         },
         {
+          "name": "items",
+          "description": ""
+        },
+        {
           "name": "label",
           "description": "The list label"
         },
@@ -3133,6 +3218,10 @@
         {
           "name": "renderer",
           "description": "A BBj expression or a function to render the list item's label."
+        },
+        {
+          "name": "selected",
+          "description": ""
         },
         {
           "name": "tab-traversable",
@@ -3357,6 +3446,10 @@
         {
           "name": "error",
           "description": "When true, the dialog will show the error message."
+        },
+        {
+          "name": "i18n",
+          "description": "The dialog translation object"
         },
         {
           "name": "max-height",
@@ -3877,6 +3970,10 @@
           "description": "The component's helper text."
         },
         {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>"
+        },
+        {
           "name": "insert-mode",
           "description": "If in insert mode, then characters are inserted into the control when typed. Otherwise, the characters are overwritten."
         },
@@ -4147,6 +4244,10 @@
         "value": "The `BBjPopupMenu<dwc-popupmenu>` provides methods for manipulating a UI popup menu associated with a control."
       },
       "attributes": [
+        {
+          "name": "context-element",
+          "description": ""
+        },
         {
           "name": "disabled",
           "description": "Specifies that the control should be disabled."
@@ -5172,12 +5273,20 @@
           "description": "When true, the table will automatically sort the data\nwhen the user clicks on a column header. The default is false.\n\nUse this in case you want to sort the data yourself. The event in\nthis case will contains the sorting information."
         },
         {
+          "name": "column-definitions",
+          "description": "An array of objects that defines the columns of the table."
+        },
+        {
           "name": "column-headers",
           "description": "When true, the column headers are rendered, hidden otherwise."
         },
         {
           "name": "columns-border",
           "description": "When true, the table will render borders between columns."
+        },
+        {
+          "name": "data",
+          "description": "An array of objects that defines the rows of the table."
         },
         {
           "name": "deselection",
@@ -5228,6 +5337,10 @@
           "description": "When true, the table will render borders between rows."
         },
         {
+          "name": "selected",
+          "description": "An array of selected row ids."
+        },
+        {
           "name": "selection-mode",
           "description": "The selection mode of the table.",
           "values": [
@@ -5264,8 +5377,16 @@
           "description": "The number of columns in the terminal"
         },
         {
+          "name": "options",
+          "description": "The terminal options"
+        },
+        {
           "name": "rows",
           "description": "The number of rows in the terminal"
+        },
+        {
+          "name": "theme",
+          "description": "The terminal theme"
         }
       ]
     },
@@ -5344,6 +5465,10 @@
         {
           "name": "helper-text",
           "description": "The component's helper text."
+        },
+        {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component receives focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component receives focus programmatically by calling the `setFocus` method.\n</ol>"
         },
         {
           "name": "insert-mode",
@@ -5577,6 +5702,10 @@
           "description": "The component's helper text."
         },
         {
+          "name": "highlight-behaviors",
+          "description": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>"
+        },
+        {
           "name": "insert-mode",
           "description": "If in insert mode, characters are inserted into the control when typed. Otherwise, the characters are overwritten."
         },
@@ -5732,6 +5861,10 @@
       },
       "attributes": [
         {
+          "name": "list",
+          "description": "The list of values to display when spinning."
+        },
+        {
           "name": "list-index",
           "description": "Sets the currently displayed value to the one at the specified index in the list."
         },
@@ -5800,6 +5933,10 @@
         {
           "name": "helper-text",
           "description": "The component's helper text."
+        },
+        {
+          "name": "highlight-behaviors",
+          "description": ""
         },
         {
           "name": "insert-mode",
@@ -6457,6 +6594,14 @@
         {
           "name": "drop-label",
           "description": "The drop label"
+        },
+        {
+          "name": "files",
+          "description": ""
+        },
+        {
+          "name": "filters",
+          "description": "Array of filters to show as button dropdown or in the files picker dialog.\n\nIf `fs` attribute is true and the browser support the File System Access API, filters\nwill appear in the System Files Picker dialog."
         },
         {
           "name": "filters-visible",

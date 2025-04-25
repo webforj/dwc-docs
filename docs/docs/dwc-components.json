@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-31T07:28:27",
+  "timestamp": "2025-04-25T13:27:56",
   "compiler": {
     "name": "@stencil/core",
-    "version": "4.27.1",
+    "version": "4.30.0",
     "typescriptVersion": "5.5.4"
   },
   "components": [
@@ -2108,6 +2108,7 @@
             }
           },
           "mutable": false,
+          "attr": "dropdown",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -4638,6 +4639,7 @@
             }
           },
           "mutable": false,
+          "attr": "items",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -6231,6 +6233,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "hsl",
           "reflectToAttr": false,
           "docs": "The value as a hsl object.",
           "docsTags": [
@@ -6284,6 +6287,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "hsv",
           "reflectToAttr": false,
           "docs": "The value as a hsv object.",
           "docsTags": [
@@ -6691,6 +6695,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "rgb",
           "reflectToAttr": false,
           "docs": "The value as a rgb object.",
           "docsTags": [
@@ -7124,6 +7129,7 @@
             }
           },
           "mutable": false,
+          "attr": "breakpoints",
           "reflectToAttr": false,
           "docs": "Breakpoints for the number of columns depending on the layout width.",
           "docsTags": [],
@@ -7731,6 +7737,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.</li>\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.</li>\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.</li>\n</ol>",
           "docsTags": [],
@@ -7859,6 +7866,7 @@
             }
           },
           "mutable": false,
+          "attr": "items",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -9546,6 +9554,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [],
@@ -11653,6 +11662,7 @@
             }
           },
           "mutable": false,
+          "attr": "container",
           "reflectToAttr": false,
           "docs": "The dialog container.",
           "docsTags": [],
@@ -12820,6 +12830,7 @@
             }
           },
           "mutable": false,
+          "attr": "items",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -13119,6 +13130,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "selected",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -14215,6 +14227,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component gets focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component gets focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component gets focus under program control by calling the `setFocus` method.\n</ol>",
           "docsTags": [],
@@ -15742,6 +15755,7 @@
             "references": {}
           },
           "mutable": false,
+          "attr": "list",
           "reflectToAttr": false,
           "docs": "The list of values to display when spinning.",
           "docsTags": [],
@@ -16597,6 +16611,7 @@
             }
           },
           "mutable": false,
+          "attr": "entries",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -16635,6 +16650,7 @@
             }
           },
           "mutable": true,
+          "attr": "filters",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -16800,6 +16816,7 @@
             }
           },
           "mutable": false,
+          "attr": "roots",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -16838,6 +16855,7 @@
             }
           },
           "mutable": true,
+          "attr": "selected",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -18096,6 +18114,7 @@
             }
           },
           "mutable": false,
+          "attr": "filters",
           "reflectToAttr": false,
           "docs": "Array of filters to show.",
           "docsTags": [],
@@ -19558,6 +19577,7 @@
             }
           },
           "mutable": false,
+          "attr": "modifier",
           "reflectToAttr": false,
           "docs": "An icon modified function",
           "docsTags": [],
@@ -21015,6 +21035,7 @@
             }
           },
           "mutable": false,
+          "attr": "items",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -21173,6 +21194,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "selected",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -22986,6 +23008,7 @@
             "references": {}
           },
           "mutable": false,
+          "attr": "i18n",
           "reflectToAttr": false,
           "docs": "The dialog translation object",
           "docsTags": [],
@@ -27250,6 +27273,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [],
@@ -29472,6 +29496,7 @@
             }
           },
           "mutable": false,
+          "attr": "context-element",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -36116,6 +36141,7 @@
             }
           },
           "mutable": true,
+          "attr": "column-definitions",
           "reflectToAttr": false,
           "docs": "An array of objects that defines the columns of the table.",
           "docsTags": [],
@@ -36187,6 +36213,7 @@
             "references": {}
           },
           "mutable": false,
+          "attr": "data",
           "reflectToAttr": false,
           "docs": "An array of objects that defines the rows of the table.",
           "docsTags": [],
@@ -36530,6 +36557,7 @@
             "references": {}
           },
           "mutable": true,
+          "attr": "selected",
           "reflectToAttr": false,
           "docs": "An array of selected row ids.",
           "docsTags": [],
@@ -37312,6 +37340,7 @@
             }
           },
           "mutable": false,
+          "attr": "options",
           "reflectToAttr": false,
           "docs": "The terminal options",
           "docsTags": [],
@@ -37365,6 +37394,7 @@
             }
           },
           "mutable": false,
+          "attr": "theme",
           "reflectToAttr": false,
           "docs": "The terminal theme",
           "docsTags": [],
@@ -38488,6 +38518,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component receives focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [],
@@ -40114,6 +40145,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [],
@@ -41493,6 +41525,7 @@
             "references": {}
           },
           "mutable": false,
+          "attr": "list",
           "reflectToAttr": false,
           "docs": "The list of values to display when spinning.",
           "docsTags": [],
@@ -42173,6 +42206,7 @@
             }
           },
           "mutable": false,
+          "attr": "highlight-behaviors",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -47698,6 +47732,7 @@
             }
           },
           "mutable": true,
+          "attr": "files",
           "reflectToAttr": false,
           "docs": "",
           "docsTags": [
@@ -47736,6 +47771,7 @@
             }
           },
           "mutable": false,
+          "attr": "filters",
           "reflectToAttr": false,
           "docs": "Array of filters to show as button dropdown or in the files picker dialog.\n\nIf `fs` attribute is true and the browser support the File System Access API, filters\nwill appear in the System Files Picker dialog.",
           "docsTags": [],

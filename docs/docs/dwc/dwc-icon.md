@@ -117,15 +117,15 @@ and [BBjControl::getAttribute](https://documentation.basis.cloud/BASISHelp/WebHe
 And to set properties you can use the [BBjControl::setProperty](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_setProperty.htm) and [BBjControl::getProperty](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_getProperty.htm) methods respectively.
 <div style="overflow-x: auto;">
 
-| Name         | Attribute   | Description               | Reflects | Type                                                                                 | Default       |
-| ------------ | ----------- | ------------------------- | :------: | ------------------------------------------------------------------------------------ | ------------- |
-| ``expanse``  | ``expanse`` | The icon's expanse        | &#x2714; | ``"2xl" \| "2xs" \| "3xl" \| "l" \| "m" \| "s" \| "xl" \| "xs"``                     | ``'xs'``      |
-| ``label``    | ``label``   | The icon's label          | &#x2718; | ``string``                                                                           |               |
-| ``modifier`` |             | An icon modified function | &#x2718; | ``(icon: HTMLImageElement \| SVGElement) => void``                                   |               |
-| ``name``     | ``name``    | The icon's name           | &#x2714; | ``string``                                                                           |               |
-| ``pool``     | ``pool``    | The icon's pool name      | &#x2714; | ``string``                                                                           | ``'tabler'``  |
-| ``src``      | ``src``     | The icon's src            | &#x2718; | ``string``                                                                           |               |
-| ``theme``    | ``theme``   | The theme name            | &#x2714; | ``"danger" \| "default" \| "gray" \| "info" \| "primary" \| "success" \| "warning"`` | ``'default'`` |
+| Name         | Attribute    | Description               | Reflects | Type                                                                                 | Default       |
+| ------------ | ------------ | ------------------------- | :------: | ------------------------------------------------------------------------------------ | ------------- |
+| ``expanse``  | ``expanse``  | The icon's expanse        | &#x2714; | ``"2xl" \| "2xs" \| "3xl" \| "l" \| "m" \| "s" \| "xl" \| "xs"``                     | ``'xs'``      |
+| ``label``    | ``label``    | The icon's label          | &#x2718; | ``string``                                                                           |               |
+| ``modifier`` | ``modifier`` | An icon modified function | &#x2718; | ``(icon: HTMLImageElement \| SVGElement) => void``                                   |               |
+| ``name``     | ``name``     | The icon's name           | &#x2714; | ``string``                                                                           |               |
+| ``pool``     | ``pool``     | The icon's pool name      | &#x2714; | ``string``                                                                           | ``'tabler'``  |
+| ``src``      | ``src``      | The icon's src            | &#x2718; | ``string``                                                                           |               |
+| ``theme``    | ``theme``    | The theme name            | &#x2714; | ``"danger" \| "default" \| "gray" \| "info" \| "primary" \| "success" \| "warning"`` | ``'default'`` |
 
 
 </div>
