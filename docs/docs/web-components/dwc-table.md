@@ -53,12 +53,15 @@ Some properties reflect their values to attributes and vice versa. This means th
 | ------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ``dwc-cell-clicked``      | Emitted when a cell is clicked        | ``{ column: TableColumn; first: boolean; id: string; key: string; index: number; last: boolean; navigable: boolean; renderedValue: string; row: TableRow; item: TableRow; value: any; }`` |
 | ``dwc-cell-dbclicked``    | Emitted when a cell is double clicked | ``{ column: TableColumn; first: boolean; id: string; key: string; index: number; last: boolean; navigable: boolean; renderedValue: string; row: TableRow; item: TableRow; value: any; }`` |
+| ``dwc-column-moved``      | Emitted when a column is moved        | ``ColumnEventDetailBase & { oldIndex: number; newIndex: number; }``                                                                                                                       |
+| ``dwc-column-resized``    | Emitted when a column is resized      | ``ColumnEventDetailBase & { newWidth: number; oldWidth: number; }``                                                                                                                       |
 | ``dwc-row-clicked``       | Emitted when a row is clicked         | ``TableRow``                                                                                                                                                                              |
 | ``dwc-row-dbclicked``     | Emitted when a row is double clicked  | ``TableRow``                                                                                                                                                                              |
 | ``dwc-row-deselected``    | Emitted when a row is deselected      | ``TableRow``                                                                                                                                                                              |
 | ``dwc-row-selected``      | Emitted when a row is selected        | ``TableRow``                                                                                                                                                                              |
 | ``dwc-selection-changed`` | Emitted when row selection changes    | ``void``                                                                                                                                                                                  |
 | ``dwc-sort-changed``      | Emitted when the sort changes         | ``ColumnSortState[]``                                                                                                                                                                     |
+| ``dwc-state-changed``     | Emitted when state changes            | ``{ columns: ColumnState[]; source: StateChangeSource; }``                                                                                                                                |
 
 
 </div>
@@ -78,35 +81,43 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 | ``cell-align-left``             | Cells aligned to the left, typically for text content.                                                       |
 | ``cell-align-right``            | Cells aligned to the right, commonly used for numerical data.                                                |
 | ``cell-body``                   | Individual cells located within the body, containing data or content.                                        |
-| ``cell-checkbox``               | Cells in the body that contain checkboxes for row selection.                                                 |
+| ``cell-checkbox``               | Cells that contain checkboxes for row selection.                                                             |
 | ``cell-checkbox-body``          | A specific type of cell that combines a checkbox with body content, used for selecting rows.                 |
 | ``cell-checkbox-header``        | A special header cell that contains a checkbox for selecting all rows.                                       |
 | ``cell-checkbox-indeterminate`` | A state for checkboxes where the selection is partial (not all items are selected).                          |
-| ``cell-content``                | Cells containing the main content or data.                                                                   |
-| ``cell-content-checkbox``       | A cell in the header that combines content with a checkbox, often used for bulk actions.                     |
+| ``cell-content``                | The main content area within cells.                                                                          |
+| ``cell-content-checkbox``       | Cells that combine content with a checkbox, used for selection.                                              |
 | ``cell-content-header``         | The main content or data within header cells.                                                                |
-| ``cell-even``                   | even-numbered cells.                                                                                         |
+| ``cell-even``                   | Even-numbered cells.                                                                                         |
 | ``cell-first``                  | The first cell in a row.                                                                                     |
 | ``cell-header``                 | Individual cells located in the header row, typically containing labels or titles for the columns.           |
-| ``cell-label``                  | Cells specifically used for displaying text labels within rows.                                              |
+| ``cell-label``                  | Text label areas within cells.                                                                               |
 | ``cell-label-header``           | Header cells that are specifically used for displaying text labels for columns.                              |
 | ``cell-last``                   | The last cell in a row.                                                                                      |
-| ``cell-odd``                    | odd-numbered cells.                                                                                          |
+| ``cell-non-navigable``          | Cells that cannot be navigated to with keyboard, like checkboxes and spacers.                                |
+| ``cell-odd``                    | Odd-numbered cells.                                                                                          |
 | ``cell-pinned-left``            | Cells that are pinned or fixed to the left side of the table, remaining visible during horizontal scrolling. |
 | ``cell-pinned-right``           | Cells that are pinned or fixed to the right side of the table.                                               |
+| ``cell-resizable``              | Header cells that can be resized by dragging the resize handle.                                              |
+| ``cell-resizing``               | Cells in a column that is currently being resized.                                                           |
 | ``cell-selected``               | Cells that are currently selected, indicating an active state.                                               |
 | ``cell-sort-icons``             | Icons within header cells that indicate sorting capabilities.                                                |
 | ``cell-sort-icons-active``      | Icons within header cells that show the current sorting state (ascending or descending).                     |
 | ``cell-sort-index``             | A visual indicator of the sort index for the column, often displayed as a number.                            |
+| ``cell-sortable``               | Header cells that can be clicked to sort the column.                                                         |
+| ``cell-spacer``                 | Spacer cells that absorb remaining space when all columns have fixed widths.                                 |
 | ``checkbox``                    | A generic checkbox part used within various cells for selection purposes.                                    |
 | ``checkbox-header``             | A specific checkbox located in the header for selecting or deselecting all rows.                             |
-| ``header``                      | The top part of the table that contains column headers and controls like sorting icons and checkboxes.       |
+| ``column``                      | Individual column elements in the colgroup.                                                                  |
+| ``header``                      | The thead element containing column headers.                                                                 |
+| ``resize-handle``               | The draggable handle for resizing columns.                                                                   |
 | ``row``                         | Individual rows within the table body, used for organizing cells horizontally.                               |
 | ``row-even``                    | Even-numbered rows.                                                                                          |
 | ``row-first``                   | The first row in the table.                                                                                  |
 | ``row-header``                  | The row within the header that contains cell headers.                                                        |
 | ``row-last``                    | The last row in the table.                                                                                   |
 | ``row-odd``                     | Odd-numbered rows.                                                                                           |
+| ``row-selected``                | Rows that are currently selected.                                                                            |
 | ``table``                       | The primary table element, housing all content including headers, rows, and cells.                           |
 | ``table-wrapper``               | The entire container that wraps the table and its elements.                                                  |
 
@@ -119,6 +130,32 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 - [dwc-icon](web-components/dwc-icon.md)
 
 ## Methods
+
+### `autoFit() => Promise<void>`
+
+Auto-fits all columns to fit the container width.
+Sets all columns to use flex layout.
+
+### Returns
+
+Type: `Promise<void>`
+
+### `autoSize() => Promise<void>`
+
+Auto-sizes all columns to their estimated width based on content.
+This resets column widths to their natural size.
+
+### Returns
+
+Type: `Promise<void>`
+
+### `autoSizeColumn(columnId: string) => Promise<void>`
+
+Auto-sizes a specific column to its estimated width based on content.
+
+### Returns
+
+Type: `Promise<void>`
 
 ### `deselect(rowId: string | string[]) => Promise<void>`
 
@@ -139,6 +176,14 @@ Type: `Promise<void>`
 ### `focusCell(rowId: string, columnId: string, scroll?: boolean) => Promise<void>`
 
 Scrolls to a cell
+
+### Returns
+
+Type: `Promise<void>`
+
+### `moveColumn(columnId: string, newIndex: number) => Promise<void>`
+
+Moves a column to a new position in the table.
 
 ### Returns
 

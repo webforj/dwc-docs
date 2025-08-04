@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-05-08T10:40:50",
+  "timestamp": "2025-08-01T14:04:02",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.31.0",
@@ -35898,11 +35898,19 @@
         },
         {
           "name": "part",
-          "text": "header - The top part of the table that contains column headers and controls like sorting icons and checkboxes."
+          "text": "column - Individual column elements in the colgroup."
+        },
+        {
+          "name": "part",
+          "text": "header - The thead element containing column headers."
         },
         {
           "name": "part",
           "text": "row-header - The row within the header that contains cell headers."
+        },
+        {
+          "name": "part",
+          "text": "cell - The basic unit within the table for displaying data or content."
         },
         {
           "name": "part",
@@ -35914,11 +35922,19 @@
         },
         {
           "name": "part",
-          "text": "cell-content-header - The main content or data within header cells."
+          "text": "cell-checkbox-indeterminate - A state for checkboxes where the selection is partial (not all items are selected)."
         },
         {
           "name": "part",
-          "text": "cell-content-checkbox - A cell in the header that combines content with a checkbox, often used for bulk actions."
+          "text": "cell-sortable - Header cells that can be clicked to sort the column."
+        },
+        {
+          "name": "part",
+          "text": "cell-resizable - Header cells that can be resized by dragging the resize handle."
+        },
+        {
+          "name": "part",
+          "text": "cell-content-header - The main content or data within header cells."
         },
         {
           "name": "part",
@@ -35938,15 +35954,7 @@
         },
         {
           "name": "part",
-          "text": "checkbox - A generic checkbox part used within various cells for selection purposes."
-        },
-        {
-          "name": "part",
-          "text": "checkbox-header - A specific checkbox located in the header for selecting or deselecting all rows."
-        },
-        {
-          "name": "part",
-          "text": "cell-checkbox-indeterminate - A state for checkboxes where the selection is partial (not all items are selected)."
+          "text": "resize-handle - The draggable handle for resizing columns."
         },
         {
           "name": "part",
@@ -35954,31 +35962,7 @@
         },
         {
           "name": "part",
-          "text": "cell-body - Individual cells located within the body, containing data or content."
-        },
-        {
-          "name": "part",
-          "text": "cell-checkbox - Cells in the body that contain checkboxes for row selection."
-        },
-        {
-          "name": "part",
-          "text": "cell-checkbox-body - A specific type of cell that combines a checkbox with body content, used for selecting rows."
-        },
-        {
-          "name": "part",
-          "text": "cell-selected - Cells that are currently selected, indicating an active state."
-        },
-        {
-          "name": "part",
           "text": "row - Individual rows within the table body, used for organizing cells horizontally."
-        },
-        {
-          "name": "part",
-          "text": "row-odd - Odd-numbered rows."
-        },
-        {
-          "name": "part",
-          "text": "row-even - Even-numbered rows."
         },
         {
           "name": "part",
@@ -35990,11 +35974,47 @@
         },
         {
           "name": "part",
-          "text": "cell - The basic unit within the table for displaying data or content."
+          "text": "row-odd - Odd-numbered rows."
         },
         {
           "name": "part",
-          "text": "cell-checkbox - Repeated for consistency; cells containing checkboxes for row selection."
+          "text": "row-even - Even-numbered rows."
+        },
+        {
+          "name": "part",
+          "text": "row-selected - Rows that are currently selected."
+        },
+        {
+          "name": "part",
+          "text": "cell-body - Individual cells located within the body, containing data or content."
+        },
+        {
+          "name": "part",
+          "text": "cell-checkbox - Cells that contain checkboxes for row selection."
+        },
+        {
+          "name": "part",
+          "text": "cell-checkbox-body - A specific type of cell that combines a checkbox with body content, used for selecting rows."
+        },
+        {
+          "name": "part",
+          "text": "cell-selected - Cells that are currently selected, indicating an active state."
+        },
+        {
+          "name": "part",
+          "text": "cell-first - The first cell in a row."
+        },
+        {
+          "name": "part",
+          "text": "cell-last - The last cell in a row."
+        },
+        {
+          "name": "part",
+          "text": "cell-odd - Odd-numbered cells."
+        },
+        {
+          "name": "part",
+          "text": "cell-even - Even-numbered cells."
         },
         {
           "name": "part",
@@ -36002,11 +36022,11 @@
         },
         {
           "name": "part",
-          "text": "cell-align-right - Cells aligned to the right, commonly used for numerical data."
+          "text": "cell-align-center - Cells with centered content, used for balancing visual alignment."
         },
         {
           "name": "part",
-          "text": "cell-align-center - Cells with centered content, used for balancing visual alignment."
+          "text": "cell-align-right - Cells aligned to the right, commonly used for numerical data."
         },
         {
           "name": "part",
@@ -36018,23 +36038,19 @@
         },
         {
           "name": "part",
-          "text": "cell-last - The last cell in a row."
+          "text": "cell-spacer - Spacer cells that absorb remaining space when all columns have fixed widths."
         },
         {
           "name": "part",
-          "text": "cell-first - The first cell in a row."
+          "text": "cell-non-navigable - Cells that cannot be navigated to with keyboard, like checkboxes and spacers."
         },
         {
           "name": "part",
-          "text": "cell-odd - odd-numbered cells."
+          "text": "cell-resizing - Cells in a column that is currently being resized."
         },
         {
           "name": "part",
-          "text": "cell-even - even-numbered cells."
-        },
-        {
-          "name": "part",
-          "text": "cell-content - Cells containing the main content or data."
+          "text": "cell-content - The main content area within cells."
         },
         {
           "name": "part",
@@ -36042,7 +36058,15 @@
         },
         {
           "name": "part",
-          "text": "cell-label - Cells specifically used for displaying text labels within rows."
+          "text": "cell-label - Text label areas within cells."
+        },
+        {
+          "name": "part",
+          "text": "checkbox - A generic checkbox part used within various cells for selection purposes."
+        },
+        {
+          "name": "part",
+          "text": "checkbox-header - A specific checkbox located in the header for selecting or deselecting all rows."
         },
         {
           "name": "author",
@@ -36632,6 +36656,89 @@
       ],
       "methods": [
         {
+          "name": "autoFit",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "autoFit() => Promise<void>",
+          "parameters": [],
+          "docs": "Auto-fits all columns to fit the container width.\nSets all columns to use flex layout.",
+          "docsTags": []
+        },
+        {
+          "name": "autoSize",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "autoSize() => Promise<void>",
+          "parameters": [],
+          "docs": "Auto-sizes all columns to their estimated width based on content.\nThis resets column widths to their natural size.",
+          "docsTags": []
+        },
+        {
+          "name": "autoSizeColumn",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "(columnId: string) => Promise<void>",
+            "parameters": [
+              {
+                "name": "columnId",
+                "type": "string",
+                "docs": "The ID of the column to auto-size"
+              }
+            ],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "autoSizeColumn(columnId: string) => Promise<void>",
+          "parameters": [
+            {
+              "name": "columnId",
+              "type": "string",
+              "docs": "The ID of the column to auto-size"
+            }
+          ],
+          "docs": "Auto-sizes a specific column to its estimated width based on content.",
+          "docsTags": [
+            {
+              "name": "param",
+              "text": "columnId The ID of the column to auto-size"
+            }
+          ]
+        },
+        {
           "name": "deselect",
           "returns": {
             "type": "Promise<void>",
@@ -36756,6 +36863,73 @@
             {
               "name": "param",
               "text": "columnId The id of the column"
+            }
+          ]
+        },
+        {
+          "name": "moveColumn",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "(columnId: string, newIndex: number) => Promise<void>",
+            "parameters": [
+              {
+                "name": "columnId",
+                "type": "string",
+                "docs": "- The ID of the column to move"
+              },
+              {
+                "name": "newIndex",
+                "type": "number",
+                "docs": "- The new index position (0-based) among visible columns"
+              }
+            ],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              },
+              "TableColumnDefinition": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition"
+              },
+              "ColumnMovedDetail": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "moveColumn(columnId: string, newIndex: number) => Promise<void>",
+          "parameters": [
+            {
+              "name": "columnId",
+              "type": "string",
+              "docs": "- The ID of the column to move"
+            },
+            {
+              "name": "newIndex",
+              "type": "number",
+              "docs": "- The new index position (0-based) among visible columns"
+            }
+          ],
+          "docs": "Moves a column to a new position in the table.",
+          "docsTags": [
+            {
+              "name": "param",
+              "text": "columnId - The ID of the column to move"
+            },
+            {
+              "name": "param",
+              "text": "newIndex - The new index position (0-based) among visible columns"
+            },
+            {
+              "name": "throws",
+              "text": "Error if column is not found, is hidden, or index is out of bounds"
             }
           ]
         },
@@ -36964,6 +37138,46 @@
           "docsTags": []
         },
         {
+          "event": "dwc-column-moved",
+          "detail": "ColumnEventDetailBase & { oldIndex: number; newIndex: number; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "ColumnMovedDetail",
+            "resolved": "ColumnEventDetailBase & { oldIndex: number; newIndex: number; }",
+            "references": {
+              "ColumnMovedDetail": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when a column is moved",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-column-resized",
+          "detail": "ColumnEventDetailBase & { newWidth: number; oldWidth: number; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "ColumnResizedDetail",
+            "resolved": "ColumnEventDetailBase & { newWidth: number; oldWidth: number; }",
+            "references": {
+              "ColumnResizedDetail": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnResizedDetail"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when a column is resized",
+          "docsTags": []
+        },
+        {
           "event": "dwc-row-clicked",
           "detail": "TableRow",
           "bubbles": true,
@@ -37076,6 +37290,26 @@
           "composed": true,
           "docs": "Emitted when the sort changes",
           "docsTags": []
+        },
+        {
+          "event": "dwc-state-changed",
+          "detail": "{ columns: ColumnState[]; source: StateChangeSource; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "StateChangedDetail",
+            "resolved": "{ columns: ColumnState[]; source: StateChangeSource; }",
+            "references": {
+              "StateChangedDetail": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::StateChangedDetail"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when state changes",
+          "docsTags": []
         }
       ],
       "listeners": [],
@@ -37108,7 +37342,7 @@
         },
         {
           "name": "cell-checkbox",
-          "docs": "Cells in the body that contain checkboxes for row selection."
+          "docs": "Cells that contain checkboxes for row selection."
         },
         {
           "name": "cell-checkbox-body",
@@ -37124,11 +37358,11 @@
         },
         {
           "name": "cell-content",
-          "docs": "Cells containing the main content or data."
+          "docs": "The main content area within cells."
         },
         {
           "name": "cell-content-checkbox",
-          "docs": "A cell in the header that combines content with a checkbox, often used for bulk actions."
+          "docs": "Cells that combine content with a checkbox, used for selection."
         },
         {
           "name": "cell-content-header",
@@ -37136,7 +37370,7 @@
         },
         {
           "name": "cell-even",
-          "docs": "even-numbered cells."
+          "docs": "Even-numbered cells."
         },
         {
           "name": "cell-first",
@@ -37148,7 +37382,7 @@
         },
         {
           "name": "cell-label",
-          "docs": "Cells specifically used for displaying text labels within rows."
+          "docs": "Text label areas within cells."
         },
         {
           "name": "cell-label-header",
@@ -37159,8 +37393,12 @@
           "docs": "The last cell in a row."
         },
         {
+          "name": "cell-non-navigable",
+          "docs": "Cells that cannot be navigated to with keyboard, like checkboxes and spacers."
+        },
+        {
           "name": "cell-odd",
-          "docs": "odd-numbered cells."
+          "docs": "Odd-numbered cells."
         },
         {
           "name": "cell-pinned-left",
@@ -37169,6 +37407,14 @@
         {
           "name": "cell-pinned-right",
           "docs": "Cells that are pinned or fixed to the right side of the table."
+        },
+        {
+          "name": "cell-resizable",
+          "docs": "Header cells that can be resized by dragging the resize handle."
+        },
+        {
+          "name": "cell-resizing",
+          "docs": "Cells in a column that is currently being resized."
         },
         {
           "name": "cell-selected",
@@ -37187,6 +37433,14 @@
           "docs": "A visual indicator of the sort index for the column, often displayed as a number."
         },
         {
+          "name": "cell-sortable",
+          "docs": "Header cells that can be clicked to sort the column."
+        },
+        {
+          "name": "cell-spacer",
+          "docs": "Spacer cells that absorb remaining space when all columns have fixed widths."
+        },
+        {
           "name": "checkbox",
           "docs": "A generic checkbox part used within various cells for selection purposes."
         },
@@ -37195,8 +37449,16 @@
           "docs": "A specific checkbox located in the header for selecting or deselecting all rows."
         },
         {
+          "name": "column",
+          "docs": "Individual column elements in the colgroup."
+        },
+        {
           "name": "header",
-          "docs": "The top part of the table that contains column headers and controls like sorting icons and checkboxes."
+          "docs": "The thead element containing column headers."
+        },
+        {
+          "name": "resize-handle",
+          "docs": "The draggable handle for resizing columns."
         },
         {
           "name": "row",
@@ -37221,6 +37483,10 @@
         {
           "name": "row-odd",
           "docs": "Odd-numbered rows."
+        },
+        {
+          "name": "row-selected",
+          "docs": "Rows that are currently selected."
         },
         {
           "name": "table",
@@ -49152,7 +49418,7 @@
       "path": "src/components/dwc-tabbed-pane/dwc-tabbed-pane.types.ts"
     },
     "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition": {
-      "declaration": "{\n  /**\n   * The alignment of the column. If not specified,\n   * the column will be left aligned.\n   */\n  align?: ColumnAlignment;\n\n  /**\n   * A cell renderer for the column's cells.\n   */\n  cellRenderer?: DwcExpression;\n\n  /** If true, the column is hidden. */\n  hidden?: boolean;\n\n  /**\n   * The field of the row object to get the cell's\n   * data from. Supports deep references via dot\n   * notation, i.e 'address.firstLine'.\n   */\n  id: string;\n\n  /**\n   * The name to render in the column header. If not\n   * specified, the field name will be used.\n   */\n  label?: string;\n\n  /**\n   * The pin direction of the column. If not specified, the column will not be pinned.\n   */\n  pinned?: ColumnPinDirection;\n\n  /** If true, the column can be sorted. */\n  sortable?: boolean;\n\n  /**\n   * The sort order of the column. If not specified,\n   * the column will not be sorted.\n   */\n  sort?: SortDirection;\n\n  /**\n   * If sorting more than one column by default, specifies order\n   * in which the sorting should be applied.\n   */\n  sortIndex?: number;\n\n  /**\n   * If true, the column is not navigable (i.e., cannot\n   * be tabbed into).\n   */\n  suppressNavigable?: boolean;\n\n  /**\n   * The type of the column. If not specified, the type will be text.\n   */\n  type?: ColumnType;\n\n  /**\n   * Function or expression to get the value from your\n   * data for display.\n   */\n  valueGetter?: DwcExpression;\n\n  /**\n   * The width of the column in pixels. If not\n   * specified, the column will be sized to fit\n   * the content.\n   */\n  minWidth?: number;\n\n  /**\n   * A cell renderer for the column's header.\n   */\n  headerRenderer?: DwcExpression;\n}",
+      "declaration": "{\n  /**\n   * The alignment of the column. If not specified,\n   * the column will be left aligned.\n   */\n  align?: ColumnAlignment;\n\n  /**\n   * A cell renderer for the column's cells.\n   */\n  cellRenderer?: DwcExpression;\n\n  /** If true, the column is hidden. */\n  hidden?: boolean;\n\n  /**\n   * The field of the row object to get the cell's\n   * data from. Supports deep references via dot\n   * notation, i.e 'address.firstLine'.\n   */\n  id: string;\n\n  /**\n   * The name to render in the column header. If not\n   * specified, the field name will be used.\n   */\n  label?: string;\n\n  /**\n   * The pin direction of the column. If not specified, the column will not be pinned.\n   */\n  pinned?: ColumnPinDirection;\n\n  /** If true, the column can be sorted. */\n  sortable?: boolean;\n\n  /**\n   * The sort order of the column. If not specified,\n   * the column will not be sorted.\n   */\n  sort?: SortDirection;\n\n  /**\n   * If sorting more than one column by default, specifies order\n   * in which the sorting should be applied.\n   */\n  sortIndex?: number;\n\n  /**\n   * If true, the column is not navigable (i.e., cannot\n   * be tabbed into).\n   */\n  suppressNavigable?: boolean;\n\n  /**\n   * The type of the column. If not specified, the type will be text.\n   */\n  type?: ColumnType;\n\n  /**\n   * Function or expression to get the value from your\n   * data for display.\n   */\n  valueGetter?: DwcExpression;\n\n  /**\n   * The minimum width of the column in pixels. If not\n   * specified, the column will be sized to fit\n   * the content.\n   */\n  minWidth?: number;\n\n  /**\n   * The exact width of the column in pixels. When set,\n   * the column will have a fixed width and won't grow or shrink.\n   * Cannot be used with flex.\n   */\n  width?: number;\n\n  /**\n   * The maximum width of the column in pixels. Only applies\n   * when the column is flexible (no fixed width).\n   */\n  maxWidth?: number;\n\n  /**\n   * The flex grow factor for the column. Columns with flex will share\n   * the remaining space proportionally based on their flex values.\n   * Cannot be used with width. Works with minWidth and maxWidth.\n   * Use 0 or omit to disable flex behavior. Negative values are not allowed.\n   */\n  flex?: number;\n\n  /**\n   * A cell renderer for the column's header.\n   */\n  headerRenderer?: DwcExpression;\n\n  /**\n   * If true, the column can be resized by the user.\n   * Default is false.\n   */\n  resizable?: boolean;\n\n  /**\n   * Whether the column can be moved to reorder.\n   * @default true\n   */\n  movable?: boolean;\n}",
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
@@ -49168,6 +49434,21 @@
     },
     "src/components/dwc-table/dwc-table.types.ts::TableSortState": {
       "declaration": "interface Array<T> {\n    /**\n     * Gets or sets the length of the array. This is a number one higher than the highest index in the array.\n     */\n    length: number;\n    /**\n     * Returns a string representation of an array.\n     */\n    toString(): string;\n    /**\n     * Returns a string representation of an array. The elements are converted to string using their toLocaleString methods.\n     */\n    toLocaleString(): string;\n    /**\n     * Removes the last element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    pop(): T | undefined;\n    /**\n     * Appends new elements to the end of an array, and returns the new length of the array.\n     * @param items New elements to add to the array.\n     */\n    push(...items: T[]): number;\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: ConcatArray<T>[]): T[];\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: (T | ConcatArray<T>)[]): T[];\n    /**\n     * Adds all the elements of an array into a string, separated by the specified separator string.\n     * @param separator A string used to separate one element of the array from the next in the resulting string. If omitted, the array elements are separated with a comma.\n     */\n    join(separator?: string): string;\n    /**\n     * Reverses the elements in an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     */\n    reverse(): T[];\n    /**\n     * Removes the first element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    shift(): T | undefined;\n    /**\n     * Returns a copy of a section of an array.\n     * For both start and end, a negative index can be used to indicate an offset from the end of the array.\n     * For example, -2 refers to the second to last element of the array.\n     * @param start The beginning index of the specified portion of the array.\n     * If start is undefined, then the slice begins at index 0.\n     * @param end The end index of the specified portion of the array. This is exclusive of the element at the index 'end'.\n     * If end is undefined, then the slice extends to the end of the array.\n     */\n    slice(start?: number, end?: number): T[];\n    /**\n     * Sorts an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     * @param compareFn Function used to determine the order of the elements. It is expected to return\n     * a negative value if the first argument is less than the second argument, zero if they're equal, and a positive\n     * value otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n     * ```ts\n     * [11,2,22,1].sort((a, b) => a - b)\n     * ```\n     */\n    sort(compareFn?: (a: T, b: T) => number): this;\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount?: number): T[];\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @param items Elements to insert into the array in place of the deleted elements.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount: number, ...items: T[]): T[];\n    /**\n     * Inserts new elements at the start of an array, and returns the new length of the array.\n     * @param items Elements to insert at the start of the array.\n     */\n    unshift(...items: T[]): number;\n    /**\n     * Returns the index of the first occurrence of a value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n     */\n    indexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin searching backward. If fromIndex is omitted, the search starts at the last index in the array.\n     */\n    lastIndexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): this is S[];\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Determines whether the specified callback function returns true for any element of an array.\n     * @param predicate A function that accepts up to three arguments. The some method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value true, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    some(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Performs the specified action for each element in an array.\n     * @param callbackfn  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.\n     * @param thisArg  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;\n    /**\n     * Calls a defined callback function on each element of an array, and returns an array that contains the results.\n     * @param callbackfn A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any): U[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): S[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): T[];\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n\n    [n: number]: T;\n}",
+      "docstring": "",
+      "path": "src/components/dwc-table/dwc-table.types.ts"
+    },
+    "src/components/dwc-table/dwc-table.types.ts::StateChangedDetail": {
+      "declaration": "{\n  columns: ColumnState[];\n  source: StateChangeSource;\n}",
+      "docstring": "",
+      "path": "src/components/dwc-table/dwc-table.types.ts"
+    },
+    "src/components/dwc-table/dwc-table.types.ts::ColumnResizedDetail": {
+      "declaration": "export type ColumnResizedDetail = ColumnEventDetailBase & {\n  /** The new width of the column */\n  newWidth: number;\n\n  /** The previous width of the column */\n  oldWidth: number;\n};",
+      "docstring": "",
+      "path": "src/components/dwc-table/dwc-table.types.ts"
+    },
+    "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail": {
+      "declaration": "export type ColumnMovedDetail = ColumnEventDetailBase & {\n  /** The previous index of the column before the move */\n  oldIndex: number;\n\n  /** The new index of the column after the move */\n  newIndex: number;\n};",
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
