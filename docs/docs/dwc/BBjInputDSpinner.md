@@ -5,7 +5,7 @@
 
 The `BBjInputDSpinner<dwc-datefield-spinner>` provides a spinner on a `BBjInputD`.
 
-?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\<dwc-datefield\>](dwc/dwc-datefield) supported attributes and properties.
+?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\<dwc-datefield\>](dwc/BBjInputD) supported attributes and properties.
 
 
 ## Properties 

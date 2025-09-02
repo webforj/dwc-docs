@@ -1799,7 +1799,7 @@
       "name": "dwc-datefield-spinner",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjInputDSpinner<dwc-datefield-spinner>` provides a spinner on a `BBjInputD`.\n\n?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\\<dwc-datefield\\>](dwc/dwc-datefield) supported attributes and properties."
+        "value": "The `BBjInputDSpinner<dwc-datefield-spinner>` provides a spinner on a `BBjInputD`.\n\n?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\\<dwc-datefield\\>](dwc/BBjInputD) supported attributes and properties."
       },
       "attributes": [
         {
@@ -4129,7 +4129,7 @@
       "name": "dwc-numberfield-spinner",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjInputNSpinner<dwc-numberfield-spinner>` provides a spinner control on a standard `BBjInputN`.\n\n?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\\<dwc-numberfield\\>](dwc/dwc-numberfield) supported attributes and properties."
+        "value": "The `BBjInputNSpinner<dwc-numberfield-spinner>` provides a spinner control on a standard `BBjInputN`.\n\n?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\\<dwc-numberfield\\>](dwc/BBjInputN) supported attributes and properties."
       },
       "attributes": [
         {
@@ -5857,7 +5857,7 @@
       "name": "dwc-textfield-spinner",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjInputESpinner<dwc-textfield-spinner>` provides a spinner on a `BBjInputE.`\n\n?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\\<dwc-textfield\\>](dwc/dwc-textfield) supported attributes and properties."
+        "value": "The `BBjInputESpinner<dwc-textfield-spinner>` provides a spinner on a `BBjInputE.`\n\n?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\\<dwc-textfield\\>](dwc/BBjInputE) supported attributes and properties."
       },
       "attributes": [
         {
@@ -6172,7 +6172,7 @@
       "name": "dwc-timefield-spinner",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjInputTSpinner<dwc-timefield-spinner>` provides a spinner on a `BBjInputT<dwc-timefield>`.\n\n?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\\<dwc-timefield\\>](dwc/dwc-timefield) supported attributes and properties."
+        "value": "The `BBjInputTSpinner<dwc-timefield-spinner>` provides a spinner on a `BBjInputT<dwc-timefield>`.\n\n?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\\<dwc-timefield\\>](dwc/BBjInputT) supported attributes and properties."
       },
       "attributes": [
         {

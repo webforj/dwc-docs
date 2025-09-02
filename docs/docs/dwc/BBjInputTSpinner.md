@@ -5,7 +5,7 @@
 
 The `BBjInputTSpinner<dwc-timefield-spinner>` provides a spinner on a `BBjInputT<dwc-timefield>`.
 
-?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\<dwc-timefield\>](dwc/dwc-timefield) supported attributes and properties.
+?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\<dwc-timefield\>](dwc/BBjInputT) supported attributes and properties.
 
 
 ## Properties 

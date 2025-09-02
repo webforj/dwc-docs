@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-04T06:59:37",
+  "timestamp": "2025-09-02T11:19:23",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.36.2",
@@ -11980,7 +11980,7 @@
       "filePath": "src/components/dwc-datefield-spinner/dwc-datefield-spinner.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-datefield-spinner",
-      "docs": "The `BBjInputDSpinner<dwc-datefield-spinner>` provides a spinner on a `BBjInputD`.\n\n?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\\<dwc-datefield\\>](dwc/dwc-datefield) supported attributes and properties.",
+      "docs": "The `BBjInputDSpinner<dwc-datefield-spinner>` provides a spinner on a `BBjInputD`.\n\n?> **Note:** In BBj. The `BBjInputDSpinner<dwc-datefield-spinner>` accepts all the [BBjInputD\\<dwc-datefield\\>](dwc/BBjInputD) supported attributes and properties.",
       "docsTags": [
         {
           "name": "slot",
@@ -30766,7 +30766,7 @@
       "filePath": "src/components/dwc-numberfield-spinner/dwc-numberfield-spinner.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-numberfield-spinner",
-      "docs": "The `BBjInputNSpinner<dwc-numberfield-spinner>` provides a spinner control on a standard `BBjInputN`.\n\n?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\\<dwc-numberfield\\>](dwc/dwc-numberfield) supported attributes and properties.",
+      "docs": "The `BBjInputNSpinner<dwc-numberfield-spinner>` provides a spinner control on a standard `BBjInputN`.\n\n?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\\<dwc-numberfield\\>](dwc/BBjInputN) supported attributes and properties.",
       "docsTags": [
         {
           "name": "slot",
@@ -39810,11 +39810,6 @@
                 "location": "import",
                 "path": "./dwc-table.types",
                 "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition"
-              },
-              "ColumnMovedDetail": {
-                "location": "import",
-                "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail"
               }
             },
             "return": "Promise<void>"
@@ -44897,7 +44892,7 @@
       "filePath": "src/components/dwc-textfield-spinner/dwc-textfield-spinner.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-textfield-spinner",
-      "docs": "The `BBjInputESpinner<dwc-textfield-spinner>` provides a spinner on a `BBjInputE.`\n\n?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\\<dwc-textfield\\>](dwc/dwc-textfield) supported attributes and properties.",
+      "docs": "The `BBjInputESpinner<dwc-textfield-spinner>` provides a spinner on a `BBjInputE.`\n\n?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\\<dwc-textfield\\>](dwc/BBjInputE) supported attributes and properties.",
       "docsTags": [
         {
           "name": "slot",
@@ -47495,7 +47490,7 @@
       "filePath": "src/components/dwc-timefield-spinner/dwc-timefield-spinner.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-timefield-spinner",
-      "docs": "The `BBjInputTSpinner<dwc-timefield-spinner>` provides a spinner on a `BBjInputT<dwc-timefield>`.\n\n?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\\<dwc-timefield\\>](dwc/dwc-timefield) supported attributes and properties.",
+      "docs": "The `BBjInputTSpinner<dwc-timefield-spinner>` provides a spinner on a `BBjInputT<dwc-timefield>`.\n\n?> **Note:** In BBj. The `BBjInputTSpinner<dwc-timefield-spinner>` accepts all the [BBjInputT\\<dwc-timefield\\>](dwc/BBjInputT) supported attributes and properties.",
       "docsTags": [
         {
           "name": "slot",

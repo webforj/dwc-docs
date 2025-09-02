@@ -3,7 +3,7 @@
 
 The `BBjInputNSpinner<dwc-numberfield-spinner>` provides a spinner control on a standard `BBjInputN`.
 
-?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\<dwc-numberfield\>](dwc/dwc-numberfield) supported attributes and properties.
+?> **Note:** In BBj. The `BBjInputNSpinner<dwc-numberfield-spinner>` accepts all the [BBjInputN\<dwc-numberfield\>](dwc/BBjInputN) supported attributes and properties.
 
 
 ## Properties 

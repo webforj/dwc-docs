@@ -5,7 +5,7 @@
 
 The `BBjInputESpinner<dwc-textfield-spinner>` provides a spinner on a `BBjInputE.`
 
-?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\<dwc-textfield\>](dwc/dwc-textfield) supported attributes and properties.
+?> **Note:** In BBj. The `BBjInputESpinner<dwc-textfield-spinner>` accepts all the [BBjInputE\<dwc-textfield\>](dwc/BBjInputE) supported attributes and properties.
 
 
 ## Properties 
