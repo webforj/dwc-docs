@@ -6708,6 +6708,23 @@
           "description": ""
         }
       ]
+    },
+    {
+      "name": "dwc-webswing-connector",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "options",
+          "description": "Configuration options for the Webswing instance initialization.\nThese options are passed directly to the Webswing API bootstrap method."
+        },
+        {
+          "name": "url",
+          "description": "The URL endpoint of the Webswing server to connect to."
+        }
+      ]
     }
   ]
 }

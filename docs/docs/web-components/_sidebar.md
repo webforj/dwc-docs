@@ -65,3 +65,4 @@
   - [dwc-tree](web-components/dwc-tree)
   - [dwc-tree-node](web-components/dwc-tree-node)
   - [dwc-upload](web-components/dwc-upload)
+  - [dwc-webswing-connector](web-components/dwc-webswing-connector)

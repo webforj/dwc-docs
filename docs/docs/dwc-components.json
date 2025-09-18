@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-17T08:54:55",
+  "timestamp": "2025-09-17T11:18:39",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.37.0",
@@ -52999,6 +52999,488 @@
           "dwc-icon"
         ]
       }
+    },
+    {
+      "filePath": "src/components/dwc-webswing-connector/dwc-webswing-connector.tsx",
+      "encapsulation": "none",
+      "tag": "dwc-webswing-connector",
+      "docs": "",
+      "docsTags": [
+        {
+          "name": "bbjIgnore",
+          "text": "The `<dwc-webswing-connector>` component provides integration with Webswing server,\nenabling remote Swing application rendering in the browser."
+        },
+        {
+          "name": "part",
+          "text": "root - The root container element for the Webswing instance"
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "options",
+          "type": "BootstrapOptions & { connectionUrl?: string; undockConnectionUrl?: string; securityToken?: string; realm?: string; args?: string; clientId?: string; linkedViewId?: string; linkedViewName?: string; mirrorConnectionUrl?: string; mirrorMode?: boolean; testMode?: boolean; recording?: boolean; recordingFile?: File | Blob; debugPort?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; onDisconnected?: () => void; onShutdown?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; filesListener?: { directTransferDownloadProgressAll(downloadsCount: number, loadedAll: number, totalAll: number): void; directTransferDownloadAllDone(): void; directTransferDownloadDone(fileName: string): void; directTransferDownloadFailed(reason: string, fileName: string): void; fileUploadProgressAll(loadedAll: number, totalAll: number): void; fileUploadDone(fileName: string): void; fileUploadFailed(isAbort: boolean, fileNames: string[], responseText?: string): void; handleError(msg: string): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array | Promise<string | void | Uint8Array>; }; }",
+          "complexType": {
+            "original": "WebswingOptions | null",
+            "resolved": "BootstrapOptions & { connectionUrl?: string; undockConnectionUrl?: string; securityToken?: string; realm?: string; args?: string; clientId?: string; linkedViewId?: string; linkedViewName?: string; mirrorConnectionUrl?: string; mirrorMode?: boolean; testMode?: boolean; recording?: boolean; recordingFile?: File | Blob; debugPort?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; onDisconnected?: () => void; onShutdown?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; filesListener?: { directTransferDownloadProgressAll(downloadsCount: number, loadedAll: number, totalAll: number): void; directTransferDownloadAllDone(): void; directTransferDownloadDone(fileName: string): void; directTransferDownloadFailed(reason: string, fileName: string): void; fileUploadProgressAll(loadedAll: number, totalAll: number): void; fileUploadDone(fileName: string): void; fileUploadFailed(isAbort: boolean, fileNames: string[], responseText?: string): void; handleError(msg: string): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array | Promise<string | void | Uint8Array>; }; }",
+            "references": {
+              "WebswingOptions": {
+                "location": "import",
+                "path": "webswing-api/build/types",
+                "id": "node_modules::WebswingOptions"
+              }
+            }
+          },
+          "mutable": false,
+          "attr": "options",
+          "reflectToAttr": false,
+          "docs": "Configuration options for the Webswing instance initialization.\nThese options are passed directly to the Webswing API bootstrap method.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "null"
+            }
+          ],
+          "default": "null",
+          "values": [
+            {
+              "type": "BootstrapOptions & { connectionUrl?: string; undockConnectionUrl?: string; securityToken?: string; realm?: string; args?: string; clientId?: string; linkedViewId?: string; linkedViewName?: string; mirrorConnectionUrl?: string; mirrorMode?: boolean; testMode?: boolean; recording?: boolean; recordingFile?: File"
+            },
+            {
+              "type": "Blob; debugPort?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; onDisconnected?: () => void; onShutdown?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; filesListener?: { directTransferDownloadProgressAll(downloadsCount: number, loadedAll: number, totalAll: number): void; directTransferDownloadAllDone(): void; directTransferDownloadDone(fileName: string): void; directTransferDownloadFailed(reason: string, fileName: string): void; fileUploadProgressAll(loadedAll: number, totalAll: number): void; fileUploadDone(fileName: string): void; fileUploadFailed(isAbort: boolean, fileNames: string[], responseText?: string): void; handleError(msg: string): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void"
+            },
+            {
+              "type": "String"
+            },
+            {
+              "type": "Uint8Array"
+            },
+            {
+              "type": "Promise<string"
+            },
+            {
+              "type": "void"
+            },
+            {
+              "type": "Uint8Array>; }; }"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "complexType": {
+            "original": "string | null",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "url",
+          "reflectToAttr": false,
+          "docs": "The URL endpoint of the Webswing server to connect to.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "null"
+            }
+          ],
+          "default": "null",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "destroy",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the destroy command has been sent"
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "destroy() => Promise<void>",
+          "parameters": [],
+          "docs": "Destroys this Webswing instance permanently.\n\nAfter calling this method, the instance cannot be started again.\nA new component instance must be created to establish a new connection.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "Resolves when the destroy command has been sent"
+            },
+            {
+              "name": "throws",
+              "text": "{Error} Throws if no instance is initialized"
+            }
+          ]
+        },
+        {
+          "name": "getInstance",
+          "returns": {
+            "type": "Promise<IWebswingInstance>",
+            "docs": "The Webswing instance or null if not initialized"
+          },
+          "complexType": {
+            "signature": "() => Promise<IWebswingInstance | null>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              },
+              "IWebswingInstance": {
+                "location": "import",
+                "path": "webswing-api/build/types",
+                "id": "node_modules::IWebswingInstance"
+              }
+            },
+            "return": "Promise<IWebswingInstance>"
+          },
+          "signature": "getInstance() => Promise<IWebswingInstance | null>",
+          "parameters": [],
+          "docs": "Returns the raw Webswing instance object.\n\nThis provides direct access to the underlying Webswing API instance\nfor advanced operations not covered by the component's methods.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "The Webswing instance or null if not initialized"
+            }
+          ]
+        },
+        {
+          "name": "getInstanceId",
+          "returns": {
+            "type": "Promise<string>",
+            "docs": "The instance ID or undefined"
+          },
+          "complexType": {
+            "signature": "() => Promise<string | undefined>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<string>"
+          },
+          "signature": "getInstanceId() => Promise<string | undefined>",
+          "parameters": [],
+          "docs": "Returns the current Webswing instance ID.\n\nThe instance ID uniquely identifies this connection to the Webswing server.\nReturns undefined if no instance is initialized or connected.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "The instance ID or undefined"
+            }
+          ]
+        },
+        {
+          "name": "logout",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the logout command has been sent"
+          },
+          "complexType": {
+            "signature": "(tabLogout?: boolean, closeOnSuccess?: boolean) => Promise<void>",
+            "parameters": [
+              {
+                "name": "tabLogout",
+                "type": "boolean",
+                "docs": "- If true, logs out only from the current tab/window"
+              },
+              {
+                "name": "closeOnSuccess",
+                "type": "boolean",
+                "docs": "- If true, closes the window/tab after successful logout"
+              }
+            ],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "logout(tabLogout?: boolean, closeOnSuccess?: boolean) => Promise<void>",
+          "parameters": [
+            {
+              "name": "tabLogout",
+              "type": "boolean",
+              "docs": "- If true, logs out only from the current tab/window"
+            },
+            {
+              "name": "closeOnSuccess",
+              "type": "boolean",
+              "docs": "- If true, closes the window/tab after successful logout"
+            }
+          ],
+          "docs": "Logs out the currently logged in user from the Webswing session.",
+          "docsTags": [
+            {
+              "name": "param",
+              "text": "tabLogout - If true, logs out only from the current tab/window"
+            },
+            {
+              "name": "param",
+              "text": "closeOnSuccess - If true, closes the window/tab after successful logout"
+            },
+            {
+              "name": "returns",
+              "text": "Resolves when the logout command has been sent"
+            },
+            {
+              "name": "throws",
+              "text": "{Error} Throws if no instance is initialized"
+            }
+          ]
+        },
+        {
+          "name": "performAction",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the action has been sent"
+          },
+          "complexType": {
+            "signature": "(actionName: string, data: string | undefined, binaryDataBase64: string | null) => Promise<void>",
+            "parameters": [
+              {
+                "name": "actionName",
+                "type": "string",
+                "docs": "- The identifier of the action to perform"
+              },
+              {
+                "name": "data",
+                "type": "string",
+                "docs": "- Optional string data payload to send with the action"
+              },
+              {
+                "name": "binaryDataBase64",
+                "type": "string",
+                "docs": "- Optional binary data encoded as Base64 string"
+              }
+            ],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "performAction(actionName: string, data: string | undefined, binaryDataBase64: string | null) => Promise<void>",
+          "parameters": [
+            {
+              "name": "actionName",
+              "type": "string",
+              "docs": "- The identifier of the action to perform"
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "docs": "- Optional string data payload to send with the action"
+            },
+            {
+              "name": "binaryDataBase64",
+              "type": "string",
+              "docs": "- Optional binary data encoded as Base64 string"
+            }
+          ],
+          "docs": "Triggers a custom action on the server-side Webswing application.",
+          "docsTags": [
+            {
+              "name": "param",
+              "text": "actionName - The identifier of the action to perform"
+            },
+            {
+              "name": "param",
+              "text": "data - Optional string data payload to send with the action"
+            },
+            {
+              "name": "param",
+              "text": "binaryDataBase64 - Optional binary data encoded as Base64 string"
+            },
+            {
+              "name": "returns",
+              "text": "Resolves when the action has been sent"
+            }
+          ]
+        },
+        {
+          "name": "repaint",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the repaint request has been sent"
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "repaint() => Promise<void>",
+          "parameters": [],
+          "docs": "Requests a repaint of the Webswing application.\n\nNotifies the server that the application needs to refresh its display.\nThis can be useful after window resizing or when display issues occur.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "Resolves when the repaint request has been sent"
+            },
+            {
+              "name": "throws",
+              "text": "{Error} Throws if no instance is initialized"
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the start command has been sent"
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "start() => Promise<void>",
+          "parameters": [],
+          "docs": "Initiates the connection to Webswing server and starts the Swing application.\n\nThis method should be called when `autoStart` is set to false in the options.\nIf `autoStart` is true (default), the Webswing instance starts automatically\nand this method should not be called.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "Resolves when the start command has been sent"
+            },
+            {
+              "name": "throws",
+              "text": "{Error} Throws if the instance is already started or not initialized"
+            }
+          ]
+        },
+        {
+          "name": "stop",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": "Resolves when the disconnect command has been sent"
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "stop() => Promise<void>",
+          "parameters": [],
+          "docs": "Disconnects the current Webswing session but leaves the Swing application running on the server\nallowing to reconnect to the same application instance later.",
+          "docsTags": [
+            {
+              "name": "returns",
+              "text": "Resolves when the disconnect command has been sent"
+            },
+            {
+              "name": "throws",
+              "text": "{Error} Throws if no instance is initialized"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "event": "dwc-webswing-action",
+          "detail": "{ actionName: string; data: string; binaryDataBase64: string; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "{\n    actionName: string;\n    data: string | null;\n    binaryDataBase64: string | null;\n  }",
+            "resolved": "{ actionName: string; data: string; binaryDataBase64: string; }",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when a custom action is triggered from the Webswing application.\n\nThe event detail contains the action name, optional data payload, and\noptional binary data encoded as Base64.",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-webswing-initialized",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when the Webswing instance has been successfully initialized\nand is ready to receive commands.\n\nThe instance is bootstrapped but may not be started yet if `autoStart` is false.",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-webswing-started",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when the Webswing application has been started and is\nactively running.\n\nThis occurs after calling the `start()` method or if `autoStart` was set to true in options.",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "root",
+          "docs": "The root container element for the Webswing instance"
+        },
+        {
+          "name": "webswing-root",
+          "docs": ""
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
     }
   ],
   "typeLibrary": {
