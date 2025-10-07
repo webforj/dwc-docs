@@ -15,9 +15,9 @@ Almost every property has a corresponding attribute, which is useful for setting
 Some properties reflect their values to attributes and vice versa. This means that if you set a property, the corresponding attribute is set automatically, and if you set an attribute, the corresponding property is set automatically.
 <div style="overflow-x: auto;">
 
-| Name            | Attribute       | Description                                                          | Reflects | Type                             | Default                                                                                                                                                                                    |
-| --------------- | --------------- | -------------------------------------------------------------------- | :------: | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ``breakpoints`` | ``breakpoints`` | Breakpoints for the number of columns depending on the layout width. | &#x2718; | ``DwcColumnsLayoutBreakpoint[]`` | ``[&nbsp;    { minWidth: 0, columns: 1, name: 'default' },&nbsp;    { minWidth: '20em', columns: 1, name: 'small' },&nbsp;    { minWidth: '40em', columns: 2, name: 'medium' },&nbsp;  ]`` |
+| Name            | Attribute | Description                                                          | Reflects | Type                             | Default                                                                                                                                                                                    |
+| --------------- | --------- | -------------------------------------------------------------------- | :------: | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ``breakpoints`` |           | Breakpoints for the number of columns depending on the layout width. | &#x2718; | ``DwcColumnsLayoutBreakpoint[]`` | ``[&nbsp;    { minWidth: 0, columns: 1, name: 'default' },&nbsp;    { minWidth: '20em', columns: 1, name: 'small' },&nbsp;    { minWidth: '40em', columns: 2, name: 'medium' },&nbsp;  ]`` |
 
 
 </div>

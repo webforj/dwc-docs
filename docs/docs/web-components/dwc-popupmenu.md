@@ -14,19 +14,19 @@ Almost every property has a corresponding attribute, which is useful for setting
 Some properties reflect their values to attributes and vice versa. This means that if you set a property, the corresponding attribute is set automatically, and if you set an attribute, the corresponding property is set automatically.
 <div style="overflow-x: auto;">
 
-| Name               | Attribute           | Description                                                      | Reflects | Type                                       | Default   |
-| ------------------ | ------------------- | ---------------------------------------------------------------- | :------: | ------------------------------------------ | --------- |
-| ``contextElement`` | ``context-element`` |                                                                  | &#x2718; | ``HTMLElement``                            |           |
-| ``disabled``       | ``disabled``        | Specifies that the control should be disabled.                   | &#x2714; | ``boolean``                                |           |
-| ``distance``       | ``distance``        | The distance in pixels to offset the popup away from its target. | &#x2718; | ``number``                                 | ``0``     |
-| ``label``          | ``label``           | Specifies a short label for the control.                         | &#x2718; | ``string``                                 | ``''``    |
-| ``maxRowCount``    | ``max-row-count``   | Sets the maximum number of rows that the popup will display.     | &#x2718; | ``number``                                 |           |
-| ``opened``         | ``opened``          | When true, the popup is opened; otherwise it is closed.          | &#x2714; | ``boolean``                                | ``false`` |
-| ``placement``      | ``placement``       | Describes the popup's menu placement.                            | &#x2718; | ``"bottom" \| "left" \| "right" \| "top"`` |           |
-| ``skidding``       | ``skidding``        | The distance in pixels to offset the popup along its target.     | &#x2718; | ``number``                                 | ``0``     |
-| ``type``           | ``type``            | Gives the popup's menu a custom type attribute.                  | &#x2714; | ``string``                                 | ``''``    |
-| ``x``              | ``x``               | The popup X position                                             | &#x2718; | ``number``                                 | ``0``     |
-| ``y``              | ``y``               | The popup Y position                                             | &#x2718; | ``number``                                 | ``0``     |
+| Name               | Attribute         | Description                                                      | Reflects | Type                                       | Default   |
+| ------------------ | ----------------- | ---------------------------------------------------------------- | :------: | ------------------------------------------ | --------- |
+| ``contextElement`` |                   |                                                                  | &#x2718; | ``HTMLElement``                            |           |
+| ``disabled``       | ``disabled``      | Specifies that the control should be disabled.                   | &#x2714; | ``boolean``                                |           |
+| ``distance``       | ``distance``      | The distance in pixels to offset the popup away from its target. | &#x2718; | ``number``                                 | ``0``     |
+| ``label``          | ``label``         | Specifies a short label for the control.                         | &#x2718; | ``string``                                 | ``''``    |
+| ``maxRowCount``    | ``max-row-count`` | Sets the maximum number of rows that the popup will display.     | &#x2718; | ``number``                                 |           |
+| ``opened``         | ``opened``        | When true, the popup is opened; otherwise it is closed.          | &#x2714; | ``boolean``                                | ``false`` |
+| ``placement``      | ``placement``     | Describes the popup's menu placement.                            | &#x2718; | ``"bottom" \| "left" \| "right" \| "top"`` |           |
+| ``skidding``       | ``skidding``      | The distance in pixels to offset the popup along its target.     | &#x2718; | ``number``                                 | ``0``     |
+| ``type``           | ``type``          | Gives the popup's menu a custom type attribute.                  | &#x2714; | ``string``                                 | ``''``    |
+| ``x``              | ``x``             | The popup X position                                             | &#x2718; | ``number``                                 | ``0``     |
+| ``y``              | ``y``             | The popup Y position                                             | &#x2718; | ``number``                                 | ``0``     |
 
 
 </div>

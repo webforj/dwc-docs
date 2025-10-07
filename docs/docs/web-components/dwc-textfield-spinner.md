@@ -18,7 +18,7 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 | Name          | Attribute      | Description                                                                       | Reflects | Type         | Default  |
 | ------------- | -------------- | --------------------------------------------------------------------------------- | :------: | ------------ | -------- |
-| ``list``      | ``list``       | The list of values to display when spinning.                                      | &#x2718; | ``string[]`` | ``[]``   |
+| ``list``      |                | The list of values to display when spinning.                                      | &#x2718; | ``string[]`` | ``[]``   |
 | ``listIndex`` | ``list-index`` | Sets the currently displayed value to the one at the specified index in the list. | &#x2718; | ``number``   | ``0``    |
 | ``wrap``      | ``wrap``       | When true, the user will abe able to loop through the list of available options.  | &#x2718; | ``boolean``  | ``true`` |
 
