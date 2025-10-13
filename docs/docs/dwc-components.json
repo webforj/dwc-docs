@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-07T11:15:46",
+  "timestamp": "2025-10-13T12:55:37",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -24646,6 +24646,29 @@
       "usage": {},
       "props": [
         {
+          "name": "action",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "action",
+          "reflectToAttr": false,
+          "docs": "The form action URL. When set, the form will be submitted via POST to this URL if the login event is not prevented.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "autoClose",
           "type": "boolean",
           "complexType": {
@@ -25037,12 +25060,17 @@
         },
         {
           "event": "dwc-login-submit",
-          "detail": "{ username: string; password: string; rememberme?: boolean; }",
+          "detail": "{ [x: string]: any; }",
           "bubbles": true,
           "complexType": {
-            "original": "{\n    username: string;\n    password: string;\n    rememberme?: boolean;\n  }",
-            "resolved": "{ username: string; password: string; rememberme?: boolean; }",
-            "references": {}
+            "original": "Record<string, any>",
+            "resolved": "{ [x: string]: any; }",
+            "references": {
+              "Record": {
+                "location": "global",
+                "id": "global::Record"
+              }
+            }
           },
           "cancelable": true,
           "composed": true,

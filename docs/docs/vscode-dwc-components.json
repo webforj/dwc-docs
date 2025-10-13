@@ -3339,6 +3339,10 @@
       },
       "attributes": [
         {
+          "name": "action",
+          "description": "The form action URL. When set, the form will be submitted via POST to this URL if the login event is not prevented."
+        },
+        {
           "name": "auto-close",
           "description": "When true, the dialog will be closed after the form is submitted."
         },
