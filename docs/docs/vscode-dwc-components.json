@@ -1671,6 +1671,10 @@
           "description": "Indicates that the component can receive focus. A negative value indicates that the component is not reachable via sequential keyboard navigation."
         },
         {
+          "name": "textual-date-parsing",
+          "description": "When true, enables parsing of textual day and month names (e.g., \"Monday\", \"September\")."
+        },
+        {
           "name": "toggle-calendar-on-enter",
           "description": "When true, pressing enter will toggle the calendar."
         },
