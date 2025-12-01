@@ -35,6 +35,7 @@
   - [dwc-listbox](web-components/dwc-listbox)
   - [dwc-loading](web-components/dwc-loading)
   - [dwc-login](web-components/dwc-login)
+  - [dwc-markdown-viewer](web-components/dwc-markdown-viewer)
   - [dwc-menu](web-components/dwc-menu)
   - [dwc-menubar](web-components/dwc-menubar)
   - [dwc-menuitem](web-components/dwc-menuitem)

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-11T12:44:49",
+  "timestamp": "2025-12-01T10:30:50",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -25262,6 +25262,209 @@
           "dwc-icon"
         ]
       }
+    },
+    {
+      "filePath": "src/components/dwc-markdown-viewer/dwc-markdown-viewer.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-markdown-viewer",
+      "docs": "The `dwc-markdown-viewer` component renders markdown content with streaming support.\n\nIt supports standard markdown syntax including headers, lists, code blocks, links, images,\nand more. The component also supports emoji rendering and syntax highlighting for code blocks\nwhen Prism.js is available.\n\nThe component supports progressive rendering for AI chat interfaces where the server streams\nresponses in chunks. Content is rendered into the light DOM to allow external styling.",
+      "docsTags": [
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "autoScroll",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "auto-scroll",
+          "reflectToAttr": false,
+          "docs": "When true, the component will automatically scroll to show the latest content as it is added.\nThis is useful for streaming content or chat-like interfaces. The auto-scroll behavior\nis paused when the user manually scrolls up, and resumes when they scroll back to the bottom.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "content",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "content",
+          "reflectToAttr": false,
+          "docs": "The markdown content to render.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "progressiveRender",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "progressive-render",
+          "reflectToAttr": false,
+          "docs": "When true, content is rendered progressively character-by-character rather than all at once.\nThis is useful for AI chat interfaces where the server streams responses in chunks.\nThe client-side render speed can be adjusted with `renderSpeed` to match or exceed\nthe server's streaming rate.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "renderSpeed",
+          "type": "number",
+          "complexType": {
+            "original": "number",
+            "resolved": "number",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "render-speed",
+          "reflectToAttr": false,
+          "docs": "Controls how many characters are rendered per frame when `progressiveRender` is enabled.\nHigher values result in faster rendering. Adjust this based on the server's streaming speed.\nAt 60fps: 4 = 240 chars/sec, 6 = 360 chars/sec, 10 = 600 chars/sec.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "4"
+            }
+          ],
+          "default": "4",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "flush",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "flush() => Promise<void>",
+          "parameters": [],
+          "docs": "Stops progressive rendering and immediately displays all remaining content.\nUse this when the stream is complete but the client is still rendering.",
+          "docsTags": []
+        },
+        {
+          "name": "stop",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "stop() => Promise<void>",
+          "parameters": [],
+          "docs": "Stops progressive rendering, keeping content as-is.\nUse this when the stream is cancelled.",
+          "docsTags": []
+        }
+      ],
+      "events": [
+        {
+          "event": "dwc-progressive-render-complete",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when progressive rendering completes displaying all content.",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
     },
     {
       "filePath": "src/components/dwc-menu/dwc-menu.tsx",

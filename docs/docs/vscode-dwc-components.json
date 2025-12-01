@@ -3408,6 +3408,31 @@
       ]
     },
     {
+      "name": "dwc-markdown-viewer",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-markdown-viewer` component renders markdown content with streaming support.\n\nIt supports standard markdown syntax including headers, lists, code blocks, links, images,\nand more. The component also supports emoji rendering and syntax highlighting for code blocks\nwhen Prism.js is available.\n\nThe component supports progressive rendering for AI chat interfaces where the server streams\nresponses in chunks. Content is rendered into the light DOM to allow external styling."
+      },
+      "attributes": [
+        {
+          "name": "auto-scroll",
+          "description": "When true, the component will automatically scroll to show the latest content as it is added.\nThis is useful for streaming content or chat-like interfaces. The auto-scroll behavior\nis paused when the user manually scrolls up, and resumes when they scroll back to the bottom."
+        },
+        {
+          "name": "content",
+          "description": "The markdown content to render."
+        },
+        {
+          "name": "progressive-render",
+          "description": "When true, content is rendered progressively character-by-character rather than all at once.\nThis is useful for AI chat interfaces where the server streams responses in chunks.\nThe client-side render speed can be adjusted with `renderSpeed` to match or exceed\nthe server's streaming rate."
+        },
+        {
+          "name": "render-speed",
+          "description": "Controls how many characters are rendered per frame when `progressiveRender` is enabled.\nHigher values result in faster rendering. Adjust this based on the server's streaming speed.\nAt 60fps: 4 = 240 chars/sec, 6 = 360 chars/sec, 10 = 600 chars/sec."
+        }
+      ]
+    },
+    {
       "name": "dwc-menu",
       "description": {
         "kind": "markdown",
