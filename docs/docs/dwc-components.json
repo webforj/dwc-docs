@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-01T10:30:50",
+  "timestamp": "2025-12-02T13:50:22",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -1890,6 +1890,458 @@
       ],
       "dependencyGraph": {
         "dwc-app-nav-item": [
+          "dwc-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "src/components/dwc-avatar/dwc-avatar.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-avatar",
+      "docs": "A customizable avatar component that displays an image, initials, or an icon.",
+      "docsTags": [
+        {
+          "name": "part",
+          "text": "control - The main container of the avatar"
+        },
+        {
+          "name": "part",
+          "text": "image - The image of the avatar"
+        },
+        {
+          "name": "part",
+          "text": "image-fallback - The fallback image displayed when the main image fails to load"
+        },
+        {
+          "name": "part",
+          "text": "initials - The initials displayed when no image is available"
+        },
+        {
+          "name": "part",
+          "text": "icon - The icon displayed when no image or initials are available"
+        },
+        {
+          "name": "slot",
+          "text": "- slot for custom icon content"
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "expanse",
+          "type": "\"2xl\" | \"2xs\" | \"3xl\" | \"3xs\" | \"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+          "complexType": {
+            "original": "'3xs' | '2xs' | 'xs' | 's' | 'm' | 'l' | 'xl' | '2xl' | '3xl' | null",
+            "resolved": "\"2xl\" | \"2xs\" | \"3xl\" | \"3xs\" | \"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "expanse",
+          "reflectToAttr": true,
+          "docs": "Size of the avatar",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'m'"
+            }
+          ],
+          "default": "'m'",
+          "values": [
+            {
+              "value": "2xl",
+              "type": "string"
+            },
+            {
+              "value": "2xs",
+              "type": "string"
+            },
+            {
+              "value": "3xl",
+              "type": "string"
+            },
+            {
+              "value": "3xs",
+              "type": "string"
+            },
+            {
+              "value": "l",
+              "type": "string"
+            },
+            {
+              "value": "m",
+              "type": "string"
+            },
+            {
+              "value": "s",
+              "type": "string"
+            },
+            {
+              "value": "xl",
+              "type": "string"
+            },
+            {
+              "value": "xs",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "fallback",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "fallback",
+          "reflectToAttr": false,
+          "docs": "Fallback image URL",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "initials",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "initials",
+          "reflectToAttr": false,
+          "docs": "Initials fallback when no image",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "Accessible label for the avatar",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'avatar'"
+            }
+          ],
+          "default": "'avatar'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "loading",
+          "type": "\"eager\" | \"lazy\"",
+          "complexType": {
+            "original": "'eager' | 'lazy'",
+            "resolved": "\"eager\" | \"lazy\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "loading",
+          "reflectToAttr": false,
+          "docs": "Image loading strategy",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'eager'"
+            }
+          ],
+          "default": "'eager'",
+          "values": [
+            {
+              "value": "eager",
+              "type": "string"
+            },
+            {
+              "value": "lazy",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "shape",
+          "type": "\"circle\" | \"square\"",
+          "complexType": {
+            "original": "'circle' | 'square'",
+            "resolved": "\"circle\" | \"square\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "shape",
+          "reflectToAttr": true,
+          "docs": "Shape of the avatar",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'circle'"
+            }
+          ],
+          "default": "'circle'",
+          "values": [
+            {
+              "value": "circle",
+              "type": "string"
+            },
+            {
+              "value": "square",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "src",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "src",
+          "reflectToAttr": false,
+          "docs": "Image source URL",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "theme",
+          "type": "\"danger\" | \"default\" | \"gray\" | \"info\" | \"outlined-danger\" | \"outlined-default\" | \"outlined-gray\" | \"outlined-info\" | \"outlined-primary\" | \"outlined-success\" | \"outlined-warning\" | \"primary\" | \"success\" | \"warning\"",
+          "complexType": {
+            "original": "| 'default'\n    | 'gray'\n    | 'primary'\n    | 'success'\n    | 'warning'\n    | 'danger'\n    | 'info'\n    | 'outlined-default'\n    | 'outlined-gray'\n    | 'outlined-primary'\n    | 'outlined-success'\n    | 'outlined-warning'\n    | 'outlined-danger'\n    | 'outlined-info'\n    | null",
+            "resolved": "\"danger\" | \"default\" | \"gray\" | \"info\" | \"outlined-danger\" | \"outlined-default\" | \"outlined-gray\" | \"outlined-info\" | \"outlined-primary\" | \"outlined-success\" | \"outlined-warning\" | \"primary\" | \"success\" | \"warning\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "theme",
+          "reflectToAttr": true,
+          "docs": "The theme name.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'default'"
+            }
+          ],
+          "default": "'default'",
+          "values": [
+            {
+              "value": "danger",
+              "type": "string"
+            },
+            {
+              "value": "default",
+              "type": "string"
+            },
+            {
+              "value": "gray",
+              "type": "string"
+            },
+            {
+              "value": "info",
+              "type": "string"
+            },
+            {
+              "value": "outlined-danger",
+              "type": "string"
+            },
+            {
+              "value": "outlined-default",
+              "type": "string"
+            },
+            {
+              "value": "outlined-gray",
+              "type": "string"
+            },
+            {
+              "value": "outlined-info",
+              "type": "string"
+            },
+            {
+              "value": "outlined-primary",
+              "type": "string"
+            },
+            {
+              "value": "outlined-success",
+              "type": "string"
+            },
+            {
+              "value": "outlined-warning",
+              "type": "string"
+            },
+            {
+              "value": "primary",
+              "type": "string"
+            },
+            {
+              "value": "success",
+              "type": "string"
+            },
+            {
+              "value": "warning",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "dwc-load-error",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Event emitted when the image fails to load",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [
+        {
+          "name": "--dwc-avatar-background",
+          "annotation": "prop",
+          "docs": "The avatar's background"
+        },
+        {
+          "name": "--dwc-avatar-border",
+          "annotation": "prop",
+          "docs": "The avatar's border"
+        },
+        {
+          "name": "--dwc-avatar-border-color",
+          "annotation": "prop",
+          "docs": "The avatar's border color"
+        },
+        {
+          "name": "--dwc-avatar-color",
+          "annotation": "prop",
+          "docs": "The avatar's color"
+        },
+        {
+          "name": "--dwc-avatar-size",
+          "annotation": "prop",
+          "docs": "The avatar's size"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "docs": "slot for custom icon content"
+        }
+      ],
+      "parts": [
+        {
+          "name": "control",
+          "docs": "The main container of the avatar"
+        },
+        {
+          "name": "icon",
+          "docs": "The icon displayed when no image or initials are available"
+        },
+        {
+          "name": "image",
+          "docs": "The image of the avatar"
+        },
+        {
+          "name": "image-fallback",
+          "docs": "The fallback image displayed when the main image fails to load"
+        },
+        {
+          "name": "initials",
+          "docs": "The initials displayed when no image is available"
+        }
+      ],
+      "dependents": [],
+      "dependencies": [
+        "dwc-icon"
+      ],
+      "dependencyGraph": {
+        "dwc-avatar": [
           "dwc-icon"
         ]
       }
@@ -21351,6 +21803,7 @@
       "dependents": [
         "dwc-alert",
         "dwc-app-nav-item",
+        "dwc-avatar",
         "dwc-button",
         "dwc-choicebox",
         "dwc-combobox",
@@ -21374,6 +21827,9 @@
           "dwc-icon"
         ],
         "dwc-app-nav-item": [
+          "dwc-icon"
+        ],
+        "dwc-avatar": [
           "dwc-icon"
         ],
         "dwc-button": [

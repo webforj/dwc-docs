@@ -165,6 +165,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 - [dwc-alert](web-components/dwc-alert.md)
 - [dwc-app-nav-item](web-components/dwc-app-nav-item.md)
+- [dwc-avatar](web-components/dwc-avatar.md)
 - [dwc-button](web-components/dwc-button.md)
 - [dwc-choicebox](web-components/dwc-choicebox.md)
 - [dwc-combobox](web-components/dwc-combobox.md)

@@ -329,6 +329,136 @@
       ]
     },
     {
+      "name": "dwc-avatar",
+      "description": {
+        "kind": "markdown",
+        "value": "A customizable avatar component that displays an image, initials, or an icon."
+      },
+      "attributes": [
+        {
+          "name": "expanse",
+          "description": "Size of the avatar",
+          "values": [
+            {
+              "name": "2xl"
+            },
+            {
+              "name": "2xs"
+            },
+            {
+              "name": "3xl"
+            },
+            {
+              "name": "3xs"
+            },
+            {
+              "name": "l"
+            },
+            {
+              "name": "m"
+            },
+            {
+              "name": "s"
+            },
+            {
+              "name": "xl"
+            },
+            {
+              "name": "xs"
+            }
+          ]
+        },
+        {
+          "name": "fallback",
+          "description": "Fallback image URL"
+        },
+        {
+          "name": "initials",
+          "description": "Initials fallback when no image"
+        },
+        {
+          "name": "label",
+          "description": "Accessible label for the avatar"
+        },
+        {
+          "name": "loading",
+          "description": "Image loading strategy",
+          "values": [
+            {
+              "name": "eager"
+            },
+            {
+              "name": "lazy"
+            }
+          ]
+        },
+        {
+          "name": "shape",
+          "description": "Shape of the avatar",
+          "values": [
+            {
+              "name": "circle"
+            },
+            {
+              "name": "square"
+            }
+          ]
+        },
+        {
+          "name": "src",
+          "description": "Image source URL"
+        },
+        {
+          "name": "theme",
+          "description": "The theme name.",
+          "values": [
+            {
+              "name": "danger"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "gray"
+            },
+            {
+              "name": "info"
+            },
+            {
+              "name": "outlined-danger"
+            },
+            {
+              "name": "outlined-default"
+            },
+            {
+              "name": "outlined-gray"
+            },
+            {
+              "name": "outlined-info"
+            },
+            {
+              "name": "outlined-primary"
+            },
+            {
+              "name": "outlined-success"
+            },
+            {
+              "name": "outlined-warning"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "success"
+            },
+            {
+              "name": "warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "dwc-backdrop",
       "description": {
         "kind": "markdown",
