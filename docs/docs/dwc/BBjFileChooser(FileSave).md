@@ -126,4 +126,4 @@ Messages are the BBj instructions that are sent to the browser form the server t
 
 
 ----------------------------------------------
-*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2025.*
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2026.*

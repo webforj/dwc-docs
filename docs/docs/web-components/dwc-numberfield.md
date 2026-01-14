@@ -260,4 +260,4 @@ Type: `Promise<boolean>`
 
 
 ----------------------------------------------
-*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2025.*
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2026.*

@@ -66,4 +66,4 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 
 ----------------------------------------------
-*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2025.*
+*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved 2026.*

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-02T13:50:22",
+  "timestamp": "2026-01-14T11:29:48",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -29334,93 +29334,7 @@
         }
       ],
       "listeners": [],
-      "styles": [
-        {
-          "name": "--dwc-navigator-border-color",
-          "annotation": "prop",
-          "docs": "The border color of different parts."
-        },
-        {
-          "name": "--dwc-navigator-button-active-background",
-          "annotation": "prop",
-          "docs": "The active background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-active-color",
-          "annotation": "prop",
-          "docs": "The active color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-background",
-          "annotation": "prop",
-          "docs": "The background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-color",
-          "annotation": "prop",
-          "docs": "The color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-focus-border",
-          "annotation": "prop",
-          "docs": "The focus border of all buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The focus ring of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-hover-background",
-          "annotation": "prop",
-          "docs": "The hover background of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-hover-color",
-          "annotation": "prop",
-          "docs": "The hover color of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-button-width",
-          "annotation": "prop",
-          "docs": "The width of the `first`, `previous` , `next` and `last` buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-background",
-          "annotation": "prop",
-          "docs": "The background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-color",
-          "annotation": "prop",
-          "docs": "The color of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The focus ring of the numbered buttons"
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-hover-background",
-          "annotation": "prop",
-          "docs": "The hover background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-hover-color",
-          "annotation": "prop",
-          "docs": "The hover color of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-selected-background",
-          "annotation": "prop",
-          "docs": "The selected background of the numbered buttons."
-        },
-        {
-          "name": "--dwc-navigator-numbered-button-selected-color",
-          "annotation": "prop",
-          "docs": "The selected color of the numbered buttons."
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
