@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-20T16:30:45",
+  "timestamp": "2026-02-01T05:05:24",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -19375,9 +19375,14 @@
           "docs": "The padding of the file chooser"
         },
         {
+          "name": "--dwc-file-chooser-selected-background",
+          "annotation": "prop",
+          "docs": "The background of the file chooser when selected"
+        },
+        {
           "name": "--dwc-file-chooser-selected-background-color",
           "annotation": "prop",
-          "docs": "The background color of the file chooser when selected"
+          "docs": "@deprecated Use --dwc-file-chooser-selected-background instead"
         },
         {
           "name": "--dwc-file-chooser-selected-color",
@@ -26317,9 +26322,14 @@
       ],
       "styles": [
         {
+          "name": "--dwc-menu-background",
+          "annotation": "prop",
+          "docs": "The menu's background"
+        },
+        {
           "name": "--dwc-menu-background-color",
           "annotation": "prop",
-          "docs": "The menu's background color"
+          "docs": "@deprecated Use --dwc-menu-background instead"
         },
         {
           "name": "--dwc-menu-border-color",

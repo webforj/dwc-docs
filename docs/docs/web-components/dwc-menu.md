@@ -76,11 +76,12 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                            | Description                 |
-| ------------------------------- | --------------------------- |
-| ``--dwc-menu-background-color`` | The menu's background color |
-| ``--dwc-menu-border-color``     | The menu's border color     |
-| ``--dwc-menu-shadow``           | The menu's box shadow       |
+| Name                            | Description                                   |
+| ------------------------------- | --------------------------------------------- |
+| ``--dwc-menu-background``       | The menu's background                         |
+| ``--dwc-menu-background-color`` | @deprecated Use --dwc-menu-background instead |
+| ``--dwc-menu-border-color``     | The menu's border color                       |
+| ``--dwc-menu-shadow``           | The menu's box shadow                         |
 
 
 </div>

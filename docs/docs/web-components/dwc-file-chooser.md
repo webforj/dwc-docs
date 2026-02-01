@@ -153,18 +153,19 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                                             | Description                                            |
-| ------------------------------------------------ | ------------------------------------------------------ |
-| ``--dwc-file-chooser-border``                    | The border of the file chooser                         |
-| ``--dwc-file-chooser-border-color``              | The border color of the file chooser                   |
-| ``--dwc-file-chooser-hover-background``          | The background color of the file chooser when hovering |
-| ``--dwc-file-chooser-hover-border-color``        | The border color of the file chooser when hovering     |
-| ``--dwc-file-chooser-hover-color``               | The color of the file chooser when hovering            |
-| ``--dwc-file-chooser-icon-color``                | The color of the file chooser icon                     |
-| ``--dwc-file-chooser-icon-fill``                 | The fill color of the file chooser icon                |
-| ``--dwc-file-chooser-padding``                   | The padding of the file chooser                        |
-| ``--dwc-file-chooser-selected-background-color`` | The background color of the file chooser when selected |
-| ``--dwc-file-chooser-selected-color``            | The color of the file chooser when selected            |
+| Name                                             | Description                                                    |
+| ------------------------------------------------ | -------------------------------------------------------------- |
+| ``--dwc-file-chooser-border``                    | The border of the file chooser                                 |
+| ``--dwc-file-chooser-border-color``              | The border color of the file chooser                           |
+| ``--dwc-file-chooser-hover-background``          | The background color of the file chooser when hovering         |
+| ``--dwc-file-chooser-hover-border-color``        | The border color of the file chooser when hovering             |
+| ``--dwc-file-chooser-hover-color``               | The color of the file chooser when hovering                    |
+| ``--dwc-file-chooser-icon-color``                | The color of the file chooser icon                             |
+| ``--dwc-file-chooser-icon-fill``                 | The fill color of the file chooser icon                        |
+| ``--dwc-file-chooser-padding``                   | The padding of the file chooser                                |
+| ``--dwc-file-chooser-selected-background``       | The background of the file chooser when selected               |
+| ``--dwc-file-chooser-selected-background-color`` | @deprecated Use --dwc-file-chooser-selected-background instead |
+| ``--dwc-file-chooser-selected-color``            | The color of the file chooser when selected                    |
 
 
 </div>
