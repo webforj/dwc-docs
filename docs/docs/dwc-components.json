@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-12T13:43:41",
+  "timestamp": "2026-02-20T17:12:39",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -39484,6 +39484,10 @@
         },
         {
           "name": "part",
+          "text": "resize-handle-right-pinned - The resize handle for right-pinned columns."
+        },
+        {
+          "name": "part",
           "text": "body - The main body of the table, containing all the rows and cells with data."
         },
         {
@@ -39573,6 +39577,58 @@
         {
           "name": "part",
           "text": "cell-resizing - Cells in a column that is currently being resized."
+        },
+        {
+          "name": "part",
+          "text": "cell-group - Group header cells in multi-row grouped headers."
+        },
+        {
+          "name": "part",
+          "text": "cell-column-ID - Cells (header and body) for a specific column ID (e.g. cell-column-name)."
+        },
+        {
+          "name": "part",
+          "text": "cell-group-depth-N - Group header cells at nesting depth N (0 = top-level, 1 = second-level, etc.)."
+        },
+        {
+          "name": "part",
+          "text": "cell-group-ID - Group header cells with the given group ID (e.g. cell-group-my-group)."
+        },
+        {
+          "name": "part",
+          "text": "cell-content-group - Content wrapper within group header cells."
+        },
+        {
+          "name": "part",
+          "text": "cell-content-group-depth-N - Content wrapper within group header cells at nesting depth N."
+        },
+        {
+          "name": "part",
+          "text": "cell-content-group-ID - Content wrapper within group header cells with the given group ID."
+        },
+        {
+          "name": "part",
+          "text": "cell-label-group - Label within group header cells."
+        },
+        {
+          "name": "part",
+          "text": "cell-label-group-depth-N - Label within group header cells at nesting depth N."
+        },
+        {
+          "name": "part",
+          "text": "cell-label-group-ID - Label within group header cells with the given group ID."
+        },
+        {
+          "name": "part",
+          "text": "row-header-group - Header rows that contain group cells (not the leaf column row)."
+        },
+        {
+          "name": "part",
+          "text": "cell-movable - Header cells that can be reordered by dragging."
+        },
+        {
+          "name": "part",
+          "text": "cell-dragging - Cells in a column that is currently being dragged."
         },
         {
           "name": "part",
@@ -39726,6 +39782,40 @@
           "setter": false
         },
         {
+          "name": "columnGroups",
+          "type": "TableColumnGroupDefinition[]",
+          "complexType": {
+            "original": "TableColumnGroupDefinition[]",
+            "resolved": "TableColumnGroupDefinition[]",
+            "references": {
+              "TableColumnGroupDefinition": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnGroupDefinition"
+              }
+            }
+          },
+          "mutable": true,
+          "reflectToAttr": false,
+          "docs": "An array of column group definitions for multi-row header grouping.\nWhen set, columns are ordered according to the group tree and a multi-row\nheader is rendered with colspan/rowspan.\n\nWhen empty (default), behavior is identical to the standard single-row header.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "[]"
+            }
+          ],
+          "default": "[]",
+          "values": [
+            {
+              "type": "TableColumnGroupDefinition[]"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "columnHeaders",
           "type": "boolean",
           "complexType": {
@@ -39762,7 +39852,7 @@
             "resolved": "boolean",
             "references": {}
           },
-          "mutable": false,
+          "mutable": true,
           "attr": "columns-border",
           "reflectToAttr": true,
           "docs": "When true, the table will render borders between columns.",
@@ -39929,6 +40019,29 @@
             },
             {
               "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "groupHeaderHeight",
+          "type": "number",
+          "complexType": {
+            "original": "number",
+            "resolved": "number",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "group-header-height",
+          "reflectToAttr": false,
+          "docs": "The height of group header rows in pixels. When not set, defaults to headerHeight.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "number"
             }
           ],
           "optional": false,
@@ -40504,6 +40617,11 @@
                 "location": "global",
                 "id": "global::Promise"
               },
+              "TableColumn": {
+                "location": "import",
+                "path": "./dwc-table.types",
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumn"
+              },
               "TableColumnDefinition": {
                 "location": "import",
                 "path": "./dwc-table.types",
@@ -40901,11 +41019,11 @@
         },
         {
           "event": "dwc-state-changed",
-          "detail": "{ columns: ColumnState[]; source: StateChangeSource; }",
+          "detail": "{ columns: ColumnState[]; source: StateChangeSource; columnGroups?: TableColumnGroupDefinition[]; }",
           "bubbles": true,
           "complexType": {
             "original": "StateChangedDetail",
-            "resolved": "{ columns: ColumnState[]; source: StateChangeSource; }",
+            "resolved": "{ columns: ColumnState[]; source: StateChangeSource; columnGroups?: TableColumnGroupDefinition[]; }",
             "references": {
               "StateChangedDetail": {
                 "location": "import",
@@ -40965,6 +41083,10 @@
           "docs": "A state for checkboxes where the selection is partial (not all items are selected)."
         },
         {
+          "name": "cell-column-ID",
+          "docs": "Cells (header and body) for a specific column ID (e.g. cell-column-name)."
+        },
+        {
           "name": "cell-content",
           "docs": "The main content area within cells."
         },
@@ -40973,8 +41095,24 @@
           "docs": "Cells that combine content with a checkbox, used for selection."
         },
         {
+          "name": "cell-content-group",
+          "docs": "Content wrapper within group header cells."
+        },
+        {
+          "name": "cell-content-group-ID",
+          "docs": "Content wrapper within group header cells with the given group ID."
+        },
+        {
+          "name": "cell-content-group-depth-N",
+          "docs": "Content wrapper within group header cells at nesting depth N."
+        },
+        {
           "name": "cell-content-header",
           "docs": "The main content or data within header cells."
+        },
+        {
+          "name": "cell-dragging",
+          "docs": "Cells in a column that is currently being dragged."
         },
         {
           "name": "cell-even",
@@ -40985,6 +41123,18 @@
           "docs": "The first cell in a row."
         },
         {
+          "name": "cell-group",
+          "docs": "Group header cells in multi-row grouped headers."
+        },
+        {
+          "name": "cell-group-ID",
+          "docs": "Group header cells with the given group ID (e.g. cell-group-my-group)."
+        },
+        {
+          "name": "cell-group-depth-N",
+          "docs": "Group header cells at nesting depth N (0 = top-level, 1 = second-level, etc.)."
+        },
+        {
           "name": "cell-header",
           "docs": "Individual cells located in the header row, typically containing labels or titles for the columns."
         },
@@ -40993,12 +41143,28 @@
           "docs": "Text label areas within cells."
         },
         {
+          "name": "cell-label-group",
+          "docs": "Label within group header cells."
+        },
+        {
+          "name": "cell-label-group-ID",
+          "docs": "Label within group header cells with the given group ID."
+        },
+        {
+          "name": "cell-label-group-depth-N",
+          "docs": "Label within group header cells at nesting depth N."
+        },
+        {
           "name": "cell-label-header",
           "docs": "Header cells that are specifically used for displaying text labels for columns."
         },
         {
           "name": "cell-last",
           "docs": "The last cell in a row."
+        },
+        {
+          "name": "cell-movable",
+          "docs": "Header cells that can be reordered by dragging."
         },
         {
           "name": "cell-non-navigable",
@@ -41069,6 +41235,10 @@
           "docs": "The draggable handle for resizing columns."
         },
         {
+          "name": "resize-handle-right-pinned",
+          "docs": "The resize handle for right-pinned columns."
+        },
+        {
           "name": "row",
           "docs": "Individual rows within the table body, used for organizing cells horizontally."
         },
@@ -41083,6 +41253,10 @@
         {
           "name": "row-header",
           "docs": "The row within the header that contains cell headers."
+        },
+        {
+          "name": "row-header-group",
+          "docs": "Header rows that contain group cells (not the leaf column row)."
         },
         {
           "name": "row-last",
@@ -54310,6 +54484,11 @@
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
+    "src/components/dwc-table/dwc-table.types.ts::TableColumnGroupDefinition": {
+      "declaration": "{\n  /** The column ID (for columns) or a unique group ID (for groups). */\n  id: string;\n\n  /** Display label for the group header. Only meaningful for groups. */\n  label?: string;\n\n  /** Pin direction. All children inherit this. Only meaningful for groups. Default: 'auto'. */\n  pinned?: ColumnPinDirection;\n\n  /**\n   * Ordered children: columns or nested sub-groups.\n   * When present (even if empty), this entry is a GROUP.\n   * When absent/undefined, this entry is a column.\n   */\n  children?: TableColumnGroupDefinition[];\n}",
+      "docstring": "",
+      "path": "src/components/dwc-table/dwc-table.types.ts"
+    },
     "src/components/dwc-table/dwc-table.types.ts::TableCell": {
       "declaration": "{\n  /** The column object. */\n  column: TableColumn;\n\n  /** Indicates whether the cell is first in the row. */\n  first: boolean;\n\n  /** The cell ID. */\n  id: string;\n\n  /** Same as the cell id. */\n  key: string;\n\n  /** The cell index. */\n  index: number;\n\n  /** Indicates whether the cell is last in the row. */\n  last: boolean;\n\n  /** Indicates whether the cell is navigable. */\n  navigable: boolean;\n\n  /** The rendered value of the cell. */\n  renderedValue: string;\n\n  /** The row's data. */\n  row: TableRow;\n\n  /** Same as the row's data. */\n  item: TableRow;\n\n  /** The value of the cell. */\n  value: any;\n}",
       "docstring": "",
@@ -54326,7 +54505,7 @@
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
     "src/components/dwc-table/dwc-table.types.ts::StateChangedDetail": {
-      "declaration": "{\n  columns: ColumnState[];\n  source: StateChangeSource;\n}",
+      "declaration": "{\n  columns: ColumnState[];\n  source: StateChangeSource;\n  /** Present only when column groups are active */\n  columnGroups?: TableColumnGroupDefinition[];\n}",
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
@@ -54337,6 +54516,11 @@
     },
     "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail": {
       "declaration": "export type ColumnMovedDetail = ColumnEventDetailBase & {\n  /** The previous index of the column before the move */\n  oldIndex: number;\n\n  /** The new index of the column after the move */\n  newIndex: number;\n};",
+      "docstring": "",
+      "path": "src/components/dwc-table/dwc-table.types.ts"
+    },
+    "src/components/dwc-table/dwc-table.types.ts::TableColumn": {
+      "declaration": "export interface TableColumn extends Required<TableColumnDefinition> {\n  /** The column estimated width. */\n  estimatedWidth: number;\n\n  /** Indicates whether the column is first in the table. */\n  first: boolean;\n\n  /** Gets the value from the row's data for the specified column. */\n  getValue(rowData: any): any;\n\n  /** The column id. */\n  id: string;\n\n  /** Same as the column id. */\n  key: string;\n\n  /** The column index. */\n  index: number;\n\n  /** Indicates whether the column is last in the table. */\n  last: boolean;\n\n  /** The original column index from the column definitions. */\n  originalIndex: number;\n\n  /** The rendered label. */\n  renderedLabel: string;\n\n  /** The column sort index. */\n  sortIndex: number;\n}",
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },

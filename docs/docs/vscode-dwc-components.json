@@ -5359,6 +5359,10 @@
           "description": "A function or an expression to set parts for each row individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part."
         },
         {
+          "name": "group-header-height",
+          "description": "The height of group header rows in pixels. When not set, defaults to headerHeight."
+        },
+        {
           "name": "header-checkbox-selection",
           "description": "If false, a `select all` checkbox will be added to the header."
         },
