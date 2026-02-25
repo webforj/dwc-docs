@@ -6,6 +6,8 @@
       </svg>Components
     </span>
 
+  - [dwc-accordion](web-components/dwc-accordion)
+  - [dwc-accordion-panel](web-components/dwc-accordion-panel)
   - [dwc-alert](web-components/dwc-alert)
   - [dwc-alert-popover](web-components/dwc-alert-popover)
   - [dwc-app-layout](web-components/dwc-app-layout)

@@ -1,11 +1,402 @@
 {
-  "timestamp": "2026-02-20T17:12:39",
+  "timestamp": "2026-02-25T11:27:28",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
     "typescriptVersion": "5.5.4"
   },
   "components": [
+    {
+      "filePath": "src/components/dwc-accordion/dwc-accordion.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-accordion",
+      "docs": "The `<dwc-accordion>` groups `<dwc-accordion-panel>` elements and coordinates\ntheir expand/collapse behavior. When `multiple` is false (default), opening\none panel automatically closes the others.\n\nPanels can also be used standalone without this wrapper.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The place where `dwc-accordion-panel` elements are placed."
+        },
+        {
+          "name": "part",
+          "text": "control - The outer wrapper."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "multiple",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "multiple",
+          "reflectToAttr": false,
+          "docs": "When true, multiple panels can be open at the same time.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [
+        {
+          "name": "closeAll",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "closeAll() => Promise<void>",
+          "parameters": [],
+          "docs": "Closes all panels.",
+          "docsTags": []
+        },
+        {
+          "name": "openAll",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "openAll() => Promise<void>",
+          "parameters": [],
+          "docs": "Opens all panels (only effective when `multiple` is true).",
+          "docsTags": []
+        }
+      ],
+      "events": [],
+      "listeners": [
+        {
+          "event": "dwc-accordion-panel-toggled",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The place where `dwc-accordion-panel` elements are placed."
+        }
+      ],
+      "parts": [
+        {
+          "name": "control",
+          "docs": "The outer wrapper."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "src/components/dwc-accordion-panel/dwc-accordion-panel.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-accordion-panel",
+      "docs": "The `<dwc-accordion-panel>` provides a collapsible/expandable content panel with a clickable header.\nIt can be used standalone or inside a `<dwc-accordion>` group for coordinated behavior.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The panel body content."
+        },
+        {
+          "name": "slot",
+          "text": "header - Custom header content (replaces `label` text when provided)."
+        },
+        {
+          "name": "slot",
+          "text": "icon - Custom expand/collapse icon (replaces default chevron)."
+        },
+        {
+          "name": "part",
+          "text": "control - The outer wrapper."
+        },
+        {
+          "name": "part",
+          "text": "header - The clickable header area (button element)."
+        },
+        {
+          "name": "part",
+          "text": "header-content - The header text/slot container."
+        },
+        {
+          "name": "part",
+          "text": "icon - The expand/collapse icon container."
+        },
+        {
+          "name": "part",
+          "text": "body - The collapsible body wrapper (handles height animation)."
+        },
+        {
+          "name": "part",
+          "text": "content - The inner content wrapper inside body."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "disabled",
+          "reflectToAttr": true,
+          "docs": "When true, the component cannot be interacted with.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "Text label rendered in the header (alternative to slotting header content).",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "opened",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "opened",
+          "reflectToAttr": true,
+          "docs": "Whether the panel body is visible.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "tabTraversable",
+          "type": "number",
+          "complexType": {
+            "original": "number",
+            "resolved": "number",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "tab-traversable",
+          "reflectToAttr": false,
+          "docs": "Indicates that the element can be focused. A negative value means that the element is not reachable via sequential keyboard navigation.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "0"
+            }
+          ],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "dwc-accordion-panel-closed",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Fired after the panel has fully closed.",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-accordion-panel-opened",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Fired after the panel has fully opened.",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-accordion-panel-toggled",
+          "detail": "boolean",
+          "bubbles": true,
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Fired before state changes.",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The panel body content."
+        },
+        {
+          "name": "header",
+          "docs": "Custom header content (replaces `label` text when provided)."
+        },
+        {
+          "name": "icon",
+          "docs": "Custom expand/collapse icon (replaces default chevron)."
+        }
+      ],
+      "parts": [
+        {
+          "name": "body",
+          "docs": "The collapsible body wrapper (handles height animation)."
+        },
+        {
+          "name": "content",
+          "docs": "The inner content wrapper inside body."
+        },
+        {
+          "name": "control",
+          "docs": "The outer wrapper."
+        },
+        {
+          "name": "header",
+          "docs": "The clickable header area (button element)."
+        },
+        {
+          "name": "header-content",
+          "docs": "The header text/slot container."
+        },
+        {
+          "name": "icon",
+          "docs": "The expand/collapse icon container."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [
+        "dwc-icon"
+      ],
+      "dependencyGraph": {
+        "dwc-accordion-panel": [
+          "dwc-icon"
+        ]
+      }
+    },
     {
       "filePath": "src/components/dwc-alert/dwc-alert.tsx",
       "encapsulation": "shadow",
@@ -21580,10 +21971,10 @@
         },
         {
           "name": "modifier",
-          "type": "(icon: HTMLImageElement | SVGElement) => void",
+          "type": "(icon: SVGElement | HTMLImageElement) => void",
           "complexType": {
             "original": "(icon: SVGElement | HTMLImageElement) => void",
-            "resolved": "(icon: HTMLImageElement | SVGElement) => void",
+            "resolved": "(icon: SVGElement | HTMLImageElement) => void",
             "references": {
               "SVGElement": {
                 "location": "global",
@@ -21601,10 +21992,10 @@
           "docsTags": [],
           "values": [
             {
-              "type": "(icon: HTMLImageElement"
+              "type": "(icon: SVGElement"
             },
             {
-              "type": "SVGElement) => void"
+              "type": "HTMLImageElement) => void"
             }
           ],
           "optional": false,
@@ -21806,6 +22197,7 @@
         }
       ],
       "dependents": [
+        "dwc-accordion-panel",
         "dwc-alert",
         "dwc-app-nav-item",
         "dwc-avatar",
@@ -21828,6 +22220,9 @@
       ],
       "dependencies": [],
       "dependencyGraph": {
+        "dwc-accordion-panel": [
+          "dwc-icon"
+        ],
         "dwc-alert": [
           "dwc-icon"
         ],

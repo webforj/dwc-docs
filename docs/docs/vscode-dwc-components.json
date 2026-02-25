@@ -2,6 +2,44 @@
   "version": 1.1,
   "tags": [
     {
+      "name": "dwc-accordion",
+      "description": {
+        "kind": "markdown",
+        "value": "The `<dwc-accordion>` groups `<dwc-accordion-panel>` elements and coordinates\ntheir expand/collapse behavior. When `multiple` is false (default), opening\none panel automatically closes the others.\n\nPanels can also be used standalone without this wrapper."
+      },
+      "attributes": [
+        {
+          "name": "multiple",
+          "description": "When true, multiple panels can be open at the same time."
+        }
+      ]
+    },
+    {
+      "name": "dwc-accordion-panel",
+      "description": {
+        "kind": "markdown",
+        "value": "The `<dwc-accordion-panel>` provides a collapsible/expandable content panel with a clickable header.\nIt can be used standalone or inside a `<dwc-accordion>` group for coordinated behavior."
+      },
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "When true, the component cannot be interacted with."
+        },
+        {
+          "name": "label",
+          "description": "Text label rendered in the header (alternative to slotting header content)."
+        },
+        {
+          "name": "opened",
+          "description": "Whether the panel body is visible."
+        },
+        {
+          "name": "tab-traversable",
+          "description": "Indicates that the element can be focused. A negative value means that the element is not reachable via sequential keyboard navigation."
+        }
+      ]
+    },
+    {
       "name": "dwc-alert",
       "description": {
         "kind": "markdown",
