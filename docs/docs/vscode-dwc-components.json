@@ -510,6 +510,100 @@
       ]
     },
     {
+      "name": "dwc-badge",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-badge` component displays a small label or indicator."
+      },
+      "attributes": [
+        {
+          "name": "expanse",
+          "description": "The component's expanse.",
+          "values": [
+            {
+              "name": "2xl"
+            },
+            {
+              "name": "2xs"
+            },
+            {
+              "name": "3xl"
+            },
+            {
+              "name": "3xs"
+            },
+            {
+              "name": "l"
+            },
+            {
+              "name": "m"
+            },
+            {
+              "name": "s"
+            },
+            {
+              "name": "xl"
+            },
+            {
+              "name": "xs"
+            }
+          ]
+        },
+        {
+          "name": "label",
+          "description": "The badge's label text. Rendered alongside slotted content and used as the accessible name."
+        },
+        {
+          "name": "theme",
+          "description": "The DWC theme.",
+          "values": [
+            {
+              "name": "danger"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "gray"
+            },
+            {
+              "name": "info"
+            },
+            {
+              "name": "outlined-danger"
+            },
+            {
+              "name": "outlined-default"
+            },
+            {
+              "name": "outlined-gray"
+            },
+            {
+              "name": "outlined-info"
+            },
+            {
+              "name": "outlined-primary"
+            },
+            {
+              "name": "outlined-success"
+            },
+            {
+              "name": "outlined-warning"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "success"
+            },
+            {
+              "name": "warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "dwc-button",
       "description": {
         "kind": "markdown",

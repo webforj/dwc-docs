@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-25T11:27:28",
+  "timestamp": "2026-02-26T13:20:48",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -346,7 +346,58 @@
         }
       ],
       "listeners": [],
-      "styles": [],
+      "styles": [
+        {
+          "name": "--dwc-accordion-background",
+          "annotation": "prop",
+          "docs": "The background of the whole panel."
+        },
+        {
+          "name": "--dwc-accordion-body-background",
+          "annotation": "prop",
+          "docs": "The background of the body content."
+        },
+        {
+          "name": "--dwc-accordion-body-padding",
+          "annotation": "prop",
+          "docs": "The padding of the body content."
+        },
+        {
+          "name": "--dwc-accordion-border-color",
+          "annotation": "prop",
+          "docs": "The border color of the panel."
+        },
+        {
+          "name": "--dwc-accordion-border-radius",
+          "annotation": "prop",
+          "docs": "The border radius of the panel."
+        },
+        {
+          "name": "--dwc-accordion-border-width",
+          "annotation": "prop",
+          "docs": "The border width of the panel."
+        },
+        {
+          "name": "--dwc-accordion-focus-ring",
+          "annotation": "prop",
+          "docs": "The focus ring for the panel header."
+        },
+        {
+          "name": "--dwc-accordion-header-color",
+          "annotation": "prop",
+          "docs": "The text color of the header."
+        },
+        {
+          "name": "--dwc-accordion-header-padding",
+          "annotation": "prop",
+          "docs": "The padding of the header."
+        },
+        {
+          "name": "--dwc-accordion-transition",
+          "annotation": "prop",
+          "docs": "The height transition timing for the body."
+        }
+      ],
       "slots": [
         {
           "name": "",
@@ -2815,6 +2866,278 @@
       }
     },
     {
+      "filePath": "src/components/dwc-badge/dwc-badge.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-badge",
+      "docs": "The `dwc-badge` component displays a small label or indicator.",
+      "docsTags": [
+        {
+          "name": "part",
+          "text": "control - The badge element."
+        },
+        {
+          "name": "part",
+          "text": "label - The label text element."
+        },
+        {
+          "name": "slot",
+          "text": "- The badge's content (e.g., icons). Rendered alongside the label."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "expanse",
+          "type": "\"2xl\" | \"2xs\" | \"3xl\" | \"3xs\" | \"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+          "complexType": {
+            "original": "'3xs' | '2xs' | 'xs' | 's' | 'm' | 'l' | 'xl' | '2xl' | '3xl'",
+            "resolved": "\"2xl\" | \"2xs\" | \"3xl\" | \"3xs\" | \"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "expanse",
+          "reflectToAttr": true,
+          "docs": "The component's expanse.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'s'"
+            }
+          ],
+          "default": "'s'",
+          "values": [
+            {
+              "value": "2xl",
+              "type": "string"
+            },
+            {
+              "value": "2xs",
+              "type": "string"
+            },
+            {
+              "value": "3xl",
+              "type": "string"
+            },
+            {
+              "value": "3xs",
+              "type": "string"
+            },
+            {
+              "value": "l",
+              "type": "string"
+            },
+            {
+              "value": "m",
+              "type": "string"
+            },
+            {
+              "value": "s",
+              "type": "string"
+            },
+            {
+              "value": "xl",
+              "type": "string"
+            },
+            {
+              "value": "xs",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "The badge's label text. Rendered alongside slotted content and used as the accessible name.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "theme",
+          "type": "\"danger\" | \"default\" | \"gray\" | \"info\" | \"outlined-danger\" | \"outlined-default\" | \"outlined-gray\" | \"outlined-info\" | \"outlined-primary\" | \"outlined-success\" | \"outlined-warning\" | \"primary\" | \"success\" | \"warning\"",
+          "complexType": {
+            "original": "| 'default'\n    | 'primary'\n    | 'success'\n    | 'warning'\n    | 'danger'\n    | 'info'\n    | 'gray'\n    | 'outlined-default'\n    | 'outlined-primary'\n    | 'outlined-success'\n    | 'outlined-warning'\n    | 'outlined-danger'\n    | 'outlined-info'\n    | 'outlined-gray'",
+            "resolved": "\"danger\" | \"default\" | \"gray\" | \"info\" | \"outlined-danger\" | \"outlined-default\" | \"outlined-gray\" | \"outlined-info\" | \"outlined-primary\" | \"outlined-success\" | \"outlined-warning\" | \"primary\" | \"success\" | \"warning\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "theme",
+          "reflectToAttr": true,
+          "docs": "The DWC theme.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'default'"
+            }
+          ],
+          "default": "'default'",
+          "values": [
+            {
+              "value": "danger",
+              "type": "string"
+            },
+            {
+              "value": "default",
+              "type": "string"
+            },
+            {
+              "value": "gray",
+              "type": "string"
+            },
+            {
+              "value": "info",
+              "type": "string"
+            },
+            {
+              "value": "outlined-danger",
+              "type": "string"
+            },
+            {
+              "value": "outlined-default",
+              "type": "string"
+            },
+            {
+              "value": "outlined-gray",
+              "type": "string"
+            },
+            {
+              "value": "outlined-info",
+              "type": "string"
+            },
+            {
+              "value": "outlined-primary",
+              "type": "string"
+            },
+            {
+              "value": "outlined-success",
+              "type": "string"
+            },
+            {
+              "value": "outlined-warning",
+              "type": "string"
+            },
+            {
+              "value": "primary",
+              "type": "string"
+            },
+            {
+              "value": "success",
+              "type": "string"
+            },
+            {
+              "value": "warning",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [
+        {
+          "name": "--dwc-badge-background",
+          "annotation": "prop",
+          "docs": "Overrides the computed background."
+        },
+        {
+          "name": "--dwc-badge-border-color",
+          "annotation": "prop",
+          "docs": "Overrides the computed border color."
+        },
+        {
+          "name": "--dwc-badge-border-radius",
+          "annotation": "prop",
+          "docs": "The badge's border radius."
+        },
+        {
+          "name": "--dwc-badge-color",
+          "annotation": "prop",
+          "docs": "Overrides the computed text color."
+        },
+        {
+          "name": "--dwc-badge-font-size",
+          "annotation": "prop",
+          "docs": "The badge's font size."
+        },
+        {
+          "name": "--dwc-badge-font-weight",
+          "annotation": "prop",
+          "docs": "The badge's font weight."
+        },
+        {
+          "name": "--dwc-badge-min-height",
+          "annotation": "prop",
+          "docs": "The badge's minimum height."
+        },
+        {
+          "name": "--dwc-badge-padding",
+          "annotation": "prop",
+          "docs": "The badge's inline padding."
+        },
+        {
+          "name": "--dwc-badge-seed",
+          "annotation": "prop",
+          "docs": "A single color seed. Background, text and border are computed automatically."
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The badge's content (e.g., icons). Rendered alongside the label."
+        }
+      ],
+      "parts": [
+        {
+          "name": "control",
+          "docs": "The badge element."
+        },
+        {
+          "name": "label",
+          "docs": "The label text element."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
       "filePath": "src/components/dwc-button/dwc-button.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-button",
@@ -2841,6 +3164,10 @@
           "text": "right-edge - The button's right edge"
         },
         {
+          "name": "slot",
+          "text": "badge - A slot for placing a badge overlay on the button"
+        },
+        {
           "name": "part",
           "text": "control - The component's base wrapper"
         },
@@ -2863,6 +3190,10 @@
         {
           "name": "part",
           "text": "right-edge -  The button's right edge"
+        },
+        {
+          "name": "part",
+          "text": "badge - The button's badge overlay"
         },
         {
           "name": "part",
@@ -3850,6 +4181,10 @@
           "docs": "The button's label"
         },
         {
+          "name": "badge",
+          "docs": "A slot for placing a badge overlay on the button"
+        },
+        {
           "name": "left-edge",
           "docs": "The button's left edge"
         },
@@ -3867,6 +4202,10 @@
         }
       ],
       "parts": [
+        {
+          "name": "badge",
+          "docs": "The button's badge overlay"
+        },
         {
           "name": "control",
           "docs": "The component's base wrapper"

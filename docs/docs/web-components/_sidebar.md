@@ -15,6 +15,7 @@
   - [dwc-app-nav-item](web-components/dwc-app-nav-item)
   - [dwc-avatar](web-components/dwc-avatar)
   - [dwc-backdrop](web-components/dwc-backdrop)
+  - [dwc-badge](web-components/dwc-badge)
   - [dwc-button](web-components/dwc-button)
   - [dwc-checkbox](web-components/dwc-checkbox)
   - [dwc-choicebox](web-components/dwc-choicebox)

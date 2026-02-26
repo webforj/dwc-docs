@@ -55,13 +55,14 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot           | Description             |
-| -------------- | ----------------------- |
-|                | The button's label      |
-| ``left-edge``  | The button's left edge  |
-| ``prefix``     | The button's prefix     |
-| ``right-edge`` | The button's right edge |
-| ``suffix``     | The button's suffix     |
+| Slot           | Description                                      |
+| -------------- | ------------------------------------------------ |
+|                | The button's label                               |
+| ``badge``      | A slot for placing a badge overlay on the button |
+| ``left-edge``  | The button's left edge                           |
+| ``prefix``     | The button's prefix                              |
+| ``right-edge`` | The button's right edge                          |
+| ``suffix``     | The button's suffix                              |
 
 
 </div>
@@ -75,6 +76,7 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 
 | Part              | Description                  |
 | ----------------- | ---------------------------- |
+| ``badge``         | The button's badge overlay   |
 | ``control``       | The component's base wrapper |
 | ``dropdown``      | The button's dropdown button |
 | ``dropdown-icon`` | The button's dropdown icon   |
