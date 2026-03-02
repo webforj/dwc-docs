@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-26T13:20:48",
+  "timestamp": "2026-03-02T13:25:44",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -22004,6 +22004,412 @@
           "dwc-icon"
         ]
       }
+    },
+    {
+      "filePath": "src/components/dwc-format-datetime/dwc-format-datetime.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-format-datetime",
+      "docs": "The `dwc-format-datetime` component displays a formatted date, time, or datetime\nusing a BBj mask. This is a display-only component — it renders the masked value\nas text.\n\nThe `value` accepts an ISO 8601 string (date: `2024-03-15`, time: `14:30:00`,\nor datetime: `2024-03-15T14:30:00`) or a JavaScript `Date` object set via the property.",
+      "docsTags": [
+        {
+          "name": "part",
+          "text": "value - The `<time>` element containing the formatted value."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "locale",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "locale",
+          "reflectToAttr": false,
+          "docs": "The locale to use for formatting (e.g. `en-US`). Defaults to the browser locale.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "mask",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "mask",
+          "reflectToAttr": false,
+          "docs": "The BBj date mask pattern (e.g. `%Mz/%Dz/%Yz`).",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'%Mz/%Dz/%Yz'"
+            }
+          ],
+          "default": "'%Mz/%Dz/%Yz'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "value",
+          "type": "Date | string",
+          "complexType": {
+            "original": "string | Date",
+            "resolved": "Date | string",
+            "references": {
+              "Date": {
+                "location": "global",
+                "id": "global::Date"
+              }
+            }
+          },
+          "mutable": false,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "The value to format. Accepts an ISO 8601 date, time, or datetime string, or a `Date` object.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "Date"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "value",
+          "docs": "The `<time>` element containing the formatted value."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "src/components/dwc-format-number/dwc-format-number.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-format-number",
+      "docs": "The `dwc-format-number` component displays a formatted number using a BBj number mask.\nThis is a display-only component — it renders the masked value as text.",
+      "docsTags": [
+        {
+          "name": "part",
+          "text": "value - The formatted value element."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "decimalSeparator",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "decimal-separator",
+          "reflectToAttr": false,
+          "docs": "The character used as the decimal separator.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'.'"
+            }
+          ],
+          "default": "'.'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "forceTrailingZeros",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "force-trailing-zeros",
+          "reflectToAttr": false,
+          "docs": "When true, trailing zeros are preserved after the decimal point.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "groupSeparator",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "group-separator",
+          "reflectToAttr": false,
+          "docs": "The character used as the grouping (thousands) separator.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "','"
+            }
+          ],
+          "default": "','",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "mask",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "mask",
+          "reflectToAttr": false,
+          "docs": "The BBj number mask pattern (e.g. `###,##0.00`).",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "complexType": {
+            "original": "number",
+            "resolved": "number",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "The numeric value to format.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "0"
+            }
+          ],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "value",
+          "docs": "The formatted value element."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "src/components/dwc-format-text/dwc-format-text.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-format-text",
+      "docs": "The `dwc-format-text` component displays a formatted string using a BBj string mask.\nThis is a display-only component — it renders the masked value as text.",
+      "docsTags": [
+        {
+          "name": "part",
+          "text": "value - The formatted value element."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "mask",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "mask",
+          "reflectToAttr": false,
+          "docs": "The BBj string mask pattern (e.g. `XX-XXX-XXXX`).",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "The string value to format.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "value",
+          "docs": "The formatted value element."
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
     },
     {
       "filePath": "src/components/dwc-hotkey/dwc-hotkey.tsx",

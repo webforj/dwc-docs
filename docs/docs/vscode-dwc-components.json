@@ -3063,6 +3063,73 @@
       ]
     },
     {
+      "name": "dwc-format-datetime",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-format-datetime` component displays a formatted date, time, or datetime\nusing a BBj mask. This is a display-only component — it renders the masked value\nas text.\n\nThe `value` accepts an ISO 8601 string (date: `2024-03-15`, time: `14:30:00`,\nor datetime: `2024-03-15T14:30:00`) or a JavaScript `Date` object set via the property."
+      },
+      "attributes": [
+        {
+          "name": "locale",
+          "description": "The locale to use for formatting (e.g. `en-US`). Defaults to the browser locale."
+        },
+        {
+          "name": "mask",
+          "description": "The BBj date mask pattern (e.g. `%Mz/%Dz/%Yz`)."
+        },
+        {
+          "name": "value",
+          "description": "The value to format. Accepts an ISO 8601 date, time, or datetime string, or a `Date` object."
+        }
+      ]
+    },
+    {
+      "name": "dwc-format-number",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-format-number` component displays a formatted number using a BBj number mask.\nThis is a display-only component — it renders the masked value as text."
+      },
+      "attributes": [
+        {
+          "name": "decimal-separator",
+          "description": "The character used as the decimal separator."
+        },
+        {
+          "name": "force-trailing-zeros",
+          "description": "When true, trailing zeros are preserved after the decimal point."
+        },
+        {
+          "name": "group-separator",
+          "description": "The character used as the grouping (thousands) separator."
+        },
+        {
+          "name": "mask",
+          "description": "The BBj number mask pattern (e.g. `###,##0.00`)."
+        },
+        {
+          "name": "value",
+          "description": "The numeric value to format."
+        }
+      ]
+    },
+    {
+      "name": "dwc-format-text",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-format-text` component displays a formatted string using a BBj string mask.\nThis is a display-only component — it renders the masked value as text."
+      },
+      "attributes": [
+        {
+          "name": "mask",
+          "description": "The BBj string mask pattern (e.g. `XX-XXX-XXXX`)."
+        },
+        {
+          "name": "value",
+          "description": "The string value to format."
+        }
+      ]
+    },
+    {
       "name": "dwc-hotkey",
       "description": {
         "kind": "markdown",
