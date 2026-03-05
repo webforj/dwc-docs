@@ -5594,6 +5594,21 @@
           "description": "When true, the table will render borders between rows."
         },
         {
+          "name": "scroll-skeleton-mode",
+          "description": "Controls whether skeleton placeholders are shown in cells with renderers\nduring scroll instead of rendering the actual cell content.\n\nThis improves scroll performance when cells contain web components\n(e.g. badges, progress bars, icons) by avoiding expensive shadow DOM\ncreation on every scroll frame. The actual renderers materialize once\nscrolling stops.\n\n- `auto` - Show skeletons during scroll only when columns have cell renderers.\n- `enabled` - Always show skeletons during scroll.\n- `disabled` - Never show skeletons; always render cell content immediately.",
+          "values": [
+            {
+              "name": "auto"
+            },
+            {
+              "name": "disabled"
+            },
+            {
+              "name": "enabled"
+            }
+          ]
+        },
+        {
           "name": "selection-mode",
           "description": "The selection mode of the table.",
           "values": [

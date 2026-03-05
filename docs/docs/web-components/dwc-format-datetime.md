@@ -1,5 +1,5 @@
 # dwc-format-datetime
-![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--format--datetime-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
+![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--format--datetime-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-none-%23006aff)
 
 The `dwc-format-datetime` component displays a formatted date, time, or datetime
 using a BBj mask. This is a display-only component — it renders the masked value
