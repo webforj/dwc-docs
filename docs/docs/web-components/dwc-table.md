@@ -197,13 +197,13 @@ Scrolls to a cell
 
 Type: `Promise<void>`
 
-### `moveColumn(columnId: string, newIndex: number) => Promise<void>`
+### `moveColumn(columnId: string, newIndex: number) => Promise<ColumnState[]>`
 
 Moves a column to a new position in the table.
 
 ### Returns
 
-Type: `Promise<void>`
+Type: `Promise<ColumnState[]>`
 
 ### `scrollToRow(rowId: string) => Promise<void>`
 
