@@ -68,18 +68,19 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part              | Description                  |
-| ----------------- | ---------------------------- |
-| ``badge``         | The button's badge overlay   |
-| ``control``       | The component's base wrapper |
-| ``dropdown``      | The button's dropdown button |
-| ``dropdown-icon`` | The button's dropdown icon   |
-| ``label``         | The button's label           |
-| ``label-wrapper`` |                              |
-| ``left-edge``     | The button's left edge       |
-| ``prefix``        | The button's prefix          |
-| ``right-edge``    | The button's right edge      |
-| ``suffix``        | The button's suffix          |
+| Part              | Description                                                        |
+| ----------------- | ------------------------------------------------------------------ |
+| ``badge``         | The button's badge overlay                                         |
+| ``control``       | The component's base wrapper                                       |
+| ``dropdown``      | The button's dropdown button                                       |
+| ``dropdown-icon`` | The button's dropdown icon                                         |
+| ``label``         | The button's label                                                 |
+| ``label-wrapper`` |                                                                    |
+| ``left-edge``     | The button's left edge                                             |
+| ``prefix``        | The button's prefix                                                |
+| ``right-edge``    | The button's right edge                                            |
+| ``split-wrapper`` | The container that holds both the control and dropdown as siblings |
+| ``suffix``        | The button's suffix                                                |
 
 
 </div>
@@ -116,21 +117,22 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                                 | Description                        |
-| ------------------------------------ | ---------------------------------- |
-| ``--dwc-button-background``          | The button's default background.   |
-| ``--dwc-button-border-color``        | The button's default border color. |
-| ``--dwc-button-color``               | The button's default color.        |
-| ``--dwc-button-dropdown-background`` | The dropdown button's background.  |
-| ``--dwc-button-dropdown-color``      | The dropdown button's text color.  |
-| ``--dwc-button-focus-border-color``  | The button's focus border color.   |
-| ``--dwc-button-focus-ring``          | The button's focus ring.           |
-| ``--dwc-button-font-weight``         | The button's font weight.          |
-| ``--dwc-button-hover-background``    | The button's hover background.     |
-| ``--dwc-button-hover-border-color``  | The button's hover border color.   |
-| ``--dwc-button-hover-color``         | The button's hover color.          |
-| ``--dwc-button-selected-background`` | The button's selected background.  |
-| ``--dwc-button-selected-color``      | The button's selected col or.      |
+| Name                                   | Description                         |
+| -------------------------------------- | ----------------------------------- |
+| ``--dwc-button-background``            | The button's default background.    |
+| ``--dwc-button-border-color``          | The button's default border color.  |
+| ``--dwc-button-color``                 | The button's default color.         |
+| ``--dwc-button-dropdown-background``   | The dropdown button's background.   |
+| ``--dwc-button-dropdown-color``        | The dropdown button's text color.   |
+| ``--dwc-button-focus-border-color``    | The button's focus border color.    |
+| ``--dwc-button-focus-ring``            | The button's focus ring.            |
+| ``--dwc-button-font-weight``           | The button's font weight.           |
+| ``--dwc-button-hover-background``      | The button's hover background.      |
+| ``--dwc-button-hover-border-color``    | The button's hover border color.    |
+| ``--dwc-button-hover-color``           | The button's hover color.           |
+| ``--dwc-button-selected-background``   | The button's selected background.   |
+| ``--dwc-button-selected-border-color`` | The button's selected border color. |
+| ``--dwc-button-selected-color``        | The button's selected color.        |
 
 
 </div>

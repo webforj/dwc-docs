@@ -46,9 +46,10 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 <div style="overflow-x: auto;">
 
-| Slot  | Description                                             |
-| ----- | ------------------------------------------------------- |
-|       | The place where the message or buttons can be inserted. |
+| Slot     | Description                                             |
+| -------- | ------------------------------------------------------- |
+|          | The place where the message or buttons can be inserted. |
+| ``icon`` | The place where a custom status icon can be inserted.   |
 
 
 </div>
@@ -64,6 +65,7 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 | ------------------- | ---------------------------- |
 | ``buttons``         | The button's container       |
 | ``control``         | The component's base wrapper |
+| ``icon``            | The status icon wrapper      |
 | ``message``         | The message's container      |
 | ``message-wrapper`` | The message's wrapper        |
 
@@ -103,6 +105,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 | ``--dwc-toast-button-color``       | The toast button colors      |
 | ``--dwc-toast-button-font-weight`` | The toast button font-weight |
 | ``--dwc-toast-color``              | The toast color              |
+| ``--dwc-toast-icon-color``         | The status icon color        |
 | ``--dwc-toast-maxWidth``           | The toast max width          |
 | ``--dwc-toast-minWidth``           | The toast min width          |
 | ``--dwc-toast-shadow``             | The toast box shadow         |
@@ -114,6 +117,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 ## Components Dependencies
 
 - [dwc-toast-group](web-components/dwc-toast-group.md)
+- [dwc-icon](web-components/dwc-icon.md)
 
 
 ----------------------------------------------

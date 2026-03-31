@@ -50,16 +50,17 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot               | Description                         |
-| ------------------ | ----------------------------------- |
-| ``after-content``  | The dialog's after content section  |
-| ``after-footer``   | The dialog's after footer section   |
-| ``after-form``     | The dialog's after form section     |
-| ``after-header``   | The dialog's after header section   |
-| ``before-content`` | The dialog's before content section |
-| ``before-footer``  | The dialog's before footer section  |
-| ``before-form``    | The dialog's before form section    |
-| ``before-header``  | The dialog's before header section  |
+| Slot               | Description                              |
+| ------------------ | ---------------------------------------- |
+| ``after-content``  | The dialog's after content section       |
+| ``after-footer``   | The dialog's after footer section        |
+| ``after-form``     | The dialog's after form section          |
+| ``after-header``   | The dialog's after header section        |
+| ``before-content`` | The dialog's before content section      |
+| ``before-footer``  | The dialog's before footer section       |
+| ``before-form``    | The dialog's before form section         |
+| ``before-header``  | The dialog's before header section       |
+| ``header-icon``    | The header icon. Defaults to a lock icon |
 
 
 </div>
@@ -88,6 +89,8 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 | ``footer``            | The dialog's footer (buttons & checkbox) |
 | ``form``              | The dialog's form                        |
 | ``header``            | The dialog's header                      |
+| ``header-icon``       | The dialog's header icon badge           |
+| ``header-title``      | The dialog's header title text           |
 | ``password-input``    | The password input (dwc-field)           |
 | ``rememberme-input``  | The checkbox input                       |
 | ``submit-button``     | The signin button (dwc-button)           |
@@ -113,8 +116,8 @@ They can either reflect the component's state, such as "disabled" or "active," o
 ## Components Dependencies
 
 - [dwc-dialog](web-components/dwc-dialog.md)
-- [dwc-alert](web-components/dwc-alert.md)
 - [dwc-icon](web-components/dwc-icon.md)
+- [dwc-alert](web-components/dwc-alert.md)
 - [dwc-field](web-components/dwc-field.md)
 - [dwc-checkbox](web-components/dwc-checkbox.md)
 - [dwc-button](web-components/dwc-button.md)

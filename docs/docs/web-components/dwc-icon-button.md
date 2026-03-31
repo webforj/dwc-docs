@@ -21,7 +21,7 @@ Some properties reflect their values to attributes and vice versa. This means th
 | ------------------ | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | :------: | ------------------------------------------------------------------------------------ | ------------- |
 | ``disabled``       | ``disabled``        | True to disable the button, false to enable it.                                                                                         | &#x2714; | ``boolean``                                                                          | ``false``     |
 | ``expanse``        | ``expanse``         | The button's expanse                                                                                                                    | &#x2714; | ``"2xl" \| "2xs" \| "3xl" \| "l" \| "m" \| "s" \| "xl" \| "xs"``                     | ``'xs'``      |
-| ``focusVisible``   | ``focus-visible``   | When true, The button will show the focus ring when it is focused by keyboard.                                                          | &#x2718; | ``boolean``                                                                          | ``false``     |
+| ``focusVisible``   | ``focus-visible``   | When true, The button will show the focus ring when it is focused by keyboard.                                                          | &#x2718; | ``boolean``                                                                          | ``true``      |
 | ``label``          | ``label``           | The button's label                                                                                                                      | &#x2718; | ``string``                                                                           |               |
 | ``name``           | ``name``            | The button's name                                                                                                                       | &#x2714; | ``string``                                                                           |               |
 | ``pool``           | ``pool``            | The button's pool name                                                                                                                  | &#x2718; | ``string``                                                                           | ``'tabler'``  |
@@ -58,11 +58,14 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 | Name                                       | Description                     |
 | ------------------------------------------ | ------------------------------- |
+| ``--dwc-icon-button-active-background``    | The button's active background  |
 | ``--dwc-icon-button-active-color``         | The button's active color       |
 | ``--dwc-icon-button-border-color``         | The button's border color       |
 | ``--dwc-icon-button-color``                | The button's color              |
+| ``--dwc-icon-button-focus-color``          | The button's focus color        |
 | ``--dwc-icon-button-focus-ring``           | The button's focus ring         |
 | ``--dwc-icon-button-focused-border-color`` | The button's focus border color |
+| ``--dwc-icon-button-hover-background``     | The button's hover background   |
 | ``--dwc-icon-button-hover-color``          | The button's hover color        |
 
 
@@ -77,6 +80,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 - [dwc-alert](web-components/dwc-alert.md)
 - [dwc-color-chooser](web-components/dwc-color-chooser.md)
+- [dwc-combobox](web-components/dwc-combobox.md)
 - [dwc-datefield](web-components/dwc-datefield.md)
 - [dwc-drawer](web-components/dwc-drawer.md)
 - [dwc-field](web-components/dwc-field.md)

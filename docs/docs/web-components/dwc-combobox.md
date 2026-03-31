@@ -110,9 +110,9 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 | ``field-prefix``        | Exposed part for the ``dwc-field`` component. Maps to the ``prefix`` part.        |
 | ``field-suffix``        | Exposed part for the ``dwc-field`` component. Maps to the ``suffix`` part.        |
 | ``helper-text``         | The helper text part                                                              |
-| ``suffix``              | The field's suffix                                                                |
-| ``suffix-icon``         | The field's suffix icon                                                           |
-| ``suffix-separator``    | The field's separator to the left of the button's suffix                          |
+| ``suffix``              | The dropdown toggle icon-button                                                   |
+| ``suffix-control``      | Exposed part for the toggle icon-button. Maps to the ``control`` part.            |
+| ``suffix-icon``         | Exposed part for the toggle icon-button. Maps to the ``icon`` part.               |
 
 
 </div>
@@ -157,7 +157,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 - [dwc-dropdown](web-components/dwc-dropdown.md)
 - [dwc-field](web-components/dwc-field.md)
-- [dwc-icon](web-components/dwc-icon.md)
+- [dwc-icon-button](web-components/dwc-icon-button.md)
 - [dwc-alert](web-components/dwc-alert.md)
 - [dwc-alert-popover](web-components/dwc-alert-popover.md)
 

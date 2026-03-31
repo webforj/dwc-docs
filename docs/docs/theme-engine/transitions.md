@@ -41,15 +41,14 @@ The easing variables define a set of predefined transition-timing functions whic
 | `--dwc-ease-outQuad`    | `cubic-bezier(0.25, 0.46, 0.45, 0.94)`    | [Test it](http://cubic-bezier.com/#0.25,0.46,0.45,0.94)    |
 | `--dwc-ease-inOutQuad`  | `cubic-bezier(0.455, 0.03, 0.515, 0.955)` | [Test it](http://cubic-bezier.com/#0.455,0.03,0.515,0.955) |
 | `--dwc-ease-inCubic`    | `cubic-bezier(0.55, 0.055, 0.675, 0.19)`  | [Test it](http://cubic-bezier.com/#0.55,0.055,0.675,0.19)  |
-| `--dwc-ease-inCubic`    | `cubic-bezier(0.55, 0.055, 0.675, 0.19)`  | [Test it](http://cubic-bezier.com/#0.55,0.055,0.675,0.19)  |
 | `--dwc-ease-outCubic`   | `cubic-bezier(0.215, 0.61, 0.355, 1)`     | [Test it](http://cubic-bezier.com/#0.215,0.61,0.355,1)     |
-| `--dwc-ease-inQutCubic` | `cubic-bezier(0.645, 0.045, 0.355, 1)`    | [Test it](http://cubic-bezier.com/#0.645,0.045,0.355,1)    |
+| `--dwc-ease-inOutCubic` | `cubic-bezier(0.645, 0.045, 0.355, 1)`    | [Test it](http://cubic-bezier.com/#0.645,0.045,0.355,1)    |
 | `--dwc-ease-inQuart`    | `cubic-bezier(0.895, 0.03, 0.685, 0.22)`  | [Test it](http://cubic-bezier.com/#0.895,0.03,0.685,0.22)  |
 | `--dwc-ease-outQuart`   | `cubic-bezier(0.165, 0.84, 0.44, 1)`      | [Test it](http://cubic-bezier.com/#0.165,0.84,0.44,1)      |
-| `--dwc-ease-inQutQuart` | `cubic-bezier(0.77,0,0.175,1)`            | [Test it](http://cubic-bezier.com/#0.77,0,0.175,1)         |
+| `--dwc-ease-inOutQuart` | `cubic-bezier(0.77,0,0.175,1)`            | [Test it](http://cubic-bezier.com/#0.77,0,0.175,1)         |
 | `--dwc-ease-inQuint`    | `cubic-bezier(0.755, 0.05, 0.855, 0.06)`  | [Test it](http://cubic-bezier.com/#0.755,0.05,0.855,0.06)  |
 | `--dwc-ease-outQuint`   | `cubic-bezier(0.23, 1, 0.32, 1)`          | [Test it](http://cubic-bezier.com/#0.23,1,0.32,1)          |
-| `--dwc-ease-inQutQuint` | `cubic-bezier(0.86, 0, 0.07, 1)`          | [Test it](http://cubic-bezier.com/#0.86,0,0.07,1)          |
+| `--dwc-ease-inOutQuint` | `cubic-bezier(0.86, 0, 0.07, 1)`          | [Test it](http://cubic-bezier.com/#0.86,0,0.07,1)          |
 | `--dwc-ease-inExpo`     | `cubic-bezier(0.95, 0.05, 0.795, 0.035)`  | [Test it](http://cubic-bezier.com/#0.95,0.05,0.795,0.035)  |
 | `--dwc-ease-outExpo`    | `cubic-bezier(0.19, 1, 0.22, 1)`          | [Test it](http://cubic-bezier.com/#0.19,1,0.22,1)          |
 | `--dwc-ease-inOutExpo`  | `cubic-bezier(1, 0, 0, 1)`                | [Test it](http://cubic-bezier.com/#1,0,0,1)                |

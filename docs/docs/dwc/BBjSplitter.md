@@ -90,25 +90,21 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                                              | Description                                                                                                                                            |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ``--dwc-splitter-gutter-handle-border``           | The border of the gutter handle.                                                                                                                       |
-| ``--dwc-splitter-gutter-handle-border-color``     | The border color of the gutter handle.                                                                                                                 |
-| ``--dwc-splitter-gutter-handle-border-radius``    | The border radius of the gutter handle.                                                                                                                |
-| ``--dwc-splitter-gutter-handle-color``            | The color of the gutter handle.                                                                                                                        |
-| ``--dwc-splitter-gutter-handle-height``           | The height of the gutter handle if orientation is horizontal. The width of the gutter handle if orientation is vertical.                               |
-| ``--dwc-splitter-gutter-handle-hover-background`` | The background of the gutter handle when hovered.                                                                                                      |
-| ``--dwc-splitter-gutter-handle-hover-color``      | The color of the gutter handle when hovered. @pro --dwc-splitter-gutter-handle-focus-border-color: The border color of the gutter handle when focused. |
-| ``--dwc-splitter-gutter-handle-width``            | The width of the gutter handle if orientation is horizontal. The height of the gutter handle if orientation is vertical.                               |
-| ``--dwc-splitter-gutter-size``                    | The size of the gutter between the two panes.                                                                                                          |
+| Name                                                | Description                                                                                                              |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ``--dwc-splitter-gutter-handle-border``             | The border of the gutter handle.                                                                                         |
+| ``--dwc-splitter-gutter-handle-border-color``       | The border color of the gutter handle.                                                                                   |
+| ``--dwc-splitter-gutter-handle-border-radius``      | The border radius of the gutter handle.                                                                                  |
+| ``--dwc-splitter-gutter-handle-color``              | The color of the gutter handle.                                                                                          |
+| ``--dwc-splitter-gutter-handle-focus-border-color`` | The border color of the gutter handle when focused.                                                                      |
+| ``--dwc-splitter-gutter-handle-height``             | The height of the gutter handle if orientation is horizontal. The width of the gutter handle if orientation is vertical. |
+| ``--dwc-splitter-gutter-handle-hover-background``   | The background of the gutter handle when hovered.                                                                        |
+| ``--dwc-splitter-gutter-handle-hover-color``        | The color of the gutter handle when hovered.                                                                             |
+| ``--dwc-splitter-gutter-handle-width``              | The width of the gutter handle if orientation is horizontal. The height of the gutter handle if orientation is vertical. |
+| ``--dwc-splitter-gutter-size``                      | The size of the gutter between the two panes.                                                                            |
 
 
 </div>
-
-## Components Dependencies
-
-- [dwc-icon](web-components/dwc-icon.md)
-
 
 ## Messages
 

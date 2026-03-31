@@ -89,6 +89,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 | ``--dwc-progressbar-front-background`` | The front background of the progressbar                 |
 | ``--dwc-progressbar-front-color``      | The front color of the progressbar                      |
 | ``--dwc-progressbar-height``           | The default progressbar height                          |
+| ``--dwc-progressbar-inset``            | The inner padding of the progressbar track container    |
 | ``--dwc-progressbar-width``            | The default progressbar width                           |
 | ``--dwc-stripes-color``                | The stripes color when the progressbar is progress mode |
 

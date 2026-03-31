@@ -2130,6 +2130,10 @@
           "description": "Specifies the Y position for the dialog."
         },
         {
+          "name": "scrollbar-gutter",
+          "description": "When true, reserves space for the scrollbar using `scrollbar-gutter: stable` while the dialog is open.\nThis prevents layout shifts when the page scrollbar disappears behind the modal backdrop.\nDisable when the modal covers the entire viewport (e.g. login) to avoid a visible gutter gap."
+        },
+        {
           "name": "snap-threshold",
           "description": "The number of pixels to take into count before the dialog is considered outside the viewport."
         },
@@ -5280,6 +5284,9 @@
               "name": "info"
             },
             {
+              "name": "primary"
+            },
+            {
               "name": "success"
             },
             {
@@ -5327,6 +5334,9 @@
             },
             {
               "name": "info"
+            },
+            {
+              "name": "primary"
             },
             {
               "name": "success"
@@ -5465,6 +5475,10 @@
           ]
         },
         {
+          "name": "segment",
+          "description": "When true, the tabs are rendered as a segment control with a sliding pill indicator."
+        },
+        {
           "name": "selected",
           "description": ""
         },
@@ -5503,6 +5517,9 @@
             },
             {
               "name": "info"
+            },
+            {
+              "name": "primary"
             },
             {
               "name": "success"
