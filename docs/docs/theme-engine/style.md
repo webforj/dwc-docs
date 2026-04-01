@@ -1,6 +1,6 @@
 # Style
 
-BBj defines a collection of CSS Variables that you can use to apply consistent visual styles across all of your application.
+DWC defines a collection of CSS Variables that you can use to apply consistent visual styles across all of your application.
 
 ## Borders
 
@@ -10,23 +10,35 @@ The border properties are used to control the component border style and width. 
 
 ```css
 .element {
-  border: var(--dwc-border-width) var(--dwc-border-style) red;
+  border: var(--dwc-border-width) var(--dwc-border-style) var(--dwc-border-color);
 }
 ```
 
 ### Variables
 
-| **Variable**         | **Default Value** |
-| -------------------- | ----------------- |
-| `--dwc-border-width` | 1px               |
-| `--dwc-border-style` | solid             |
+| Variable | Default Value |
+| --- | --- |
+| `--dwc-border-width` | 1px |
+| `--dwc-border-style` | solid |
+| `--dwc-border-color` | var(--dwc-border-color-default) |
+| `--dwc-border-color-emphasis` | var(--dwc-border-color-default-emphasis) |
+
+### Per-Palette Border Colors
+
+Each color palette also generates its own border color variables:
+
+| Variable Pattern | Description |
+| --- | --- |
+| `--dwc-border-color-{name}` | Mode-aware border color tinted with the palette hue |
+| `--dwc-border-color-{name}-emphasis` | Stronger variant for hover, focus, and active states |
+
+Where `{name}` is one of: `primary`, `success`, `warning`, `danger`, `info`, `gray`, `default`.
 
 ## Border Radius
 
-The border properties are used to rounds the corners of an element's outer border edge.
-All border radius values are defined in `em` by default, so they scale with the font size.
+The border radius properties are used to round the corners of an element's outer border edge.
 
-?> **Note:** `em` is a relative length unit. It is relative to [font size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width).
+All sizes scale from a single seed value (`--dwc-border-radius-seed`). Changing the seed rescales the entire radius system proportionally.
 
 ### Example
 
@@ -38,22 +50,36 @@ All border radius values are defined in `em` by default, so they scale with the 
 
 ### Variables
 
-| **Variable**                | **Default Value**          |
-| --------------------------- | -------------------------- |
-| `--dwc-border-radius-2xs`   | 0.071em                    |
-| `--dwc-border-radius-xs`    | 0.125em                    |
-| `--dwc-border-radius-s`     | 0.25em                     |
-| `--dwc-border-radius-m`     | 0.375em                    |
-| `--dwc-border-radius-l`     | 0.5em                      |
-| `--dwc-border-radius-xl`    | 0.75em                     |
-| `--dwc-border-radius-2xl`   | 1em                        |
-| `--dwc-border-radius-round` | 50%                        |
-| `--dwc-border-radius-pill`  | 9999px                     |
-| `--dwc-border-radius`       | var(--dwc-border-radius-s) |
+| Variable | Default Value | Computed (at seed=8px) |
+| --- | --- | --- |
+| `--dwc-border-radius-seed` | 0.5rem | 8px |
+| `--dwc-border-radius-2xs` | 0.0625rem | 1px (fixed) |
+| `--dwc-border-radius-xs` | 0.125rem | 2px (fixed) |
+| `--dwc-border-radius-s` | calc(seed * 0.5) | 4px |
+| `--dwc-border-radius-m` | calc(seed * 0.75) | 6px |
+| `--dwc-border-radius-l` | var(--dwc-border-radius-seed) | 8px |
+| `--dwc-border-radius-xl` | calc(seed * 1.5) | 12px |
+| `--dwc-border-radius-2xl` | calc(seed * 2) | 16px |
+| `--dwc-border-radius-3xl` | calc(seed * 3) | 24px |
+| `--dwc-border-radius-4xl` | calc(seed * 4) | 32px |
+| `--dwc-border-radius-round` | 50% | |
+| `--dwc-border-radius-pill` | calc(var(--dwc-size-m) / 2) | |
+| `--dwc-border-radius` | var(--dwc-border-radius-seed) | 8px |
+
+<dwc-doc-radii></dwc-doc-radii>
+
+### Usage Guidelines
+
+- Items inside containers: use `s` (0.5x seed)
+- Structural borders (between item and container): use `m` (0.75x seed)
+- Containers and surfaces: use `l` (1x seed)
+- Large overlays: use `xl` (1.5x seed)
 
 ## Shadow
 
-The shadow properties are used to add shadow effects around an element's frame. You can set multiple effects separated by commas. In most cases, shadows are utilized to signify items that are layered on top of each other in the user interface.
+The shadow properties add shadow effects around an element's frame. Shadows signify items that are layered on top of each other in the user interface.
+
+Shadows adapt automatically to both light and dark modes, appearing stronger in dark mode for better visibility.
 
 ### Example
 
@@ -65,17 +91,17 @@ The shadow properties are used to add shadow effects around an element's frame. 
 
 ### Variables
 
-| **Variable**       | **Default Value**     |
-| ------------------ | --------------------- |
-| `--dwc-shadow-xs`  | -                     |
-| `--dwc-shadow-s`   | -                     |
-| `--dwc-shadow-m`   | -                     |
-| `--dwc-shadow-l`   | -                     |
-| `--dwc-shadow-xl`  | -                     |
-| `--dwc-shadow-2xl` | -                     |
-| `--dwc-shadow`     | `var(--dwc-shadow-m)` |
+| Variable | Description |
+| --- | --- |
+| `--dwc-shadow-xs` | Extra small shadow (1 layer) |
+| `--dwc-shadow-s` | Small shadow (2 layers) |
+| `--dwc-shadow-m` | Medium shadow (3 layers, default) |
+| `--dwc-shadow-l` | Large shadow (4 layers) |
+| `--dwc-shadow-xl` | Extra large shadow (5 layers) |
+| `--dwc-shadow-2xl` | Double extra large shadow (6 layers) |
+| `--dwc-shadow` | `var(--dwc-shadow-m)` |
 
-?> **Note:** You control the shadow color by setting the `--dwc-shadow-color` variable. By default the shadow color is gray tinted with primary color.
+<dwc-doc-shadows></dwc-doc-shadows>
 
 ## Cursors
 
@@ -85,32 +111,38 @@ The cursor properties are used to set the type of mouse cursor, if any, to show 
 
 ```css
 .element {
-  --dwc-cursor-click: var(--dwc-cursor-grab);
+  cursor: var(--dwc-cursor-click);
 }
 ```
 
-You can also use an image as a custom cursor. For instance:
+You can also use an image as a custom cursor:
 
 ```css
 :root {
-  --dwc-cursor-click: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png'), auto;
+  --dwc-cursor-click: url('https://example.com/cursor.png'), auto;
 }
 ```
 
 ### Variables
 
-| **Variable**            | **Default Value** |
-| ----------------------- | ----------------- |
-| `--dwc-cursor-click`    | pointer           |
-| `--dwc-cursor-text`     | text              |
-| `--dwc-cursor-disabled` | not-allowed       |
-| `--dwc-cursor-grab`     | grab              |
-| `--dwc-cursor-move`     | move              |
+| Variable | Default Value |
+| --- | --- |
+| `--dwc-cursor-click` | default |
+| `--dwc-cursor-text` | text |
+| `--dwc-cursor-disabled` | not-allowed |
+| `--dwc-cursor-grab` | grab |
+| `--dwc-cursor-grabbing` | grabbing |
+| `--dwc-cursor-move` | move |
+| `--dwc-cursor-resize-row` | ew-resize |
+| `--dwc-cursor-resize-column` | ns-resize |
+| `--dwc-cursor-progress` | progress |
+| `--dwc-cursor-wait` | wait |
 
 ## Surfaces
 
-BBj define three levels of surfaces which are used to organize the UI hierarchy combined
-with [dwc-shadows](theme-engine/style?id=shadow). All [palettes colors](theme-engine/colors?id=the-palette) are tested to have enough contrast with these surfaces.
+DWC defines three levels of surfaces which are used to organize the UI hierarchy combined with [shadows](theme-engine/style?id=shadow). All [palette colors](theme-engine/colors?id=the-palette) are tested to have enough contrast with these surfaces.
+
+Surfaces pick up a subtle tint from the primary hue and adapt automatically to light and dark modes.
 
 ### Example
 
@@ -122,15 +154,19 @@ with [dwc-shadows](theme-engine/style?id=shadow). All [palettes colors](theme-en
 
 ### Variables
 
-| **Variable**      | **Usage**                                                               |
-| ----------------- | ----------------------------------------------------------------------- |
-| `--dwc-surface-1` | It is the darkest surface. Used for body background.                    |
-| `--dwc-surface-2` | Used for components (for instance a card)                               |
-| `--dwc-surface-3` | The lightest and the highest surface. Used for menus , popovers , dialogs ... |
+| Variable | Usage |
+| --- | --- |
+| `--dwc-surface-1` | Page and body background |
+| `--dwc-surface-2` | Toolbars, menubars, cards |
+| `--dwc-surface-3` | Windows, menus, popovers, dialogs |
+
+<dwc-doc-surfaces></dwc-doc-surfaces>
 
 ## Disabled State
 
-The disabled state properties are used to make an element looks visually disabled or not mutable.
+The disabled state properties are used to make an element look visually disabled or not mutable.
+
+The opacity adapts to the current theme for optimal visibility in both light and dark modes.
 
 ### Example
 
@@ -143,18 +179,38 @@ input:disabled {
 
 ### Variables
 
-| **Variable**             | **Default Value**          |
-| ------------------------ | -------------------------- |
-| `--dwc-disabled-opacity` | .7                         |
-| `--dwc-disabled-cursor`  | var(--dwc-cursor-disabled) |
+| Variable | Description |
+| --- | --- |
+| `--dwc-disabled-opacity` | Reduced opacity for disabled elements (adapts to light/dark mode) |
+| `--dwc-disabled-cursor` | var(--dwc-cursor-disabled) |
 
 ## Focus State
 
-When an element gets focused, a focus ring will be shown around the element to indicate the current focus position.
-You can control the focus ring's appearance by settings the following variables: [@see color palette](/theme-engine/colors?id=component-themes)
+When an element gets focused, a focus ring is shown around the element to indicate the current focus position.
 
-| **Variable**                 | **Default Value** |
-| ---------------------------- | ----------------- |
-| `--dwc-focus-ring-l` | 45%               |
-| `--dwc-focus-ring-a`     | .4                |
-| `--dwc-focus-ring-width`     | 3px               |
+| Variable | Default Value |
+| --- | --- |
+| `--dwc-focus-ring-a` | 0.75 |
+| `--dwc-focus-ring-width` | 2px |
+| `--dwc-focus-ring-gap` | 2px |
+
+<dwc-doc-focus-rings></dwc-doc-focus-rings>
+
+Each color palette generates its own focus ring variable:
+
+| Variable Pattern | Description |
+| --- | --- |
+| `--dwc-focus-ring-{name}` | Focus ring shadow tinted with the palette color |
+
+Where `{name}` is one of: `primary`, `success`, `warning`, `danger`, `info`, `gray`, `default`. See [Component Themes](/theme-engine/colors?id=component-themes) for details.
+
+## Scales
+
+Scale transforms are used for press/click feedback animations on interactive elements.
+
+| Variable | Default Value | Description |
+| --- | --- | --- |
+| `--dwc-scale-press` | 0.97 | Standard press scale (3% shrink) |
+| `--dwc-scale-press-deep` | 0.93 | Deep press scale (7% shrink) |
+
+<dwc-doc-scales></dwc-doc-scales>

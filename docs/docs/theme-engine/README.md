@@ -1,8 +1,8 @@
-# BBj Theme Engine
+# DWC Theme Engine
 
-For all applications and components, BBj includes an evolving default theme that can be customized to meet your visual style requirements.
+For all applications and components, DWC includes an evolving default theme that can be customized to meet your visual style requirements.
 
-CSS variables (aka design tokens) such as colors, typography, borders and other visual styles are defined by the theme engine as the basic building blocks for component styles.
+The theme engine is built on CSS variables (design tokens) that control colors, typography, borders, shadows, and other visual styles. The system is fully dynamic: changing a single variable recalculates the entire theme instantly with no build step required.
 
 The theme can be customized to meet your visual style needs by modifying the [CSS Variables](theme-engine/css-variables) that it exposes as its public API.
 
@@ -24,6 +24,7 @@ The CSS variables are documented in the following sections:
   - [Surfaces](theme-engine/style?id=surfaces)
   - [Disabled State](theme-engine/style?id=disabled-state)
   - [Focus State](theme-engine/style?id=focus-state)
+  - [Scales](theme-engine/style?id=scales)
 - Transitions
   - [Transitions](theme-engine/transitions)
   - [Easing](theme-engine/transitions?id=easing)

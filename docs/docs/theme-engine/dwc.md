@@ -4,19 +4,15 @@ This document describes the Dynamic Web Client specific CSS variables.
 
 ## Window
 
-| **Variable**                              | **Usage**                                                                                                    |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `--dwc-window-background`                 | The window's body background.                                                                                |
-| ` --dwc-window-border`                    | The window border which separates the window from the document body and the title bar from the window's body |
-| `--dwc-window-box-shadow`                 | The window's box shadow.                                                                                     |
-| `--dwc-window-border-radius`              | The window's border radius.                                                                                  |
-| `--dwc-window-header-background`          | The titlebar's background                                                                                    |
-| `--dwc-window-header-color`               | The titlebar's color                                                                                         |
-| `--dwc-window-header-font-weight`         | The titlebar's font-weight                                                                                   |
-| `--dwc-window-header-box-shadow`          | The box shadow of the titlebar                                                                               |
-| `--dwc-window-minimize-background`        | The minimize button color                                                                                    |
-| `--dwc-window-minimize-active-background` | The minimize button hover color                                                                              |
-| `--dwc-window-maximize-background`        | The minimize button color                                                                                    |
-| `--dwc-window-maximize-active-background` | The minimize button hover color                                                                              |
-| `--dwc-window-close-background`           | The close button color                                                                                       |
-| `--dwc-window-close-active-background`    | The close button hover color                                                                                 |
+Window styling derives from the design system's surface, shadow, and border tokens. All values adapt automatically to light and dark themes.
+
+| Variable | Default Value |
+| --- | --- |
+| `--dwc-window-background` | var(--dwc-surface-2) |
+| `--dwc-window-border` | 0.5px solid with subtle opacity |
+| `--dwc-window-box-shadow` | var(--dwc-shadow-s) |
+| `--dwc-window-border-radius` | var(--dwc-border-radius-l) |
+| `--dwc-window-header-background` | var(--dwc-surface-3) |
+| `--dwc-window-header-color` | var(--dwc-color-body-text) |
+| `--dwc-window-header-font-weight` | 500 |
+| `--dwc-window-header-box-shadow` | Subtle bottom border shadow |

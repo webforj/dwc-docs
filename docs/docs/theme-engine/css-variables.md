@@ -1,10 +1,10 @@
 # CSS Variables
 
-CSS Variables are used in the design of BBj components to allow for easy application customization. CSS variables are entities defined by BBj Theme Engine that contain specific values, which can be reused throughout your application. They also allow for dynamic CSS changes at runtime (which previously required a CSS preprocessor Like [SASS](https://sass-lang.com/) , [LESS](https://lesscss.org/) , ...). They reduce copy-paste, ensure consistency, and make style sheets easier to read and understand.
+CSS Variables are used in the design of DWC components to allow for easy application customization. CSS variables are entities defined by the DWC Theme Engine that contain specific values, which can be reused throughout your application. They also allow for dynamic CSS changes at runtime (which previously required a CSS preprocessor Like [SASS](https://sass-lang.com/) , [LESS](https://lesscss.org/) , ...). They reduce copy-paste, ensure consistency, and make style sheets easier to read and understand.
 
 ## Defining Values
 
-CSS properties can be defined inside any CSS selector, scoping them to that particular selector. But the most common place to define custom properties is in the `:root` selector or at the document root, the `<html>` element. 
+CSS properties can be defined inside any CSS selector, scoping them to that particular selector. But the most common place to define custom properties is in the `:root` selector or at the document root, the `<html>` element.
 
 ?> **Note:** The [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) CSS pseudo-class matches the root element of a tree representing the document. In HTML, `:root` represents the <html> element and is identical to the selector `html`, except that its specificity is higher.
 

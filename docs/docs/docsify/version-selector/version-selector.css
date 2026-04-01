@@ -1,0 +1,33 @@
+.version-selector {
+  display: block;
+  order: 1;
+  width: calc(100% - 2rem);
+  height: 36px;
+  line-height: 36px;
+  margin: 0 1rem var(--dwc-space-s);
+  padding: 0 var(--dwc-space-s);
+  border: 1px solid var(--dwc-border-color);
+  border-radius: var(--dwc-border-radius);
+  background-color: var(--dwc-surface-3);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--dwc-space-s) center;
+  color: var(--dwc-color-body-text);
+  font-family: inherit;
+  font-size: var(--dwc-font-size-m);
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: border-color var(--dwc-transition-fast), box-shadow var(--dwc-transition-fast);
+}
+
+.version-selector:hover {
+  border-color: var(--dwc-border-color-emphasis);
+}
+
+.version-selector:focus-visible {
+  border-color: var(--dwc-color-primary);
+  box-shadow: var(--dwc-focus-ring-primary);
+}

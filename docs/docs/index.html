@@ -8,18 +8,16 @@
   <meta name="description" content="DWC UI">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css">
-  <script type="module" src="//cdn.jsdelivr.net/gh/webforj/dwc-dist@latest/dwc-ui.esm.js"></script>
-  <script nomodule src="//cdn.jsdelivr.net/gh/webforj/dwc-dist@latest/dwc-ui.js"></script>
+  <script type="module" src="//cdn.webforj.com/next/dwc-ui.esm.js"></script>
+  <script nomodule src="//cdn.webforj.com/next/dwc-ui.js"></script>
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/webforj/dwc-dist@latest/dwc-ui.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.4/theme.min.css" />
-  <link rel="stylesheet"
-    href="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.4/plugins/theme-picker/theme-picker.min.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.4/plugins/code-block/code-block.min.css" />
+  <link rel="stylesheet" href="//cdn.webforj.com/next/dwc-ui.css" />
+  <link rel="stylesheet" href="docsify/theme.css" />
+  <link rel="stylesheet" href="docsify/theme-toggle/theme-toggle.css" />
+  <link rel="stylesheet" href="docsify/version-selector/version-selector.css" />
+  <link rel="stylesheet" href="docsify/code-block.css" />
+  <link rel="stylesheet" href="docsify/doc-components/doc-components.css" />
   <style>
-    .markdown-section {
-      max-width: 1200px;
-    }
 
     .cover {
       background-color: #263238 !important;
@@ -34,18 +32,19 @@
       margin-top: 20px;
     }
 
-    p {
-      margin: 0 0 1em 0;
-    }
-
   </style>
 </head>
 
 <body>
   <div id="app"></div>
   <script>
+    if (!window.location.hash || window.location.hash === '#/') {
+      window.location.hash = '#/dwc/';
+    }
+  </script>
+  <script>
     window.$docsify = {
-      coverpage: true,
+      coverpage: false,
       themeColor: 'var(--dwc-color-primary)',
       name: 'DWC',
       repo: '',
@@ -54,11 +53,13 @@
       subMaxLevel: 2,
       search: 'auto',
       auto2top: true,
-      onlyCover: true,
       customPageTitle: {
         prefix: 'DWC',
         suffix: false,
         seprator: '|',
+      },
+      tabs: {
+        theme: 'material',
       },
     }
 
@@ -69,8 +70,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bbj.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.2/prism.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.4/plugins/theme-picker/theme-picker.min.js"></script>
+  <script src="docsify/theme-toggle/theme-toggle.js"></script>
+  <script src="docsify/version-selector/version-selector.js"></script>
+  <script src="docsify/doc-components/doc-components.js"></script>
   <script src="//cdn.jsdelivr.net/gh/webforj/dwc-docsify@0.0.4/plugins/code-block/code-block.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code@2"></script>
   <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>

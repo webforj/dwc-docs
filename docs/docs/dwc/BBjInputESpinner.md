@@ -20,16 +20,16 @@ Some properties reflect their values to attributes and vice versa. This means th
 !> **Tip:** From BBj you can set and get the attributes using the [BBjControl::setAttribute](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_setAttribute.htm)
 and [BBjControl::getAttribute](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_getAttribute.htm) methods respectively.
 And to set properties you can use the [BBjControl::setProperty](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_setProperty.htm) and [BBjControl::getProperty](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/SysGui/bbjcontrol/BBjControl_getProperty.htm) methods respectively.
-<div style="overflow-x: auto;">
-
-| Name          | Attribute      | Description                                                                       | Reflects | Type         | Default  |
-| ------------- | -------------- | --------------------------------------------------------------------------------- | :------: | ------------ | -------- |
-| ``list``      |                | The list of values to display when spinning.                                      | &#x2718; | ``string[]`` | ``[]``   |
-| ``listIndex`` | ``list-index`` | Sets the currently displayed value to the one at the specified index in the list. | &#x2718; | ``number``   | ``0``    |
-| ``wrap``      | ``wrap``       | When true, the user will abe able to loop through the list of available options.  | &#x2718; | ``boolean``  | ``true`` |
-
-
-</div>
+<table>
+<thead><tr><th style="width:28px;padding:4px"></th><th>Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>list</b></code></td><td style="vertical-align:top">The list of values to display when spinning.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Type</span> <code>string[]</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>[]</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>listIndex</b></code></td><td style="vertical-align:top">Sets the currently displayed value to the one at the specified index in the list.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>list-index</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>number</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>0</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>wrap</b></code></td><td style="vertical-align:top">When true, the user will abe able to loop through the list of available options.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>wrap</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>true</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+</tbody></table>
 
 ## Slots
 
@@ -68,14 +68,14 @@ They can either reflect the component's state, such as "disabled" or "active," o
 
 Messages are the BBj instructions that are sent to the browser form the server to create and configure the BBj control.<!-- tabs:start -->
 
-#### **Async create component**
+#### **Create**
 
 | Message                 | Description             | Returns  |
 | ----------------------- | ----------------------- | -------- |
 | BuildListSpinnerMessage | Build a BBjListSpinner. | ``Void`` |
 
 
-#### **Async component message**
+#### **Async**
 
 | Message                    | Description                              | Returns  |
 | -------------------------- | ---------------------------------------- | -------- |
@@ -84,14 +84,14 @@ Messages are the BBj instructions that are sent to the browser form the server t
 | SetSpinnerListMessage      | Implements BBjListSpinner::setSpinList.  | ``Void`` |
 
 
-#### **Synchronous component message**
+#### **Sync**
 
 | Message                    | Description                                                                         | Returns     |
 | -------------------------- | ----------------------------------------------------------------------------------- | ----------- |
 | GetSpinnerListIndexMessage | Implements BBjListSpinner::getListIndex for BBjEditBoxSpinner and BBjInputESpinner. | ``Integer`` |
 
 
-#### **Async event callback message**
+#### **Callbacks**
 
 | Message                           | Description                                          | Returns  |
 | --------------------------------- | ---------------------------------------------------- | -------- |

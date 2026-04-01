@@ -14,14 +14,12 @@ They are useful for storing data and controlling behavior. Properties make web c
 Almost every property has a corresponding attribute, which is useful for setting default values for properties.
 
 Some properties reflect their values to attributes and vice versa. This means that if you set a property, the corresponding attribute is set automatically, and if you set an attribute, the corresponding property is set automatically.
-<div style="overflow-x: auto;">
-
-| Name      | Attribute | Description                                                                                              | Reflects | Type                                     | Default   |
-| --------- | --------- | -------------------------------------------------------------------------------------------------------- | :------: | ---------------------------------------- | --------- |
-| ``field`` | ``field`` | Specifies whether the spinner will spin by days, weeks, months, or years. The default spin field is DAY. | &#x2718; | ``"DAY" \| "MONTH" \| "WEEK" \| "YEAR"`` | ``'DAY'`` |
-
-
-</div>
+<table>
+<thead><tr><th style="width:28px;padding:4px"></th><th>Name</th><th>Description</th></tr></thead>
+<tbody>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>field</b></code></td><td style="vertical-align:top">Specifies whether the spinner will spin by days, weeks, months, or years. The default spin field is DAY.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>field</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>"DAY" | "MONTH" | "WEEK" | "YEAR"</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'DAY'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+</tbody></table>
 
 ## Events
 
