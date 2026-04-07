@@ -195,7 +195,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 ## Methods
 
-### `activateItem(item: HTMLElement | number) => Promise<void>`
+### `activateItem(item: HTMLElement | number, visible?: boolean) => Promise<void>`
 
 Updates tabIndexes and focus the given item.
 

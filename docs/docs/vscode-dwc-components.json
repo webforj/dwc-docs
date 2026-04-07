@@ -2074,6 +2074,10 @@
           ]
         },
         {
+          "name": "auto-width",
+          "description": "When true, the dialog width will fit its content instead of filling the available space."
+        },
+        {
           "name": "autofocus",
           "description": "When true, automatically focuses the first focusable element in the dialog."
         },
