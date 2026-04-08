@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T08:04:48",
+  "timestamp": "2026-04-08T12:40:56",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -14313,103 +14313,7 @@
           "passive": true
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-dialog-background",
-          "annotation": "prop",
-          "docs": "The dialog's background"
-        },
-        {
-          "name": "--dwc-dialog-border",
-          "annotation": "prop",
-          "docs": "The dialog's border"
-        },
-        {
-          "name": "--dwc-dialog-border-radius",
-          "annotation": "prop",
-          "docs": "The dialog's border radius"
-        },
-        {
-          "name": "--dwc-dialog-color",
-          "annotation": "prop",
-          "docs": "The dialog's color"
-        },
-        {
-          "name": "--dwc-dialog-header-background",
-          "annotation": "prop",
-          "docs": "The dialog's header background"
-        },
-        {
-          "name": "--dwc-dialog-header-color",
-          "annotation": "prop",
-          "docs": "The dialog's header color"
-        },
-        {
-          "name": "--dwc-dialog-height",
-          "annotation": "prop",
-          "docs": "The dialog's height"
-        },
-        {
-          "name": "--dwc-dialog-max-height",
-          "annotation": "prop",
-          "docs": "The dialog's max height"
-        },
-        {
-          "name": "--dwc-dialog-max-width",
-          "annotation": "prop",
-          "docs": "The dialog's max width"
-        },
-        {
-          "name": "--dwc-dialog-modal-background",
-          "annotation": "prop",
-          "docs": "The modal's background"
-        },
-        {
-          "name": "--dwc-dialog-modal-blur",
-          "annotation": "prop",
-          "docs": "The modal's blur value"
-        },
-        {
-          "name": "--dwc-dialog-modal-padding",
-          "annotation": "prop",
-          "docs": "The modal's padding"
-        },
-        {
-          "name": "--dwc-dialog-posx",
-          "annotation": "prop",
-          "docs": "The dialog's x position"
-        },
-        {
-          "name": "--dwc-dialog-posy",
-          "annotation": "prop",
-          "docs": "The dialog's y position"
-        },
-        {
-          "name": "--dwc-dialog-scroll-bottom-shadow",
-          "annotation": "prop",
-          "docs": "The content box shadow when the content is scrolled to the bottom"
-        },
-        {
-          "name": "--dwc-dialog-scroll-top-shadow",
-          "annotation": "prop",
-          "docs": "The content box shadow when the content is scrolled away from the header"
-        },
-        {
-          "name": "--dwc-dialog-shadow",
-          "annotation": "prop",
-          "docs": "The dialog's box shadow"
-        },
-        {
-          "name": "--dwc-dialog-width",
-          "annotation": "prop",
-          "docs": "The dialog's width"
-        },
-        {
-          "name": "--dwc-dialog-zindex",
-          "annotation": "prop",
-          "docs": "The dialog z-index"
-        }
-      ],
+      "styles": [],
       "slots": [
         {
           "name": "content",
@@ -23467,53 +23371,7 @@
           "passive": false
         }
       ],
-      "styles": [
-        {
-          "name": "--dwc-icon-button-active-background",
-          "annotation": "prop",
-          "docs": "The button's active background"
-        },
-        {
-          "name": "--dwc-icon-button-active-color",
-          "annotation": "prop",
-          "docs": "The button's active color"
-        },
-        {
-          "name": "--dwc-icon-button-border-color",
-          "annotation": "prop",
-          "docs": "The button's border color"
-        },
-        {
-          "name": "--dwc-icon-button-color",
-          "annotation": "prop",
-          "docs": "The button's color"
-        },
-        {
-          "name": "--dwc-icon-button-focus-color",
-          "annotation": "prop",
-          "docs": "The button's focus color"
-        },
-        {
-          "name": "--dwc-icon-button-focus-ring",
-          "annotation": "prop",
-          "docs": "The button's focus ring"
-        },
-        {
-          "name": "--dwc-icon-button-focused-border-color",
-          "annotation": "prop",
-          "docs": "The button's focus border color"
-        },
-        {
-          "name": "--dwc-icon-button-hover-background",
-          "annotation": "prop",
-          "docs": "The button's hover background"
-        },
-        {
-          "name": "--dwc-icon-button-hover-color",
-          "annotation": "prop",
-          "docs": "The button's hover color"
-        }
-      ],
+      "styles": [],
       "slots": [],
       "parts": [
         {
