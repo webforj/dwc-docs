@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T12:51:11",
+  "timestamp": "2026-04-08T08:04:48",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.38.0",
@@ -5383,7 +5383,68 @@
           "passive": false
         }
       ],
-      "styles": [],
+      "styles": [
+        {
+          "name": "--dwc-checkbox-background",
+          "annotation": "prop",
+          "docs": "The checkbox default background when unchecked"
+        },
+        {
+          "name": "--dwc-checkbox-checked-background",
+          "annotation": "prop",
+          "docs": "The checkbox background when checked"
+        },
+        {
+          "name": "--dwc-checkbox-checked-color",
+          "annotation": "prop",
+          "docs": "The checkbox color when checked"
+        },
+        {
+          "name": "--dwc-checkbox-focus-ring",
+          "annotation": "prop",
+          "docs": "The checkbox focus ring"
+        },
+        {
+          "name": "--dwc-checkbox-hover-background",
+          "annotation": "prop",
+          "docs": "The checkbox hover background when unchecked"
+        },
+        {
+          "name": "--dwc-checkbox-hover-border-color",
+          "annotation": "prop",
+          "docs": "The checkbox hover border color when unchecked"
+        },
+        {
+          "name": "--dwc-checkbox-hover-checked-background",
+          "annotation": "prop",
+          "docs": "The checkbox background when checked and hovered"
+        },
+        {
+          "name": "--dwc-checkbox-hover-checked-border-color",
+          "annotation": "prop",
+          "docs": "The checkbox border color when checked and hovered"
+        },
+        {
+          "name": "--dwc-checkbox-hover-checked-color",
+          "annotation": "prop",
+          "docs": "The checkbox color when checked and hovered"
+        },
+        {
+          "name": "--dwc-checkbox-label-color",
+          "annotation": "prop",
+          "docs": "The checkbox label's color"
+        },
+        {
+          "name": "--dwc-checkbox-padding",
+          "annotation": "prop",
+          "docs": "The checkbox padding (should be equal to or higher than the `--dwc-focus-ring-width`)"
+        },
+        {
+          "name": "--dwc-checkbox-size",
+          "annotation": "prop",
+          "docs": "The checkbox default size (This variable is overridden when the expanse attribute is set)"
+        }
+      ],
       "slots": [
         {
           "name": "",
@@ -35935,7 +35996,143 @@
           "passive": false
         }
       ],
-      "styles": [],
+      "styles": [
+        {
+          "name": "--dwc-radio-background",
+          "annotation": "prop",
+          "docs": "The radio default background when unchecked"
+        },
+        {
+          "name": "--dwc-radio-checked-background",
+          "annotation": "prop",
+          "docs": "The radio background when checked"
+        },
+        {
+          "name": "--dwc-radio-checked-border-color",
+          "annotation": "prop",
+          "docs": "The radio border color when checked"
+        },
+        {
+          "name": "--dwc-radio-checked-color",
+          "annotation": "prop",
+          "docs": "The radio color when checked"
+        },
+        {
+          "name": "--dwc-radio-focus-ring",
+          "annotation": "prop",
+          "docs": "The radio focus ring"
+        },
+        {
+          "name": "--dwc-radio-hover-background",
+          "annotation": "prop",
+          "docs": "The radio hover background when unchecked"
+        },
+        {
+          "name": "--dwc-radio-hover-border-color",
+          "annotation": "prop",
+          "docs": "The radio hover border color when unchecked"
+        },
+        {
+          "name": "--dwc-radio-hover-checked-background",
+          "annotation": "prop",
+          "docs": "The radio background when checked and hovered"
+        },
+        {
+          "name": "--dwc-radio-hover-checked-border-color",
+          "annotation": "prop",
+          "docs": "The radio border color when checked and hovered"
+        },
+        {
+          "name": "--dwc-radio-hover-checked-color",
+          "annotation": "prop",
+          "docs": "The radio color when checked and hovered"
+        },
+        {
+          "name": "--dwc-radio-label-color",
+          "annotation": "prop",
+          "docs": "The radio label's color"
+        },
+        {
+          "name": "--dwc-radio-padding",
+          "annotation": "prop",
+          "docs": "The radio padding (should be equal to or higher than the `--dwc-focus-ring-width`)"
+        },
+        {
+          "name": "--dwc-radio-size",
+          "annotation": "prop",
+          "docs": "The radio default size (This variable is overridden when the `expanse` attribute is set)"
+        },
+        {
+          "name": "--dwc-switch-background",
+          "annotation": "prop",
+          "docs": "The switch background when unchecked"
+        },
+        {
+          "name": "--dwc-switch-border-color",
+          "annotation": "prop",
+          "docs": "The switch border color when unchecked"
+        },
+        {
+          "name": "--dwc-switch-border-radius",
+          "annotation": "prop",
+          "docs": "The switch border radius when unchecked"
+        },
+        {
+          "name": "--dwc-switch-checked-background",
+          "annotation": "prop",
+          "docs": "The switch background when checked"
+        },
+        {
+          "name": "--dwc-switch-checked-border-color",
+          "annotation": "prop",
+          "docs": "The switch border color when checked"
+        },
+        {
+          "name": "--dwc-switch-focus-border-color",
+          "annotation": "prop",
+          "docs": "The switch focus border color"
+        },
+        {
+          "name": "--dwc-switch-focus-ring",
+          "annotation": "prop",
+          "docs": "The switch focus ring"
+        },
+        {
+          "name": "--dwc-switch-hover-background",
+          "annotation": "prop",
+          "docs": "The switch hover background when unchecked"
+        },
+        {
+          "name": "--dwc-switch-hover-checked-background",
+          "annotation": "prop",
+          "docs": "The switch background when checked and hovered"
+        },
+        {
+          "name": "--dwc-switch-padding",
+          "annotation": "prop",
+          "docs": "The switch padding when unchecked"
+        },
+        {
+          "name": "--dwc-switch-size",
+          "annotation": "prop",
+          "docs": "The switch size"
+        },
+        {
+          "name": "--dwc-switch-thumb-background",
+          "annotation": "prop",
+          "docs": "The switch thumb background when unchecked"
+        },
+        {
+          "name": "--dwc-switch-thumb-shadow",
+          "annotation": "prop",
+          "docs": "The switch thumb shadow when unchecked"
+        },
+        {
+          "name": "--dwc-switch-thumb-size",
+          "annotation": "prop",
+          "docs": "The switch thumb size"
+        }
+      ],
       "slots": [
         {
           "name": "helper-text",
