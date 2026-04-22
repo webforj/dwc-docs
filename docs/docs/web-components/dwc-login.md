@@ -60,10 +60,10 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Event                | Description                                 | Type                      |
-| -------------------- | ------------------------------------------- | ------------------------- |
-| ``dwc-login-cancel`` | Emitted after the cancel button is clicked. | ``void``                  |
-| ``dwc-login-submit`` | Emitted after the form is submitted.        | ``{ [x: string]: any; }`` |
+| Event                | Description                                 | Type              |
+| -------------------- | ------------------------------------------- | ----------------- |
+| ``dwc-login-cancel`` | Emitted after the cancel button is clicked. | ``void``          |
+| ``dwc-login-submit`` | Emitted after the form is submitted.        | ``any \| string`` |
 
 
 </div>

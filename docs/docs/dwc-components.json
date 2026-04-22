@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-15T18:20:27",
+  "timestamp": "2026-04-20T09:10:52",
   "compiler": {
     "name": "@stencil/core",
-    "version": "4.38.0",
-    "typescriptVersion": "5.5.4"
+    "version": "4.43.4",
+    "typescriptVersion": "5.8.3"
   },
   "components": [
     {
@@ -127,6 +127,7 @@
           "docs": "The outer wrapper."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -438,6 +439,7 @@
           "docs": "The expand/collapse icon container."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -650,7 +652,8 @@
               "DwcAlertTheme": {
                 "location": "import",
                 "path": "./dwc-alert.types",
-                "id": "src/components/dwc-alert/dwc-alert.types.ts::DwcAlertTheme"
+                "id": "src/components/dwc-alert/dwc-alert.types.ts::DwcAlertTheme",
+                "referenceLocation": "DwcAlertTheme"
               }
             }
           },
@@ -770,6 +773,7 @@
           "docs": "The alert's message"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-alert-popover",
         "dwc-checkbox",
@@ -974,7 +978,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "./dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -1083,7 +1088,8 @@
               "DwcAlertTheme": {
                 "location": "import",
                 "path": "../dwc-alert/dwc-alert.types",
-                "id": "src/components/dwc-alert/dwc-alert.types.ts::DwcAlertTheme"
+                "id": "src/components/dwc-alert/dwc-alert.types.ts::DwcAlertTheme",
+                "referenceLocation": "DwcAlertTheme"
               }
             }
           },
@@ -1140,6 +1146,7 @@
       "styles": [],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [
         "dwc-checkbox",
         "dwc-choicebox",
@@ -1922,6 +1929,7 @@
           "docs": "The header part is the container for the header slot."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-drawer"
@@ -2018,6 +2026,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -2326,6 +2335,7 @@
           "docs": "The suffix part."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -2778,6 +2788,7 @@
           "docs": "The initials displayed when no image is available"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -2851,6 +2862,7 @@
       ],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [
         "dwc-drawer",
         "dwc-loading"
@@ -3133,6 +3145,7 @@
           "docs": "The label text element."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -4256,6 +4269,7 @@
           "docs": "The button's suffix"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-choicebox",
         "dwc-color-chooser",
@@ -5021,7 +5035,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -5130,7 +5145,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -5170,7 +5186,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -5501,6 +5518,7 @@
           "docs": "The input's label"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-login",
         "dwc-table"
@@ -6198,7 +6216,8 @@
               "DwcListboxItem": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem",
+                "referenceLocation": "DwcListboxItem"
               }
             }
           },
@@ -6879,7 +6898,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -6988,7 +7008,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -7028,7 +7049,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -7231,7 +7253,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -7367,6 +7390,7 @@
           "docs": "The button's separator to the left of the button's suffix"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-dropdown",
@@ -8052,7 +8076,8 @@
               "DwcColorChooserI18n": {
                 "location": "import",
                 "path": "./dwc-color-chooser.types",
-                "id": "src/components/dwc-color-chooser/dwc-color-chooser.types.ts::DwcColorChooserI18n"
+                "id": "src/components/dwc-color-chooser/dwc-color-chooser.types.ts::DwcColorChooserI18n",
+                "referenceLocation": "DwcColorChooserI18n"
               }
             }
           },
@@ -8532,7 +8557,8 @@
               "DwcColorChooserSwatch": {
                 "location": "import",
                 "path": "./dwc-color-chooser.types",
-                "id": "src/components/dwc-color-chooser/dwc-color-chooser.types.ts::DwcColorChooserSwatch"
+                "id": "src/components/dwc-color-chooser/dwc-color-chooser.types.ts::DwcColorChooserSwatch",
+                "referenceLocation": "DwcColorChooserSwatch"
               }
             }
           },
@@ -8624,7 +8650,8 @@
               "ColorInput": {
                 "location": "import",
                 "path": "@ctrl/tinycolor",
-                "id": "node_modules::ColorInput"
+                "id": "node_modules::ColorInput",
+                "referenceLocation": "ColorInput"
               }
             }
           },
@@ -8732,7 +8759,8 @@
               "TinyColor": {
                 "location": "import",
                 "path": "@ctrl/tinycolor",
-                "id": "node_modules::TinyColor"
+                "id": "node_modules::TinyColor",
+                "referenceLocation": "TinyColor"
               }
             }
           },
@@ -8766,7 +8794,8 @@
               "TinyColor": {
                 "location": "import",
                 "path": "@ctrl/tinycolor",
-                "id": "node_modules::TinyColor"
+                "id": "node_modules::TinyColor",
+                "referenceLocation": "TinyColor"
               }
             }
           },
@@ -8796,6 +8825,7 @@
       ],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field-spinner",
@@ -8866,7 +8896,8 @@
               "DwcColumnsLayoutBreakpoint": {
                 "location": "import",
                 "path": "./dwc-columns-layout.types",
-                "id": "src/components/dwc-columns-layout/dwc-columns-layout.types.ts::DwcColumnsLayoutBreakpoint"
+                "id": "src/components/dwc-columns-layout/dwc-columns-layout.types.ts::DwcColumnsLayoutBreakpoint",
+                "referenceLocation": "DwcColumnsLayoutBreakpoint"
               }
             }
           },
@@ -8928,6 +8959,7 @@
           "docs": "The base wrapper for the component."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -9525,7 +9557,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -9673,7 +9706,8 @@
               "DwcListboxItem": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem",
+                "referenceLocation": "DwcListboxItem"
               }
             }
           },
@@ -9993,7 +10027,8 @@
               "DwcListboxItemRenderer": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer",
+                "referenceLocation": "DwcListboxItemRenderer"
               }
             }
           },
@@ -10262,7 +10297,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -10371,7 +10407,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -10411,7 +10448,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -10637,7 +10675,8 @@
               "DwcListboxItem": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem",
+                "referenceLocation": "DwcListboxItem"
               }
             }
           },
@@ -10791,6 +10830,7 @@
           "docs": "Exposed part for the toggle icon-button. Maps to the `icon` part."
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-file-chooser",
         "dwc-file-save"
@@ -11502,7 +11542,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -12274,7 +12315,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -12383,7 +12425,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -12423,7 +12466,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -13167,6 +13211,7 @@
           "docs": "The input's up spinner button"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon-button",
@@ -13507,6 +13552,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -14282,7 +14328,8 @@
               "DwcDialogClosedPayload": {
                 "location": "import",
                 "path": "./dwc-dialog.types",
-                "id": "src/components/dwc-dialog/dwc-dialog.types.ts::DwcDialogClosedPayload"
+                "id": "src/components/dwc-dialog/dwc-dialog.types.ts::DwcDialogClosedPayload",
+                "referenceLocation": "DwcDialogClosedPayload"
               }
             }
           },
@@ -14434,6 +14481,7 @@
           "docs": "The backdrop modal behind the dialog"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-login"
       ],
@@ -14912,6 +14960,7 @@
           "docs": "The title element"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-app-layout"
       ],
@@ -15142,7 +15191,8 @@
               "DwcListboxItem": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem",
+                "referenceLocation": "DwcListboxItem"
               }
             }
           },
@@ -15451,7 +15501,8 @@
               "DwcListboxItemRenderer": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer",
+                "referenceLocation": "DwcListboxItemRenderer"
               }
             }
           },
@@ -15913,7 +15964,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -15933,7 +15985,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -15971,7 +16024,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "../dwc-listbox/dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -16055,6 +16109,7 @@
           "docs": "The dropdown handler"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-choicebox",
         "dwc-combobox",
@@ -16663,7 +16718,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -17401,7 +17457,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -17510,7 +17567,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -17550,7 +17608,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -18128,6 +18187,7 @@
           "docs": "the component's up spinner button"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-color-chooser",
         "dwc-combobox",
@@ -18501,6 +18561,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [
         "dwc-color-chooser"
       ],
@@ -19197,7 +19258,8 @@
               "DwcFileChooserEntry": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserEntry"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserEntry",
+                "referenceLocation": "DwcFileChooserEntry"
               }
             }
           },
@@ -19239,7 +19301,8 @@
               "DwcUploadFilter": {
                 "location": "import",
                 "path": "../dwc-upload/dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter",
+                "referenceLocation": "DwcUploadFilter"
               }
             }
           },
@@ -19301,7 +19364,8 @@
               "DwcFileChooserI18n": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserI18n"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserI18n",
+                "referenceLocation": "DwcFileChooserI18n"
               }
             }
           },
@@ -19465,7 +19529,8 @@
               "DwcFileChooserResolvedEntry": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry",
+                "referenceLocation": "DwcFileChooserResolvedEntry"
               }
             }
           },
@@ -20043,7 +20108,8 @@
               "DwcFileChooserResolvedEntry": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry",
+                "referenceLocation": "DwcFileChooserResolvedEntry"
               }
             }
           },
@@ -20077,7 +20143,8 @@
               "DwcFileChooserNavigatePayload": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserNavigatePayload"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserNavigatePayload",
+                "referenceLocation": "DwcFileChooserNavigatePayload"
               }
             }
           },
@@ -20097,7 +20164,8 @@
               "DwcFileChooserResolvedEntry": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry",
+                "referenceLocation": "DwcFileChooserResolvedEntry"
               }
             }
           },
@@ -20117,7 +20185,8 @@
               "DwcFileChooserResolvedEntry": {
                 "location": "import",
                 "path": "./dwc-filter-chooser.types",
-                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry"
+                "id": "src/components/dwc-file-chooser/dwc-filter-chooser.types.ts::DwcFileChooserResolvedEntry",
+                "referenceLocation": "DwcFileChooserResolvedEntry"
               }
             }
           },
@@ -20366,6 +20435,7 @@
           "docs": "The table wrapper"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-popupmenu",
@@ -20796,7 +20866,8 @@
               "DwcUploadFilter": {
                 "location": "import",
                 "path": "../dwc-upload/dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter",
+                "referenceLocation": "DwcUploadFilter"
               }
             }
           },
@@ -20824,7 +20895,8 @@
               "DwcFileSaveI18n": {
                 "location": "import",
                 "path": "./dwc-file-save.types",
-                "id": "src/components/dwc-file-save/dwc-file-save.types.ts::DwcFileSaveI18n"
+                "id": "src/components/dwc-file-save/dwc-file-save.types.ts::DwcFileSaveI18n",
+                "referenceLocation": "DwcFileSaveI18n"
               }
             }
           },
@@ -21109,6 +21181,7 @@
           "docs": "The control inputs wrapper"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field",
@@ -21554,7 +21627,8 @@
               "DwcFontChooserI18n": {
                 "location": "import",
                 "path": "./dwc-font-chooser.types",
-                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserI18n"
+                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserI18n",
+                "referenceLocation": "DwcFontChooserI18n"
               }
             }
           },
@@ -21987,7 +22061,8 @@
               "DwcFontChooserFont": {
                 "location": "import",
                 "path": "./dwc-font-chooser.types",
-                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserFont"
+                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserFont",
+                "referenceLocation": "DwcFontChooserFont"
               }
             }
           },
@@ -22021,7 +22096,8 @@
               "DwcFontChooserFont": {
                 "location": "import",
                 "path": "./dwc-font-chooser.types",
-                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserFont"
+                "id": "src/components/dwc-font-chooser/dwc-font-chooser.types.ts::DwcFontChooserFont",
+                "referenceLocation": "DwcFontChooserFont"
               }
             }
           },
@@ -22035,6 +22111,7 @@
       "styles": [],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field",
@@ -22203,6 +22280,7 @@
           "docs": "The `<time>` element containing the formatted value."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -22384,6 +22462,7 @@
           "docs": "The formatted value element."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -22478,6 +22557,7 @@
           "docs": "The formatted value element."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -22659,7 +22739,8 @@
               "DwcHotkeyEventPayload": {
                 "location": "import",
                 "path": "./dwc-hotkey.types",
-                "id": "src/components/dwc-hotkey/dwc-hotkey.types.ts::DwcHotkeyEventPayload"
+                "id": "src/components/dwc-hotkey/dwc-hotkey.types.ts::DwcHotkeyEventPayload",
+                "referenceLocation": "DwcHotkeyEventPayload"
               }
             }
           },
@@ -22673,6 +22754,7 @@
       "styles": [],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [
         "dwc-menuitem"
       ],
@@ -23012,6 +23094,7 @@
           "docs": "The rendered SVG icon"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-accordion-panel",
         "dwc-alert",
@@ -23525,6 +23608,7 @@
           "docs": "The dwc-icon component"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-alert",
         "dwc-color-chooser",
@@ -23848,6 +23932,7 @@
           "docs": "The loading text"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -24391,7 +24476,8 @@
               "DwcListboxItem": {
                 "location": "import",
                 "path": "./dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItem",
+                "referenceLocation": "DwcListboxItem"
               }
             }
           },
@@ -24539,7 +24625,8 @@
               "DwcListboxItemRenderer": {
                 "location": "import",
                 "path": "./dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxItemRenderer",
+                "referenceLocation": "DwcListboxItemRenderer"
               }
             }
           },
@@ -24841,7 +24928,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -24950,7 +25038,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -24990,7 +25079,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -25539,7 +25629,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "./dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -25559,7 +25650,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "./dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -25583,7 +25675,8 @@
               "DwcListboxEventPayload": {
                 "location": "import",
                 "path": "./dwc-listbox.types",
-                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload"
+                "id": "src/components/dwc-listbox/dwc-listbox.types.ts::DwcListboxEventPayload",
+                "referenceLocation": "DwcListboxEventPayload"
               }
             }
           },
@@ -25753,6 +25846,7 @@
           "docs": ""
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-dropdown",
         "dwc-font-chooser"
@@ -26221,6 +26315,7 @@
           "docs": "The spinner element"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-file-chooser"
       ],
@@ -26798,11 +26893,11 @@
         },
         {
           "event": "dwc-login-submit",
-          "detail": "{ [x: string]: any; }",
+          "detail": "any | string",
           "bubbles": true,
           "complexType": {
             "original": "Record<string, any>",
-            "resolved": "{ [x: string]: any; }",
+            "resolved": "any | string",
             "references": {
               "Record": {
                 "location": "global",
@@ -26942,6 +27037,7 @@
           "docs": "The username input (dwc-field)"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-dialog",
@@ -27183,6 +27279,7 @@
       "styles": [],
       "slots": [],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -27614,6 +27711,7 @@
           "docs": "The component's base wrapper."
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-file-chooser",
         "dwc-upload"
@@ -28140,6 +28238,7 @@
           "docs": "A wrapper around the real items container. Used for scrolling"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon-button"
@@ -29145,7 +29244,8 @@
               "DwcMenuItemClickPayload": {
                 "location": "import",
                 "path": "./dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload",
+                "referenceLocation": "DwcMenuItemClickPayload"
               }
             }
           },
@@ -29165,7 +29265,8 @@
               "DwcMenuItemClickPayload": {
                 "location": "import",
                 "path": "./dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload",
+                "referenceLocation": "DwcMenuItemClickPayload"
               }
             }
           },
@@ -29199,7 +29300,8 @@
               "DwcMenuItemMousePayload": {
                 "location": "import",
                 "path": "./dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemMousePayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemMousePayload",
+                "referenceLocation": "DwcMenuItemMousePayload"
               }
             }
           },
@@ -29233,7 +29335,8 @@
               "DwcMenuItemMousePayload": {
                 "location": "import",
                 "path": "./dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemMousePayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemMousePayload",
+                "referenceLocation": "DwcMenuItemMousePayload"
               }
             }
           },
@@ -29267,7 +29370,8 @@
               "DwcMenuItemClickPayload": {
                 "location": "import",
                 "path": "./dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload",
+                "referenceLocation": "DwcMenuItemClickPayload"
               }
             }
           },
@@ -29434,6 +29538,7 @@
           "docs": "The item's suffix container"
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-file-chooser",
         "dwc-upload"
@@ -30507,7 +30612,8 @@
               "DwcNavigatorEventPayload": {
                 "location": "import",
                 "path": "./dwc-navigator.types",
-                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload"
+                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload",
+                "referenceLocation": "DwcNavigatorEventPayload"
               }
             }
           },
@@ -30527,7 +30633,8 @@
               "DwcNavigatorEventPayload": {
                 "location": "import",
                 "path": "./dwc-navigator.types",
-                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload"
+                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload",
+                "referenceLocation": "DwcNavigatorEventPayload"
               }
             }
           },
@@ -30547,7 +30654,8 @@
               "DwcNavigatorEventPayload": {
                 "location": "import",
                 "path": "./dwc-navigator.types",
-                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload"
+                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload",
+                "referenceLocation": "DwcNavigatorEventPayload"
               }
             }
           },
@@ -30567,7 +30675,8 @@
               "DwcNavigatorEventPayload": {
                 "location": "import",
                 "path": "./dwc-navigator.types",
-                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload"
+                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload",
+                "referenceLocation": "DwcNavigatorEventPayload"
               }
             }
           },
@@ -30587,7 +30696,8 @@
               "DwcNavigatorEventPayload": {
                 "location": "import",
                 "path": "./dwc-navigator.types",
-                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload"
+                "id": "src/components/dwc-navigator/dwc-navigator.types.ts::DwcNavigatorEventPayload",
+                "referenceLocation": "DwcNavigatorEventPayload"
               }
             }
           },
@@ -30768,6 +30878,7 @@
           "docs": "The current selected button"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field"
@@ -31354,7 +31465,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -31960,7 +32072,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -32069,7 +32182,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -32109,7 +32223,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -32694,6 +32809,7 @@
           "docs": "The input's up spinner button"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-alert",
@@ -32973,6 +33089,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -33632,6 +33749,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [
         "dwc-color-chooser",
         "dwc-font-chooser"
@@ -34195,7 +34313,8 @@
               "DwcMenuItemClickPayload": {
                 "location": "import",
                 "path": "../dwc-menuitem/dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload",
+                "referenceLocation": "DwcMenuItemClickPayload"
               }
             }
           },
@@ -34215,7 +34334,8 @@
               "DwcMenuItemClickPayload": {
                 "location": "import",
                 "path": "../dwc-menuitem/dwc-menuitem.types",
-                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload"
+                "id": "src/components/dwc-menuitem/dwc-menuitem.types.ts::DwcMenuItemClickPayload",
+                "referenceLocation": "DwcMenuItemClickPayload"
               }
             }
           },
@@ -34305,6 +34425,7 @@
           "docs": "The component's base wrapper."
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-file-chooser",
         "dwc-upload"
@@ -34874,6 +34995,7 @@
           "docs": "The component's text."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -35624,7 +35746,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -35733,7 +35856,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -35773,7 +35897,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -36177,6 +36302,7 @@
           "docs": "The input's label"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-alert",
@@ -36659,6 +36785,7 @@
           "docs": "The refresher text"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -36722,6 +36849,7 @@
           "docs": "The component's base wrapper."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -37420,7 +37548,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -37658,7 +37787,8 @@
               "DwcSliderSlideEventPayload": {
                 "location": "import",
                 "path": "./dwc-slider.types",
-                "id": "src/components/dwc-slider/dwc-slider.types.ts::DwcSliderSlideEventPayload"
+                "id": "src/components/dwc-slider/dwc-slider.types.ts::DwcSliderSlideEventPayload",
+                "referenceLocation": "DwcSliderSlideEventPayload"
               }
             }
           },
@@ -37839,6 +37969,7 @@
           "docs": "auto generated"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -38100,6 +38231,7 @@
           "docs": "The component's base wrapper."
         }
       ],
+      "states": [],
       "dependents": [
         "dwc-loading"
       ],
@@ -38548,7 +38680,8 @@
               "DwcSplitterResizePayload": {
                 "location": "import",
                 "path": "./dwc-splitter.types",
-                "id": "src/components/dwc-splitter/dwc-splitter.types.ts::DwcSplitterResizePayload"
+                "id": "src/components/dwc-splitter/dwc-splitter.types.ts::DwcSplitterResizePayload",
+                "referenceLocation": "DwcSplitterResizePayload"
               }
             }
           },
@@ -38631,6 +38764,7 @@
           "docs": "The gutter handle element."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -39206,6 +39340,7 @@
           "docs": "A wrapper for the tab content"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon-button"
@@ -39517,6 +39652,7 @@
           "docs": "The component's base wrapper."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -40533,7 +40669,8 @@
               "DwcTabbedPaneSelectionPayload": {
                 "location": "import",
                 "path": "./dwc-tabbed-pane.types",
-                "id": "src/components/dwc-tabbed-pane/dwc-tabbed-pane.types.ts::DwcTabbedPaneSelectionPayload"
+                "id": "src/components/dwc-tabbed-pane/dwc-tabbed-pane.types.ts::DwcTabbedPaneSelectionPayload",
+                "referenceLocation": "DwcTabbedPaneSelectionPayload"
               }
             }
           },
@@ -40553,7 +40690,8 @@
               "DwcTabbedPaneSelectionPayload": {
                 "location": "import",
                 "path": "./dwc-tabbed-pane.types",
-                "id": "src/components/dwc-tabbed-pane/dwc-tabbed-pane.types.ts::DwcTabbedPaneSelectionPayload"
+                "id": "src/components/dwc-tabbed-pane/dwc-tabbed-pane.types.ts::DwcTabbedPaneSelectionPayload",
+                "referenceLocation": "DwcTabbedPaneSelectionPayload"
               }
             }
           },
@@ -40699,6 +40837,7 @@
           "docs": "The `dwc-tab(s)` wrapper"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon-button"
@@ -41061,7 +41200,8 @@
               "TableColumnDefinition": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition",
+                "referenceLocation": "TableColumnDefinition"
               }
             }
           },
@@ -41095,7 +41235,8 @@
               "TableColumnGroupDefinition": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnGroupDefinition"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnGroupDefinition",
+                "referenceLocation": "TableColumnGroupDefinition"
               }
             }
           },
@@ -41244,7 +41385,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -41276,7 +41418,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -41308,7 +41451,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -41421,7 +41565,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -41924,17 +42069,20 @@
               "ColumnState": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnState"
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnState",
+                "referenceLocation": "ColumnState"
               },
               "TableColumn": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumn"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumn",
+                "referenceLocation": "TableColumn"
               },
               "TableColumnDefinition": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableColumnDefinition",
+                "referenceLocation": "TableColumnDefinition"
               }
             },
             "return": "Promise<ColumnState[]>"
@@ -42096,7 +42244,8 @@
               "TableRow": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow",
+                "referenceLocation": "TableRow"
               }
             },
             "return": "Promise<TableRow>"
@@ -42143,7 +42292,8 @@
               "TableCell": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableCell"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableCell",
+                "referenceLocation": "TableCell"
               }
             }
           },
@@ -42163,7 +42313,8 @@
               "TableCell": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableCell"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableCell",
+                "referenceLocation": "TableCell"
               }
             }
           },
@@ -42183,7 +42334,8 @@
               "ColumnMovedDetail": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail"
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnMovedDetail",
+                "referenceLocation": "ColumnMovedDetail"
               }
             }
           },
@@ -42203,7 +42355,8 @@
               "ColumnResizedDetail": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnResizedDetail"
+                "id": "src/components/dwc-table/dwc-table.types.ts::ColumnResizedDetail",
+                "referenceLocation": "ColumnResizedDetail"
               }
             }
           },
@@ -42223,7 +42376,8 @@
               "TableRow": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow",
+                "referenceLocation": "TableRow"
               }
             }
           },
@@ -42243,7 +42397,8 @@
               "TableRow": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow",
+                "referenceLocation": "TableRow"
               }
             }
           },
@@ -42263,7 +42418,8 @@
               "TableRow": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow",
+                "referenceLocation": "TableRow"
               }
             }
           },
@@ -42283,7 +42439,8 @@
               "TableRow": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableRow",
+                "referenceLocation": "TableRow"
               }
             }
           },
@@ -42317,7 +42474,8 @@
               "TableSortState": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::TableSortState"
+                "id": "src/components/dwc-table/dwc-table.types.ts::TableSortState",
+                "referenceLocation": "TableSortState"
               }
             }
           },
@@ -42337,7 +42495,8 @@
               "StateChangedDetail": {
                 "location": "import",
                 "path": "./dwc-table.types",
-                "id": "src/components/dwc-table/dwc-table.types.ts::StateChangedDetail"
+                "id": "src/components/dwc-table/dwc-table.types.ts::StateChangedDetail",
+                "referenceLocation": "StateChangedDetail"
               }
             }
           },
@@ -42588,6 +42747,7 @@
           "docs": "The entire container that wraps the table and its elements."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-checkbox",
@@ -42702,7 +42862,8 @@
               "ITerminalOptions": {
                 "location": "import",
                 "path": "@xterm/xterm",
-                "id": "node_modules::ITerminalOptions"
+                "id": "node_modules::ITerminalOptions",
+                "referenceLocation": "ITerminalOptions"
               }
             }
           },
@@ -42765,7 +42926,8 @@
               "ITheme": {
                 "location": "import",
                 "path": "@xterm/xterm",
-                "id": "node_modules::ITheme"
+                "id": "node_modules::ITheme",
+                "referenceLocation": "ITheme"
               }
             }
           },
@@ -42896,7 +43058,8 @@
               "IBufferRange": {
                 "location": "import",
                 "path": "@xterm/xterm",
-                "id": "node_modules::IBufferRange"
+                "id": "node_modules::IBufferRange",
+                "referenceLocation": "IBufferRange"
               }
             },
             "return": "Promise<IBufferRange>"
@@ -43341,7 +43504,8 @@
               "DwcTerminalKey": {
                 "location": "import",
                 "path": "./dwc-terminal.types",
-                "id": "src/components/dwc-terminal/dwc-terminal.types.ts::DwcTerminalKey"
+                "id": "src/components/dwc-terminal/dwc-terminal.types.ts::DwcTerminalKey",
+                "referenceLocation": "DwcTerminalKey"
               }
             }
           },
@@ -43360,6 +43524,7 @@
           "docs": "The component's base wrapper"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -43942,7 +44107,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -44482,7 +44648,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -44591,7 +44758,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -44631,7 +44799,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -45137,6 +45306,7 @@
           "docs": "The input's label"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-alert",
@@ -45696,7 +45866,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -46289,7 +46460,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -46398,7 +46570,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -46438,7 +46611,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -47041,6 +47215,7 @@
           "docs": "The input's up spinner button"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-alert-popover",
@@ -47385,6 +47560,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -47895,7 +48071,8 @@
               "DwcHighlightBehaviors": {
                 "location": "import",
                 "path": "../../utils/dwc-highlight-behaviors",
-                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors"
+                "id": "src/utils/dwc-highlight-behaviors.ts::DwcHighlightBehaviors",
+                "referenceLocation": "DwcHighlightBehaviors"
               }
             }
           },
@@ -48856,7 +49033,8 @@
               "DwcAlertPopoverPlacement": {
                 "location": "import",
                 "path": "../dwc-alert-popover/dwc-alert-popover.types",
-                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement"
+                "id": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts::DwcAlertPopoverPlacement",
+                "referenceLocation": "DwcAlertPopoverPlacement"
               }
             }
           },
@@ -48965,7 +49143,8 @@
               "DwcValidationStyle": {
                 "location": "import",
                 "path": "../../utils/dwc-validation.types",
-                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle"
+                "id": "src/utils/dwc-validation.types.ts::DwcValidationStyle",
+                "referenceLocation": "DwcValidationStyle"
               }
             }
           },
@@ -49005,7 +49184,8 @@
               "DwcExpression": {
                 "location": "import",
                 "path": "../../utils/dwc-expression",
-                "id": "src/utils/dwc-expression.ts::DwcExpression"
+                "id": "src/utils/dwc-expression.ts::DwcExpression",
+                "referenceLocation": "DwcExpression"
               }
             }
           },
@@ -49627,6 +49807,7 @@
           "docs": "The input's up spinner button"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-dropdown",
@@ -50024,6 +50205,7 @@
         }
       ],
       "parts": [],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -50506,6 +50688,7 @@
           "docs": "The message's wrapper"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-toast-group",
@@ -50698,6 +50881,7 @@
           "docs": "The title slot container."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -52284,6 +52468,7 @@
           "docs": "The wrapper element for the tree."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field",
@@ -53138,6 +53323,7 @@
           "docs": "The wrapper of child nodes."
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-icon"
@@ -53942,7 +54128,8 @@
               "DwcUploadFilter": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFilter",
+                "referenceLocation": "DwcUploadFilter"
               }
             }
           },
@@ -54053,10 +54240,10 @@
         },
         {
           "name": "headers",
-          "type": "string | { [x: string]: unknown; }",
+          "type": "string | unknown",
           "complexType": {
             "original": "Record<string, unknown> | string",
-            "resolved": "string | { [x: string]: unknown; }",
+            "resolved": "string | unknown",
             "references": {
               "Record": {
                 "location": "global",
@@ -54079,7 +54266,7 @@
               "type": "string"
             },
             {
-              "type": "{ [x: string]: unknown; }"
+              "type": "unknown"
             }
           ],
           "optional": false,
@@ -54097,7 +54284,8 @@
               "DwcUploadI18n": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadI18n"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadI18n",
+                "referenceLocation": "DwcUploadI18n"
               }
             }
           },
@@ -54536,12 +54724,14 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               },
               "DwcUploadFailedPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload",
+                "referenceLocation": "DwcUploadFailedPayload"
               },
               "File": {
                 "location": "global",
@@ -54589,12 +54779,14 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               },
               "DwcUploadFailedPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload",
+                "referenceLocation": "DwcUploadFailedPayload"
               },
               "Array": {
                 "location": "global",
@@ -54780,12 +54972,14 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               },
               "DwcUploadFailedPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload",
+                "referenceLocation": "DwcUploadFailedPayload"
               },
               "File": {
                 "location": "global",
@@ -54870,7 +55064,8 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               }
             }
           },
@@ -54936,7 +55131,8 @@
               "DwcUploadFailedPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadFailedPayload",
+                "referenceLocation": "DwcUploadFailedPayload"
               }
             }
           },
@@ -54993,7 +55189,8 @@
               "DwcUploadProgressPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadProgressPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadProgressPayload",
+                "referenceLocation": "DwcUploadProgressPayload"
               }
             }
           },
@@ -55027,7 +55224,8 @@
               "DwcUploadRequestPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadRequestPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadRequestPayload",
+                "referenceLocation": "DwcUploadRequestPayload"
               }
             }
           },
@@ -55047,7 +55245,8 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               }
             }
           },
@@ -55067,7 +55266,8 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               }
             }
           },
@@ -55087,7 +55287,8 @@
               "DwcUploadPayload": {
                 "location": "import",
                 "path": "./dwc-upload.types",
-                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload"
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload",
+                "referenceLocation": "DwcUploadPayload"
               }
             }
           },
@@ -55210,6 +55411,7 @@
           "docs": "The wrapper around the files list"
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-popupmenu",
@@ -55263,15 +55465,16 @@
       "props": [
         {
           "name": "options",
-          "type": "{ [k: string]: any; autoStart?: boolean; autoReconnect?: number; disableLogout?: boolean; disableLogin?: boolean; syncClipboard?: boolean; securityToken?: string; realm?: string; args?: string; recording?: boolean; connectionUrl?: string; debugPort?: number; javaCallTimeout?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array | Promise<string | void | Uint8Array>; }; }",
+          "type": "{ [k: string]: any; autoStart?: boolean; autoReconnect?: number; disableLogout?: boolean; disableLogin?: boolean; syncClipboard?: boolean; securityToken?: string; realm?: string; args?: string; recording?: boolean; connectionUrl?: string; debugPort?: number; javaCallTimeout?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array<ArrayBufferLike> | Promise<string | void | Uint8Array<ArrayBufferLike>>; }; }",
           "complexType": {
             "original": "WebswingOptions | null",
-            "resolved": "{ [k: string]: any; autoStart?: boolean; autoReconnect?: number; disableLogout?: boolean; disableLogin?: boolean; syncClipboard?: boolean; securityToken?: string; realm?: string; args?: string; recording?: boolean; connectionUrl?: string; debugPort?: number; javaCallTimeout?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array | Promise<string | void | Uint8Array>; }; }",
+            "resolved": "{ [k: string]: any; autoStart?: boolean; autoReconnect?: number; disableLogout?: boolean; disableLogin?: boolean; syncClipboard?: boolean; securityToken?: string; realm?: string; args?: string; recording?: boolean; connectionUrl?: string; debugPort?: number; javaCallTimeout?: number; pingParams?: { count: number; interval: number; maxLatency: number; notifyIf: number; url?: string; }; onReady?: (api: IWebswingApi) => void; onStart?: () => void; windowsListener?: { windowOpening(WebswingWindow: HtmlOrCanvasWindow): void; windowOpened(WebswingWindow: HtmlOrCanvasWindow): void; windowClosing(WebswingWindow: HtmlOrCanvasWindow, windowCloseEvent: IWindowCloseEvent): void; windowClosed(WebswingWindow: HtmlOrCanvasWindow): void; windowModalBlockedChanged(WebswingWindow: HtmlOrCanvasWindow): void; windowUndocked(WebswingWindow: HtmlOrCanvasWindow): void; windowDocked(WebswingWindow: HtmlOrCanvasWindow): void; }; actions?: { [key: string]: (event: IWebActionEvent) => void | String | Uint8Array<ArrayBufferLike> | Promise<string | void | Uint8Array<ArrayBufferLike>>; }; }",
             "references": {
               "WebswingOptions": {
                 "location": "import",
                 "path": "webswing-api/build/types",
-                "id": "node_modules::WebswingOptions"
+                "id": "node_modules::WebswingOptions",
+                "referenceLocation": "WebswingOptions"
               }
             }
           },
@@ -55293,7 +55496,7 @@
               "type": "String"
             },
             {
-              "type": "Uint8Array"
+              "type": "Uint8Array<ArrayBufferLike>"
             },
             {
               "type": "Promise<string"
@@ -55302,7 +55505,7 @@
               "type": "void"
             },
             {
-              "type": "Uint8Array>; }; }"
+              "type": "Uint8Array<ArrayBufferLike>>; }; }"
             }
           ],
           "optional": false,
@@ -55389,7 +55592,8 @@
               "IWebswingInstance": {
                 "location": "import",
                 "path": "webswing-api/build/types",
-                "id": "node_modules::IWebswingInstance"
+                "id": "node_modules::IWebswingInstance",
+                "referenceLocation": "IWebswingInstance"
               }
             },
             "return": "Promise<IWebswingInstance>"
@@ -55714,6 +55918,7 @@
           "docs": ""
         }
       ],
+      "states": [],
       "dependents": [],
       "dependencies": [],
       "dependencyGraph": {}
@@ -55876,7 +56081,7 @@
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
     "src/components/dwc-table/dwc-table.types.ts::TableSortState": {
-      "declaration": "interface Array<T> {\n    /**\n     * Gets or sets the length of the array. This is a number one higher than the highest index in the array.\n     */\n    length: number;\n    /**\n     * Returns a string representation of an array.\n     */\n    toString(): string;\n    /**\n     * Returns a string representation of an array. The elements are converted to string using their toLocaleString methods.\n     */\n    toLocaleString(): string;\n    /**\n     * Removes the last element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    pop(): T | undefined;\n    /**\n     * Appends new elements to the end of an array, and returns the new length of the array.\n     * @param items New elements to add to the array.\n     */\n    push(...items: T[]): number;\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: ConcatArray<T>[]): T[];\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: (T | ConcatArray<T>)[]): T[];\n    /**\n     * Adds all the elements of an array into a string, separated by the specified separator string.\n     * @param separator A string used to separate one element of the array from the next in the resulting string. If omitted, the array elements are separated with a comma.\n     */\n    join(separator?: string): string;\n    /**\n     * Reverses the elements in an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     */\n    reverse(): T[];\n    /**\n     * Removes the first element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    shift(): T | undefined;\n    /**\n     * Returns a copy of a section of an array.\n     * For both start and end, a negative index can be used to indicate an offset from the end of the array.\n     * For example, -2 refers to the second to last element of the array.\n     * @param start The beginning index of the specified portion of the array.\n     * If start is undefined, then the slice begins at index 0.\n     * @param end The end index of the specified portion of the array. This is exclusive of the element at the index 'end'.\n     * If end is undefined, then the slice extends to the end of the array.\n     */\n    slice(start?: number, end?: number): T[];\n    /**\n     * Sorts an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     * @param compareFn Function used to determine the order of the elements. It is expected to return\n     * a negative value if the first argument is less than the second argument, zero if they're equal, and a positive\n     * value otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n     * ```ts\n     * [11,2,22,1].sort((a, b) => a - b)\n     * ```\n     */\n    sort(compareFn?: (a: T, b: T) => number): this;\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount?: number): T[];\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @param items Elements to insert into the array in place of the deleted elements.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount: number, ...items: T[]): T[];\n    /**\n     * Inserts new elements at the start of an array, and returns the new length of the array.\n     * @param items Elements to insert at the start of the array.\n     */\n    unshift(...items: T[]): number;\n    /**\n     * Returns the index of the first occurrence of a value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n     */\n    indexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin searching backward. If fromIndex is omitted, the search starts at the last index in the array.\n     */\n    lastIndexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): this is S[];\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Determines whether the specified callback function returns true for any element of an array.\n     * @param predicate A function that accepts up to three arguments. The some method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value true, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    some(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Performs the specified action for each element in an array.\n     * @param callbackfn  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.\n     * @param thisArg  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;\n    /**\n     * Calls a defined callback function on each element of an array, and returns an array that contains the results.\n     * @param callbackfn A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any): U[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): S[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): T[];\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n\n    [n: number]: T;\n}",
+      "declaration": "interface Array<T> {\n    /**\n     * Gets or sets the length of the array. This is a number one higher than the highest index in the array.\n     */\n    length: number;\n    /**\n     * Returns a string representation of an array.\n     */\n    toString(): string;\n    /**\n     * Returns a string representation of an array. The elements are converted to string using their toLocaleString methods.\n     */\n    toLocaleString(): string;\n    /**\n     * Removes the last element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    pop(): T | undefined;\n    /**\n     * Appends new elements to the end of an array, and returns the new length of the array.\n     * @param items New elements to add to the array.\n     */\n    push(...items: T[]): number;\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: ConcatArray<T>[]): T[];\n    /**\n     * Combines two or more arrays.\n     * This method returns a new array without modifying any existing arrays.\n     * @param items Additional arrays and/or items to add to the end of the array.\n     */\n    concat(...items: (T | ConcatArray<T>)[]): T[];\n    /**\n     * Adds all the elements of an array into a string, separated by the specified separator string.\n     * @param separator A string used to separate one element of the array from the next in the resulting string. If omitted, the array elements are separated with a comma.\n     */\n    join(separator?: string): string;\n    /**\n     * Reverses the elements in an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     */\n    reverse(): T[];\n    /**\n     * Removes the first element from an array and returns it.\n     * If the array is empty, undefined is returned and the array is not modified.\n     */\n    shift(): T | undefined;\n    /**\n     * Returns a copy of a section of an array.\n     * For both start and end, a negative index can be used to indicate an offset from the end of the array.\n     * For example, -2 refers to the second to last element of the array.\n     * @param start The beginning index of the specified portion of the array.\n     * If start is undefined, then the slice begins at index 0.\n     * @param end The end index of the specified portion of the array. This is exclusive of the element at the index 'end'.\n     * If end is undefined, then the slice extends to the end of the array.\n     */\n    slice(start?: number, end?: number): T[];\n    /**\n     * Sorts an array in place.\n     * This method mutates the array and returns a reference to the same array.\n     * @param compareFn Function used to determine the order of the elements. It is expected to return\n     * a negative value if the first argument is less than the second argument, zero if they're equal, and a positive\n     * value otherwise. If omitted, the elements are sorted in ascending, UTF-16 code unit order.\n     * ```ts\n     * [11,2,22,1].sort((a, b) => a - b)\n     * ```\n     */\n    sort(compareFn?: (a: T, b: T) => number): this;\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount?: number): T[];\n    /**\n     * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.\n     * @param start The zero-based location in the array from which to start removing elements.\n     * @param deleteCount The number of elements to remove.\n     * @param items Elements to insert into the array in place of the deleted elements.\n     * @returns An array containing the elements that were deleted.\n     */\n    splice(start: number, deleteCount: number, ...items: T[]): T[];\n    /**\n     * Inserts new elements at the start of an array, and returns the new length of the array.\n     * @param items Elements to insert at the start of the array.\n     */\n    unshift(...items: T[]): number;\n    /**\n     * Returns the index of the first occurrence of a value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n     */\n    indexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.\n     * @param searchElement The value to locate in the array.\n     * @param fromIndex The array index at which to begin searching backward. If fromIndex is omitted, the search starts at the last index in the array.\n     */\n    lastIndexOf(searchElement: T, fromIndex?: number): number;\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): this is S[];\n    /**\n     * Determines whether all the members of an array satisfy the specified test.\n     * @param predicate A function that accepts up to three arguments. The every method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value false, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    every(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Determines whether the specified callback function returns true for any element of an array.\n     * @param predicate A function that accepts up to three arguments. The some method calls\n     * the predicate function for each element in the array until the predicate returns a value\n     * which is coercible to the Boolean value true, or until the end of the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function.\n     * If thisArg is omitted, undefined is used as the this value.\n     */\n    some(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): boolean;\n    /**\n     * Performs the specified action for each element in an array.\n     * @param callbackfn A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;\n    /**\n     * Calls a defined callback function on each element of an array, and returns an array that contains the results.\n     * @param callbackfn A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n     */\n    map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any): U[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter<S extends T>(predicate: (value: T, index: number, array: T[]) => value is S, thisArg?: any): S[];\n    /**\n     * Returns the elements of an array that meet the condition specified in a callback function.\n     * @param predicate A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.\n     * @param thisArg An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.\n     */\n    filter(predicate: (value: T, index: number, array: T[]) => unknown, thisArg?: any): T[];\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduce<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T): T;\n    reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue: T): T;\n    /**\n     * Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.\n     * @param callbackfn A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.\n     * @param initialValue If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n     */\n    reduceRight<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: T[]) => U, initialValue: U): U;\n\n    [n: number]: T;\n}",
       "docstring": "",
       "path": "src/components/dwc-table/dwc-table.types.ts"
     },
