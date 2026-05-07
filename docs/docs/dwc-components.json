@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T09:10:52",
+  "timestamp": "2026-05-07T08:50:22",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.43.4",
@@ -14121,35 +14121,6 @@
           "values": [
             {
               "type": "string"
-            }
-          ],
-          "optional": false,
-          "required": false,
-          "getter": false,
-          "setter": false
-        },
-        {
-          "name": "scrollbarGutter",
-          "type": "boolean",
-          "complexType": {
-            "original": "boolean",
-            "resolved": "boolean",
-            "references": {}
-          },
-          "mutable": false,
-          "attr": "scrollbar-gutter",
-          "reflectToAttr": false,
-          "docs": "When true, reserves space for the scrollbar using `scrollbar-gutter: stable` while the dialog is open.\nThis prevents layout shifts when the page scrollbar disappears behind the modal backdrop.\nDisable when the modal covers the entire viewport (e.g. login) to avoid a visible gutter gap.",
-          "docsTags": [
-            {
-              "name": "default",
-              "text": "true"
-            }
-          ],
-          "default": "true",
-          "values": [
-            {
-              "type": "boolean"
             }
           ],
           "optional": false,
