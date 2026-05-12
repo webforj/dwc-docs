@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T08:50:22",
+  "timestamp": "2026-05-12T12:34:26",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.43.4",
@@ -53333,6 +53333,14 @@
         },
         {
           "name": "part",
+          "text": "selection-label - The label that shows the current file selection summary"
+        },
+        {
+          "name": "part",
+          "text": "default-slot-wrapper - The wrapper around the default slot. Has its own padding via `--dwc-upload-padding`. Hidden when no slotted content is projected."
+        },
+        {
+          "name": "part",
           "text": "list-wrapper - The wrapper around the files list"
         },
         {
@@ -53402,6 +53410,10 @@
         {
           "name": "part",
           "text": "icon-clear - The clear icon"
+        },
+        {
+          "name": "slot",
+          "text": "- Default slot for arbitrary consumer content placed inside the drop area"
         },
         {
           "name": "hostClass",
@@ -53870,6 +53882,35 @@
             },
             {
               "value": "user",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "components",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "components",
+          "reflectToAttr": false,
+          "docs": "The list of UI parts to render.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'pickerButton, dropLabel, list, approveButton, cancelButton'"
+            }
+          ],
+          "default": "'pickerButton, dropLabel, list, approveButton, cancelButton'",
+          "values": [
+            {
               "type": "string"
             }
           ],
@@ -54425,6 +54466,35 @@
           "values": [
             {
               "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "selectionLabel",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "selection-label",
+          "reflectToAttr": false,
+          "docs": "Text displayed next to the picker button to show the current selection. Hidden when empty.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
             }
           ],
           "optional": false,
@@ -55026,11 +55096,11 @@
       "events": [
         {
           "event": "dwc-aborted",
-          "detail": "{ request: XMLHttpRequest; file: File; }",
+          "detail": "{ request?: XMLHttpRequest; file: File; }",
           "bubbles": true,
           "complexType": {
             "original": "DwcUploadPayload",
-            "resolved": "{ request: XMLHttpRequest; file: File; }",
+            "resolved": "{ request?: XMLHttpRequest; file: File; }",
             "references": {
               "DwcUploadPayload": {
                 "location": "import",
@@ -55092,6 +55162,27 @@
           "docsTags": []
         },
         {
+          "event": "dwc-completed",
+          "detail": "{ uploaded: File[]; failed: File[]; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "DwcUploadCompletedPayload",
+            "resolved": "{ uploaded: File[]; failed: File[]; }",
+            "references": {
+              "DwcUploadCompletedPayload": {
+                "location": "import",
+                "path": "./dwc-upload.types",
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadCompletedPayload",
+                "referenceLocation": "DwcUploadCompletedPayload"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when every file in the queue has finished its transfer (whether succeeded or failed).",
+          "docsTags": []
+        },
+        {
           "event": "dwc-failed",
           "detail": "DwcUploadPayload & { error: string; }",
           "bubbles": true,
@@ -55127,6 +55218,27 @@
           "docsTags": []
         },
         {
+          "event": "dwc-list-progress",
+          "detail": "{ listTotal: number; listRemaining: number; listTransferredBytes: number; listTotalBytes: number; entries: DwcUploadListEntry[]; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "DwcUploadListProgressPayload",
+            "resolved": "{ listTotal: number; listRemaining: number; listTransferredBytes: number; listTotalBytes: number; entries: DwcUploadListEntry[]; }",
+            "references": {
+              "DwcUploadListProgressPayload": {
+                "location": "import",
+                "path": "./dwc-upload.types",
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadListProgressPayload",
+                "referenceLocation": "DwcUploadListProgressPayload"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted alongside dwc-progress with the whole list state.",
+          "docsTags": []
+        },
+        {
           "event": "dwc-listbox-changed",
           "detail": "File[]",
           "bubbles": true,
@@ -55151,11 +55263,11 @@
         },
         {
           "event": "dwc-progress",
-          "detail": "DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; }",
+          "detail": "DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; loaded: number; total: number; }",
           "bubbles": true,
           "complexType": {
             "original": "DwcUploadProgressPayload",
-            "resolved": "DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; }",
+            "resolved": "DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; loaded: number; total: number; }",
             "references": {
               "DwcUploadProgressPayload": {
                 "location": "import",
@@ -55172,12 +55284,19 @@
         },
         {
           "event": "dwc-rejected",
-          "detail": "string",
+          "detail": "DwcUploadPayload & { status: string; }",
           "bubbles": true,
           "complexType": {
-            "original": "string",
-            "resolved": "string",
-            "references": {}
+            "original": "DwcUploadRejectedPayload",
+            "resolved": "DwcUploadPayload & { status: string; }",
+            "references": {
+              "DwcUploadRejectedPayload": {
+                "location": "import",
+                "path": "./dwc-upload.types",
+                "id": "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadRejectedPayload",
+                "referenceLocation": "DwcUploadRejectedPayload"
+              }
+            }
           },
           "cancelable": true,
           "composed": true,
@@ -55207,11 +55326,11 @@
         },
         {
           "event": "dwc-responded",
-          "detail": "{ request: XMLHttpRequest; file: File; }",
+          "detail": "{ request?: XMLHttpRequest; file: File; }",
           "bubbles": true,
           "complexType": {
             "original": "DwcUploadPayload",
-            "resolved": "{ request: XMLHttpRequest; file: File; }",
+            "resolved": "{ request?: XMLHttpRequest; file: File; }",
             "references": {
               "DwcUploadPayload": {
                 "location": "import",
@@ -55228,11 +55347,11 @@
         },
         {
           "event": "dwc-started",
-          "detail": "{ request: XMLHttpRequest; file: File; }",
+          "detail": "{ request?: XMLHttpRequest; file: File; }",
           "bubbles": true,
           "complexType": {
             "original": "DwcUploadPayload",
-            "resolved": "{ request: XMLHttpRequest; file: File; }",
+            "resolved": "{ request?: XMLHttpRequest; file: File; }",
             "references": {
               "DwcUploadPayload": {
                 "location": "import",
@@ -55249,11 +55368,11 @@
         },
         {
           "event": "dwc-uploaded",
-          "detail": "{ request: XMLHttpRequest; file: File; }",
+          "detail": "{ request?: XMLHttpRequest; file: File; }",
           "bubbles": true,
           "complexType": {
             "original": "DwcUploadPayload",
-            "resolved": "{ request: XMLHttpRequest; file: File; }",
+            "resolved": "{ request?: XMLHttpRequest; file: File; }",
             "references": {
               "DwcUploadPayload": {
                 "location": "import",
@@ -55286,8 +55405,34 @@
           "passive": false
         }
       ],
-      "styles": [],
-      "slots": [],
+      "styles": [
+        {
+          "name": "--dwc-upload-border",
+          "annotation": "prop",
+          "docs": "The component's outer border. Set to `none` to remove the box outline."
+        },
+        {
+          "name": "--dwc-upload-border-radius",
+          "annotation": "prop",
+          "docs": "The component's outer border radius. Set to `0` to remove rounded corners."
+        },
+        {
+          "name": "--dwc-upload-drag-over-border",
+          "annotation": "prop",
+          "docs": "The border drawn around the component while a drag operation is hovering over it. Follows the component's border-radius and survives opaque slotted content. Set to `none` to disable."
+        },
+        {
+          "name": "--dwc-upload-padding",
+          "annotation": "prop",
+          "docs": "Padding applied to the component's chrome parts (picker row, file rows, action buttons). Set to `0` to collapse the chrome. Does not affect the default slot."
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "docs": "Default slot for arbitrary consumer content placed inside the drop area"
+        }
+      ],
       "parts": [
         {
           "name": "add-files",
@@ -55312,6 +55457,10 @@
         {
           "name": "control",
           "docs": "The component's base wrapper."
+        },
+        {
+          "name": "default-slot-wrapper",
+          "docs": "The wrapper around the default slot. Has its own padding via `--dwc-upload-padding`. Hidden when no slotted content is projected."
         },
         {
           "name": "file",
@@ -55380,6 +55529,10 @@
         {
           "name": "list-wrapper",
           "docs": "The wrapper around the files list"
+        },
+        {
+          "name": "selection-label",
+          "docs": "The label that shows the current file selection summary"
         }
       ],
       "states": [],
@@ -56091,13 +56244,23 @@
       "docstring": "",
       "path": "src/components/dwc-upload/dwc-upload.types.ts"
     },
+    "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadRejectedPayload": {
+      "declaration": "export type DwcUploadRejectedPayload = DwcUploadPayload & {\n  status: string;\n};",
+      "docstring": "",
+      "path": "src/components/dwc-upload/dwc-upload.types.ts"
+    },
     "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadPayload": {
-      "declaration": "{\n  request: XMLHttpRequest;\n  file: File;\n}",
+      "declaration": "{\n  request?: XMLHttpRequest;\n  file: File;\n}",
       "docstring": "",
       "path": "src/components/dwc-upload/dwc-upload.types.ts"
     },
     "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadProgressPayload": {
-      "declaration": "export type DwcUploadProgressPayload = DwcUploadPayload & {\n  request: XMLHttpRequest;\n  file: File;\n  progress: number;\n};",
+      "declaration": "export type DwcUploadProgressPayload = DwcUploadPayload & {\n  request: XMLHttpRequest;\n  file: File;\n  progress: number;\n  loaded: number;\n  total: number;\n};",
+      "docstring": "",
+      "path": "src/components/dwc-upload/dwc-upload.types.ts"
+    },
+    "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadListProgressPayload": {
+      "declaration": "{\n  listTotal: number;\n  listRemaining: number;\n  listTransferredBytes: number;\n  listTotalBytes: number;\n  entries: DwcUploadListEntry[];\n}",
       "docstring": "",
       "path": "src/components/dwc-upload/dwc-upload.types.ts"
     },
@@ -56108,6 +56271,11 @@
     },
     "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadRequestPayload": {
       "declaration": "export type DwcUploadRequestPayload = DwcUploadPayload & {\n  form: FormData;\n};",
+      "docstring": "",
+      "path": "src/components/dwc-upload/dwc-upload.types.ts"
+    },
+    "src/components/dwc-upload/dwc-upload.types.ts::DwcUploadCompletedPayload": {
+      "declaration": "{\n  uploaded: File[];\n  failed: File[];\n}",
       "docstring": "",
       "path": "src/components/dwc-upload/dwc-upload.types.ts"
     }

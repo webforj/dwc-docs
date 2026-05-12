@@ -6818,6 +6818,10 @@
           ]
         },
         {
+          "name": "components",
+          "description": "The list of UI parts to render."
+        },
+        {
           "name": "credentials",
           "description": ""
         },
@@ -6888,6 +6892,10 @@
         {
           "name": "multi-filter-selection",
           "description": "When true, multi filter selection will be enabled. Otherwise only one filter can be selected.\n\nIf `fs` attribute is true and the browser support the File System Access API then this attribute will be ignored."
+        },
+        {
+          "name": "selection-label",
+          "description": "Text displayed next to the picker button to show the current selection. Hidden when empty."
         },
         {
           "name": "theme",

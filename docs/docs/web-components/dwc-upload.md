@@ -41,6 +41,8 @@ Some properties reflect their values to attributes and vice versa. This means th
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>cancel-button-visible</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>true</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>capture</b></code></td><td style="vertical-align:top">Allow the user to trigger device inputs like camera. <br>1. <strong>user:</strong> The user-facing camera and/or microphone should be used.<br>2. <strong>environment:</strong> The outward-facing camera and/or microphone should be used</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>capture</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>"" | "environment" | "user"</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>components</b></code></td><td style="vertical-align:top">The list of UI parts to render.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>components</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>string</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'pickerButton, dropLabel, list, approveButton, cancelButton'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>credentials</b></code></td><td style="vertical-align:top"></td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>credentials</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>directory</b></code></td><td style="vertical-align:top">When true, the user will be able to select directories instead of files</td></tr>
@@ -77,6 +79,8 @@ Some properties reflect their values to attributes and vice versa. This means th
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>method</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>"POST" | "PUT"</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'POST'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>multiFilterSelection</b></code></td><td style="vertical-align:top">When true, multi filter selection will be enabled. Otherwise only one filter can be selected.<br>If <code>fs</code> attribute is true and the browser support the File System Access API then this attribute will be ignored.</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>multi-filter-selection</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>selectionLabel</b></code></td><td style="vertical-align:top">Text displayed next to the picker button to show the current selection. Hidden when empty.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>selection-label</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>string</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>''</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>theme</b></code></td><td style="vertical-align:top">The theme name</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>theme</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>"danger" | "default" | "gray" | "info" | "outlined-danger" | "outlined-default" | "outlined-gray" | "outlined-info" | "outlined-primary" | "outlined-success" | "outlined-warning" | "primary" | "success" | "warning"</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'default'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>timeout</b></code></td><td style="vertical-align:top"></td></tr>
@@ -89,20 +93,33 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Event                   | Description                                                                                                                                 | Type                                                                              |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| ``dwc-aborted``         | Fired when the file is aborted                                                                                                              | ``{ request: XMLHttpRequest; file: File; }``                                      |
-| ``dwc-approved``        | Fired when the approve button is clicked , approve ``method`` is invoked or when ``autoUpload`` is enabled and the file upload is complete. | ``File[]``                                                                        |
-| ``dwc-canceled``        | Fired when the cancel button is clicked or when the ``cancel`` method is invoked.                                                           | ``File[]``                                                                        |
-| ``dwc-failed``          | Emitted when a file is upload is failed                                                                                                     | ``DwcUploadPayload & { error: string; }``                                         |
-| ``dwc-filter-changed``  | Fired when the active filter is changed                                                                                                     | ``string``                                                                        |
-| ``dwc-listbox-changed`` | Emitted when the selected files are changed                                                                                                 | ``File[]``                                                                        |
-| ``dwc-progress``        | Emitted when a file is being uploaded                                                                                                       | ``DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; }`` |
-| ``dwc-rejected``        | Emitted when a file cannot be added                                                                                                         | ``string``                                                                        |
-| ``dwc-request``         | Fired when the upload request is being sent                                                                                                 | ``DwcUploadPayload & { form: FormData; }``                                        |
-| ``dwc-responded``       | Fired when the actual server response is ready.                                                                                             | ``{ request: XMLHttpRequest; file: File; }``                                      |
-| ``dwc-started``         | Fired when the upload is stated                                                                                                             | ``{ request: XMLHttpRequest; file: File; }``                                      |
-| ``dwc-uploaded``        | Emitted when a file is upload is complete                                                                                                   | ``{ request: XMLHttpRequest; file: File; }``                                      |
+| Event                   | Description                                                                                                                                 | Type                                                                                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ``dwc-aborted``         | Fired when the file is aborted                                                                                                              | ``{ request?: XMLHttpRequest; file: File; }``                                                                                          |
+| ``dwc-approved``        | Fired when the approve button is clicked , approve ``method`` is invoked or when ``autoUpload`` is enabled and the file upload is complete. | ``File[]``                                                                                                                             |
+| ``dwc-canceled``        | Fired when the cancel button is clicked or when the ``cancel`` method is invoked.                                                           | ``File[]``                                                                                                                             |
+| ``dwc-completed``       | Emitted when every file in the queue has finished its transfer (whether succeeded or failed).                                               | ``{ uploaded: File[]; failed: File[]; }``                                                                                              |
+| ``dwc-failed``          | Emitted when a file is upload is failed                                                                                                     | ``DwcUploadPayload & { error: string; }``                                                                                              |
+| ``dwc-filter-changed``  | Fired when the active filter is changed                                                                                                     | ``string``                                                                                                                             |
+| ``dwc-list-progress``   | Emitted alongside dwc-progress with the whole list state.                                                                                   | ``{ listTotal: number; listRemaining: number; listTransferredBytes: number; listTotalBytes: number; entries: DwcUploadListEntry[]; }`` |
+| ``dwc-listbox-changed`` | Emitted when the selected files are changed                                                                                                 | ``File[]``                                                                                                                             |
+| ``dwc-progress``        | Emitted when a file is being uploaded                                                                                                       | ``DwcUploadPayload & { request: XMLHttpRequest; file: File; progress: number; loaded: number; total: number; }``                       |
+| ``dwc-rejected``        | Emitted when a file cannot be added                                                                                                         | ``DwcUploadPayload & { status: string; }``                                                                                             |
+| ``dwc-request``         | Fired when the upload request is being sent                                                                                                 | ``DwcUploadPayload & { form: FormData; }``                                                                                             |
+| ``dwc-responded``       | Fired when the actual server response is ready.                                                                                             | ``{ request?: XMLHttpRequest; file: File; }``                                                                                          |
+| ``dwc-started``         | Fired when the upload is stated                                                                                                             | ``{ request?: XMLHttpRequest; file: File; }``                                                                                          |
+| ``dwc-uploaded``        | Emitted when a file is upload is complete                                                                                                   | ``{ request?: XMLHttpRequest; file: File; }``                                                                                          |
+
+
+</div>
+
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description                                                             |
+| ----- | ----------------------------------------------------------------------- |
+|       | Default slot for arbitrary consumer content placed inside the drop area |
 
 
 </div>
@@ -114,31 +131,33 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part               | Description                                        |
-| ------------------ | -------------------------------------------------- |
-| ``add-files``      | The wrapper around the label and the upload button |
-| ``button-approve`` | The approve button                                 |
-| ``button-cancel``  | The cancel button                                  |
-| ``button-upload``  | The upload button                                  |
-| ``buttons``        | The buttons wrapper                                |
-| ``control``        | The component's base wrapper.                      |
-| ``file``           | The file                                           |
-| ``file-body``      | The file's body                                    |
-| ``file-name``      | The name of the file                               |
-| ``file-prefix``    | The file's prefix                                  |
-| ``file-status``    | The status of the file                             |
-| ``file-suffix``    | The file's suffix                                  |
-| ``icon-clear``     | The clear icon                                     |
-| ``icon-failed``    | The failed icon                                    |
-| ``icon-file``      | The file icon                                      |
-| ``icon-retry``     | The retry icon                                     |
-| ``icon-start``     | The start icon (start upload)                      |
-| ``icon-succeeded`` | The succeed icon                                   |
-| ``icon-upload``    | The upload icon                                    |
-| ``label``          | The label                                          |
-| ``label-wrapper``  | The wrapper around the upload icon and the label   |
-| ``list``           | The list of files                                  |
-| ``list-wrapper``   | The wrapper around the files list                  |
+| Part                     | Description                                                                                                                         |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| ``add-files``            | The wrapper around the label and the upload button                                                                                  |
+| ``button-approve``       | The approve button                                                                                                                  |
+| ``button-cancel``        | The cancel button                                                                                                                   |
+| ``button-upload``        | The upload button                                                                                                                   |
+| ``buttons``              | The buttons wrapper                                                                                                                 |
+| ``control``              | The component's base wrapper.                                                                                                       |
+| ``default-slot-wrapper`` | The wrapper around the default slot. Has its own padding via ``--dwc-upload-padding``. Hidden when no slotted content is projected. |
+| ``file``                 | The file                                                                                                                            |
+| ``file-body``            | The file's body                                                                                                                     |
+| ``file-name``            | The name of the file                                                                                                                |
+| ``file-prefix``          | The file's prefix                                                                                                                   |
+| ``file-status``          | The status of the file                                                                                                              |
+| ``file-suffix``          | The file's suffix                                                                                                                   |
+| ``icon-clear``           | The clear icon                                                                                                                      |
+| ``icon-failed``          | The failed icon                                                                                                                     |
+| ``icon-file``            | The file icon                                                                                                                       |
+| ``icon-retry``           | The retry icon                                                                                                                      |
+| ``icon-start``           | The start icon (start upload)                                                                                                       |
+| ``icon-succeeded``       | The succeed icon                                                                                                                    |
+| ``icon-upload``          | The upload icon                                                                                                                     |
+| ``label``                | The label                                                                                                                           |
+| ``label-wrapper``        | The wrapper around the upload icon and the label                                                                                    |
+| ``list``                 | The list of files                                                                                                                   |
+| ``list-wrapper``         | The wrapper around the files list                                                                                                   |
+| ``selection-label``      | The label that shows the current file selection summary                                                                             |
 
 
 </div>
@@ -155,6 +174,25 @@ They can either reflect the component's state, such as "disabled" or "active," o
 | ``BBjFileChooser`` | Always applied                         |
 | ``bbj-client``     | Always applied                         |
 | ``bbj-disabled``   | Applied when the component is disabled |
+
+
+</div>
+
+## CSS Properties
+
+
+CSS Properties are DWC-defined variables in CSS, denoted by `--`, followed by a name.
+They enable dynamic styling, reusability, and easy customization of components.
+With CSS Properties, you can change the look and feel of a component simply by changing the value of a variable.
+[[Read more]](theme-engine/css-variables).
+<div style="overflow-x: auto;">
+
+| Name                              | Description                                                                                                                                                                              |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ``--dwc-upload-border``           | The component's outer border. Set to ``none`` to remove the box outline.                                                                                                                 |
+| ``--dwc-upload-border-radius``    | The component's outer border radius. Set to ``0`` to remove rounded corners.                                                                                                             |
+| ``--dwc-upload-drag-over-border`` | The border drawn around the component while a drag operation is hovering over it. Follows the component's border-radius and survives opaque slotted content. Set to ``none`` to disable. |
+| ``--dwc-upload-padding``          | Padding applied to the component's chrome parts (picker row, file rows, action buttons). Set to ``0`` to collapse the chrome. Does not affect the default slot.                          |
 
 
 </div>
