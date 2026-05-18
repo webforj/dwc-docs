@@ -8,6 +8,7 @@
   - [CSS Shadow Parts](theme-engine/css-shadow-parts.md)
   - [Colors](theme-engine/colors.md)
   - [Themes](theme-engine/themes.md)
+  - [Upgrading to v26](theme-engine/upgrading-to-v26.md)
 
 - Foundation
   - [Typography](theme-engine/typography.md)

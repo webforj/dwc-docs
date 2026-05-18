@@ -61,6 +61,15 @@
       tabs: {
         theme: 'material',
       },
+      plugins: [
+        function (hook) {
+          var year = new Date().getFullYear();
+          hook.beforeEach(function (content) {
+            if (/BASIS International Ltd/.test(content)) return content;
+            return content + '\n\n----------------------------------------------\n*Built by [BASIS International Ltd](https://www.basis.cloud/). Al rights reserved ' + year + '.*';
+          });
+        },
+      ],
     }
 
   </script>

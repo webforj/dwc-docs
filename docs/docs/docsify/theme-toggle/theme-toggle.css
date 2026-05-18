@@ -7,7 +7,6 @@
   height: 30px;
   border-radius: 15px;
   border: 1px solid var(--dwc-border-color);
-  cursor: pointer;
   padding: 3px;
   background: var(--dwc-surface-1);
   display: flex;

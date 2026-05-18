@@ -7,11 +7,6 @@
   margin: var(--dwc-space-m) 0;
 }
 
-/* All copyable elements get press feedback */
-[data-var] {
-  cursor: pointer;
-}
-
 [data-var]:active {
   transform: scale(var(--dwc-scale-press));
 }
@@ -57,7 +52,6 @@
   font-size: var(--dwc-font-size-2xs);
   font-weight: var(--dwc-font-weight-semibold);
   font-family: var(--dwc-font-family-mono);
-  cursor: pointer;
   position: relative;
   transition: transform var(--dwc-transition-fast) var(--dwc-ease),
               box-shadow var(--dwc-transition-fast) var(--dwc-ease);
@@ -117,7 +111,6 @@
   gap: var(--dwc-space-2xs);
   flex: 1;
   min-width: 80px;
-  cursor: pointer;
   position: relative;
 }
 
@@ -166,7 +159,6 @@
   gap: var(--dwc-space-2xs);
   flex: 1;
   min-width: 80px;
-  cursor: pointer;
   position: relative;
 }
 
@@ -213,7 +205,6 @@
   justify-content: center;
   font-size: var(--dwc-font-size-s);
   font-weight: var(--dwc-font-weight-medium);
-  cursor: pointer;
 }
 
 .doc-step-card__on-label {
@@ -231,7 +222,6 @@
   justify-content: center;
   font-size: var(--dwc-font-size-s);
   font-weight: var(--dwc-font-weight-semibold);
-  cursor: pointer;
 }
 
 .doc-step-card__step {
@@ -410,7 +400,6 @@
   height: 28px;
   border-radius: var(--dwc-border-radius-pill);
   background: var(--dwc-color-default);
-  cursor: pointer;
   padding: 0 4px;
   box-sizing: border-box;
 }
@@ -518,7 +507,6 @@
   color: var(--dwc-color-on-primary-text);
   font-size: var(--dwc-font-size-s);
   font-weight: var(--dwc-font-weight-medium);
-  cursor: pointer;
   transition: transform var(--dwc-transition-fast) var(--dwc-ease);
 }
 

@@ -66,7 +66,6 @@
   background: var(--dwc-surface-3);
   color: var(--dwc-color-body-text);
   padding: 0 1rem;
-  cursor: pointer;
   font-family: inherit;
 }
 
@@ -107,7 +106,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  cursor: pointer;
   -webkit-appearance: none;
 }
 
@@ -127,4 +125,72 @@ body.flavor-html [data-flavor]:not([data-flavor="html"]) {
 
 body.flavor-BBj [data-flavor]:not([data-flavor="BBj"]) {
   display: none;
+}
+
+/* docsify-copy-code button*/
+.docsify-copy-code-button {
+  top: var(--dwc-space-xs) !important;
+  right: var(--dwc-space-xs) !important;
+  padding: var(--dwc-space-2xs) var(--dwc-space-xs) !important;
+  background: var(--dwc-color-default-light) !important;
+  color: var(--dwc-color-body-text) !important;
+  border: 1px solid var(--dwc-border-color) !important;
+  border-radius: var(--dwc-border-radius-s) !important;
+  font-family: var(--dwc-font-family) !important;
+  font-size: var(--dwc-font-size-s) !important;
+  font-weight: var(--dwc-font-weight-medium) !important;
+  transition:
+    opacity var(--dwc-transition-fast) var(--dwc-ease),
+    background-color var(--dwc-transition-x-fast) var(--dwc-ease-out),
+    transform var(--dwc-transition) var(--dwc-ease-outQuart) !important;
+}
+
+.docsify-copy-code-button:hover {
+  background: var(--dwc-color-default) !important;
+}
+
+.docsify-copy-code-button:active {
+  transform: scale(var(--dwc-scale-press));
+}
+
+.docsify-copy-code-button:focus-visible {
+  outline: none;
+  box-shadow: var(--dwc-focus-ring-primary);
+}
+
+.docsify-copy-code-button.success {
+  background: var(--dwc-color-success-alt) !important;
+  border-color: var(--dwc-border-color-success-emphasis) !important;
+  color: var(--dwc-color-success-text) !important;
+}
+
+.docsify-copy-code-button.error {
+  background: var(--dwc-color-danger-alt) !important;
+  border-color: var(--dwc-border-color-danger-emphasis) !important;
+  color: var(--dwc-color-danger-text) !important;
+}
+
+/* Success/error feedback bubble - sit right next to the button */
+.docsify-copy-code-button .success,
+.docsify-copy-code-button .error {
+  padding: var(--dwc-space-2xs) var(--dwc-space-xs) !important;
+  font-size: var(--dwc-font-size-s) !important;
+  font-weight: var(--dwc-font-weight-medium) !important;
+  border-radius: var(--dwc-border-radius-s) !important;
+  right: 100% !important;
+  margin-right: var(--dwc-space-s);
+}
+
+.docsify-copy-code-button.success .success {
+  background: var(--dwc-color-success-alt);
+  color: var(--dwc-color-success-text);
+  border: 1px solid var(--dwc-border-color-success-emphasis);
+  transform: translate3d(0, -50%, 0) !important;
+}
+
+.docsify-copy-code-button.error .error {
+  background: var(--dwc-color-danger-alt);
+  color: var(--dwc-color-danger-text);
+  border: 1px solid var(--dwc-border-color-danger-emphasis);
+  transform: translate3d(0, -50%, 0) !important;
 }

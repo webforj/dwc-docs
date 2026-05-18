@@ -155,7 +155,6 @@ video {
   width: 24px;
   height: 24px;
   border-radius: var(--dwc-border-radius-s);
-  cursor: pointer;
   transition: background-color var(--dwc-transition-fast);
 }
 
@@ -303,7 +302,8 @@ video {
 @media screen and (max-width: 768px) {
   body.close .sidebar-toggle {
     width: 2rem;
-    background: none;
+    background: var(--dwc-surface-1);
+    border: 1px solid var(--dwc-border-color);
     padding: var(--dwc-space-xs);
   }
 }
@@ -448,18 +448,22 @@ video {
 
 .markdown-section h3 {
   font-size: var(--dwc-font-size-xl);
+  margin-top: 1.5rem;
 }
 
 .markdown-section h4 {
   font-size: var(--dwc-font-size-l);
+  margin-top: 1.25rem;
 }
 
 .markdown-section h5 {
   font-size: var(--dwc-font-size-m);
+  margin-top: 1rem;
 }
 
 .markdown-section h6 {
   font-size: var(--dwc-font-size-s);
+  margin-top: 1rem;
 }
 
 .markdown-section p {
@@ -518,14 +522,31 @@ video {
 .markdown-section code {
   font-family: var(--dwc-font-family-mono);
   font-size: 87.5%;
-  background-color: var(--dwc-surface-3);
+  background-color: var(--dwc-color-default-light);
+  border: 1px solid var(--dwc-border-color);
   border-radius: var(--dwc-border-radius-s);
-  padding: 2px 4px;
+  padding: 2px 6px;
   color: var(--dwc-color-body-text);
 }
 
-.markdown-section tr code {
-  background-color: var(--dwc-surface-1);
+/* Inline code inside a link: keep the link's color/underline,
+   keep the code chip's background/border */
+.markdown-section a code {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Version tag (e.g. v1, v2) - tinted pill */
+.markdown-section .ver {
+  display: inline-block;
+  background-color: var(--dwc-color-primary-alt);
+  color: var(--dwc-color-primary-text);
+  border-radius: var(--dwc-border-radius-s);
+  padding: 0 6px;
+  font-family: var(--dwc-font-family-mono);
+  font-size: 87.5%;
+  font-weight: var(--dwc-font-weight-medium);
+  line-height: 1.5;
 }
 
 /* Code blocks */
@@ -701,11 +722,6 @@ video {
   white-space: nowrap;
 }
 
-.markdown-section tr code {
-  background-color: var(--dwc-surface-2);
-  border-color: transparent;
-}
-
 /* Iframes */
 .markdown-section iframe {
   border: none;
@@ -783,7 +799,6 @@ video {
   font-weight: 500 !important;
   color: var(--dwc-color-gray-55) !important;
   padding: var(--dwc-space-s) var(--dwc-space-l) !important;
-  cursor: pointer !important;
   transition: color var(--dwc-transition-fast) !important;
 }
 
@@ -804,7 +819,6 @@ video {
 
 /* Expandable property table */
 .pt-row {
-  cursor: pointer;
 }
 
 .pt-row:hover {
@@ -851,4 +865,10 @@ video {
   color: var(--dwc-color-default-text);
   font-size: 0.85em;
   min-width: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown-section {
+    padding: 4rem 1.5rem 2rem !important;
+  }
 }

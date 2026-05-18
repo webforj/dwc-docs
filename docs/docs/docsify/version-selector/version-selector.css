@@ -16,7 +16,6 @@
   font-family: inherit;
   font-size: var(--dwc-font-size-m);
   box-sizing: border-box;
-  cursor: pointer;
   outline: none;
   appearance: none;
   -webkit-appearance: none;
