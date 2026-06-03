@@ -326,6 +326,50 @@
         {
           "name": "auto-open",
           "description": "Whether the nav should open automatically the selected item"
+        },
+        {
+          "name": "icon-pinned",
+          "description": "The icon shown on items that are pinned. Accepts 'name', 'pool:name', or an icon object."
+        },
+        {
+          "name": "icon-unpinned",
+          "description": "The icon shown on items that are not pinned. Accepts 'name', 'pool:name', or an icon object."
+        },
+        {
+          "name": "nodata",
+          "description": "When true, a search is performed and there were no results found."
+        },
+        {
+          "name": "pin-autosave",
+          "description": "When true, the set of pinned items is persisted to local storage and restored on reload. Off by default. Requires an id or name on the host."
+        },
+        {
+          "name": "pin-touch-visible",
+          "description": "When true, the pin toggle stays visible on touch devices. Off by default, since touch has no hover."
+        },
+        {
+          "name": "pinnable",
+          "description": "When true, a pin toggle is shown on navigable leaf items and pinned items are moved to a group at the top."
+        },
+        {
+          "name": "pinned-title",
+          "description": "The title of the pinned group"
+        },
+        {
+          "name": "search-input",
+          "description": "When true, a search field is shown that filters the items by their label."
+        },
+        {
+          "name": "search-nodata",
+          "description": "A message to display when there is no data to display after performing a search."
+        },
+        {
+          "name": "search-placeholder",
+          "description": "The search input's placeholder"
+        },
+        {
+          "name": "search-term",
+          "description": "The current search term"
         }
       ]
     },
@@ -345,12 +389,40 @@
           "description": "Whether the item has children or not"
         },
         {
+          "name": "icon-pinned",
+          "description": "The icon shown while the item is pinned. Accepts 'name', 'pool:name', or an icon object."
+        },
+        {
+          "name": "icon-unpinned",
+          "description": "The icon shown while the item is not pinned. Accepts 'name', 'pool:name', or an icon object."
+        },
+        {
           "name": "opened",
           "description": "Whether the item is opened or not"
         },
         {
           "name": "path",
           "description": "The path of the item"
+        },
+        {
+          "name": "pin-key",
+          "description": "A stable key identifying the item for pinning. Defaults to the path when not set."
+        },
+        {
+          "name": "pin-label",
+          "description": "The accessible label of the pin action"
+        },
+        {
+          "name": "pin-touch-visible",
+          "description": "When true, the pin toggle stays visible on touch devices, which have no hover to reveal it"
+        },
+        {
+          "name": "pinnable",
+          "description": "When true, the item shows a pin toggle so it can be moved into the pinned section"
+        },
+        {
+          "name": "pinned",
+          "description": "Whether the item is currently pinned."
         },
         {
           "name": "router-ignore",
@@ -363,6 +435,10 @@
         {
           "name": "target",
           "description": "The target of the item"
+        },
+        {
+          "name": "unpin-label",
+          "description": "The accessible label of the unpin action"
         }
       ]
     },

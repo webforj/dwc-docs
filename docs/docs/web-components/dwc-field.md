@@ -213,6 +213,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 ## Dependent Components
 
+- [dwc-app-nav](web-components/dwc-app-nav.md)
 - [dwc-color-chooser](web-components/dwc-color-chooser.md)
 - [dwc-combobox](web-components/dwc-combobox.md)
 - [dwc-file-chooser](web-components/dwc-file-chooser.md)

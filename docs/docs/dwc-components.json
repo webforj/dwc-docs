@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-24T22:33:59",
+  "timestamp": "2026-06-03T05:37:51",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.43.4",
@@ -1958,6 +1958,26 @@
           "text": "- The default slot where the nav items are placed."
         },
         {
+          "name": "slot",
+          "text": "pinned - The slot where pinned items are moved."
+        },
+        {
+          "name": "part",
+          "text": "input - The input element (search box)."
+        },
+        {
+          "name": "part",
+          "text": "nodata - The message shown when a search returns no results."
+        },
+        {
+          "name": "part",
+          "text": "pinned - The container of the pinned group."
+        },
+        {
+          "name": "part",
+          "text": "pinned-title - The title of the pinned group."
+        },
+        {
           "name": "author",
           "text": "Hyyan Abo Fakher"
         },
@@ -1995,10 +2015,371 @@
           "required": false,
           "getter": false,
           "setter": false
+        },
+        {
+          "name": "iconPinned",
+          "type": "object | string",
+          "complexType": {
+            "original": "string | object",
+            "resolved": "object | string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "icon-pinned",
+          "reflectToAttr": false,
+          "docs": "The icon shown on items that are pinned. Accepts 'name', 'pool:name', or an icon object.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'dwc:pinned-off'"
+            }
+          ],
+          "default": "'dwc:pinned-off'",
+          "values": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "iconUnpinned",
+          "type": "object | string",
+          "complexType": {
+            "original": "string | object",
+            "resolved": "object | string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "icon-unpinned",
+          "reflectToAttr": false,
+          "docs": "The icon shown on items that are not pinned. Accepts 'name', 'pool:name', or an icon object.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'dwc:pin'"
+            }
+          ],
+          "default": "'dwc:pin'",
+          "values": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "nodata",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "nodata",
+          "reflectToAttr": true,
+          "docs": "When true, a search is performed and there were no results found.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinAutosave",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pin-autosave",
+          "reflectToAttr": false,
+          "docs": "When true, the set of pinned items is persisted to local storage and restored on reload. Off by default. Requires an id or name on the host.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinTouchVisible",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pin-touch-visible",
+          "reflectToAttr": false,
+          "docs": "When true, the pin toggle stays visible on touch devices. Off by default, since touch has no hover.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinnable",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pinnable",
+          "reflectToAttr": false,
+          "docs": "When true, a pin toggle is shown on navigable leaf items and pinned items are moved to a group at the top.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinnedTitle",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pinned-title",
+          "reflectToAttr": false,
+          "docs": "The title of the pinned group",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Pinned'"
+            }
+          ],
+          "default": "'Pinned'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchInput",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-input",
+          "reflectToAttr": false,
+          "docs": "When true, a search field is shown that filters the items by their label.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchNodata",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-nodata",
+          "reflectToAttr": false,
+          "docs": "A message to display when there is no data to display after performing a search.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'No data to display'"
+            }
+          ],
+          "default": "'No data to display'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchPlaceholder",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-placeholder",
+          "reflectToAttr": false,
+          "docs": "The search input's placeholder",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Search'"
+            }
+          ],
+          "default": "'Search'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "search-term",
+          "reflectToAttr": false,
+          "docs": "The current search term",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
         }
       ],
       "methods": [],
-      "events": [],
+      "events": [
+        {
+          "event": "dwc-pin-changed",
+          "detail": "{ key: string; pinned: boolean; keys: string[]; }",
+          "bubbles": true,
+          "complexType": {
+            "original": "DwcAppNavPinPayload",
+            "resolved": "{ key: string; pinned: boolean; keys: string[]; }",
+            "references": {
+              "DwcAppNavPinPayload": {
+                "location": "import",
+                "path": "./dwc-app-nav.types",
+                "id": "src/components/dwc-app-nav/dwc-app-nav.types.ts::DwcAppNavPinPayload",
+                "referenceLocation": "DwcAppNavPinPayload"
+              }
+            }
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when an item's pinned state changes.",
+          "docsTags": []
+        },
+        {
+          "event": "dwc-searched",
+          "detail": "string",
+          "bubbles": true,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when a search is performed through the search field. The detail is the search term.",
+          "docsTags": []
+        }
+      ],
       "listeners": [
         {
           "event": "popstate",
@@ -2016,6 +2397,16 @@
           "event": "dwc-location-changed",
           "capture": false,
           "passive": false
+        },
+        {
+          "event": "dwc-pin-state-changed",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "dwc-pinned",
+          "capture": false,
+          "passive": false
         }
       ],
       "styles": [],
@@ -2023,13 +2414,57 @@
         {
           "name": "",
           "docs": "The default slot where the nav items are placed."
+        },
+        {
+          "name": "pinned",
+          "docs": "The slot where pinned items are moved."
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "name": "input",
+          "docs": "The input element (search box)."
+        },
+        {
+          "name": "nodata",
+          "docs": "The message shown when a search returns no results."
+        },
+        {
+          "name": "pinned",
+          "docs": "The container of the pinned group."
+        },
+        {
+          "name": "pinned-title",
+          "docs": "The title of the pinned group."
+        }
+      ],
       "states": [],
       "dependents": [],
-      "dependencies": [],
-      "dependencyGraph": {}
+      "dependencies": [
+        "dwc-field",
+        "dwc-icon"
+      ],
+      "dependencyGraph": {
+        "dwc-app-nav": [
+          "dwc-field",
+          "dwc-icon"
+        ],
+        "dwc-field": [
+          "dwc-icon-button",
+          "dwc-alert",
+          "dwc-alert-popover"
+        ],
+        "dwc-icon-button": [
+          "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
+        ],
+        "dwc-alert-popover": [
+          "dwc-alert"
+        ]
+      }
     },
     {
       "filePath": "src/components/dwc-app-nav-item/dwc-app-nav-item.tsx",
@@ -2068,6 +2503,10 @@
         {
           "name": "part",
           "text": "suffix - The suffix part."
+        },
+        {
+          "name": "part",
+          "text": "pin-button - The pin/unpin toggle button."
         },
         {
           "name": "part",
@@ -2145,6 +2584,70 @@
           "setter": false
         },
         {
+          "name": "iconPinned",
+          "type": "object | string",
+          "complexType": {
+            "original": "string | object",
+            "resolved": "object | string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "icon-pinned",
+          "reflectToAttr": false,
+          "docs": "The icon shown while the item is pinned. Accepts 'name', 'pool:name', or an icon object.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'dwc:pinned-off'"
+            }
+          ],
+          "default": "'dwc:pinned-off'",
+          "values": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "iconUnpinned",
+          "type": "object | string",
+          "complexType": {
+            "original": "string | object",
+            "resolved": "object | string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "icon-unpinned",
+          "reflectToAttr": false,
+          "docs": "The icon shown while the item is not pinned. Accepts 'name', 'pool:name', or an icon object.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'dwc:pin'"
+            }
+          ],
+          "default": "'dwc:pin'",
+          "values": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "opened",
           "type": "boolean",
           "complexType": {
@@ -2189,6 +2692,145 @@
           "values": [
             {
               "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinKey",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pin-key",
+          "reflectToAttr": false,
+          "docs": "A stable key identifying the item for pinning. Defaults to the path when not set.",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinLabel",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pin-label",
+          "reflectToAttr": false,
+          "docs": "The accessible label of the pin action",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Pin'"
+            }
+          ],
+          "default": "'Pin'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinTouchVisible",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pin-touch-visible",
+          "reflectToAttr": true,
+          "docs": "When true, the pin toggle stays visible on touch devices, which have no hover to reveal it",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinnable",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "pinnable",
+          "reflectToAttr": true,
+          "docs": "When true, the item shows a pin toggle so it can be moved into the pinned section",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "pinned",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "pinned",
+          "reflectToAttr": true,
+          "docs": "Whether the item is currently pinned.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
             }
           ],
           "optional": false,
@@ -2270,6 +2912,35 @@
           "required": false,
           "getter": false,
           "setter": false
+        },
+        {
+          "name": "unpinLabel",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "unpin-label",
+          "reflectToAttr": false,
+          "docs": "The accessible label of the unpin action",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Unpin'"
+            }
+          ],
+          "default": "'Unpin'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
         }
       ],
       "methods": [],
@@ -2331,6 +3002,10 @@
           "docs": "The link wrapper part."
         },
         {
+          "name": "pin-button",
+          "docs": "The pin/unpin toggle button."
+        },
+        {
           "name": "suffix",
           "docs": "The suffix part."
         }
@@ -2338,10 +3013,15 @@
       "states": [],
       "dependents": [],
       "dependencies": [
+        "dwc-icon-button",
         "dwc-icon"
       ],
       "dependencyGraph": {
         "dwc-app-nav-item": [
+          "dwc-icon-button",
+          "dwc-icon"
+        ],
+        "dwc-icon-button": [
           "dwc-icon"
         ]
       }
@@ -18160,6 +18840,7 @@
       ],
       "states": [],
       "dependents": [
+        "dwc-app-nav",
         "dwc-color-chooser",
         "dwc-combobox",
         "dwc-file-chooser",
@@ -18189,6 +18870,9 @@
         ],
         "dwc-alert-popover": [
           "dwc-alert"
+        ],
+        "dwc-app-nav": [
+          "dwc-field"
         ],
         "dwc-color-chooser": [
           "dwc-field"
@@ -23069,6 +23753,7 @@
       "dependents": [
         "dwc-accordion-panel",
         "dwc-alert",
+        "dwc-app-nav",
         "dwc-app-nav-item",
         "dwc-avatar",
         "dwc-button",
@@ -23093,6 +23778,9 @@
           "dwc-icon"
         ],
         "dwc-alert": [
+          "dwc-icon"
+        ],
+        "dwc-app-nav": [
           "dwc-icon"
         ],
         "dwc-app-nav-item": [
@@ -23582,6 +24270,7 @@
       "states": [],
       "dependents": [
         "dwc-alert",
+        "dwc-app-nav-item",
         "dwc-color-chooser",
         "dwc-combobox",
         "dwc-datefield",
@@ -23604,6 +24293,9 @@
           "dwc-icon"
         ],
         "dwc-alert": [
+          "dwc-icon-button"
+        ],
+        "dwc-app-nav-item": [
           "dwc-icon-button"
         ],
         "dwc-color-chooser": [
@@ -56058,6 +56750,16 @@
       "declaration": "export type DwcAlertPopoverPlacement =\n  | 'top'\n  | 'top-start'\n  | 'top-end'\n  | 'bottom'\n  | 'bottom-start'\n  | 'bottom-end'\n  | 'right'\n  | 'right-start'\n  | 'right-end'\n  | 'left'\n  | 'left-start'\n  | 'left-end';",
       "docstring": "",
       "path": "src/components/dwc-alert-popover/dwc-alert-popover.types.ts"
+    },
+    "src/components/dwc-app-nav/dwc-app-nav.types.ts::DwcAppNavPinPayload": {
+      "declaration": "{\n  key: string;\n  pinned: boolean;\n  keys: string[];\n}",
+      "docstring": "",
+      "path": "src/components/dwc-app-nav/dwc-app-nav.types.ts"
+    },
+    "src/components/dwc-app-nav-item/dwc-app-nav-item.types.ts::DwcAppNavItemPinPayload": {
+      "declaration": "{\n  key: string;\n  pinned: boolean;\n}",
+      "docstring": "",
+      "path": "src/components/dwc-app-nav-item/dwc-app-nav-item.types.ts"
     },
     "src/utils/dwc-expression.ts::DwcExpression": {
       "declaration": "export type DwcExpression = string | ((...args: any[]) => any);",
