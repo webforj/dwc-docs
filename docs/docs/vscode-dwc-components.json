@@ -1161,6 +1161,22 @@
           "description": "When true then the current selected item's prefix will be rendered in the button."
         },
         {
+          "name": "search-input",
+          "description": "When true, a search field is shown that filters the items by their label."
+        },
+        {
+          "name": "search-nodata",
+          "description": "A message to display when there is no data to display after performing a search."
+        },
+        {
+          "name": "search-placeholder",
+          "description": "The search input's placeholder"
+        },
+        {
+          "name": "search-term",
+          "description": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property."
+        },
+        {
           "name": "selected",
           "description": ""
         },
@@ -1735,6 +1751,22 @@
         {
           "name": "renderer",
           "description": "A BBj expression or a function to render the list item's label"
+        },
+        {
+          "name": "search-input",
+          "description": "When true, a search field is shown that filters the items by their label."
+        },
+        {
+          "name": "search-nodata",
+          "description": "A message to display when there is no data to display after performing a search."
+        },
+        {
+          "name": "search-placeholder",
+          "description": "The search input's placeholder"
+        },
+        {
+          "name": "search-term",
+          "description": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property."
         },
         {
           "name": "selected",
@@ -2433,6 +2465,22 @@
           "description": "A BBj expression or a function to render the list item's label."
         },
         {
+          "name": "search-input",
+          "description": "When true, a search field is shown that filters the items by their label."
+        },
+        {
+          "name": "search-nodata",
+          "description": "A message to display when there is no data to display after performing a search."
+        },
+        {
+          "name": "search-placeholder",
+          "description": "The search input's placeholder"
+        },
+        {
+          "name": "search-term",
+          "description": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property."
+        },
+        {
           "name": "skidding",
           "description": "The distance in pixels to offset the list along its trigger."
         },
@@ -2508,6 +2556,10 @@
         {
           "name": "autofocus",
           "description": "Automatically focuses the form control when the page is loaded."
+        },
+        {
+          "name": "clearable",
+          "description": "When true, a clear button is shown while the component has a value.\nApplies to text like types only (text, search, tel, url, email)."
         },
         {
           "name": "disabled",
@@ -3540,12 +3592,32 @@
           "description": "When true and multi-selection is enabled, the user will be able to select and deselect items by clicking."
         },
         {
+          "name": "nodata",
+          "description": "When true, a search is performed and there were no results found."
+        },
+        {
           "name": "readonly",
           "description": "When true, puts the control in readonly mode"
         },
         {
           "name": "renderer",
           "description": "A BBj expression or a function to render the list item's label."
+        },
+        {
+          "name": "search-input",
+          "description": "When true, a search field is shown that filters the items by their label."
+        },
+        {
+          "name": "search-nodata",
+          "description": "A message to display when there is no data to display after performing a search."
+        },
+        {
+          "name": "search-placeholder",
+          "description": "The search input's placeholder"
+        },
+        {
+          "name": "search-term",
+          "description": "The current search term"
         },
         {
           "name": "tab-traversable",

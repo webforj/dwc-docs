@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T10:27:13",
+  "timestamp": "2026-07-13T14:24:13",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.43.4",
@@ -7195,6 +7195,122 @@
           "setter": false
         },
         {
+          "name": "searchInput",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-input",
+          "reflectToAttr": false,
+          "docs": "When true, a search field is shown that filters the items by their label.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchNodata",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-nodata",
+          "reflectToAttr": false,
+          "docs": "A message to display when there is no data to display after performing a search.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'No data to display'"
+            }
+          ],
+          "default": "'No data to display'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchPlaceholder",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-placeholder",
+          "reflectToAttr": false,
+          "docs": "The search input's placeholder",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Search'"
+            }
+          ],
+          "default": "'Search'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-term",
+          "reflectToAttr": false,
+          "docs": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "selected",
           "type": "number",
           "complexType": {
@@ -8091,16 +8207,22 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
         ],
-        "dwc-alert": [
-          "dwc-icon",
-          "dwc-icon-button"
+        "dwc-field": [
+          "dwc-icon-button",
+          "dwc-alert",
+          "dwc-alert-popover"
         ],
         "dwc-icon-button": [
           "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
         ],
         "dwc-alert-popover": [
           "dwc-alert"
@@ -10734,6 +10856,122 @@
           "setter": false
         },
         {
+          "name": "searchInput",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-input",
+          "reflectToAttr": false,
+          "docs": "When true, a search field is shown that filters the items by their label.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchNodata",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-nodata",
+          "reflectToAttr": false,
+          "docs": "A message to display when there is no data to display after performing a search.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'No data to display'"
+            }
+          ],
+          "default": "'No data to display'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchPlaceholder",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-placeholder",
+          "reflectToAttr": false,
+          "docs": "The search input's placeholder",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Search'"
+            }
+          ],
+          "default": "'Search'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-term",
+          "reflectToAttr": false,
+          "docs": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "selected",
           "type": "number",
           "complexType": {
@@ -11534,24 +11772,25 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
-        ],
-        "dwc-alert": [
-          "dwc-icon",
-          "dwc-icon-button"
-        ],
-        "dwc-icon-button": [
-          "dwc-icon"
-        ],
-        "dwc-alert-popover": [
-          "dwc-alert"
         ],
         "dwc-field": [
           "dwc-icon-button",
           "dwc-alert",
           "dwc-alert-popover"
+        ],
+        "dwc-icon-button": [
+          "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
+        ],
+        "dwc-alert-popover": [
+          "dwc-alert"
         ],
         "dwc-file-chooser": [
           "dwc-combobox"
@@ -16179,6 +16418,122 @@
           "setter": false
         },
         {
+          "name": "searchInput",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-input",
+          "reflectToAttr": false,
+          "docs": "When true, a search field is shown that filters the items by their label.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchNodata",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-nodata",
+          "reflectToAttr": false,
+          "docs": "A message to display when there is no data to display after performing a search.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'No data to display'"
+            }
+          ],
+          "default": "'No data to display'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchPlaceholder",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-placeholder",
+          "reflectToAttr": false,
+          "docs": "The search input's placeholder",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Search'"
+            }
+          ],
+          "default": "'Search'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-term",
+          "reflectToAttr": false,
+          "docs": "The search term to seed the list's search field with. Typing in the\nsearch field does not write back to this property.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "selected",
           "type": "number[]",
           "complexType": {
@@ -16774,16 +17129,22 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
         ],
-        "dwc-alert": [
-          "dwc-icon",
-          "dwc-icon-button"
+        "dwc-field": [
+          "dwc-icon-button",
+          "dwc-alert",
+          "dwc-alert-popover"
         ],
         "dwc-icon-button": [
           "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
         ],
         "dwc-alert-popover": [
           "dwc-alert"
@@ -16840,6 +17201,10 @@
         {
           "name": "part",
           "text": "suffix - the component's suffix"
+        },
+        {
+          "name": "part",
+          "text": "clear-button - The clear button shown when the component is clearable and has a value"
         },
         {
           "name": "part",
@@ -17207,6 +17572,35 @@
           "attr": "autofocus",
           "reflectToAttr": false,
           "docs": "Automatically focuses the form control when the page is loaded.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "clearable",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "clearable",
+          "reflectToAttr": true,
+          "docs": "When true, a clear button is shown while the component has a value.\nApplies to text like types only (text, search, tel, url, email).",
           "docsTags": [
             {
               "name": "default",
@@ -18627,6 +19021,20 @@
           "docsTags": []
         },
         {
+          "event": "dwc-cleared",
+          "detail": "void",
+          "bubbles": true,
+          "complexType": {
+            "original": "void",
+            "resolved": "void",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted after the value has been cleared through the clear button.",
+          "docsTags": []
+        },
+        {
           "event": "dwc-focused",
           "detail": "void",
           "bubbles": true,
@@ -18786,6 +19194,10 @@
           "docs": "The alert-popover component(validation)"
         },
         {
+          "name": "clear-button",
+          "docs": "The clear button shown when the component is clearable and has a value"
+        },
+        {
           "name": "control",
           "docs": "The component's base wrapper"
         },
@@ -18846,6 +19258,7 @@
         "dwc-file-chooser",
         "dwc-file-save",
         "dwc-font-chooser",
+        "dwc-listbox",
         "dwc-login",
         "dwc-navigator",
         "dwc-tree"
@@ -18887,6 +19300,9 @@
           "dwc-field"
         ],
         "dwc-font-chooser": [
+          "dwc-field"
+        ],
+        "dwc-listbox": [
           "dwc-field"
         ],
         "dwc-login": [
@@ -21133,7 +21549,13 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
+          "dwc-alert",
+          "dwc-alert-popover"
+        ],
+        "dwc-field": [
+          "dwc-icon-button",
           "dwc-alert",
           "dwc-alert-popover"
         ],
@@ -21143,11 +21565,6 @@
         ],
         "dwc-alert-popover": [
           "dwc-alert"
-        ],
-        "dwc-field": [
-          "dwc-icon-button",
-          "dwc-alert",
-          "dwc-alert-popover"
         ],
         "dwc-loading": [
           "dwc-backdrop",
@@ -21875,6 +22292,7 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
@@ -22799,6 +23217,7 @@
           "dwc-alert"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
@@ -24646,6 +25065,10 @@
         },
         {
           "name": "part",
+          "text": "item-active - the virtually highlighted item while navigating from the search field"
+        },
+        {
+          "name": "part",
           "text": "item-prefix - an item prefix"
         },
         {
@@ -24655,6 +25078,18 @@
         {
           "name": "part",
           "text": "item-suffix - an item suffix"
+        },
+        {
+          "name": "part",
+          "text": "input - The input element (search box)."
+        },
+        {
+          "name": "part",
+          "text": "nodata - The message shown when a search returns no results."
+        },
+        {
+          "name": "part",
+          "text": "search-status - The visually hidden live region announcing search results"
         },
         {
           "name": "part",
@@ -25250,6 +25685,35 @@
           "setter": false
         },
         {
+          "name": "nodata",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "nodata",
+          "reflectToAttr": true,
+          "docs": "When true, a search is performed and there were no results found.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
           "name": "readonly",
           "type": "boolean",
           "complexType": {
@@ -25305,6 +25769,122 @@
             {
               "type": "((item: DwcListboxItem) => string)"
             },
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchInput",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-input",
+          "reflectToAttr": false,
+          "docs": "When true, a search field is shown that filters the items by their label.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchNodata",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-nodata",
+          "reflectToAttr": false,
+          "docs": "A message to display when there is no data to display after performing a search.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'No data to display'"
+            }
+          ],
+          "default": "'No data to display'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchPlaceholder",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "search-placeholder",
+          "reflectToAttr": false,
+          "docs": "The search input's placeholder",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'Search'"
+            }
+          ],
+          "default": "'Search'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "searchTerm",
+          "type": "string",
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "mutable": true,
+          "attr": "search-term",
+          "reflectToAttr": false,
+          "docs": "The current search term",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "''"
+            }
+          ],
+          "default": "''",
+          "values": [
             {
               "type": "string"
             }
@@ -25821,6 +26401,28 @@
           ]
         },
         {
+          "name": "focusSearchInput",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "complexType": {
+            "signature": "() => Promise<void>",
+            "parameters": [],
+            "references": {
+              "Promise": {
+                "location": "global",
+                "id": "global::Promise"
+              }
+            },
+            "return": "Promise<void>"
+          },
+          "signature": "focusSearchInput() => Promise<void>",
+          "parameters": [],
+          "docs": "Sets focus on the search field when the search input is enabled.",
+          "docsTags": []
+        },
+        {
           "name": "getActiveItem",
           "returns": {
             "type": "Promise<HTMLElement>",
@@ -26324,6 +26926,20 @@
           "docsTags": []
         },
         {
+          "event": "dwc-searched",
+          "detail": "string",
+          "bubbles": true,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "cancelable": true,
+          "composed": true,
+          "docs": "Emitted when a search is performed through the search field. The detail is the search term.",
+          "docsTags": []
+        },
+        {
           "event": "dwc-selected",
           "detail": "DwcListboxEventPayload[]",
           "bubbles": true,
@@ -26473,8 +27089,16 @@
           "docs": ""
         },
         {
+          "name": "input",
+          "docs": "The input element (search box)."
+        },
+        {
           "name": "item",
           "docs": "a list item"
+        },
+        {
+          "name": "item-active",
+          "docs": "the virtually highlighted item while navigating from the search field"
         },
         {
           "name": "item-disabled",
@@ -26505,6 +27129,14 @@
           "docs": "The items wrapper"
         },
         {
+          "name": "nodata",
+          "docs": "The message shown when a search returns no results."
+        },
+        {
+          "name": "search-status",
+          "docs": "The visually hidden live region announcing search results"
+        },
+        {
           "name": "tick-mark",
           "docs": ""
         }
@@ -26515,22 +27147,29 @@
         "dwc-font-chooser"
       ],
       "dependencies": [
+        "dwc-field",
         "dwc-icon",
         "dwc-alert",
         "dwc-alert-popover"
       ],
       "dependencyGraph": {
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
         ],
-        "dwc-alert": [
-          "dwc-icon",
-          "dwc-icon-button"
+        "dwc-field": [
+          "dwc-icon-button",
+          "dwc-alert",
+          "dwc-alert-popover"
         ],
         "dwc-icon-button": [
           "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
         ],
         "dwc-alert-popover": [
           "dwc-alert"
@@ -50489,16 +51128,22 @@
           "dwc-listbox"
         ],
         "dwc-listbox": [
+          "dwc-field",
           "dwc-icon",
           "dwc-alert",
           "dwc-alert-popover"
         ],
-        "dwc-alert": [
-          "dwc-icon",
-          "dwc-icon-button"
+        "dwc-field": [
+          "dwc-icon-button",
+          "dwc-alert",
+          "dwc-alert-popover"
         ],
         "dwc-icon-button": [
           "dwc-icon"
+        ],
+        "dwc-alert": [
+          "dwc-icon",
+          "dwc-icon-button"
         ],
         "dwc-alert-popover": [
           "dwc-alert"

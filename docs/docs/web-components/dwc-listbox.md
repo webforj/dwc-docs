@@ -45,10 +45,20 @@ Some properties reflect their values to attributes and vice versa. This means th
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>multi-selection</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>multiSelectionByClick</b></code></td><td style="vertical-align:top">When true and multi-selection is enabled, the user will be able to select and deselect items by clicking.</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>multi-selection-by-click</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>nodata</b></code></td><td style="vertical-align:top">When true, a search is performed and there were no results found.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>nodata</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>readonly</b></code></td><td style="vertical-align:top">When true, puts the control in readonly mode</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>readonly</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>renderer</b></code></td><td style="vertical-align:top">A BBj expression or a function to render the list item's label.</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>renderer</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>((...args: any[]) => any) | ((item: DwcListboxItem) => string) | string</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>searchInput</b></code></td><td style="vertical-align:top">When true, a search field is shown that filters the items by their label.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>search-input</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>searchNodata</b></code></td><td style="vertical-align:top">A message to display when there is no data to display after performing a search.</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>search-nodata</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>string</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'No data to display'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>searchPlaceholder</b></code></td><td style="vertical-align:top">The search input's placeholder</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>search-placeholder</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>string</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'Search'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>searchTerm</b></code></td><td style="vertical-align:top">The current search term</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>search-term</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>string</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>''</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>selected</b></code></td><td style="vertical-align:top"></td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Type</span> <code>number[]</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>[]</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>tabTraversable</b></code></td><td style="vertical-align:top">Indicates that the element can be focused. A negative value means that the element is not reachable via sequential keyboard navigation.</td></tr>
@@ -81,14 +91,15 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Event                  | Description                                    | Type                                         |
-| ---------------------- | ---------------------------------------------- | -------------------------------------------- |
-| ``dwc-blurred``        | Emitted after the control is blurred.          | ``void``                                     |
-| ``dwc-focused``        | Emitted after the control is focused.          | ``void``                                     |
-| ``dwc-item-clicked``   | Fired when one of the items is clicked.        | ``{ index: number; item: DwcListboxItem; }`` |
-| ``dwc-item-dbclicked`` | Fired when one of the items is double clicked. | ``{ index: number; item: DwcListboxItem; }`` |
-| ``dwc-selected``       | Fired when a menu item is selected.            | ``DwcListboxEventPayload[]``                 |
-| ``dwc-validated``      | Emitted when the control is validated.         | ``boolean``                                  |
+| Event                  | Description                                                                                 | Type                                         |
+| ---------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| ``dwc-blurred``        | Emitted after the control is blurred.                                                       | ``void``                                     |
+| ``dwc-focused``        | Emitted after the control is focused.                                                       | ``void``                                     |
+| ``dwc-item-clicked``   | Fired when one of the items is clicked.                                                     | ``{ index: number; item: DwcListboxItem; }`` |
+| ``dwc-item-dbclicked`` | Fired when one of the items is double clicked.                                              | ``{ index: number; item: DwcListboxItem; }`` |
+| ``dwc-searched``       | Emitted when a search is performed through the search field. The detail is the search term. | ``string``                                   |
+| ``dwc-selected``       | Fired when a menu item is selected.                                                         | ``DwcListboxEventPayload[]``                 |
+| ``dwc-validated``      | Emitted when the control is validated.                                                      | ``boolean``                                  |
 
 
 </div>
@@ -111,24 +122,28 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part                | Description                             |
-| ------------------- | --------------------------------------- |
-| ``alert``           | The alert component(validation)         |
-| ``alert-popover``   | The alert-popover component(validation) |
-| ``container``       | The control and label container         |
-| ``control``         | The component's base wrapper            |
-| ``control-wrapper`` | Top wrapper for the whole control       |
-| ``helper-text``     | The helper text part                    |
-| ``icon-check``      |                                         |
-| ``item``            | a list item                             |
-| ``item-disabled``   | a disabled item                         |
-| ``item-label``      | an item label                           |
-| ``item-prefix``     | an item prefix                          |
-| ``item-selected``   | a selected item                         |
-| ``item-suffix``     | an item suffix                          |
-| ``label``           | The list's label                        |
-| ``list``            | The items wrapper                       |
-| ``tick-mark``       |                                         |
+| Part                | Description                                                           |
+| ------------------- | --------------------------------------------------------------------- |
+| ``alert``           | The alert component(validation)                                       |
+| ``alert-popover``   | The alert-popover component(validation)                               |
+| ``container``       | The control and label container                                       |
+| ``control``         | The component's base wrapper                                          |
+| ``control-wrapper`` | Top wrapper for the whole control                                     |
+| ``helper-text``     | The helper text part                                                  |
+| ``icon-check``      |                                                                       |
+| ``input``           | The input element (search box).                                       |
+| ``item``            | a list item                                                           |
+| ``item-active``     | the virtually highlighted item while navigating from the search field |
+| ``item-disabled``   | a disabled item                                                       |
+| ``item-label``      | an item label                                                         |
+| ``item-prefix``     | an item prefix                                                        |
+| ``item-selected``   | a selected item                                                       |
+| ``item-suffix``     | an item suffix                                                        |
+| ``label``           | The list's label                                                      |
+| ``list``            | The items wrapper                                                     |
+| ``nodata``          | The message shown when a search returns no results.                   |
+| ``search-status``   | The visually hidden live region announcing search results             |
+| ``tick-mark``       |                                                                       |
 
 
 </div>
@@ -183,6 +198,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 
 ## Components Dependencies
 
+- [dwc-field](web-components/dwc-field.md)
 - [dwc-icon](web-components/dwc-icon.md)
 - [dwc-alert](web-components/dwc-alert.md)
 - [dwc-alert-popover](web-components/dwc-alert-popover.md)
@@ -198,6 +214,14 @@ With CSS Properties, you can change the look and feel of a component simply by c
 ### `activateItem(item: HTMLElement | number, visible?: boolean) => Promise<void>`
 
 Updates tabIndexes and focus the given item.
+
+### Returns
+
+Type: `Promise<void>`
+
+### `focusSearchInput() => Promise<void>`
+
+Sets focus on the search field when the search input is enabled.
 
 ### Returns
 

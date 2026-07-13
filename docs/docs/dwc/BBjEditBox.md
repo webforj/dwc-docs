@@ -35,6 +35,8 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>autocorrect</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>"off" | "on"</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>'off'</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>autofocus</b></code></td><td style="vertical-align:top">Automatically focuses the form control when the page is loaded.</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>autofocus</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
+<tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>clearable</b></code></td><td style="vertical-align:top">When true, a clear button is shown while the component has a value. Applies to text like types only (text, search, tel, url, email).</td></tr>
+<tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>clearable</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>disabled</b></code></td><td style="vertical-align:top">When true, the component cannot be interacted with.</td></tr>
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>disabled</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>boolean</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>false</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>Yes</span></div></div></td></tr>
 <tr class="pt-row" onclick="((r)=>{var d=r.nextElementSibling,o=d.style.display!=='none';d.style.display=o?'none':'table-row';r.querySelector('.pt-chev').classList.toggle('open',!o)})(this)"><td style="width:28px;padding:4px;vertical-align:middle;text-align:center"><span class="pt-chev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span></td><td style="white-space:nowrap;vertical-align:top"><code><b>expanse</b></code></td><td style="vertical-align:top">The component's expanse.</td></tr>
@@ -125,23 +127,24 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part                | Description                             |
-| ------------------- | --------------------------------------- |
-| ``alert``           | The alert component(validation)         |
-| ``alert-popover``   | The alert-popover component(validation) |
-| ``control``         | The component's base wrapper            |
-| ``down-button``     | the component's down spinner button     |
-| ``eye-icon``        | The eye open icon                       |
-| ``eye-off-icon``    | The eye closed icon                     |
-| ``helper-text``     | The helper text part                    |
-| ``input``           | The actual input                        |
-| ``input-wrapper``   | the component, prefix & suffix wrapper  |
-| ``label``           | the component's label                   |
-| ``password-reveal`` | The password reveal icon's container    |
-| ``prefix``          | the component's prefix                  |
-| ``spinners``        | the component's spinners wrapper        |
-| ``suffix``          | the component's suffix                  |
-| ``up-button``       | the component's up spinner button       |
+| Part                | Description                                                            |
+| ------------------- | ---------------------------------------------------------------------- |
+| ``alert``           | The alert component(validation)                                        |
+| ``alert-popover``   | The alert-popover component(validation)                                |
+| ``clear-button``    | The clear button shown when the component is clearable and has a value |
+| ``control``         | The component's base wrapper                                           |
+| ``down-button``     | the component's down spinner button                                    |
+| ``eye-icon``        | The eye open icon                                                      |
+| ``eye-off-icon``    | The eye closed icon                                                    |
+| ``helper-text``     | The helper text part                                                   |
+| ``input``           | The actual input                                                       |
+| ``input-wrapper``   | the component, prefix & suffix wrapper                                 |
+| ``label``           | the component's label                                                  |
+| ``password-reveal`` | The password reveal icon's container                                   |
+| ``prefix``          | the component's prefix                                                 |
+| ``spinners``        | the component's spinners wrapper                                       |
+| ``suffix``          | the component's suffix                                                 |
+| ``up-button``       | the component's up spinner button                                      |
 
 
 </div>
@@ -209,6 +212,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 - [dwc-file-chooser](web-components/dwc-file-chooser.md)
 - [dwc-file-save](web-components/dwc-file-save.md)
 - [dwc-font-chooser](web-components/dwc-font-chooser.md)
+- [dwc-listbox](web-components/dwc-listbox.md)
 - [dwc-login](web-components/dwc-login.md)
 - [dwc-navigator](web-components/dwc-navigator.md)
 - [dwc-tree](web-components/dwc-tree.md)
