@@ -829,6 +829,83 @@
       ]
     },
     {
+      "name": "dwc-card",
+      "description": {
+        "kind": "markdown",
+        "value": "The `dwc-card` is a grouping surface for related content and actions."
+      },
+      "attributes": [
+        {
+          "name": "borderless",
+          "description": "When true, the card is drawn without its frame ring."
+        },
+        {
+          "name": "divided",
+          "description": "When true, draws a divider after the header and before the footer."
+        },
+        {
+          "name": "expanse",
+          "description": "The card's size. Drives the padding, the gaps between the regions, and the title and caption sizes.",
+          "values": [
+            {
+              "name": "l"
+            },
+            {
+              "name": "m"
+            },
+            {
+              "name": "s"
+            },
+            {
+              "name": "xl"
+            },
+            {
+              "name": "xs"
+            }
+          ]
+        },
+        {
+          "name": "orientation",
+          "description": "The card's orientation. When horizontal, the figure is placed beside the remaining regions.",
+          "values": [
+            {
+              "name": "horizontal"
+            },
+            {
+              "name": "vertical"
+            }
+          ]
+        },
+        {
+          "name": "shadow",
+          "description": "The card's elevation, taken from the DWC shadow scale.",
+          "values": [
+            {
+              "name": "2xl"
+            },
+            {
+              "name": "l"
+            },
+            {
+              "name": "m"
+            },
+            {
+              "name": "none"
+            },
+            {
+              "name": "s"
+            },
+            {
+              "name": "xl"
+            },
+            {
+              "name": "xs"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "dwc-checkbox",
       "description": {
         "kind": "markdown",

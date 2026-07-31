@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T09:23:04",
+  "timestamp": "2026-07-31T11:03:10",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.43.4",
@@ -4988,6 +4988,444 @@
           "dwc-button"
         ]
       }
+    },
+    {
+      "filePath": "src/components/dwc-card/dwc-card.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-card",
+      "docs": "The `dwc-card` is a grouping surface for related content and actions.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The card's body content"
+        },
+        {
+          "name": "slot",
+          "text": "figure - The card's illustration (image, video, chart, icon)"
+        },
+        {
+          "name": "slot",
+          "text": "icon - A leading visual in the header (icon, avatar, any element)"
+        },
+        {
+          "name": "slot",
+          "text": "title - The card's title"
+        },
+        {
+          "name": "slot",
+          "text": "caption - A short secondary line under the title"
+        },
+        {
+          "name": "slot",
+          "text": "header-actions - Actions at the end of the header row"
+        },
+        {
+          "name": "slot",
+          "text": "footer - The card's footer"
+        },
+        {
+          "name": "part",
+          "text": "control - The component's base wrapper"
+        },
+        {
+          "name": "part",
+          "text": "surface - The background layer behind all regions"
+        },
+        {
+          "name": "part",
+          "text": "frame - The border layer, painted as a ring above all regions"
+        },
+        {
+          "name": "part",
+          "text": "overlay - The wash layer above surface and figure, below the text regions"
+        },
+        {
+          "name": "part",
+          "text": "figure - The figure region"
+        },
+        {
+          "name": "part",
+          "text": "main - The wrapper which stacks header, body, and footer"
+        },
+        {
+          "name": "part",
+          "text": "header - The header region"
+        },
+        {
+          "name": "part",
+          "text": "icon - The header's leading visual wrapper"
+        },
+        {
+          "name": "part",
+          "text": "title-wrapper - The wrapper of title and caption"
+        },
+        {
+          "name": "part",
+          "text": "title - The title wrapper"
+        },
+        {
+          "name": "part",
+          "text": "caption - The caption wrapper"
+        },
+        {
+          "name": "part",
+          "text": "header-actions - The header's actions wrapper"
+        },
+        {
+          "name": "part",
+          "text": "body - The body region"
+        },
+        {
+          "name": "part",
+          "text": "footer - The footer region"
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        }
+      ],
+      "usage": {},
+      "props": [
+        {
+          "name": "borderless",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "borderless",
+          "reflectToAttr": true,
+          "docs": "When true, the card is drawn without its frame ring.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "divided",
+          "type": "boolean",
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "divided",
+          "reflectToAttr": true,
+          "docs": "When true, draws a divider after the header and before the footer.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "false"
+            }
+          ],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "expanse",
+          "type": "\"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+          "complexType": {
+            "original": "'xs' | 's' | 'm' | 'l' | 'xl'",
+            "resolved": "\"l\" | \"m\" | \"s\" | \"xl\" | \"xs\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "expanse",
+          "reflectToAttr": true,
+          "docs": "The card's size. Drives the padding, the gaps between the regions, and the title and caption sizes.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'m'"
+            }
+          ],
+          "default": "'m'",
+          "values": [
+            {
+              "value": "l",
+              "type": "string"
+            },
+            {
+              "value": "m",
+              "type": "string"
+            },
+            {
+              "value": "s",
+              "type": "string"
+            },
+            {
+              "value": "xl",
+              "type": "string"
+            },
+            {
+              "value": "xs",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "orientation",
+          "type": "\"horizontal\" | \"vertical\"",
+          "complexType": {
+            "original": "'vertical' | 'horizontal'",
+            "resolved": "\"horizontal\" | \"vertical\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "orientation",
+          "reflectToAttr": true,
+          "docs": "The card's orientation. When horizontal, the figure is placed beside the remaining regions.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'vertical'"
+            }
+          ],
+          "default": "'vertical'",
+          "values": [
+            {
+              "value": "horizontal",
+              "type": "string"
+            },
+            {
+              "value": "vertical",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        },
+        {
+          "name": "shadow",
+          "type": "\"2xl\" | \"l\" | \"m\" | \"none\" | \"s\" | \"xl\" | \"xs\"",
+          "complexType": {
+            "original": "'none' | 'xs' | 's' | 'm' | 'l' | 'xl' | '2xl'",
+            "resolved": "\"2xl\" | \"l\" | \"m\" | \"none\" | \"s\" | \"xl\" | \"xs\"",
+            "references": {}
+          },
+          "mutable": false,
+          "attr": "shadow",
+          "reflectToAttr": true,
+          "docs": "The card's elevation, taken from the DWC shadow scale.",
+          "docsTags": [
+            {
+              "name": "default",
+              "text": "'xs'"
+            }
+          ],
+          "default": "'xs'",
+          "values": [
+            {
+              "value": "2xl",
+              "type": "string"
+            },
+            {
+              "value": "l",
+              "type": "string"
+            },
+            {
+              "value": "m",
+              "type": "string"
+            },
+            {
+              "value": "none",
+              "type": "string"
+            },
+            {
+              "value": "s",
+              "type": "string"
+            },
+            {
+              "value": "xl",
+              "type": "string"
+            },
+            {
+              "value": "xs",
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false,
+          "getter": false,
+          "setter": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [
+        {
+          "name": "--dwc-card-background",
+          "annotation": "prop",
+          "docs": "The paint of the surface layer. Accepts colors, gradients, and images"
+        },
+        {
+          "name": "--dwc-card-border-radius",
+          "annotation": "prop",
+          "docs": "The card's border radius"
+        },
+        {
+          "name": "--dwc-card-border-width",
+          "annotation": "prop",
+          "docs": "The thickness of the frame ring"
+        },
+        {
+          "name": "--dwc-card-color",
+          "annotation": "prop",
+          "docs": "The card's text color"
+        },
+        {
+          "name": "--dwc-card-frame",
+          "annotation": "prop",
+          "docs": "The paint of the frame ring. Accepts colors and gradients"
+        },
+        {
+          "name": "--dwc-card-gap",
+          "annotation": "prop",
+          "docs": "The gap between the card's regions. Defaults to the padding"
+        },
+        {
+          "name": "--dwc-card-padding",
+          "annotation": "prop",
+          "docs": "The card's padding. Owns the whole spacing rhythm"
+        },
+        {
+          "name": "--dwc-card-shadow",
+          "annotation": "prop",
+          "docs": "The card's shadow. Accepts any number of layered shadows"
+        },
+        {
+          "name": "--dwc-card-title-font-size",
+          "annotation": "prop",
+          "docs": "The title's font size"
+        },
+        {
+          "name": "--dwc-card-title-line-height",
+          "annotation": "prop",
+          "docs": "The title's line height. Also the height of the line the icon and the header actions align to"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The card's body content"
+        },
+        {
+          "name": "caption",
+          "docs": "A short secondary line under the title"
+        },
+        {
+          "name": "figure",
+          "docs": "The card's illustration (image, video, chart, icon)"
+        },
+        {
+          "name": "footer",
+          "docs": "The card's footer"
+        },
+        {
+          "name": "header-actions",
+          "docs": "Actions at the end of the header row"
+        },
+        {
+          "name": "icon",
+          "docs": "A leading visual in the header (icon, avatar, any element)"
+        },
+        {
+          "name": "title",
+          "docs": "The card's title"
+        }
+      ],
+      "parts": [
+        {
+          "name": "body",
+          "docs": "The body region"
+        },
+        {
+          "name": "caption",
+          "docs": "The caption wrapper"
+        },
+        {
+          "name": "control",
+          "docs": "The component's base wrapper"
+        },
+        {
+          "name": "figure",
+          "docs": "The figure region"
+        },
+        {
+          "name": "footer",
+          "docs": "The footer region"
+        },
+        {
+          "name": "frame",
+          "docs": "The border layer, painted as a ring above all regions"
+        },
+        {
+          "name": "header",
+          "docs": "The header region"
+        },
+        {
+          "name": "header-actions",
+          "docs": "The header's actions wrapper"
+        },
+        {
+          "name": "icon",
+          "docs": "The header's leading visual wrapper"
+        },
+        {
+          "name": "main",
+          "docs": "The wrapper which stacks header, body, and footer"
+        },
+        {
+          "name": "overlay",
+          "docs": "The wash layer above surface and figure, below the text regions"
+        },
+        {
+          "name": "surface",
+          "docs": "The background layer behind all regions"
+        },
+        {
+          "name": "title",
+          "docs": "The title wrapper"
+        },
+        {
+          "name": "title-wrapper",
+          "docs": "The wrapper of title and caption"
+        }
+      ],
+      "states": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
     },
     {
       "filePath": "src/components/dwc-checkbox/dwc-checkbox.tsx",

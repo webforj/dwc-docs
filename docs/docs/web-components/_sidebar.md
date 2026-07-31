@@ -17,6 +17,7 @@
   - [dwc-backdrop](web-components/dwc-backdrop)
   - [dwc-badge](web-components/dwc-badge)
   - [dwc-button](web-components/dwc-button)
+  - [dwc-card](web-components/dwc-card)
   - [dwc-checkbox](web-components/dwc-checkbox)
   - [dwc-choicebox](web-components/dwc-choicebox)
   - [dwc-color-chooser](web-components/dwc-color-chooser)

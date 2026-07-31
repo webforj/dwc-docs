@@ -81,6 +81,7 @@
 
   - [dwc-alert](dwc/dwc-alert)
   - [dwc-alert-popover](dwc/dwc-alert-popover)
+  - [dwc-card](dwc/dwc-card)
   - [dwc-dropdown](dwc/dwc-dropdown)
   - [dwc-icon](dwc/dwc-icon)
   - [dwc-icon-button](dwc/dwc-icon-button)
