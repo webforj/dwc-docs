@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T10:26:45",
+  "timestamp": "2026-08-19T13:15:37",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.44.0",
@@ -1955,7 +1955,7 @@
       "docsTags": [
         {
           "name": "slot",
-          "text": "- The default slot where the nav items are placed."
+          "text": "- The default slot where the nav items and section labels are placed."
         },
         {
           "name": "slot",
@@ -1975,7 +1975,19 @@
         },
         {
           "name": "part",
-          "text": "pinned-title - The title of the pinned group."
+          "text": "pinned-title - The title of the pinned group, a dwc-app-nav-label element."
+        },
+        {
+          "name": "part",
+          "text": "pinned-title-control - The base wrapper of the pinned group title."
+        },
+        {
+          "name": "part",
+          "text": "pinned-title-label - The text container of the pinned group title."
+        },
+        {
+          "name": "part",
+          "text": "pinned-title-suffix - The suffix container of the pinned group title."
         },
         {
           "name": "author",
@@ -2413,7 +2425,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The default slot where the nav items are placed."
+          "docs": "The default slot where the nav items and section labels are placed."
         },
         {
           "name": "pinned",
@@ -2435,19 +2447,33 @@
         },
         {
           "name": "pinned-title",
-          "docs": "The title of the pinned group."
+          "docs": "The title of the pinned group, a dwc-app-nav-label element."
+        },
+        {
+          "name": "pinned-title-control",
+          "docs": "The base wrapper of the pinned group title."
+        },
+        {
+          "name": "pinned-title-label",
+          "docs": "The text container of the pinned group title."
+        },
+        {
+          "name": "pinned-title-suffix",
+          "docs": "The suffix container of the pinned group title."
         }
       ],
       "states": [],
       "dependents": [],
       "dependencies": [
         "dwc-field",
-        "dwc-icon"
+        "dwc-icon",
+        "dwc-app-nav-label"
       ],
       "dependencyGraph": {
         "dwc-app-nav": [
           "dwc-field",
-          "dwc-icon"
+          "dwc-icon",
+          "dwc-app-nav-label"
         ],
         "dwc-field": [
           "dwc-icon-button",
@@ -3023,6 +3049,95 @@
         ],
         "dwc-icon-button": [
           "dwc-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "src/components/dwc-app-nav-label/dwc-app-nav-label.tsx",
+      "encapsulation": "shadow",
+      "tag": "dwc-app-nav-label",
+      "docs": "A non interactive section label for the application navigator AppNav.",
+      "docsTags": [
+        {
+          "name": "slot",
+          "text": "- The default slot where the label text is placed."
+        },
+        {
+          "name": "slot",
+          "text": "prefix - The slot for the prefix content."
+        },
+        {
+          "name": "slot",
+          "text": "suffix - The slot for the suffix content."
+        },
+        {
+          "name": "part",
+          "text": "control - The component's base wrapper."
+        },
+        {
+          "name": "part",
+          "text": "label - The label text container."
+        },
+        {
+          "name": "part",
+          "text": "suffix - The suffix container."
+        },
+        {
+          "name": "author",
+          "text": "Hyyan Abo Fakher"
+        },
+        {
+          "name": "bbjIgnore"
+        }
+      ],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [
+        {
+          "name": "--dwc-app-nav-label-spacing",
+          "annotation": "prop",
+          "docs": "The space above the label when it starts a new section"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot where the label text is placed."
+        },
+        {
+          "name": "prefix",
+          "docs": "The slot for the prefix content."
+        },
+        {
+          "name": "suffix",
+          "docs": "The slot for the suffix content."
+        }
+      ],
+      "parts": [
+        {
+          "name": "control",
+          "docs": "The component's base wrapper."
+        },
+        {
+          "name": "label",
+          "docs": "The label text container."
+        },
+        {
+          "name": "suffix",
+          "docs": "The suffix container."
+        }
+      ],
+      "states": [],
+      "dependents": [
+        "dwc-app-nav"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "dwc-app-nav": [
+          "dwc-app-nav-label"
         ]
       }
     },

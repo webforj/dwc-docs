@@ -13,6 +13,7 @@
   - [dwc-app-layout](web-components/dwc-app-layout)
   - [dwc-app-nav](web-components/dwc-app-nav)
   - [dwc-app-nav-item](web-components/dwc-app-nav-item)
+  - [dwc-app-nav-label](web-components/dwc-app-nav-label)
   - [dwc-avatar](web-components/dwc-avatar)
   - [dwc-backdrop](web-components/dwc-backdrop)
   - [dwc-badge](web-components/dwc-badge)

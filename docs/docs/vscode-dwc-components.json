@@ -443,6 +443,14 @@
       ]
     },
     {
+      "name": "dwc-app-nav-label",
+      "description": {
+        "kind": "markdown",
+        "value": "A non interactive section label for the application navigator AppNav."
+      },
+      "attributes": []
+    },
+    {
       "name": "dwc-avatar",
       "description": {
         "kind": "markdown",

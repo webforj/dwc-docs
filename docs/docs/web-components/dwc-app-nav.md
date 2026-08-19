@@ -57,10 +57,10 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot       | Description                                      |
-| ---------- | ------------------------------------------------ |
-|            | The default slot where the nav items are placed. |
-| ``pinned`` | The slot where pinned items are moved.           |
+| Slot       | Description                                                         |
+| ---------- | ------------------------------------------------------------------- |
+|            | The default slot where the nav items and section labels are placed. |
+| ``pinned`` | The slot where pinned items are moved.                              |
 
 
 </div>
@@ -72,12 +72,15 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part             | Description                                         |
-| ---------------- | --------------------------------------------------- |
-| ``input``        | The input element (search box).                     |
-| ``nodata``       | The message shown when a search returns no results. |
-| ``pinned``       | The container of the pinned group.                  |
-| ``pinned-title`` | The title of the pinned group.                      |
+| Part                     | Description                                                 |
+| ------------------------ | ----------------------------------------------------------- |
+| ``input``                | The input element (search box).                             |
+| ``nodata``               | The message shown when a search returns no results.         |
+| ``pinned``               | The container of the pinned group.                          |
+| ``pinned-title``         | The title of the pinned group, a dwc-app-nav-label element. |
+| ``pinned-title-control`` | The base wrapper of the pinned group title.                 |
+| ``pinned-title-label``   | The text container of the pinned group title.               |
+| ``pinned-title-suffix``  | The suffix container of the pinned group title.             |
 
 
 </div>
@@ -86,6 +89,7 @@ They offer encapsulation and modularity, promoting cleaner and more maintainable
 
 - [dwc-field](web-components/dwc-field.md)
 - [dwc-icon](web-components/dwc-icon.md)
+- [dwc-app-nav-label](web-components/dwc-app-nav-label.md)
 
 
 ----------------------------------------------
