@@ -68,8 +68,8 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 | Slot       | Description                                                                   |
 | ---------- | ----------------------------------------------------------------------------- |
 |            | The place where dwc-menu should be placed in case the item is a dropdown menu |
+| ``label``  |                                                                               |
 | ``prefix`` | The Item's label                                                              |
-| ``prefix`` | The Item's prefix                                                             |
 | ``suffix`` | The Item's suffix                                                             |
 
 

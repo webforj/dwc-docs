@@ -41,9 +41,10 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot  | Description          |
-| ----- | -------------------- |
-|       | The dialog's message |
+| Slot        | Description          |
+| ----------- | -------------------- |
+|             | The dialog's message |
+| ``spinner`` |                      |
 
 
 </div>

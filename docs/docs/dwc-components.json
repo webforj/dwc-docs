@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-18T11:53:28",
+  "timestamp": "2026-08-19T10:26:45",
   "compiler": {
     "name": "@stencil/core",
-    "version": "4.43.4",
+    "version": "4.44.0",
     "typescriptVersion": "5.8.3"
   },
   "components": [
@@ -9328,10 +9328,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcColorChooserDefaultI18n"
+              "text": "{\n  approve: 'Ok',\n  cancel: 'Cancel',\n  copy: 'Copy to clipboard',\n  pick: 'Select colors with EyeDropper',\n  themeColors: 'Theme Colors',\n}"
             }
           ],
-          "default": "DwcColorChooserDefaultI18n",
+          "default": "{\n  approve: 'Ok',\n  cancel: 'Cancel',\n  copy: 'Copy to clipboard',\n  pick: 'Select colors with EyeDropper',\n  themeColors: 'Theme Colors',\n}",
           "values": [
             {
               "type": "string"
@@ -9809,10 +9809,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcColorChooserDefaultSwatches"
+              "text": "[\n  {\n    name: 'Theme Colors',\n    colors: [\n      '--dwc-color-primary-light',\n      '--dwc-color-primary',\n      '--dwc-color-primary-dark',\n      '--dwc-color-success-light',\n      '--dwc-color-success',\n      '--dwc-color-success-dark',\n      '--dwc-color-warning-light',\n      '--dwc-color-warning',\n      '--dwc-color-warning-dark',\n      '--dwc-color-danger-light',\n      '--dwc-color-danger',\n      '--dwc-color-danger-dark',\n      '--dwc-color-gray-light',\n      '--dwc-color-gray',\n      '--dwc-color-gray-dark',\n      '--dwc-color-default-light',\n      '--dwc-color-default',\n      '--dwc-color-default-dark',\n      '--dwc-color-black',\n      '--dwc-color-white',\n    ],\n  },\n]"
             }
           ],
-          "default": "DwcColorChooserDefaultSwatches",
+          "default": "[\n  {\n    name: 'Theme Colors',\n    colors: [\n      '--dwc-color-primary-light',\n      '--dwc-color-primary',\n      '--dwc-color-primary-dark',\n      '--dwc-color-success-light',\n      '--dwc-color-success',\n      '--dwc-color-success-dark',\n      '--dwc-color-warning-light',\n      '--dwc-color-warning',\n      '--dwc-color-warning-dark',\n      '--dwc-color-danger-light',\n      '--dwc-color-danger',\n      '--dwc-color-danger-dark',\n      '--dwc-color-gray-light',\n      '--dwc-color-gray',\n      '--dwc-color-gray-dark',\n      '--dwc-color-default-light',\n      '--dwc-color-default',\n      '--dwc-color-default-dark',\n      '--dwc-color-black',\n      '--dwc-color-white',\n    ],\n  },\n]",
           "values": [
             {
               "type": "DwcColorChooserSwatch[]"
@@ -20655,10 +20655,10 @@
             },
             {
               "name": "default",
-              "text": "defaultDateFormatOptions"
+              "text": "{\n  year: 'numeric',\n  month: '2-digit',\n  day: '2-digit',\n  hour: '2-digit',\n  minute: '2-digit',\n  second: '2-digit',\n}"
             }
           ],
-          "default": "defaultDateFormatOptions",
+          "default": "{\n  year: 'numeric',\n  month: '2-digit',\n  day: '2-digit',\n  hour: '2-digit',\n  minute: '2-digit',\n  second: '2-digit',\n}",
           "values": [
             {
               "type": "DateTimeFormatOptions"
@@ -20885,10 +20885,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "defaultI18n"
+              "text": "{\n  back: 'Back To %s (Alt+Left)',\n  forward: 'Forward To %s (Alt+Right)',\n  up: 'Up %s (Alt+Up)',\n  refresh: 'Refresh',\n  gridView: 'Switch to grid view',\n  detailView: 'Switch to details view',\n  columns: 'Control visible columns in details view',\n  name: 'Name',\n  fileName: 'The file name',\n  length: 'Size',\n  modified: 'Modified',\n  folderEmpty: 'No results found.',\n  filterAll: 'All files',\n  approve: 'Ok',\n  cancel: 'Cancel',\n  search: 'Search files ...',\n  filters: 'Filter files by type',\n}"
             }
           ],
-          "default": "defaultI18n",
+          "default": "{\n  back: 'Back To %s (Alt+Left)',\n  forward: 'Forward To %s (Alt+Right)',\n  up: 'Up %s (Alt+Up)',\n  refresh: 'Refresh',\n  gridView: 'Switch to grid view',\n  detailView: 'Switch to details view',\n  columns: 'Control visible columns in details view',\n  name: 'Name',\n  fileName: 'The file name',\n  length: 'Size',\n  modified: 'Modified',\n  folderEmpty: 'No results found.',\n  filterAll: 'All files',\n  approve: 'Ok',\n  cancel: 'Cancel',\n  search: 'Search files ...',\n  filters: 'Filter files by type',\n}",
           "values": [
             {
               "type": "string"
@@ -21888,6 +21888,10 @@
           "docs": "A header prefix button"
         },
         {
+          "name": "header-suffix-button--columns",
+          "docs": ""
+        },
+        {
           "name": "header-suffix-button-detail",
           "docs": "The detail button"
         },
@@ -22417,10 +22421,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "defaultI18n"
+              "text": "{\n  approve: 'Save',\n  cancel: 'Cancel',\n  noExtension: \"No Extension (*.)\",\n  filename: \"Filename\",\n  saveAs: \"Save As\",\n  invalidFilename: \"Filename is not valid\",\n  filenameRequired: \"Filename is required\",\n  invalidExtension: \"Extension is not valid\",\n}"
             }
           ],
-          "default": "defaultI18n",
+          "default": "{\n  approve: 'Save',\n  cancel: 'Cancel',\n  noExtension: \"No Extension (*.)\",\n  filename: \"Filename\",\n  saveAs: \"Save As\",\n  invalidFilename: \"Filename is not valid\",\n  filenameRequired: \"Filename is required\",\n  invalidExtension: \"Extension is not valid\",\n}",
           "values": [
             {
               "type": "string"
@@ -23024,10 +23028,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcFontChooserDefaultFamilyList"
+              "text": "[\n  'Andale Mono',\n  'Arial',\n  'Comic Sans MS',\n  'Courier New',\n  'Cursive',\n  'Fantasy',\n  'Georgia',\n  'Impact',\n  'Monospace',\n  'Sans-Serif',\n  'Serif',\n  'Times New Roman',\n  'Trebuchet MS',\n  'Verdana',\n  'Webdings',\n]"
             }
           ],
-          "default": "DwcFontChooserDefaultFamilyList",
+          "default": "[\n  'Andale Mono',\n  'Arial',\n  'Comic Sans MS',\n  'Courier New',\n  'Cursive',\n  'Fantasy',\n  'Georgia',\n  'Impact',\n  'Monospace',\n  'Sans-Serif',\n  'Serif',\n  'Times New Roman',\n  'Trebuchet MS',\n  'Verdana',\n  'Webdings',\n]",
           "values": [
             {
               "type": "string"
@@ -23150,10 +23154,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcFontChooserDefaultI18n"
+              "text": "{\n  'approve': 'Ok',\n  'cancel': 'Cancel',\n  'family': 'Font:',\n  'style': 'Style:',\n  'size': 'Size:',\n  'plain': 'Plain',\n  'bold': 'Bold',\n  'italic': 'Italic',\n  'bold italic': 'Bold Italic',\n}"
             }
           ],
-          "default": "DwcFontChooserDefaultI18n",
+          "default": "{\n  'approve': 'Ok',\n  'cancel': 'Cancel',\n  'family': 'Font:',\n  'style': 'Style:',\n  'size': 'Size:',\n  'plain': 'Plain',\n  'bold': 'Bold',\n  'italic': 'Italic',\n  'bold italic': 'Bold Italic',\n}",
           "values": [
             {
               "type": "string"
@@ -23496,10 +23500,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcFontChooserDefaultStyles"
+              "text": "['plain', 'bold', 'italic', 'bold italic']"
             }
           ],
-          "default": "DwcFontChooserDefaultStyles",
+          "default": "['plain', 'bold', 'italic', 'bold italic']",
           "values": [
             {
               "type": "string"
@@ -25433,7 +25437,16 @@
       ],
       "listeners": [],
       "styles": [],
-      "slots": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot"
+        },
+        {
+          "name": "content",
+          "docs": ""
+        }
+      ],
       "parts": [
         {
           "name": "content",
@@ -28035,6 +28048,10 @@
         {
           "name": "",
           "docs": "The dialog's message"
+        },
+        {
+          "name": "spinner",
+          "docs": ""
         }
       ],
       "parts": [
@@ -29017,7 +29034,12 @@
       ],
       "listeners": [],
       "styles": [],
-      "slots": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot"
+        }
+      ],
       "parts": [],
       "states": [],
       "dependents": [],
@@ -31216,12 +31238,12 @@
           "docs": "The place where dwc-menu should be placed in case the item is a dropdown menu"
         },
         {
-          "name": "prefix",
-          "docs": "The Item's label"
+          "name": "label",
+          "docs": ""
         },
         {
           "name": "prefix",
-          "docs": "The Item's prefix"
+          "docs": "The Item's label"
         },
         {
           "name": "suffix",
@@ -36158,7 +36180,12 @@
           "docs": "The shadow of the popup element."
         }
       ],
-      "slots": [],
+      "slots": [
+        {
+          "name": "",
+          "docs": "The default slot"
+        }
+      ],
       "parts": [
         {
           "name": "control",
@@ -37999,6 +38026,10 @@
         }
       ],
       "slots": [
+        {
+          "name": "",
+          "docs": "The default slot"
+        },
         {
           "name": "helper-text",
           "docs": "The slot where the helper text should be placed."
@@ -44613,10 +44644,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DEFAULT_OPTIONS"
+              "text": "{\n  \"cursorBlink\": true,\n  \"cursorStyle\": \"block\",\n  \"cursorWidth\": 1,\n  \"cursorInactiveStyle\": \"outline\",\n  \"fastScrollModifier\": \"alt\",\n  \"fastScrollSensitivity\": 5,\n  \"fontFamily\": '\"Cascadia Code\", Menlo, monospace',\n  \"fontSize\": 14,\n  \"fontWeight\": \"normal\",\n  \"fontWeightBold\": \"bold\",\n  \"ignoreBracketedPasteMode\": false,\n  \"lineHeight\": 1,\n  \"letterSpacing\": 0,\n  \"linkHandler\": null,\n  \"scrollback\": 1000,\n  \"scrollOnUserInput\": true,\n  \"scrollSensitivity\": 1,\n  \"screenReaderMode\": false,\n  \"smoothScrollDuration\": 0,\n  \"macOptionIsMeta\": false,\n  \"macOptionClickForcesSelection\": false,\n  \"minimumContrastRatio\": 1,\n  \"tabStopWidth\": 8,\n  \"rightClickSelectsWord\": true,\n  \"altClickMovesCursor\": true,\n  \"convertEol\": true\n}"
             }
           ],
-          "default": "DEFAULT_OPTIONS",
+          "default": "{\n  \"cursorBlink\": true,\n  \"cursorStyle\": \"block\",\n  \"cursorWidth\": 1,\n  \"cursorInactiveStyle\": \"outline\",\n  \"fastScrollModifier\": \"alt\",\n  \"fastScrollSensitivity\": 5,\n  \"fontFamily\": '\"Cascadia Code\", Menlo, monospace',\n  \"fontSize\": 14,\n  \"fontWeight\": \"normal\",\n  \"fontWeightBold\": \"bold\",\n  \"ignoreBracketedPasteMode\": false,\n  \"lineHeight\": 1,\n  \"letterSpacing\": 0,\n  \"linkHandler\": null,\n  \"scrollback\": 1000,\n  \"scrollOnUserInput\": true,\n  \"scrollSensitivity\": 1,\n  \"screenReaderMode\": false,\n  \"smoothScrollDuration\": 0,\n  \"macOptionIsMeta\": false,\n  \"macOptionClickForcesSelection\": false,\n  \"minimumContrastRatio\": 1,\n  \"tabStopWidth\": 8,\n  \"rightClickSelectsWord\": true,\n  \"altClickMovesCursor\": true,\n  \"convertEol\": true\n}",
           "values": [
             {
               "type": "ITerminalOptions"
@@ -52410,6 +52441,10 @@
         {
           "name": "icon",
           "docs": "The place where a custom status icon can be inserted."
+        },
+        {
+          "name": "message",
+          "docs": ""
         }
       ],
       "parts": [
@@ -56083,10 +56118,10 @@
           "docsTags": [
             {
               "name": "default",
-              "text": "DwcUploadDefaultI18n"
+              "text": "{\n  approve: 'Upload',\n  cancel: 'Cancel',\n  dropFile: 'Drop file to upload',\n  dropFiles: 'Drop files to upload',\n  addFile: 'Select File...',\n  addFiles: 'Select Files...',\n  filterAll: 'All Files',\n  uploadFile: 'Upload',\n  clearFile: 'Clear',\n  retryFile: 'Retry upload',\n  statusMaxed: 'The max amount of allowed files has been reached',\n  statusTooBig: 'File is too big.',\n  statusNotAllowedType: 'File type is not allowed.',\n  statusConnecting: 'Connecting...',\n  statusQueued: 'Queued',\n  statusCanceled: 'Canceled',\n  errorUnavailable: 'Server Unavailable',\n  errorUnexpected: 'Unexpected Server Error',\n  errorForbidden: 'Forbidden',\n}"
             }
           ],
-          "default": "DwcUploadDefaultI18n",
+          "default": "{\n  approve: 'Upload',\n  cancel: 'Cancel',\n  dropFile: 'Drop file to upload',\n  dropFiles: 'Drop files to upload',\n  addFile: 'Select File...',\n  addFiles: 'Select Files...',\n  filterAll: 'All Files',\n  uploadFile: 'Upload',\n  clearFile: 'Clear',\n  retryFile: 'Retry upload',\n  statusMaxed: 'The max amount of allowed files has been reached',\n  statusTooBig: 'File is too big.',\n  statusNotAllowedType: 'File type is not allowed.',\n  statusConnecting: 'Connecting...',\n  statusQueued: 'Queued',\n  statusCanceled: 'Canceled',\n  errorUnavailable: 'Server Unavailable',\n  errorUnexpected: 'Unexpected Server Error',\n  errorForbidden: 'Forbidden',\n}",
           "values": [
             {
               "type": "string"

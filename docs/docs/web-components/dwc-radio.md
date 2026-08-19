@@ -87,6 +87,7 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 | Slot            | Description                                      |
 | --------------- | ------------------------------------------------ |
+|                 | The default slot                                 |
 | ``helper-text`` | The slot where the helper text should be placed. |
 
 

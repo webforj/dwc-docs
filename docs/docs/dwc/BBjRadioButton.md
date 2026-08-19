@@ -79,6 +79,7 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 | Slot            | Description                                      |
 | --------------- | ------------------------------------------------ |
+|                 | The default slot                                 |
 | ``helper-text`` | The slot where the helper text should be placed. |
 
 

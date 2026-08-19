@@ -38,6 +38,18 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 </div>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot        | Description      |
+| ----------- | ---------------- |
+|             | The default slot |
+| ``content`` |                  |
+
+
+</div>
+
 ## Shadow Parts
 
 

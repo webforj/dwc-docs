@@ -45,6 +45,17 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 <tr class="pt-detail" style="display:none"><td colspan="3"><div class="pt-detail-inner"><div class="pt-item"><span class="pt-label">Attribute</span> <code>y</code></div><div class="pt-item"><span class="pt-label">Type</span> <code>number</code></div><div class="pt-item"><span class="pt-label">Default</span> <code>0</code></div><div class="pt-item"><span class="pt-label">Reflects</span> <span>No</span></div></div></td></tr>
 </tbody></table>
 
+## Slots
+
+<div style="overflow-x: auto;">
+
+| Slot  | Description      |
+| ----- | ---------------- |
+|       | The default slot |
+
+
+</div>
+
 ## Shadow Parts
 
 

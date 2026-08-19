@@ -54,10 +54,11 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot     | Description                                             |
-| -------- | ------------------------------------------------------- |
-|          | The place where the message or buttons can be inserted. |
-| ``icon`` | The place where a custom status icon can be inserted.   |
+| Slot        | Description                                             |
+| ----------- | ------------------------------------------------------- |
+|             | The place where the message or buttons can be inserted. |
+| ``icon``    | The place where a custom status icon can be inserted.   |
+| ``message`` |                                                         |
 
 
 </div>

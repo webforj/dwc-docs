@@ -48,10 +48,11 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 <div style="overflow-x: auto;">
 
-| Slot     | Description                                             |
-| -------- | ------------------------------------------------------- |
-|          | The place where the message or buttons can be inserted. |
-| ``icon`` | The place where a custom status icon can be inserted.   |
+| Slot        | Description                                             |
+| ----------- | ------------------------------------------------------- |
+|             | The place where the message or buttons can be inserted. |
+| ``icon``    | The place where a custom status icon can be inserted.   |
+| ``message`` |                                                         |
 
 
 </div>
