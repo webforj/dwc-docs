@@ -1,7 +1,8 @@
 # dwc-webswing-connector
 ![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--webswing--connector-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-none-%23006aff)
 
-
+The `<dwc-webswing-connector>` component provides integration with Webswing server,
+enabling remote Swing application rendering in the browser.
 
 
 ## Properties 

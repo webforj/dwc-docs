@@ -45,9 +45,9 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 
 <div style="overflow-x: auto;">
 
-| Slot  | Description                                      |
-| ----- | ------------------------------------------------ |
-|       | The place where dwc-menuitem(s) should be placed |
+| Slot  | Description                                       |
+| ----- | ------------------------------------------------- |
+|       | The default slot where dwc-menuitem(s) are placed |
 
 
 </div>
@@ -96,11 +96,11 @@ With CSS Properties, you can change the look and feel of a component simply by c
 [[Read more]](theme-engine/css-variables).
 <div style="overflow-x: auto;">
 
-| Name                                                         | Description                       |
-| ------------------------------------------------------------ | --------------------------------- |
-| ``--dwc-menubar-advancer-colorL The color of the advancers`` |                                   |
-| ``--dwc-menubar-left-advancer-background``                   | The background of the left arrow  |
-| ``--dwc-menubar-right-advancer-background``                  | The background of the right arrow |
+| Name                                        | Description                       |
+| ------------------------------------------- | --------------------------------- |
+| ``--dwc-menubar-advancer-color``            | The color of the advancers        |
+| ``--dwc-menubar-left-advancer-background``  | The background of the left arrow  |
+| ``--dwc-menubar-right-advancer-background`` | The background of the right arrow |
 
 
 </div>

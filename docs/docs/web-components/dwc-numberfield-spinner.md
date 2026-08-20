@@ -85,7 +85,7 @@ Type: `Promise<void>`
 
 ### `spin(upDirection: boolean) => Promise<void>`
 
-cCauses the spinner to spin in the specified direction.
+Causes the spinner to spin in the specified direction.
 
 ### Returns
 

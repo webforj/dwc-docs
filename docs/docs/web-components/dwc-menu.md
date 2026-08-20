@@ -1,7 +1,7 @@
 # dwc-menu
 ![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--menu-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
 
-
+The `BBjMenu<dwc-menu>` provides methods for manipulating a UI menu control.
 
 
 ## Properties 
@@ -33,9 +33,9 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot  | Description                                      |
-| ----- | ------------------------------------------------ |
-|       | The place where dwc-menuitem(s) should be placed |
+| Slot  | Description                                       |
+| ----- | ------------------------------------------------- |
+|       | The default slot where dwc-menuitem(s) are placed |
 
 
 </div>

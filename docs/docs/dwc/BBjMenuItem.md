@@ -68,9 +68,9 @@ And to set properties you can use the [BBjControl::setProperty](https://document
 | Slot       | Description                                                                   |
 | ---------- | ----------------------------------------------------------------------------- |
 |            | The place where dwc-menu should be placed in case the item is a dropdown menu |
-| ``label``  |                                                                               |
-| ``prefix`` | The Item's label                                                              |
-| ``suffix`` | The Item's suffix                                                             |
+| ``label``  | The item's label                                                              |
+| ``prefix`` | The item's prefix                                                             |
+| ``suffix`` | The item's suffix                                                             |
 
 
 </div>
@@ -82,20 +82,20 @@ Shadow Parts allow you to selectively style internal elements without affecting 
 They offer encapsulation and modularity, promoting cleaner and more maintainable code for complex UI elements. [[Read more]](theme-engine/css-shadow-parts).
 <div style="overflow-x: auto;">
 
-| Part                     | Description                      |
-| ------------------------ | -------------------------------- |
-| ``control``              | The component's base wrapper     |
-| ``hotkey``               | The Item's hotkey.               |
-| ``icon-check``           | The Item' check icon             |
-| ``icon-check-wrapper``   | The Item' check icon container   |
-| ``icon-chevron``         | The Item' chevron icon           |
-| ``icon-chevron-wrapper`` | The Item' chevron icon container |
-| ``icon-wrapper``         | The Item's icon container        |
-| ``icon-wrapper-check``   |                                  |
-| ``icon-wrapper-chevron`` |                                  |
-| ``label``                | The Item's label container       |
-| ``prefix``               | The item's prefix container      |
-| ``suffix``               | The item's suffix container      |
+| Part                     | Description                       |
+| ------------------------ | --------------------------------- |
+| ``control``              | The component's base wrapper      |
+| ``hotkey``               | The item's hotkey.                |
+| ``icon-check``           | The item's check icon             |
+| ``icon-check-wrapper``   | The item's check icon container   |
+| ``icon-chevron``         | The item's chevron icon           |
+| ``icon-chevron-wrapper`` | The item's chevron icon container |
+| ``icon-wrapper``         | The item's icon container         |
+| ``icon-wrapper-check``   |                                   |
+| ``icon-wrapper-chevron`` |                                   |
+| ``label``                | The item's label container        |
+| ``prefix``               | The item's prefix container       |
+| ``suffix``               | The item's suffix container       |
 
 
 </div>

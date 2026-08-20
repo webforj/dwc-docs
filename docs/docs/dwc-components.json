@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T13:15:37",
+  "timestamp": "2026-08-20T18:38:59",
   "compiler": {
     "name": "@stencil/core",
     "version": "4.44.0",
@@ -458,7 +458,7 @@
       "docsTags": [
         {
           "name": "slot",
-          "text": "- The alert's message. When the slot is provided, the icon wont be displayed."
+          "text": "- The alert's message. When the slot is provided, the icon won't be displayed."
         },
         {
           "name": "part",
@@ -466,15 +466,15 @@
         },
         {
           "name": "part",
-          "text": "icon -  The alert's icon"
+          "text": "icon - The alert's icon"
         },
         {
           "name": "part",
-          "text": "message -  The alert's message"
+          "text": "message - The alert's message"
         },
         {
           "name": "part",
-          "text": "close-button -  The alert's close button"
+          "text": "close-button - The alert's close button"
         },
         {
           "name": "author",
@@ -569,7 +569,7 @@
           "mutable": false,
           "attr": "icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -752,7 +752,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The alert's message. When the slot is provided, the icon wont be displayed."
+          "docs": "The alert's message. When the slot is provided, the icon won't be displayed."
         }
       ],
       "parts": [
@@ -895,7 +895,7 @@
           "mutable": false,
           "attr": "icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the alert.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the alert.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -3981,23 +3981,23 @@
         },
         {
           "name": "part",
-          "text": "label -  The button's label"
+          "text": "label - The button's label"
         },
         {
           "name": "part",
-          "text": "suffix -  The button's suffix"
+          "text": "suffix - The button's suffix"
         },
         {
           "name": "part",
-          "text": "prefix -  The button's prefix"
+          "text": "prefix - The button's prefix"
         },
         {
           "name": "part",
-          "text": "left-edge -  The button's left edge"
+          "text": "left-edge - The button's left edge"
         },
         {
           "name": "part",
-          "text": "right-edge -  The button's right edge"
+          "text": "right-edge - The button's right edge"
         },
         {
           "name": "part",
@@ -4009,11 +4009,11 @@
         },
         {
           "name": "part",
-          "text": "dropdown -  The button's dropdown button"
+          "text": "dropdown - The button's dropdown button"
         },
         {
           "name": "part",
-          "text": "dropdown-icon -  The button's dropdown icon"
+          "text": "dropdown-icon - The button's dropdown icon"
         },
         {
           "name": "hostClass",
@@ -4278,11 +4278,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Associate a popup menu with the button.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Associate a popup menu with the button."
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -5574,7 +5573,7 @@
         },
         {
           "name": "part",
-          "text": "checked-icon -  The checked icon wrapper"
+          "text": "checked-icon - The checked icon wrapper"
         },
         {
           "name": "part",
@@ -5582,7 +5581,7 @@
         },
         {
           "name": "part",
-          "text": "indeterminate-icon -  The indeterminate icon wrapper"
+          "text": "indeterminate-icon - The indeterminate icon wrapper"
         },
         {
           "name": "part",
@@ -5590,11 +5589,11 @@
         },
         {
           "name": "part",
-          "text": "alert - The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover - The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -6208,7 +6207,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -6427,7 +6426,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's value\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's value\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -6708,11 +6707,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "checked-icon",
@@ -6823,19 +6822,19 @@
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
-          "text": "label -  The component's label"
+          "text": "label - The component's label"
         },
         {
           "name": "part",
-          "text": "button-label -  The button's label"
+          "text": "button-label - The button's label"
         },
         {
           "name": "part",
@@ -6843,7 +6842,7 @@
         },
         {
           "name": "part",
-          "text": "dropdown -  The `dwc-dropdown` component"
+          "text": "dropdown - The `dwc-dropdown` component"
         },
         {
           "name": "part",
@@ -7456,11 +7455,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Array of items",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Array of items"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -7874,11 +7872,10 @@
           "mutable": true,
           "attr": "selected",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Selected Index",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Selected Index"
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -8187,7 +8184,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -8406,7 +8403,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -8672,11 +8669,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "button",
@@ -10339,11 +10336,11 @@
         },
         {
           "name": "part",
-          "text": "alert - The `alert` component(validation)"
+          "text": "alert - The `alert` component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover - The `alert-popover` component(validation)"
+          "text": "alert-popover - The `alert-popover` component (validation)"
         },
         {
           "name": "part",
@@ -10919,7 +10916,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.</li>\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.</li>\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.</li>\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.</li>\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.</li>\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.</li>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -11068,11 +11065,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Array of items",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Array of items"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -11535,11 +11531,10 @@
           "mutable": true,
           "attr": "selected",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Selected Index",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Selected Index"
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -11708,7 +11703,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -11927,7 +11922,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -12216,9 +12211,9 @@
       "listeners": [],
       "styles": [
         {
-          "name": "--dwc-combobox-field-height - The height of the input field.",
+          "name": "--dwc-combobox-field-height",
           "annotation": "prop",
-          "docs": ""
+          "docs": "The height of the input field."
         }
       ],
       "slots": [
@@ -12238,11 +12233,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The `alert` component(validation)"
+          "docs": "The `alert` component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The `alert-popover` component(validation)"
+          "docs": "The `alert-popover` component (validation)"
         },
         {
           "name": "control",
@@ -12377,7 +12372,7 @@
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
@@ -12389,23 +12384,23 @@
         },
         {
           "name": "part",
-          "text": "prefix -  The input's prefix"
+          "text": "prefix - The input's prefix"
         },
         {
           "name": "part",
-          "text": "suffix -  The input's suffix"
+          "text": "suffix - The input's suffix"
         },
         {
           "name": "part",
-          "text": "spinners -  The input's spinners wrapper"
+          "text": "spinners - The input's spinners wrapper"
         },
         {
           "name": "part",
-          "text": "up-button -  The input's up spinner button"
+          "text": "up-button - The input's up spinner button"
         },
         {
           "name": "part",
-          "text": "down-button -  The input's down spinner button"
+          "text": "down-button - The input's down spinner button"
         },
         {
           "name": "part",
@@ -13021,7 +13016,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -13482,11 +13477,10 @@
           "mutable": false,
           "attr": "show-spinners",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will show the up/down spinner buttons.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will show the up/down spinner buttons."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -13573,11 +13567,10 @@
           "mutable": false,
           "attr": "spinnable",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will fire spin events for wheel and mouse interactions.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will fire spin events for wheel and mouse interactions."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -13727,7 +13720,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -13946,7 +13939,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A javascript expression or function to validate the control.\nif the expression has the 'return' keyword in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n<li> `value`: The control's value as [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)\n<li> `x`: Alias for value\n<li> `text`: For consistency with the legacy control and form validation APIs, Date string as typed by the user.\n<li> `component`: The instance of the client component\n<li> `control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n<li> `value`: The control's value as [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)\n<li> `x`: Alias for value\n<li> `text`: For consistency with the legacy control and form validation APIs, Date string as typed by the user.\n<li> `component`: The instance of the client component\n<li> `control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -16440,7 +16433,7 @@
         },
         {
           "name": "part",
-          "text": "handler  - The dropdown handler"
+          "text": "handler - The dropdown handler"
         },
         {
           "name": "author",
@@ -16641,11 +16634,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Array of items to display in the dropdown list.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Array of items to display in the dropdown list."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -17096,11 +17088,10 @@
           },
           "mutable": true,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "An array of selected indexes.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "An array of selected indexes."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -17737,7 +17728,7 @@
         },
         {
           "name": "part",
-          "text": "label -  the component's label"
+          "text": "label - the component's label"
         },
         {
           "name": "part",
@@ -17785,11 +17776,11 @@
         },
         {
           "name": "part",
-          "text": "alert - The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover - The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -18323,7 +18314,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component gets focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component gets focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component gets focus under program control by calling the `setFocus` method.\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component gets focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component gets focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component gets focus under program control by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -18710,11 +18701,10 @@
           "mutable": false,
           "attr": "show-spinners",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the component will show the up/down spinner buttons.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the component will show the up/down spinner buttons."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -18795,11 +18785,10 @@
           "mutable": false,
           "attr": "spinnable",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the component will fire spin events for wheel and mouse interactions.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the component will fire spin events for wheel and mouse interactions."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -18995,7 +18984,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -19214,7 +19203,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -19740,11 +19729,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "clear-button",
@@ -20889,11 +20878,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The list of files and folders to be displayed.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The list of files and folders to be displayed."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -20932,11 +20920,10 @@
           },
           "mutable": true,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Array of filters to show as button dropdown.\n\nThe filters can be any characters, following standard \"file glob\" syntax.\nThe '*' character corresponds to any number of characters (including zero).\nThe '?' character corresponds to a single character.\nThe backslash \"\\\" may be used to escape either character",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Array of filters to show as button dropdown.\n\nThe filters can be any characters, following standard \"file glob\" syntax.\nThe '*' character corresponds to any number of characters (including zero).\nThe '?' character corresponds to a single character.\nThe backslash \"\\\" may be used to escape either character"
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -21028,11 +21015,10 @@
           "mutable": false,
           "attr": "loading",
           "reflectToAttr": true,
-          "docs": "",
+          "docs": "When true, the file chooser will show the busy indicator and disable interacting with the chooser.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the file chooser will show the busy indicator and disable interacting with the chooser."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -21117,11 +21103,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "An array of directory roots to display in the paths list.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "An array of directory roots to display in the paths list."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -21160,11 +21145,10 @@
           },
           "mutable": true,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "An array of selected entries.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "An array of selected entries."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -21193,7 +21177,7 @@
           "mutable": false,
           "attr": "selection-mode",
           "reflectToAttr": false,
-          "docs": "The selection mode. files, directories or both directories and files.",
+          "docs": "The selection mode: files, directories, or both directories and files.",
           "docsTags": [
             {
               "name": "default",
@@ -21314,11 +21298,10 @@
           "mutable": false,
           "attr": "type",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The type of the file chooser.\n\nWhen `save` then the file chooser will be used to save a file, directory or both depending on the `selectionMode`\nproperty. In this case the file chooser will have an input field to enter the file/directory name.\nWhen `open` then the file chooser will be used to open a file, directory or both depending on the `selectionMode`\nproperty.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The type of the file chooser.\n\nWhen `save` then the file chooser will be used to save a file, directory or both depending on the `selectionMode`\nproperty. In this case the file chooser will have an input field to enter the file/directory name.\nWhen `open` then the file chooser will be used to open a file, directory or both depending on the `selectionMode`\nproperty."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -24400,7 +24383,7 @@
       "filePath": "src/components/dwc-icon/dwc-icon.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-icon",
-      "docs": "The `<dwc-icon>` provides methods for displaying a UI icon.\n\nAn icon is a nonselectable SVG image that represents an application, a capability, or some other concept or\nspecific entity with meaning for the user.\n\nBBj does not bundle an icons library by default. but it configure several icons pools that the user can choose from.\nThen the icons will be loaded from a CDN on demand.\n\n\n## Configured Pools\n\nBBj configures the following list of pools which can be used with `dwc-icon`\n\n1. [Tabler](https://tabler-icons.io/)\n2. [Feather](https://feathericons.com/)\n3. [fa (Font Awesome Free)](https://fontawesome.com/)\n4. and `Dwc` which is a small subset of Tabler Icons\n\n\n## Usage\n\nYou can use this component like this:\n\n```html\n<dwc-icon pool=\"POOL_NAME\" name=\"ICON_NAME\"></dwc-icon>\n```\n\n?> **Note:**: The default pool name is `tabler`\n\n### Custom Pools\n\nYou can register additional pools to use with `dwc-icon`.\n\n```javascript\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'POOL_NAME',\n  resolver: name => {return 'SVG_URL'}\n});\n````\n\nFor instance , This is how the [feather pool](https://feathericons.com/) is registered.\n```javascript\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'feather',\n  resolver: name => `https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/icons/${name}.svg`\n});\n````\n\nThen in your code\n\n```html\n<dwc-icon pool=\"feather\" name=\"activity\"></dwc-icon>\n```\n\n## DWC Pool\n\nAll used icons in Dwc components use the `dwc` pool , You can override the pool like this:\n\n``` javascript\nconst DwcIcons = {\n'calendar': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-calendar\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <rect x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/> <line x1=\"16\" y1=\"3\" x2=\"16\" y2=\"7\"/> <line x1=\"8\" y1=\"3\" x2=\"8\" y2=\"7\"/> <line x1=\"4\" y1=\"11\" x2=\"20\" y2=\"11\"/> <line x1=\"11\" y1=\"15\" x2=\"12\" y2=\"15\"/> <line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"18\"/></svg>`,\n'check': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-check\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <path d=\"M5 12l5 5l10 -10\"/></svg>`,\n'chevron-down': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-down\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"6 9 12 15 18 9\"/></svg>`,\n'chevron-left': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-left\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"15 6 9 12 15 18\"/></svg>`,\n'chevron-right': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-right\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"9 6 15 12 9 18\"/></svg>`,\n'chevron-up': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-up\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"6 15 12 9 18 15\"/></svg>`,\n'chevrons-left': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevrons-left\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><polyline points=\"11 7 6 12 11 17\"></polyline><polyline points=\"17 7 12 12 17 17\"></polyline></svg>`,\n'chevrons-right': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevrons-right\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><polyline points=\"7 7 12 12 7 17\"></polyline><polyline points=\"13 7 18 12 13 17\"></polyline></svg>`,\n'eye-off': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-eye-off\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/> <path d=\"M10.584 10.587a2 2 0 0 0 2.828 2.83\"/> <path d=\"M9.363 5.365a9.466 9.466 0 0 1 2.637 -.365c4 0 7.333 2.333 10 7c-.778 1.361 -1.612 2.524 -2.503 3.488m-2.14 1.861c-1.631 1.1 -3.415 1.651 -5.357 1.651c-4 0 -7.333 -2.333 -10 -7c1.369 -2.395 2.913 -4.175 4.632 -5.341\"/></svg>`,\n'eye': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-eye\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <circle cx=\"12\" cy=\"12\" r=\"2\"/> <path d=\"M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7\"/></svg>`,\n'icon-x': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-x\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/> <line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>`,\n'plus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-plus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\" /><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /></svg>`,\n'minus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /></svg>`,\n'square-plus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-square-plus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"></line><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"15\"></line></svg>`,\n'square-minus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-square-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"></line></svg>`,\n'file': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-file-text\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\" /><path d=\"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z\" /><line x1=\"9\" y1=\"9\" x2=\"10\" y2=\"9\" /><line x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\" /><line x1=\"9\" y1=\"17\" x2=\"15\" y2=\"17\" /></svg>`,\n'folder': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-folder\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2\" /></svg>`,\n'folder-opened': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-folder-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2\" /><line x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\" /></svg>`,\n'stop': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-hand-stop\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5\"></path><path d=\"M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5\"></path><path d=\"M14 5.5a1.5 1.5 0 0 1 3 0v6.5\"></path><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47\"></path></svg>`,\n'question': `<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-help-circle\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line></svg>`,\n'warning': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-alert-triangle\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M12 9v2m0 4v.01\"></path><path d=\"M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75\"></path></svg>`,\n'info': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-info-circle\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line><polyline points=\"11 12 12 12 12 16 13 16\"></polyline></svg>`,\n'color-picker': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-color-picker\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M11 7l6 6\"></path><path d=\"M4 16l11.7 -11.7a1 1 0 0 1 1.4 0l2.6 2.6a1 1 0 0 1 0 1.4l-11.7 11.7h-4v-4z\"></path></svg>`,\n'copy': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-copy\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"></rect><path d=\"M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2\"></path></svg>`,\n'checks': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-checks\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M7 12l5 5l10 -10\"></path><path d=\"M2 12l5 5m5 -5l5 -5\"></path></svg>`,\n'upload': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-upload\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"1\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2\"></path><polyline points=\"7 9 12 4 17 9\"></polyline><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"16\"></line></svg>`,\n'refresh': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-rotate\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M19.95 11a8 8 0 1 0 -.5 4m.5 5v-5h-5\"></path></svg>`,\n'play': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-player-play\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M7 4v16l13 -8z\"></path></svg>`,\n'animated-spinner': `<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" ><path fill=\"currentColor\" d=\"M25,5A20.14,20.14,0,0,1,45,22.88a2.51,2.51,0,0,0,2.49,2.26h0A2.52,2.52,0,0,0,50,22.33a25.14,25.14,0,0,0-50,0,2.52,2.52,0,0,0,2.5,2.81h0A2.51,2.51,0,0,0,5,22.88,20.14,20.14,0,0,1,25,5Z\"><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 25 25\" to=\"360 25 25\" dur=\"0.5s\" repeatCount=\"indefinite\"/></path></svg>`,\n'arrow-down': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-arrow-down\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/> <line x1=\"18\" y1=\"13\" x2=\"12\" y2=\"19\"/> <line x1=\"6\" y1=\"13\" x2=\"12\" y2=\"19\"/></svg>`,\n};\n\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'wwc',\n  resolver: DwcIcons[name] ? `data:image/svg+xml,${encodeURIComponent(DwcIcons[name])}` : ''\n});\n```",
+      "docs": "The `<dwc-icon>` provides methods for displaying a UI icon.\n\nAn icon is a nonselectable SVG image that represents an application, a capability, or some other concept or\nspecific entity with meaning for the user.\n\nBBj does not bundle an icons library by default, but it configures several icons pools that the user can choose from.\nThen the icons will be loaded from a CDN on demand.\n\n\n## Configured Pools\n\nBBj configures the following list of pools which can be used with `dwc-icon`\n\n1. [Tabler](https://tabler-icons.io/)\n2. [Feather](https://feathericons.com/)\n3. [fa (Font Awesome Free)](https://fontawesome.com/)\n4. and `Dwc` which is a small subset of Tabler Icons\n\n\n## Usage\n\nYou can use this component like this:\n\n```html\n<dwc-icon pool=\"POOL_NAME\" name=\"ICON_NAME\"></dwc-icon>\n```\n\n?> **Note:**: The default pool name is `tabler`\n\n### Custom Pools\n\nYou can register additional pools to use with `dwc-icon`.\n\n```javascript\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'POOL_NAME',\n  resolver: name => {return 'SVG_URL'}\n});\n````\n\nFor instance , This is how the [feather pool](https://feathericons.com/) is registered.\n```javascript\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'feather',\n  resolver: name => `https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/icons/${name}.svg`\n});\n````\n\nThen in your code\n\n```html\n<dwc-icon pool=\"feather\" name=\"activity\"></dwc-icon>\n```\n\n## DWC Pool\n\nAll used icons in Dwc components use the `dwc` pool , You can override the pool like this:\n\n``` javascript\nconst DwcIcons = {\n'calendar': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-calendar\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <rect x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/> <line x1=\"16\" y1=\"3\" x2=\"16\" y2=\"7\"/> <line x1=\"8\" y1=\"3\" x2=\"8\" y2=\"7\"/> <line x1=\"4\" y1=\"11\" x2=\"20\" y2=\"11\"/> <line x1=\"11\" y1=\"15\" x2=\"12\" y2=\"15\"/> <line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"18\"/></svg>`,\n'check': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-check\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <path d=\"M5 12l5 5l10 -10\"/></svg>`,\n'chevron-down': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-down\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"6 9 12 15 18 9\"/></svg>`,\n'chevron-left': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-left\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"15 6 9 12 15 18\"/></svg>`,\n'chevron-right': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-right\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"9 6 15 12 9 18\"/></svg>`,\n'chevron-up': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevron-up\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <polyline points=\"6 15 12 9 18 15\"/></svg>`,\n'chevrons-left': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevrons-left\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><polyline points=\"11 7 6 12 11 17\"></polyline><polyline points=\"17 7 12 12 17 17\"></polyline></svg>`,\n'chevrons-right': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-chevrons-right\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><polyline points=\"7 7 12 12 7 17\"></polyline><polyline points=\"13 7 18 12 13 17\"></polyline></svg>`,\n'eye-off': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-eye-off\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"3\" y1=\"3\" x2=\"21\" y2=\"21\"/> <path d=\"M10.584 10.587a2 2 0 0 0 2.828 2.83\"/> <path d=\"M9.363 5.365a9.466 9.466 0 0 1 2.637 -.365c4 0 7.333 2.333 10 7c-.778 1.361 -1.612 2.524 -2.503 3.488m-2.14 1.861c-1.631 1.1 -3.415 1.651 -5.357 1.651c-4 0 -7.333 -2.333 -10 -7c1.369 -2.395 2.913 -4.175 4.632 -5.341\"/></svg>`,\n'eye': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-eye\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <circle cx=\"12\" cy=\"12\" r=\"2\"/> <path d=\"M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7\"/></svg>`,\n'icon-x': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-x\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/> <line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg>`,\n'plus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-plus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\" /><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /></svg>`,\n'minus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\" /></svg>`,\n'square-plus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-square-plus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"></line><line x1=\"12\" y1=\"9\" x2=\"12\" y2=\"15\"></line></svg>`,\n'square-minus': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-square-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"></rect><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"></line></svg>`,\n'file': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-file-text\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\" /><path d=\"M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z\" /><line x1=\"9\" y1=\"9\" x2=\"10\" y2=\"9\" /><line x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\" /><line x1=\"9\" y1=\"17\" x2=\"15\" y2=\"17\" /></svg>`,\n'folder': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-folder\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2\" /></svg>`,\n'folder-opened': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-folder-minus\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2\" /><line x1=\"9\" y1=\"13\" x2=\"15\" y2=\"13\" /></svg>`,\n'stop': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-hand-stop\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5\"></path><path d=\"M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5\"></path><path d=\"M14 5.5a1.5 1.5 0 0 1 3 0v6.5\"></path><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47\"></path></svg>`,\n'question': `<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-help-circle\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"></line></svg>`,\n'warning': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-alert-triangle\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M12 9v2m0 4v.01\"></path><path d=\"M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75\"></path></svg>`,\n'info': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-info-circle\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line><polyline points=\"11 12 12 12 12 16 13 16\"></polyline></svg>`,\n'color-picker': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-color-picker\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M11 7l6 6\"></path><path d=\"M4 16l11.7 -11.7a1 1 0 0 1 1.4 0l2.6 2.6a1 1 0 0 1 0 1.4l-11.7 11.7h-4v-4z\"></path></svg>`,\n'copy': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-copy\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"2\"></rect><path d=\"M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2\"></path></svg>`,\n'checks': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-checks\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M7 12l5 5l10 -10\"></path><path d=\"M2 12l5 5m5 -5l5 -5\"></path></svg>`,\n'upload': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-upload\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"1\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2\"></path><polyline points=\"7 9 12 4 17 9\"></polyline><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"16\"></line></svg>`,\n'refresh': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-rotate\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M19.95 11a8 8 0 1 0 -.5 4m.5 5v-5h-5\"></path></svg>`,\n'play': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-player-play\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M7 4v16l13 -8z\"></path></svg>`,\n'animated-spinner': `<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 50 50\" ><path fill=\"currentColor\" d=\"M25,5A20.14,20.14,0,0,1,45,22.88a2.51,2.51,0,0,0,2.49,2.26h0A2.52,2.52,0,0,0,50,22.33a25.14,25.14,0,0,0-50,0,2.52,2.52,0,0,0,2.5,2.81h0A2.51,2.51,0,0,0,5,22.88,20.14,20.14,0,0,1,25,5Z\"><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 25 25\" to=\"360 25 25\" dur=\"0.5s\" repeatCount=\"indefinite\"/></path></svg>`,\n'arrow-down': `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-arrow-down\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"/> <line x1=\"18\" y1=\"13\" x2=\"12\" y2=\"19\"/> <line x1=\"6\" y1=\"13\" x2=\"12\" y2=\"19\"/></svg>`,\n};\n\n(window.Dwc ??= {}).IconsPools ??= [];\nwindow.Dwc.IconsPools.push({\n  name: 'wwc',\n  resolver: DwcIcons[name] ? `data:image/svg+xml,${encodeURIComponent(DwcIcons[name])}` : ''\n});\n```",
       "docsTags": [
         {
           "name": "part",
@@ -24595,7 +24578,7 @@
           "mutable": false,
           "attr": "src",
           "reflectToAttr": false,
-          "docs": "The icon's src",
+          "docs": "The icon's source URL",
           "docsTags": [],
           "values": [
             {
@@ -25327,11 +25310,11 @@
         },
         {
           "name": "part",
-          "text": "content -  The component content (can be used to create custom loading message)"
+          "text": "content - The component content (can be used to create custom loading message)"
         },
         {
           "name": "part",
-          "text": "icon -  The loading icon"
+          "text": "icon - The loading icon"
         },
         {
           "name": "part",
@@ -25395,7 +25378,7 @@
           "mutable": false,
           "attr": "icon",
           "reflectToAttr": false,
-          "docs": "The refresh icon to use when loading more data.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'spinner'}\n     <li> {pool: 'feather' name: 'spinner}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The refresh icon to use when loading more data.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'spinner'}\n     <li> {pool: 'feather' name: 'spinner}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -25659,11 +25642,11 @@
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -26147,11 +26130,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Array of items",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Array of items"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -26470,11 +26452,10 @@
           },
           "mutable": true,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "An item's index or an array of item indexes",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "An item's index or an array of item indexes"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -26677,7 +26658,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -26896,7 +26877,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -27586,7 +27567,7 @@
         {
           "name": "--dwc-listbox-highlighted-color",
           "annotation": "prop",
-          "docs": "The color of the highlighted(focused) item"
+          "docs": "The color of the highlighted (focused) item"
         },
         {
           "name": "--dwc-listbox-label-color",
@@ -27628,11 +27609,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "container",
@@ -27841,7 +27822,7 @@
           "mutable": false,
           "attr": "no-backdrop",
           "reflectToAttr": false,
-          "docs": "When true, the backdrop will be hidden. otherwise, it is visible.",
+          "docs": "When true, the backdrop will be hidden, otherwise it is visible.",
           "docsTags": [
             {
               "name": "default",
@@ -29165,15 +29146,14 @@
       "filePath": "src/components/dwc-menu/dwc-menu.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-menu",
-      "docs": "",
+      "docs": "The `BBjMenu<dwc-menu>` provides methods for manipulating a UI menu control.",
       "docsTags": [
         {
-          "name": "bbjIgnore",
-          "text": "The `BBjMenu<dwc-menu>` provides methods for manipulating a UI menu control."
+          "name": "bbjIgnore"
         },
         {
           "name": "slot",
-          "text": "- The place where dwc-menuitem(s) should be placed"
+          "text": "- The default slot where dwc-menuitem(s) are placed"
         },
         {
           "name": "part",
@@ -29579,7 +29559,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The place where dwc-menuitem(s) should be placed"
+          "docs": "The default slot where dwc-menuitem(s) are placed"
         }
       ],
       "parts": [
@@ -29611,7 +29591,7 @@
       "docsTags": [
         {
           "name": "slot",
-          "text": "- The place where dwc-menuitem(s) should be placed"
+          "text": "- The default slot where dwc-menuitem(s) are placed"
         },
         {
           "name": "part",
@@ -30068,9 +30048,9 @@
       ],
       "styles": [
         {
-          "name": "--dwc-menubar-advancer-colorL The color of the advancers",
+          "name": "--dwc-menubar-advancer-color",
           "annotation": "prop",
-          "docs": ""
+          "docs": "The color of the advancers"
         },
         {
           "name": "--dwc-menubar-left-advancer-background",
@@ -30086,7 +30066,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The place where dwc-menuitem(s) should be placed"
+          "docs": "The default slot where dwc-menuitem(s) are placed"
         }
       ],
       "parts": [
@@ -30141,15 +30121,15 @@
         },
         {
           "name": "slot",
-          "text": "prefix -  The Item's label"
+          "text": "label - The item's label"
         },
         {
           "name": "slot",
-          "text": "prefix -  The Item's prefix"
+          "text": "prefix - The item's prefix"
         },
         {
           "name": "slot",
-          "text": "suffix -  The Item's suffix"
+          "text": "suffix - The item's suffix"
         },
         {
           "name": "part",
@@ -30165,31 +30145,31 @@
         },
         {
           "name": "part",
-          "text": "label -  The Item's label container"
+          "text": "label - The item's label container"
         },
         {
           "name": "part",
-          "text": "hotkey -  The Item's hotkey."
+          "text": "hotkey - The item's hotkey."
         },
         {
           "name": "part",
-          "text": "icon-wrapper -  The Item's icon container"
+          "text": "icon-wrapper - The item's icon container"
         },
         {
           "name": "part",
-          "text": "icon-check-wrapper -  The Item' check icon container"
+          "text": "icon-check-wrapper - The item's check icon container"
         },
         {
           "name": "part",
-          "text": "icon-check -  The Item' check icon"
+          "text": "icon-check - The item's check icon"
         },
         {
           "name": "part",
-          "text": "icon-chevron-wrapper -  The Item' chevron icon container"
+          "text": "icon-chevron-wrapper - The item's chevron icon container"
         },
         {
           "name": "part",
-          "text": "icon-chevron -  The Item' chevron icon"
+          "text": "icon-chevron - The item's chevron icon"
         },
         {
           "name": "hostClass",
@@ -31254,7 +31234,7 @@
           },
           "cancelable": true,
           "composed": true,
-          "docs": "Emitted after the item clicked. unlike the `dwc-clicked` event , this event won't be fired if dropdown item and the menu is not empty.",
+          "docs": "Emitted after the item is clicked. Unlike the `dwc-clicked` event, this event won't be fired if the item is a dropdown item and the menu is not empty.",
           "docsTags": []
         }
       ],
@@ -31354,15 +31334,15 @@
         },
         {
           "name": "label",
-          "docs": ""
+          "docs": "The item's label"
         },
         {
           "name": "prefix",
-          "docs": "The Item's label"
+          "docs": "The item's prefix"
         },
         {
           "name": "suffix",
-          "docs": "The Item's suffix"
+          "docs": "The item's suffix"
         }
       ],
       "parts": [
@@ -31372,27 +31352,27 @@
         },
         {
           "name": "hotkey",
-          "docs": "The Item's hotkey."
+          "docs": "The item's hotkey."
         },
         {
           "name": "icon-check",
-          "docs": "The Item' check icon"
+          "docs": "The item's check icon"
         },
         {
           "name": "icon-check-wrapper",
-          "docs": "The Item' check icon container"
+          "docs": "The item's check icon container"
         },
         {
           "name": "icon-chevron",
-          "docs": "The Item' chevron icon"
+          "docs": "The item's chevron icon"
         },
         {
           "name": "icon-chevron-wrapper",
-          "docs": "The Item' chevron icon container"
+          "docs": "The item's chevron icon container"
         },
         {
           "name": "icon-wrapper",
-          "docs": "The Item's icon container"
+          "docs": "The item's icon container"
         },
         {
           "name": "icon-wrapper-check",
@@ -31404,7 +31384,7 @@
         },
         {
           "name": "label",
-          "docs": "The Item's label container"
+          "docs": "The item's label container"
         },
         {
           "name": "prefix",
@@ -31441,7 +31421,7 @@
       "filePath": "src/components/dwc-navigator/dwc-navigator.tsx",
       "encapsulation": "shadow",
       "tag": "dwc-navigator",
-      "docs": "The `BBjNavigator/<dwc-navigator>` provides methods for manipulating a UI navigator control.\n\n## Text Expressions\n\nAll text properties `textFirst` , `textFirst` , `textLast` , `textPage` , ... are evaluated as Javascript expressions.\nThe text expression is evaluated with the following parameters:\n\n- `component`: The current component instance.\n- `control`: Alias for `component`.\n- `current`: The current page number.\n- `x`: Alias for `current`.\n-  `startIndex`: The start index of the current page.\n- `endIndex`: The end index of the current page.\n- `startPage`: The index of the first page\n- `endPage`: The index of the last page\n- `totalPages`: The total number of pages.\n- `totalItems`:The total number of items.\n\nFor instance\n\n```javascript\ncomponent.textPreview = `Showing ${startIndex}-${endIndex} of ${totalItems}`\n```",
+      "docs": "The `BBjNavigator/<dwc-navigator>` provides methods for manipulating a UI navigator control.\n\n## Text Expressions\n\nAll text properties `textFirst`, `textPrevious`, `textLast`, `textPage`, ... are evaluated as JavaScript expressions.\nThe text expression is evaluated with the following parameters:\n\n- `component`: The current component instance.\n- `control`: Alias for `component`.\n- `current`: The current page number.\n- `x`: Alias for `current`.\n-  `startIndex`: The start index of the current page.\n- `endIndex`: The end index of the current page.\n- `startPage`: The index of the first page\n- `endPage`: The index of the last page\n- `totalPages`: The total number of pages.\n- `totalItems`:The total number of items.\n\nFor instance\n\n```javascript\ncomponent.textPreview = `Showing ${startIndex}-${endIndex} of ${totalItems}`\n```",
       "docsTags": [
         {
           "name": "part",
@@ -31453,7 +31433,7 @@
         },
         {
           "name": "part",
-          "text": "area-left -  The left area of the control where the first and previous buttons are placed"
+          "text": "area-left - The left area of the control where the first and previous buttons are placed"
         },
         {
           "name": "part",
@@ -31966,7 +31946,7 @@
           "mutable": false,
           "attr": "layout",
           "reflectToAttr": false,
-          "docs": "The layout of the middle area of the Navigator. <br><br>\n\n1. preview: Only the current page and the number of pages will be rendered.<br>\n2. numbered: The numbered buttons will be rendered.<br>\n3. quick-jump: The quick jump input will be rendered.<br>\n4. none: no layout will be rendered.<br>",
+          "docs": "The layout of the middle area of the Navigator. <br><br>\n\n1. preview: Only the current page and the number of pages will be rendered.<br>\n2. numbered: The numbered buttons will be rendered.<br>\n3. quick-jump: The quick jump input will be rendered.<br>\n4. none: No layout will be rendered.<br>",
           "docsTags": [
             {
               "name": "bbjDefault",
@@ -32805,7 +32785,7 @@
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
@@ -32821,31 +32801,31 @@
         },
         {
           "name": "part",
-          "text": "prefix -  The input's prefix"
+          "text": "prefix - The input's prefix"
         },
         {
           "name": "part",
-          "text": "suffix -  The input's suffix"
+          "text": "suffix - The input's suffix"
         },
         {
           "name": "part",
-          "text": "spinners -  The input's spinners wrapper"
+          "text": "spinners - The input's spinners wrapper"
         },
         {
           "name": "part",
-          "text": "up-button -  The input's up spinner button"
+          "text": "up-button - The input's up spinner button"
         },
         {
           "name": "part",
-          "text": "down-button -  The input's down spinner button"
+          "text": "down-button - The input's down spinner button"
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -33258,7 +33238,7 @@
           "mutable": false,
           "attr": "force-trailing-zeros",
           "reflectToAttr": false,
-          "docs": "Affects the output by switching the way a mask with \"#\" characters in the trailing positions is filled. for example, mask(.10,\"#.##\") returns .10 instead of .1.",
+          "docs": "Affects the output by switching the way a mask with \"#\" characters in the trailing positions is filled. For example, mask(.10,\"#.##\") returns .10 instead of .1.",
           "docsTags": [
             {
               "name": "default",
@@ -33349,7 +33329,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -33798,11 +33778,10 @@
           "mutable": false,
           "attr": "spinnable",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will fire spin events for wheel and mouse interactions.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will fire spin events for wheel and mouse interactions."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -33889,7 +33868,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -34108,7 +34087,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -34631,11 +34610,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "control",
@@ -34902,7 +34881,7 @@
               "docs": "If nonzero, the spinner will change according to an up arrow activation,\notherwise, the spinner will change according to a down arrow activation."
             }
           ],
-          "docs": "cCauses the spinner to spin in the specified direction.",
+          "docs": "Causes the spinner to spin in the specified direction.",
           "docsTags": [
             {
               "name": "param",
@@ -35283,7 +35262,7 @@
           "mutable": false,
           "attr": "togglable",
           "reflectToAttr": false,
-          "docs": "When true, the popover cannot be closed or opened by the user, otherwise only togglable with API.",
+          "docs": "When true, the popover cannot be closed or opened by the user, otherwise only toggleable with API.",
           "docsTags": [
             {
               "name": "default",
@@ -35725,11 +35704,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Describes the DOM context of the virtual element. This is necessary if X & Y are derived from a real DOM element, and that element is within a different scrolling container context to the popup.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Describes the DOM context of the virtual element. This is necessary if X & Y are derived from a real DOM element, and that element is within a different scrolling container context to the popup."
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -36338,19 +36316,19 @@
         },
         {
           "name": "part",
-          "text": "front -  The front part of the progress"
+          "text": "front - The front part of the progress"
         },
         {
           "name": "part",
-          "text": "front-text -  The front part label"
+          "text": "front-text - The front part label"
         },
         {
           "name": "part",
-          "text": "back -  The back part of the progress"
+          "text": "back - The back part of the progress"
         },
         {
           "name": "part",
-          "text": "back-text -  The back part label"
+          "text": "back-text - The back part label"
         },
         {
           "name": "hostClass",
@@ -36898,19 +36876,19 @@
         },
         {
           "name": "part",
-          "text": "input-wrapper -  The input's wrapper"
+          "text": "input-wrapper - The input's wrapper"
         },
         {
           "name": "part",
-          "text": "input -  The actual input"
+          "text": "input - The actual input"
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
-          "text": "checked-icon -  The checked icon wrapper"
+          "text": "checked-icon - The checked icon wrapper"
         },
         {
           "name": "part",
@@ -36918,11 +36896,11 @@
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -37568,7 +37546,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -37787,7 +37765,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -38153,11 +38131,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "checked-icon",
@@ -38223,11 +38201,11 @@
         },
         {
           "name": "part",
-          "text": "content -  The refresher content wrapper"
+          "text": "content - The refresher content wrapper"
         },
         {
           "name": "part",
-          "text": "icon -  The refresher icon"
+          "text": "icon - The refresher icon"
         },
         {
           "name": "part",
@@ -38311,7 +38289,7 @@
           "mutable": false,
           "attr": "icon-arrow",
           "reflectToAttr": false,
-          "docs": "The arrow icon to use when the `stage` is `pull` or `release`.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'arrow'}\n     <li> {pool: 'feather' name: 'arrow}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The arrow icon to use when the `stage` is `pull` or `release`.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'arrow'}\n     <li> {pool: 'feather' name: 'arrow}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -38340,7 +38318,7 @@
           "mutable": false,
           "attr": "icon-refresh",
           "reflectToAttr": false,
-          "docs": "The refresh icon to use when the `stage` is `refresh`.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'spinner'}\n     <li> {pool: 'feather' name: 'spinner}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The refresh icon to use when the `stage` is `refresh`.\nThe icon can be in any of the following formats:\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'spinner'}\n     <li> {pool: 'feather' name: 'spinner}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -39057,11 +39035,10 @@
           "mutable": false,
           "attr": "labels",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "A map where the Integer value is the slider position of the corresponding String label.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "A map where the Integer value is the slider position of the corresponding String label."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -39442,7 +39419,7 @@
           "mutable": false,
           "attr": "tooltip-expression",
           "reflectToAttr": false,
-          "docs": "A Javascript expression to format the tooltip.\nif the expression has the 'return' word in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nfor example\n \"return x + '$'\"",
+          "docs": "A JavaScript expression to format the tooltip.\nIf the expression has the 'return' word in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nFor example\n \"return x + '$'\"",
           "docsTags": [],
           "values": [
             {
@@ -39497,7 +39474,7 @@
           "mutable": false,
           "attr": "tooltips-only-when-sliding",
           "reflectToAttr": false,
-          "docs": "When true and tooltips are enabled, the the tooltips will be shown only when sliding",
+          "docs": "When true and tooltips are enabled, the tooltips will be shown only when sliding",
           "docsTags": [
             {
               "name": "default",
@@ -40164,7 +40141,7 @@
         },
         {
           "name": "hostClass",
-          "text": "bbj-no-overflow - Can be added manually to restrict the panels overflow behaviour"
+          "text": "bbj-no-overflow - Can be added manually to restrict the panels overflow behavior"
         },
         {
           "name": "bbjControl",
@@ -40605,6 +40582,11 @@
           "docs": "The border color of the gutter handle when focused."
         },
         {
+          "name": "--dwc-splitter-gutter-handle-focus-ring",
+          "annotation": "prop",
+          "docs": "The focus ring of the gutter handle when focused."
+        },
+        {
           "name": "--dwc-splitter-gutter-handle-height",
           "annotation": "prop",
           "docs": "The height of the gutter handle if orientation is horizontal. The width of the gutter handle if orientation is vertical."
@@ -40683,23 +40665,23 @@
         },
         {
           "name": "part",
-          "text": "label -  The tab's label"
+          "text": "label - The tab's label"
         },
         {
           "name": "part",
-          "text": "suffix -  The tab's suffix"
+          "text": "suffix - The tab's suffix"
         },
         {
           "name": "part",
-          "text": "prefix -  The tab's prefix"
+          "text": "prefix - The tab's prefix"
         },
         {
           "name": "part",
-          "text": "close-button -  The tab's close button wrapper"
+          "text": "close-button - The tab's close button wrapper"
         },
         {
           "name": "part",
-          "text": "close-button-icon -  The tab's close button icon"
+          "text": "close-button-icon - The tab's close button icon"
         },
         {
           "name": "hostClass",
@@ -42159,11 +42141,10 @@
           "mutable": true,
           "attr": "selected",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The current selected tab.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The current selected tab."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -43279,7 +43260,7 @@
           "mutable": false,
           "attr": "get-cell-part",
           "reflectToAttr": false,
-          "docs": "A function or an expression to set parts for each cell individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part.",
+          "docs": "A function or an expression to set parts for each cell individually.\nThe expression should return either a string (part name), an array of strings (array of part names), or undefined for no part.",
           "docsTags": [],
           "values": [
             {
@@ -43345,7 +43326,7 @@
           "mutable": false,
           "attr": "get-row-part",
           "reflectToAttr": false,
-          "docs": "A function or an expression to set parts for each row individually.\nexpression should return either a string (part name), array of strings (array of part names) or undefined for no part.",
+          "docs": "A function or an expression to set parts for each row individually.\nThe expression should return either a string (part name), an array of strings (array of part names), or undefined for no part.",
           "docsTags": [],
           "values": [
             {
@@ -43543,7 +43524,7 @@
           "mutable": false,
           "attr": "overscan",
           "reflectToAttr": false,
-          "docs": "The number of rows to pre render beyond the visible scrolling area.\nThe bigger the number the slower the performance. keep this value small",
+          "docs": "The number of rows to pre render beyond the visible scrolling area.\nThe bigger the number, the slower the performance. Keep this value small",
           "docsTags": [
             {
               "name": "default",
@@ -45439,7 +45420,7 @@
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
@@ -45451,11 +45432,11 @@
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -46000,7 +45981,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component receives focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component receives focus programmatically by calling the `setFocus` method.\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n\n<ol>\n <li>KEY     : Contents of the component are automatically highlighted when the component receives focus by tabbing into it.\n <li>MOUSE   : Contents of the component are automatically highlighted when the component receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the component are automatically highlighted when the component receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -46474,7 +46455,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message.\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -46693,7 +46674,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: the component's value\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the component.\n\nIf the expression has the `return` keyword in it, then it is used as is;\nif not, then wrap it with `return` and `;` to make a function.\n\nThe expression has access to the following parameters:\n<ol>\n <li>`value`: the component's value\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -47161,11 +47142,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "control",
@@ -47239,7 +47220,7 @@
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
@@ -47251,43 +47232,43 @@
         },
         {
           "name": "part",
-          "text": "prefix -  The input's prefix"
+          "text": "prefix - The input's prefix"
         },
         {
           "name": "part",
-          "text": "suffix -  The input's suffix"
+          "text": "suffix - The input's suffix"
         },
         {
           "name": "part",
-          "text": "input-group -  A wrapper around all inputs"
+          "text": "input-group - A wrapper around all inputs"
         },
         {
           "name": "part",
-          "text": "input-pad -  The hidden pad char input"
+          "text": "input-pad - The hidden pad char input"
         },
         {
           "name": "part",
-          "text": "input-unmasked -  The unmasked input"
+          "text": "input-unmasked - The unmasked input"
         },
         {
           "name": "part",
-          "text": "spinners -  The input's spinners wrapper"
+          "text": "spinners - The input's spinners wrapper"
         },
         {
           "name": "part",
-          "text": "up-button -  The input's up spinner button"
+          "text": "up-button - The input's up spinner button"
         },
         {
           "name": "part",
-          "text": "down-button -  The input's down spinner button"
+          "text": "down-button - The input's down spinner button"
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -47759,7 +47740,7 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "An array of supported of highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
+          "docs": "An array of the supported highlight behaviors.\n<ol>\n <li>KEY     : Contents of the control are automatically highlighted when the control receives focus by tabbing into it.\n <li>MOUSE   : Contents of the control are automatically highlighted when the control receives focus by clicking into it with the mouse.\n <li>REQUEST : Contents of the control are automatically highlighted when the control receives focus programmatically by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -48133,11 +48114,10 @@
           "mutable": false,
           "attr": "show-spinners",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true the control will show the up/down spinner buttons",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true the control will show the up/down spinner buttons"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -48195,11 +48175,10 @@
           "mutable": false,
           "attr": "spinnable",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will fire spin events for wheel and mouse interactions.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will fire spin events for wheel and mouse interactions."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -48286,7 +48265,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -48505,7 +48484,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A javascript expression or function to validate the control.\nif the expression has the 'return' word in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n<li> `value`: The control's unmasked value.\n<li> `x`: Alias for value.\n<li> `text`: For consistency with the legacy control and form validation APIs, same as `value`.\n<li> `component`: The instance of the client component.\n<li> `control`: Alias for component.\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' word in it, then we use as is,\nif not, then wrap it with return and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n<li> `value`: The control's unmasked value.\n<li> `x`: Alias for value.\n<li> `text`: For consistency with the legacy control and form validation APIs, same as `value`.\n<li> `component`: The instance of the client component.\n<li> `control`: Alias for component.\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -49038,11 +49017,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "control",
@@ -49475,7 +49454,7 @@
         },
         {
           "name": "part",
-          "text": "label -  The input's label"
+          "text": "label - The input's label"
         },
         {
           "name": "part",
@@ -49487,23 +49466,23 @@
         },
         {
           "name": "part",
-          "text": "prefix -  The input's prefix"
+          "text": "prefix - The input's prefix"
         },
         {
           "name": "part",
-          "text": "suffix -  The input's suffix"
+          "text": "suffix - The input's suffix"
         },
         {
           "name": "part",
-          "text": "spinners -  The input's spinners wrapper"
+          "text": "spinners - The input's spinners wrapper"
         },
         {
           "name": "part",
-          "text": "up-button -  The input's up spinner button"
+          "text": "up-button - The input's up spinner button"
         },
         {
           "name": "part",
-          "text": "down-button -  The input's down spinner button"
+          "text": "down-button - The input's down spinner button"
         },
         {
           "name": "part",
@@ -49515,11 +49494,11 @@
         },
         {
           "name": "part",
-          "text": "alert -  The alert component(validation)"
+          "text": "alert - The alert component (validation)"
         },
         {
           "name": "part",
-          "text": "alert-popover -  The alert-popover component(validation)"
+          "text": "alert-popover - The alert-popover component (validation)"
         },
         {
           "name": "part",
@@ -49964,11 +49943,10 @@
           },
           "mutable": false,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "An array of the supported highlight behaviors.\n\n<ol>\n <li> KEY     : Contents of the control are automatically highlighted when the control gets focus by tabbing into it.\n <li> MOUSE   : Contents of the control are automatically highlighted when the control gets focus by clicking into it with the mouse.\n <li> REQUEST : Contents of the control are automatically highlighted when the control gets focus under program control by calling the `setFocus` method.\n</ol>",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "An array of supported of highlight behaviors.\n\n<ol>\n <li> KEY     : Contents of the control are automatically highlighted when the control gets focus by tabbing into it.\n <li> MOUSE   : Contents of the control are automatically highlighted when the control gets focus by clicking into it with the mouse.\n <li> REQUEST : Contents of the control are automatically highlighted when the control gets focus under program control by calling the `setFocus` method.\n</ol>"
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -50706,11 +50684,10 @@
           "mutable": false,
           "attr": "show-spinners",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will show the up/down spinner buttons.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will show the up/down spinner buttons."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -50739,11 +50716,10 @@
           "mutable": false,
           "attr": "spinnable",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the control will fire spin events for wheel and mouse interactions.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the control will fire spin events for wheel and mouse interactions."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -50859,7 +50835,7 @@
           "mutable": false,
           "attr": "validation-icon",
           "reflectToAttr": false,
-          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
+          "docs": "The icon to use with the validation message\n\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `x`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:x`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'x'}\n     <li> {pool: 'feather', name: 'x'}\n     <li> {src: 'image/path'}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -51078,7 +51054,7 @@
           "mutable": false,
           "attr": "validator",
           "reflectToAttr": false,
-          "docs": "A Javascript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
+          "docs": "A JavaScript expression or function to validate the control.\nIf the expression has the 'return' keyword in it, then it is used as is;\nif not, then wrap it with `return` and ';' to make a function.\n\nThe expression has access to the following parameters:\n\n<ol>\n <li>`value`: The control's\n <li>`x`: Alias for value\n <li>`text`: For consistency with the legacy control and form validation APIs, same as `value`\n <li>`component`: The instance of the client component\n <li>`control`: Alias for component\n</ol>",
           "docsTags": [],
           "values": [
             {
@@ -51638,11 +51614,11 @@
       "parts": [
         {
           "name": "alert",
-          "docs": "The alert component(validation)"
+          "docs": "The alert component (validation)"
         },
         {
           "name": "alert-popover",
-          "docs": "The alert-popover component(validation)"
+          "docs": "The alert-popover component (validation)"
         },
         {
           "name": "control",
@@ -52126,7 +52102,7 @@
         },
         {
           "name": "part",
-          "text": "message -  The message's container"
+          "text": "message - The message's container"
         },
         {
           "name": "part",
@@ -52613,7 +52589,7 @@
         },
         {
           "name": "slot",
-          "text": "- The default slot."
+          "text": "- The default slot where the toolbar content is placed."
         },
         {
           "name": "slot",
@@ -52740,7 +52716,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The default slot."
+          "docs": "The default slot where the toolbar content is placed."
         },
         {
           "name": "end",
@@ -52790,7 +52766,7 @@
       "docsTags": [
         {
           "name": "slot",
-          "text": "- The place where `dwc-tree-node' elements are inserted."
+          "text": "- The place where `dwc-tree-node` elements are inserted."
         },
         {
           "name": "part",
@@ -53080,7 +53056,7 @@
           "mutable": false,
           "attr": "contiguous-selection",
           "reflectToAttr": false,
-          "docs": "When true and multi-selecting is enabled. then multiple contiguous tree nodes can be selected.",
+          "docs": "When true and multi-selecting is enabled, then multiple contiguous tree nodes can be selected.",
           "docsTags": [
             {
               "name": "default",
@@ -53217,7 +53193,7 @@
           "mutable": false,
           "attr": "icon-collapsed",
           "reflectToAttr": false,
-          "docs": "The node collapsed icon.<br>\n\nThe icons properties can be set in any of the following formats:\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'folder}\n     <li> {pool: 'feather' name: 'folder}\n     <li> {src: 'image/path'}\n     <li> {src: 'image/path' , x: 'x attribute' , y: 'y attribute'  , ...}\n   </ol>\n</ol>",
+          "docs": "The node collapsed icon.<br>\n\nThe icons properties can be set in any of the following formats:\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'folder}\n     <li> {pool: 'feather' name: 'folder}\n     <li> {src: 'image/path'}\n     <li> {src: 'image/path' , x: 'x attribute' , y: 'y attribute'  , ...}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -54343,7 +54319,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The place where `dwc-tree-node' elements are inserted."
+          "docs": "The place where `dwc-tree-node` elements are inserted."
         }
       ],
       "parts": [
@@ -54400,7 +54376,7 @@
       "docsTags": [
         {
           "name": "slot",
-          "text": "- The place where `dwc-tree-node' elements are inserted."
+          "text": "- The place where `dwc-tree-node` elements are inserted."
         },
         {
           "name": "part",
@@ -54675,7 +54651,7 @@
           "mutable": false,
           "attr": "icon",
           "reflectToAttr": false,
-          "docs": "The node icon. When this property is used, it will override all other icons.<br>\n\nThe icons properties can be set in any of the following formats:\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   for instance:\n   <ol>\n     <li> {name: 'folder}\n     <li> {pool: 'feather' name: 'folder}\n     <li> {src: 'image/path'}\n     <li> {src: 'image/path' , x: 'x attribute' , y: 'y attribute'  , ...}\n   </ol>\n</ol>",
+          "docs": "The node icon. When this property is used, it will override all other icons.<br>\n\nThe icons properties can be set in any of the following formats:\n<ol>\n<li> <b>URL</b>: (ex: /path/to/image.png)\n<li> <b>Data URL</b>: (ex: data:image/jpeg;base64,/9j/4SDpRXhpZgAAT....)\n<li> <b>ICON_NAME</b>: An icon to load from the default Dwc icons pool. (ex: `folder`)\n<li> <b>POOL_NAME:ICON_NAME</b>: An icon to load from the passed pool. (ex: `feather:folder`)\n<li> <b>An object</b> which provides all the required properties to build the icon.\n   For instance:\n   <ol>\n     <li> {name: 'folder}\n     <li> {pool: 'feather' name: 'folder}\n     <li> {src: 'image/path'}\n     <li> {src: 'image/path' , x: 'x attribute' , y: 'y attribute'  , ...}\n   </ol>\n</ol>",
           "docsTags": [
             {
               "name": "default",
@@ -55178,7 +55154,7 @@
       "slots": [
         {
           "name": "",
-          "docs": "The place where `dwc-tree-node' elements are inserted."
+          "docs": "The place where `dwc-tree-node` elements are inserted."
         }
       ],
       "parts": [
@@ -55620,7 +55596,7 @@
           "mutable": false,
           "attr": "auto-clear-behavior",
           "reflectToAttr": false,
-          "docs": "Define the `autoClear` behaviour",
+          "docs": "Define the `autoClear` behavior",
           "docsTags": [
             {
               "name": "default",
@@ -55855,11 +55831,10 @@
           "mutable": false,
           "attr": "credentials",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "When true, the request will set the withCredential flag.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "When true, the request will set the withCredential flag."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -56029,11 +56004,10 @@
           },
           "mutable": true,
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The array of [files](https://developer.mozilla.org/en-US/docs/Web/API/File) being processed, or already processed.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The array of [files](https://developer.mozilla.org/en-US/docs/Web/API/File) being processed, or already processed."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -56124,11 +56098,10 @@
           "mutable": false,
           "attr": "form-data-name",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The 'name' property of the Content-Disposition.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The 'name' property of the Content-Disposition."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -56191,11 +56164,10 @@
           "mutable": false,
           "attr": "headers",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "A key/value map to send to server as headers",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "A key/value map to send to server as headers"
+              "name": "bbjIgnore"
             }
           ],
           "values": [
@@ -56342,11 +56314,10 @@
           "mutable": false,
           "attr": "method",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The HTTP method to use when sending the files to the server.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The HTTP method to use when sending the files to the server."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -56520,11 +56491,10 @@
           "mutable": false,
           "attr": "timeout",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "Time in milliseconds for the files upload process. If timed out, the request will be aborted.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "Time in milliseconds for the files upload process. if timedout then the request will be aborted."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -56553,11 +56523,10 @@
           "mutable": false,
           "attr": "url",
           "reflectToAttr": false,
-          "docs": "",
+          "docs": "The server URL. If not provided, the current window location will be used.",
           "docsTags": [
             {
-              "name": "bbjIgnore",
-              "text": "The server url. if not provided then the current window location will be used."
+              "name": "bbjIgnore"
             },
             {
               "name": "default",
@@ -57495,11 +57464,10 @@
       "filePath": "src/components/dwc-webswing-connector/dwc-webswing-connector.tsx",
       "encapsulation": "none",
       "tag": "dwc-webswing-connector",
-      "docs": "",
+      "docs": "The `<dwc-webswing-connector>` component provides integration with Webswing server,\nenabling remote Swing application rendering in the browser.",
       "docsTags": [
         {
-          "name": "bbjIgnore",
-          "text": "The `<dwc-webswing-connector>` component provides integration with Webswing server,\nenabling remote Swing application rendering in the browser."
+          "name": "bbjIgnore"
         },
         {
           "name": "part",

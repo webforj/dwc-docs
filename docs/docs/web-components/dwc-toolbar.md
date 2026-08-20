@@ -26,12 +26,12 @@ Some properties reflect their values to attributes and vice versa. This means th
 
 <div style="overflow-x: auto;">
 
-| Slot      | Description       |
-| --------- | ----------------- |
-|           | The default slot. |
-| ``end``   | The end slot.     |
-| ``start`` | The start slot.   |
-| ``title`` | The title slot.   |
+| Slot      | Description                                           |
+| --------- | ----------------------------------------------------- |
+|           | The default slot where the toolbar content is placed. |
+| ``end``   | The end slot.                                         |
+| ``start`` | The start slot.                                       |
+| ``title`` | The title slot.                                       |
 
 
 </div>

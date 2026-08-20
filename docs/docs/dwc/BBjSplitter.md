@@ -80,12 +80,12 @@ Hosted Classes are CSS classes that are applied to the host element of a compone
 They can either reflect the component's state, such as "disabled" or "active," or provide options to alter the component's style based on user interaction or other conditions.
 <div style="overflow-x: auto;">
 
-| CSS Class           | Description                                                     |
-| ------------------- | --------------------------------------------------------------- |
-| ``BBjControl``      | Always applied                                                  |
-| ``BBjSplitter``     | Always applied                                                  |
-| ``bbj-disabled``    | Applied when the component is disabled                          |
-| ``bbj-no-overflow`` | Can be added manually to restrict the panels overflow behaviour |
+| CSS Class           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| ``BBjControl``      | Always applied                                                 |
+| ``BBjSplitter``     | Always applied                                                 |
+| ``bbj-disabled``    | Applied when the component is disabled                         |
+| ``bbj-no-overflow`` | Can be added manually to restrict the panels overflow behavior |
 
 
 </div>
@@ -106,6 +106,7 @@ With CSS Properties, you can change the look and feel of a component simply by c
 | ``--dwc-splitter-gutter-handle-border-radius``      | The border radius of the gutter handle.                                                                                  |
 | ``--dwc-splitter-gutter-handle-color``              | The color of the gutter handle.                                                                                          |
 | ``--dwc-splitter-gutter-handle-focus-border-color`` | The border color of the gutter handle when focused.                                                                      |
+| ``--dwc-splitter-gutter-handle-focus-ring``         | The focus ring of the gutter handle when focused.                                                                        |
 | ``--dwc-splitter-gutter-handle-height``             | The height of the gutter handle if orientation is horizontal. The width of the gutter handle if orientation is vertical. |
 | ``--dwc-splitter-gutter-handle-hover-background``   | The background of the gutter handle when hovered.                                                                        |
 | ``--dwc-splitter-gutter-handle-hover-color``        | The color of the gutter handle when hovered.                                                                             |
