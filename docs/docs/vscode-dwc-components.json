@@ -2911,7 +2911,7 @@
       "name": "dwc-file-chooser",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjFileChooser<bbj-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories\nfrom the server."
+        "value": "The `{{CONTROL_NAME}}<dwc-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories\nfrom the server.\n\n{{#eq CONTROL_NAME 'FILEOPEN'}}\n **Syntax:** `FILEOPEN(prompt,path,name,ext{,filters}{,MODE=\"options\"}{,TIM=int}{,ERR=lineref})`\n\n ```bbj\n   file$ = fileopen(\"Pick a file on the server\",\"\",\"\",\"\",filter$,mode=\"theme=primary,view=grid,button-1-theme=gray\")\n ```\n\nEach attribute listed in the table below can be passed to the `FILEOPEN` dialog using the `MODE` option.\nFor example, `mode=\"view=grid\"` will open the dialog in the grid view.\n\nThe `FILEOPEN` dialog renders this control inside a dialog and uses [`BBjButton<dwc-button>`](dwc/BBjButton.md) for the footer\nbuttons. Like `MSGBOX`, the buttons carry no expanse, the first button is filled in the dialog theme (`primary` when the dialog\nhas no theme) and the other buttons are `outlined-default`. Any supported [`BBjButton<dwc-button>`](dwc/BBjButton.md) attributes\ncan be passed to the `FILEOPEN` function using the `MODE` option. Prefixed with `button-` they reach every footer button, prefixed\nwith `button-` followed by the button index (starting from 0, `0` is the approve button and `1` is the cancel button) they reach\none button. For example, `button-expanse=l` sets both buttons to expanse `l` and `button-1-theme=gray` sets the cancel button\ntheme to `gray`.\n{{/eq}}"
       },
       "attributes": [
         {
@@ -3078,7 +3078,7 @@
       "name": "dwc-file-save",
       "description": {
         "kind": "markdown",
-        "value": "The `{{CONTROL_NAME}}<dwc-file-save>` provides methods for manipulating a UI file chooser to save file."
+        "value": "The `{{CONTROL_NAME}}<dwc-file-save>` provides methods for manipulating a UI file chooser to save file.\n\n{{#eq CONTROL_NAME 'FILESAVE'}}\n **Syntax:** `FILESAVE(prompt,path,name,ext{,filters}{,MODE=\"options\"}{,TIM=int}{,ERR=lineref})`\n\n ```bbj\n   file$ = filesave(\"Save the report\",\"\",\"report\",\"pdf\",filter$,mode=\"client,theme=primary,button-1-theme=gray\")\n ```\n\nEach attribute listed in the table below can be passed to the `FILESAVE` dialog using the `MODE` option.\nFor example, `mode=\"approve-label=Save as\"` will change the save button label.\n\nThe `FILESAVE` dialog renders this control inside a dialog and uses [`BBjButton<dwc-button>`](dwc/BBjButton.md) for the footer\nbuttons. Like `MSGBOX`, the buttons carry no expanse, the first button is filled in the dialog theme (`primary` when the dialog\nhas no theme) and the other buttons are `outlined-default`. Any supported [`BBjButton<dwc-button>`](dwc/BBjButton.md) attributes\ncan be passed to the `FILESAVE` function using the `MODE` option. Prefixed with `button-` they reach every footer button, prefixed\nwith `button-` followed by the button index (starting from 0, `0` is the save button and `1` is the cancel button) they reach\none button. For example, `button-expanse=l` sets both buttons to expanse `l` and `button-1-theme=gray` sets the cancel button\ntheme to `gray`.\n{{/eq}}"
       },
       "attributes": [
         {
@@ -6976,7 +6976,7 @@
       "name": "dwc-upload",
       "description": {
         "kind": "markdown",
-        "value": "The `BBjFileChooser<dwc-upload>` provides methods for manipulating a UI file uploader control."
+        "value": "The `{{CONTROL_NAME}}<dwc-upload>` provides methods for manipulating a UI file uploader control.\n\n{{#eq CONTROL_NAME 'FILEOPEN(Client)'}}\n **Syntax:** `FILEOPEN(prompt,path,name,ext{,filters}{,MODE=\"options\"}{,TIM=int}{,ERR=lineref})`\n\n ```bbj\n   file$ = fileopen(\"Pick a file\",\"\",\"\",\"\",filter$,mode=\"client,theme=primary,button-1-theme=gray\")\n ```\n\nEach attribute listed in the table below can be passed to the `FILEOPEN(Client)` dialog using the `MODE` option.\nFor example, `mode=\"drop=false\"` will hide the drop label.\n\nThe `FILEOPEN(Client)` dialog renders this control inside a dialog and uses [`BBjButton<dwc-button>`](dwc/BBjButton.md) for the footer\nbuttons. Like `MSGBOX`, the buttons carry no expanse, the first button is filled in the dialog theme (`primary` when the dialog\nhas no theme) and the other buttons are `outlined-default`. Any supported [`BBjButton<dwc-button>`](dwc/BBjButton.md) attributes\ncan be passed to the `FILEOPEN(Client)` function using the `MODE` option. Prefixed with `button-` they reach every footer button, prefixed\nwith `button-` followed by the button index (starting from 0, `0` is the upload button and `1` is the cancel button) they reach\none button. For example, `button-expanse=l` sets both buttons to expanse `l` and `button-1-theme=gray` sets the cancel button\ntheme to `gray`.\n{{/eq}}"
       },
       "attributes": [
         {

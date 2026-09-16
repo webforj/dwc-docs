@@ -3,8 +3,10 @@
       <img src="https://img.shields.io/badge/Control-BBjFileChooser(Server) &#8599;-%23006aff" alt="BBj v20.11" />
     </a> ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
 
-The `BBjFileChooser<bbj-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories
+The `BBjFileChooser(Server)<dwc-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories
 from the server.
+
+
 
 
 ## Properties 

@@ -3,7 +3,9 @@
       <img src="https://img.shields.io/badge/Control-BBjFileChooser(Upload) &#8599;-%23006aff" alt="BBj v20.11" />
     </a> ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
 
-The `BBjFileChooser<dwc-upload>` provides methods for manipulating a UI file uploader control.
+The `BBjFileChooser(Upload)<dwc-upload>` provides methods for manipulating a UI file uploader control.
+
+
 
 
 ## Properties 

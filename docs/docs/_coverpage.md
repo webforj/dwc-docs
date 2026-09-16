@@ -12,5 +12,5 @@
 - Built with accessibility in mind
 
 
-[DWC Design Kit](https://www.figma.com/community/file/1144573845612007198/DWC-Design-Kit)
+[DWC Design Kit](https://www.figma.com/community/file/1682060886525639971/dwc-design-kit)
 [BBj Documentation](dwc/)

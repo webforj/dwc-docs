@@ -1119,7 +1119,7 @@
     "--dwc-color-primary-text-45": {
       "group": "color",
       "name": "--dwc-color-primary-text-45",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-45": {
@@ -1137,7 +1137,7 @@
     "--dwc-color-primary-text-50": {
       "group": "color",
       "name": "--dwc-color-primary-text-50",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-50": {
@@ -1155,7 +1155,7 @@
     "--dwc-color-primary-text-55": {
       "group": "color",
       "name": "--dwc-color-primary-text-55",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-55": {
@@ -1173,7 +1173,7 @@
     "--dwc-color-primary-text-60": {
       "group": "color",
       "name": "--dwc-color-primary-text-60",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-60": {
@@ -1191,7 +1191,7 @@
     "--dwc-color-primary-text-65": {
       "group": "color",
       "name": "--dwc-color-primary-text-65",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-65": {
@@ -1209,7 +1209,7 @@
     "--dwc-color-primary-text-70": {
       "group": "color",
       "name": "--dwc-color-primary-text-70",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-70": {
@@ -1227,7 +1227,7 @@
     "--dwc-color-primary-text-75": {
       "group": "color",
       "name": "--dwc-color-primary-text-75",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-75": {
@@ -1245,7 +1245,7 @@
     "--dwc-color-primary-text-80": {
       "group": "color",
       "name": "--dwc-color-primary-text-80",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-80": {
@@ -1263,7 +1263,7 @@
     "--dwc-color-primary-text-85": {
       "group": "color",
       "name": "--dwc-color-primary-text-85",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-85": {
@@ -1281,7 +1281,7 @@
     "--dwc-color-primary-text-90": {
       "group": "color",
       "name": "--dwc-color-primary-text-90",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-90": {
@@ -1491,7 +1491,7 @@
     "--dwc-color-success-text-45": {
       "group": "color",
       "name": "--dwc-color-success-text-45",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-45": {
@@ -1509,7 +1509,7 @@
     "--dwc-color-success-text-50": {
       "group": "color",
       "name": "--dwc-color-success-text-50",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-50": {
@@ -1527,7 +1527,7 @@
     "--dwc-color-success-text-55": {
       "group": "color",
       "name": "--dwc-color-success-text-55",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-55": {
@@ -1545,7 +1545,7 @@
     "--dwc-color-success-text-60": {
       "group": "color",
       "name": "--dwc-color-success-text-60",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-60": {
@@ -1563,7 +1563,7 @@
     "--dwc-color-success-text-65": {
       "group": "color",
       "name": "--dwc-color-success-text-65",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-65": {
@@ -1581,7 +1581,7 @@
     "--dwc-color-success-text-70": {
       "group": "color",
       "name": "--dwc-color-success-text-70",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-70": {
@@ -1599,7 +1599,7 @@
     "--dwc-color-success-text-75": {
       "group": "color",
       "name": "--dwc-color-success-text-75",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-75": {
@@ -1617,7 +1617,7 @@
     "--dwc-color-success-text-80": {
       "group": "color",
       "name": "--dwc-color-success-text-80",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-80": {
@@ -1635,7 +1635,7 @@
     "--dwc-color-success-text-85": {
       "group": "color",
       "name": "--dwc-color-success-text-85",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-85": {
@@ -1653,7 +1653,7 @@
     "--dwc-color-success-text-90": {
       "group": "color",
       "name": "--dwc-color-success-text-90",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-90": {
@@ -1863,7 +1863,7 @@
     "--dwc-color-warning-text-45": {
       "group": "color",
       "name": "--dwc-color-warning-text-45",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-45": {
@@ -1881,7 +1881,7 @@
     "--dwc-color-warning-text-50": {
       "group": "color",
       "name": "--dwc-color-warning-text-50",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-50": {
@@ -1899,7 +1899,7 @@
     "--dwc-color-warning-text-55": {
       "group": "color",
       "name": "--dwc-color-warning-text-55",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-55": {
@@ -1917,7 +1917,7 @@
     "--dwc-color-warning-text-60": {
       "group": "color",
       "name": "--dwc-color-warning-text-60",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-60": {
@@ -1935,7 +1935,7 @@
     "--dwc-color-warning-text-65": {
       "group": "color",
       "name": "--dwc-color-warning-text-65",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-65": {
@@ -1953,7 +1953,7 @@
     "--dwc-color-warning-text-70": {
       "group": "color",
       "name": "--dwc-color-warning-text-70",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-70": {
@@ -1971,7 +1971,7 @@
     "--dwc-color-warning-text-75": {
       "group": "color",
       "name": "--dwc-color-warning-text-75",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-75": {
@@ -1989,7 +1989,7 @@
     "--dwc-color-warning-text-80": {
       "group": "color",
       "name": "--dwc-color-warning-text-80",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-80": {
@@ -2007,7 +2007,7 @@
     "--dwc-color-warning-text-85": {
       "group": "color",
       "name": "--dwc-color-warning-text-85",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-85": {
@@ -2025,7 +2025,7 @@
     "--dwc-color-warning-text-90": {
       "group": "color",
       "name": "--dwc-color-warning-text-90",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-90": {
@@ -2235,7 +2235,7 @@
     "--dwc-color-danger-text-45": {
       "group": "color",
       "name": "--dwc-color-danger-text-45",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-45": {
@@ -2253,7 +2253,7 @@
     "--dwc-color-danger-text-50": {
       "group": "color",
       "name": "--dwc-color-danger-text-50",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-50": {
@@ -2271,7 +2271,7 @@
     "--dwc-color-danger-text-55": {
       "group": "color",
       "name": "--dwc-color-danger-text-55",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-55": {
@@ -2289,7 +2289,7 @@
     "--dwc-color-danger-text-60": {
       "group": "color",
       "name": "--dwc-color-danger-text-60",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-60": {
@@ -2307,7 +2307,7 @@
     "--dwc-color-danger-text-65": {
       "group": "color",
       "name": "--dwc-color-danger-text-65",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-65": {
@@ -2325,7 +2325,7 @@
     "--dwc-color-danger-text-70": {
       "group": "color",
       "name": "--dwc-color-danger-text-70",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-70": {
@@ -2343,7 +2343,7 @@
     "--dwc-color-danger-text-75": {
       "group": "color",
       "name": "--dwc-color-danger-text-75",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-75": {
@@ -2361,7 +2361,7 @@
     "--dwc-color-danger-text-80": {
       "group": "color",
       "name": "--dwc-color-danger-text-80",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-80": {
@@ -2379,7 +2379,7 @@
     "--dwc-color-danger-text-85": {
       "group": "color",
       "name": "--dwc-color-danger-text-85",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-85": {
@@ -2397,7 +2397,7 @@
     "--dwc-color-danger-text-90": {
       "group": "color",
       "name": "--dwc-color-danger-text-90",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-90": {
@@ -2607,7 +2607,7 @@
     "--dwc-color-info-text-45": {
       "group": "color",
       "name": "--dwc-color-info-text-45",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-45": {
@@ -2625,7 +2625,7 @@
     "--dwc-color-info-text-50": {
       "group": "color",
       "name": "--dwc-color-info-text-50",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-50": {
@@ -2643,7 +2643,7 @@
     "--dwc-color-info-text-55": {
       "group": "color",
       "name": "--dwc-color-info-text-55",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-55": {
@@ -2661,7 +2661,7 @@
     "--dwc-color-info-text-60": {
       "group": "color",
       "name": "--dwc-color-info-text-60",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-60": {
@@ -2679,7 +2679,7 @@
     "--dwc-color-info-text-65": {
       "group": "color",
       "name": "--dwc-color-info-text-65",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-65": {
@@ -2697,7 +2697,7 @@
     "--dwc-color-info-text-70": {
       "group": "color",
       "name": "--dwc-color-info-text-70",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-70": {
@@ -2715,7 +2715,7 @@
     "--dwc-color-info-text-75": {
       "group": "color",
       "name": "--dwc-color-info-text-75",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-75": {
@@ -2733,7 +2733,7 @@
     "--dwc-color-info-text-80": {
       "group": "color",
       "name": "--dwc-color-info-text-80",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-80": {
@@ -2751,7 +2751,7 @@
     "--dwc-color-info-text-85": {
       "group": "color",
       "name": "--dwc-color-info-text-85",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-85": {
@@ -2769,7 +2769,7 @@
     "--dwc-color-info-text-90": {
       "group": "color",
       "name": "--dwc-color-info-text-90",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-90": {
@@ -2979,7 +2979,7 @@
     "--dwc-color-gray-text-45": {
       "group": "color",
       "name": "--dwc-color-gray-text-45",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-45": {
@@ -2997,7 +2997,7 @@
     "--dwc-color-gray-text-50": {
       "group": "color",
       "name": "--dwc-color-gray-text-50",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-50": {
@@ -3015,7 +3015,7 @@
     "--dwc-color-gray-text-55": {
       "group": "color",
       "name": "--dwc-color-gray-text-55",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-55": {
@@ -3033,7 +3033,7 @@
     "--dwc-color-gray-text-60": {
       "group": "color",
       "name": "--dwc-color-gray-text-60",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-60": {
@@ -3051,7 +3051,7 @@
     "--dwc-color-gray-text-65": {
       "group": "color",
       "name": "--dwc-color-gray-text-65",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-65": {
@@ -3069,7 +3069,7 @@
     "--dwc-color-gray-text-70": {
       "group": "color",
       "name": "--dwc-color-gray-text-70",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-70": {
@@ -3087,7 +3087,7 @@
     "--dwc-color-gray-text-75": {
       "group": "color",
       "name": "--dwc-color-gray-text-75",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-75": {
@@ -3105,7 +3105,7 @@
     "--dwc-color-gray-text-80": {
       "group": "color",
       "name": "--dwc-color-gray-text-80",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-80": {
@@ -3123,7 +3123,7 @@
     "--dwc-color-gray-text-85": {
       "group": "color",
       "name": "--dwc-color-gray-text-85",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-85": {
@@ -3141,7 +3141,7 @@
     "--dwc-color-gray-text-90": {
       "group": "color",
       "name": "--dwc-color-gray-text-90",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-90": {
@@ -3351,7 +3351,7 @@
     "--dwc-color-default-text-45": {
       "group": "color",
       "name": "--dwc-color-default-text-45",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
       "computed": "oklch(0.42 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-45": {
@@ -3369,7 +3369,7 @@
     "--dwc-color-default-text-50": {
       "group": "color",
       "name": "--dwc-color-default-text-50",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-50": {
@@ -3387,7 +3387,7 @@
     "--dwc-color-default-text-55": {
       "group": "color",
       "name": "--dwc-color-default-text-55",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-55": {
@@ -3405,7 +3405,7 @@
     "--dwc-color-default-text-60": {
       "group": "color",
       "name": "--dwc-color-default-text-60",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-60": {
@@ -3423,7 +3423,7 @@
     "--dwc-color-default-text-65": {
       "group": "color",
       "name": "--dwc-color-default-text-65",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-65": {
@@ -3441,7 +3441,7 @@
     "--dwc-color-default-text-70": {
       "group": "color",
       "name": "--dwc-color-default-text-70",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-70": {
@@ -3459,7 +3459,7 @@
     "--dwc-color-default-text-75": {
       "group": "color",
       "name": "--dwc-color-default-text-75",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-75": {
@@ -3477,7 +3477,7 @@
     "--dwc-color-default-text-80": {
       "group": "color",
       "name": "--dwc-color-default-text-80",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-80": {
@@ -3495,7 +3495,7 @@
     "--dwc-color-default-text-85": {
       "group": "color",
       "name": "--dwc-color-default-text-85",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-85": {
@@ -3513,7 +3513,7 @@
     "--dwc-color-default-text-90": {
       "group": "color",
       "name": "--dwc-color-default-text-90",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
       "computed": "oklch(0.44 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-90": {
@@ -5195,8 +5195,8 @@
     "--dwc-color-primary-text-45": {
       "group": "color",
       "name": "--dwc-color-primary-text-45",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-45": {
       "group": "color",
@@ -5213,8 +5213,8 @@
     "--dwc-color-primary-text-50": {
       "group": "color",
       "name": "--dwc-color-primary-text-50",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-50": {
       "group": "color",
@@ -5231,8 +5231,8 @@
     "--dwc-color-primary-text-55": {
       "group": "color",
       "name": "--dwc-color-primary-text-55",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-55": {
       "group": "color",
@@ -5249,8 +5249,8 @@
     "--dwc-color-primary-text-60": {
       "group": "color",
       "name": "--dwc-color-primary-text-60",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-60": {
       "group": "color",
@@ -5267,8 +5267,8 @@
     "--dwc-color-primary-text-65": {
       "group": "color",
       "name": "--dwc-color-primary-text-65",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-65": {
       "group": "color",
@@ -5285,8 +5285,8 @@
     "--dwc-color-primary-text-70": {
       "group": "color",
       "name": "--dwc-color-primary-text-70",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-70": {
       "group": "color",
@@ -5303,8 +5303,8 @@
     "--dwc-color-primary-text-75": {
       "group": "color",
       "name": "--dwc-color-primary-text-75",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-75": {
       "group": "color",
@@ -5321,8 +5321,8 @@
     "--dwc-color-primary-text-80": {
       "group": "color",
       "name": "--dwc-color-primary-text-80",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-80": {
       "group": "color",
@@ -5339,8 +5339,8 @@
     "--dwc-color-primary-text-85": {
       "group": "color",
       "name": "--dwc-color-primary-text-85",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-85": {
       "group": "color",
@@ -5357,8 +5357,8 @@
     "--dwc-color-primary-text-90": {
       "group": "color",
       "name": "--dwc-color-primary-text-90",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-90": {
       "group": "color",
@@ -5567,8 +5567,8 @@
     "--dwc-color-success-text-45": {
       "group": "color",
       "name": "--dwc-color-success-text-45",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-45": {
       "group": "color",
@@ -5585,8 +5585,8 @@
     "--dwc-color-success-text-50": {
       "group": "color",
       "name": "--dwc-color-success-text-50",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-50": {
       "group": "color",
@@ -5603,8 +5603,8 @@
     "--dwc-color-success-text-55": {
       "group": "color",
       "name": "--dwc-color-success-text-55",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-55": {
       "group": "color",
@@ -5621,8 +5621,8 @@
     "--dwc-color-success-text-60": {
       "group": "color",
       "name": "--dwc-color-success-text-60",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-60": {
       "group": "color",
@@ -5639,8 +5639,8 @@
     "--dwc-color-success-text-65": {
       "group": "color",
       "name": "--dwc-color-success-text-65",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-65": {
       "group": "color",
@@ -5657,8 +5657,8 @@
     "--dwc-color-success-text-70": {
       "group": "color",
       "name": "--dwc-color-success-text-70",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-70": {
       "group": "color",
@@ -5675,8 +5675,8 @@
     "--dwc-color-success-text-75": {
       "group": "color",
       "name": "--dwc-color-success-text-75",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-75": {
       "group": "color",
@@ -5693,8 +5693,8 @@
     "--dwc-color-success-text-80": {
       "group": "color",
       "name": "--dwc-color-success-text-80",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-80": {
       "group": "color",
@@ -5711,8 +5711,8 @@
     "--dwc-color-success-text-85": {
       "group": "color",
       "name": "--dwc-color-success-text-85",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-85": {
       "group": "color",
@@ -5729,8 +5729,8 @@
     "--dwc-color-success-text-90": {
       "group": "color",
       "name": "--dwc-color-success-text-90",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-90": {
       "group": "color",
@@ -5939,8 +5939,8 @@
     "--dwc-color-warning-text-45": {
       "group": "color",
       "name": "--dwc-color-warning-text-45",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-45": {
       "group": "color",
@@ -5957,8 +5957,8 @@
     "--dwc-color-warning-text-50": {
       "group": "color",
       "name": "--dwc-color-warning-text-50",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-50": {
       "group": "color",
@@ -5975,8 +5975,8 @@
     "--dwc-color-warning-text-55": {
       "group": "color",
       "name": "--dwc-color-warning-text-55",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-55": {
       "group": "color",
@@ -5993,8 +5993,8 @@
     "--dwc-color-warning-text-60": {
       "group": "color",
       "name": "--dwc-color-warning-text-60",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-60": {
       "group": "color",
@@ -6011,8 +6011,8 @@
     "--dwc-color-warning-text-65": {
       "group": "color",
       "name": "--dwc-color-warning-text-65",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-65": {
       "group": "color",
@@ -6029,8 +6029,8 @@
     "--dwc-color-warning-text-70": {
       "group": "color",
       "name": "--dwc-color-warning-text-70",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-70": {
       "group": "color",
@@ -6047,8 +6047,8 @@
     "--dwc-color-warning-text-75": {
       "group": "color",
       "name": "--dwc-color-warning-text-75",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-75": {
       "group": "color",
@@ -6065,8 +6065,8 @@
     "--dwc-color-warning-text-80": {
       "group": "color",
       "name": "--dwc-color-warning-text-80",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-80": {
       "group": "color",
@@ -6083,8 +6083,8 @@
     "--dwc-color-warning-text-85": {
       "group": "color",
       "name": "--dwc-color-warning-text-85",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-85": {
       "group": "color",
@@ -6101,8 +6101,8 @@
     "--dwc-color-warning-text-90": {
       "group": "color",
       "name": "--dwc-color-warning-text-90",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-90": {
       "group": "color",
@@ -6311,8 +6311,8 @@
     "--dwc-color-danger-text-45": {
       "group": "color",
       "name": "--dwc-color-danger-text-45",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-45": {
       "group": "color",
@@ -6329,8 +6329,8 @@
     "--dwc-color-danger-text-50": {
       "group": "color",
       "name": "--dwc-color-danger-text-50",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-50": {
       "group": "color",
@@ -6347,8 +6347,8 @@
     "--dwc-color-danger-text-55": {
       "group": "color",
       "name": "--dwc-color-danger-text-55",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-55": {
       "group": "color",
@@ -6365,8 +6365,8 @@
     "--dwc-color-danger-text-60": {
       "group": "color",
       "name": "--dwc-color-danger-text-60",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-60": {
       "group": "color",
@@ -6383,8 +6383,8 @@
     "--dwc-color-danger-text-65": {
       "group": "color",
       "name": "--dwc-color-danger-text-65",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-65": {
       "group": "color",
@@ -6401,8 +6401,8 @@
     "--dwc-color-danger-text-70": {
       "group": "color",
       "name": "--dwc-color-danger-text-70",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-70": {
       "group": "color",
@@ -6419,8 +6419,8 @@
     "--dwc-color-danger-text-75": {
       "group": "color",
       "name": "--dwc-color-danger-text-75",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-75": {
       "group": "color",
@@ -6437,8 +6437,8 @@
     "--dwc-color-danger-text-80": {
       "group": "color",
       "name": "--dwc-color-danger-text-80",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-80": {
       "group": "color",
@@ -6455,8 +6455,8 @@
     "--dwc-color-danger-text-85": {
       "group": "color",
       "name": "--dwc-color-danger-text-85",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-85": {
       "group": "color",
@@ -6473,8 +6473,8 @@
     "--dwc-color-danger-text-90": {
       "group": "color",
       "name": "--dwc-color-danger-text-90",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-90": {
       "group": "color",
@@ -6683,8 +6683,8 @@
     "--dwc-color-info-text-45": {
       "group": "color",
       "name": "--dwc-color-info-text-45",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-45": {
       "group": "color",
@@ -6701,8 +6701,8 @@
     "--dwc-color-info-text-50": {
       "group": "color",
       "name": "--dwc-color-info-text-50",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-50": {
       "group": "color",
@@ -6719,8 +6719,8 @@
     "--dwc-color-info-text-55": {
       "group": "color",
       "name": "--dwc-color-info-text-55",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-55": {
       "group": "color",
@@ -6737,8 +6737,8 @@
     "--dwc-color-info-text-60": {
       "group": "color",
       "name": "--dwc-color-info-text-60",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-60": {
       "group": "color",
@@ -6755,8 +6755,8 @@
     "--dwc-color-info-text-65": {
       "group": "color",
       "name": "--dwc-color-info-text-65",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-65": {
       "group": "color",
@@ -6773,8 +6773,8 @@
     "--dwc-color-info-text-70": {
       "group": "color",
       "name": "--dwc-color-info-text-70",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-70": {
       "group": "color",
@@ -6791,8 +6791,8 @@
     "--dwc-color-info-text-75": {
       "group": "color",
       "name": "--dwc-color-info-text-75",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-75": {
       "group": "color",
@@ -6809,8 +6809,8 @@
     "--dwc-color-info-text-80": {
       "group": "color",
       "name": "--dwc-color-info-text-80",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-80": {
       "group": "color",
@@ -6827,8 +6827,8 @@
     "--dwc-color-info-text-85": {
       "group": "color",
       "name": "--dwc-color-info-text-85",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-85": {
       "group": "color",
@@ -6845,8 +6845,8 @@
     "--dwc-color-info-text-90": {
       "group": "color",
       "name": "--dwc-color-info-text-90",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-90": {
       "group": "color",
@@ -7055,8 +7055,8 @@
     "--dwc-color-gray-text-45": {
       "group": "color",
       "name": "--dwc-color-gray-text-45",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-45": {
       "group": "color",
@@ -7073,8 +7073,8 @@
     "--dwc-color-gray-text-50": {
       "group": "color",
       "name": "--dwc-color-gray-text-50",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-50": {
       "group": "color",
@@ -7091,8 +7091,8 @@
     "--dwc-color-gray-text-55": {
       "group": "color",
       "name": "--dwc-color-gray-text-55",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-55": {
       "group": "color",
@@ -7109,8 +7109,8 @@
     "--dwc-color-gray-text-60": {
       "group": "color",
       "name": "--dwc-color-gray-text-60",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-60": {
       "group": "color",
@@ -7127,8 +7127,8 @@
     "--dwc-color-gray-text-65": {
       "group": "color",
       "name": "--dwc-color-gray-text-65",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-65": {
       "group": "color",
@@ -7145,8 +7145,8 @@
     "--dwc-color-gray-text-70": {
       "group": "color",
       "name": "--dwc-color-gray-text-70",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-70": {
       "group": "color",
@@ -7163,8 +7163,8 @@
     "--dwc-color-gray-text-75": {
       "group": "color",
       "name": "--dwc-color-gray-text-75",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-75": {
       "group": "color",
@@ -7181,8 +7181,8 @@
     "--dwc-color-gray-text-80": {
       "group": "color",
       "name": "--dwc-color-gray-text-80",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-80": {
       "group": "color",
@@ -7199,8 +7199,8 @@
     "--dwc-color-gray-text-85": {
       "group": "color",
       "name": "--dwc-color-gray-text-85",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-85": {
       "group": "color",
@@ -7217,8 +7217,8 @@
     "--dwc-color-gray-text-90": {
       "group": "color",
       "name": "--dwc-color-gray-text-90",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-90": {
       "group": "color",
@@ -7427,8 +7427,8 @@
     "--dwc-color-default-text-45": {
       "group": "color",
       "name": "--dwc-color-default-text-45",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-45": {
       "group": "color",
@@ -7445,8 +7445,8 @@
     "--dwc-color-default-text-50": {
       "group": "color",
       "name": "--dwc-color-default-text-50",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-50": {
       "group": "color",
@@ -7463,8 +7463,8 @@
     "--dwc-color-default-text-55": {
       "group": "color",
       "name": "--dwc-color-default-text-55",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-55": {
       "group": "color",
@@ -7481,8 +7481,8 @@
     "--dwc-color-default-text-60": {
       "group": "color",
       "name": "--dwc-color-default-text-60",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-60": {
       "group": "color",
@@ -7499,8 +7499,8 @@
     "--dwc-color-default-text-65": {
       "group": "color",
       "name": "--dwc-color-default-text-65",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-65": {
       "group": "color",
@@ -7517,8 +7517,8 @@
     "--dwc-color-default-text-70": {
       "group": "color",
       "name": "--dwc-color-default-text-70",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-70": {
       "group": "color",
@@ -7535,8 +7535,8 @@
     "--dwc-color-default-text-75": {
       "group": "color",
       "name": "--dwc-color-default-text-75",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-75": {
       "group": "color",
@@ -7553,8 +7553,8 @@
     "--dwc-color-default-text-80": {
       "group": "color",
       "name": "--dwc-color-default-text-80",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-80": {
       "group": "color",
@@ -7571,8 +7571,8 @@
     "--dwc-color-default-text-85": {
       "group": "color",
       "name": "--dwc-color-default-text-85",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-85": {
       "group": "color",
@@ -7589,8 +7589,8 @@
     "--dwc-color-default-text-90": {
       "group": "color",
       "name": "--dwc-color-default-text-90",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.00867959 268.858)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.00867959 268.858)"
     },
     "--dwc-color-on-default-text-90": {
       "group": "color",
@@ -7668,7 +7668,7 @@
       "group": "color",
       "name": "--dwc-color-primary-text",
       "value": "var(--dwc-color-primary-text-45)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-primary-light": {
       "group": "color",
@@ -7686,7 +7686,7 @@
       "group": "color",
       "name": "--dwc-color-primary-text-light",
       "value": "var(--dwc-color-primary-text-50)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.8102 0.253545 263.526)"
     },
     "--dwc-color-primary-alt": {
       "group": "color",
@@ -7698,7 +7698,7 @@
       "group": "color",
       "name": "--dwc-color-on-primary-text-alt",
       "value": "var(--dwc-color-primary-text)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-success-dark": {
       "group": "color",
@@ -7734,7 +7734,7 @@
       "group": "color",
       "name": "--dwc-color-success-text",
       "value": "var(--dwc-color-success-text-45)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-success-light": {
       "group": "color",
@@ -7752,7 +7752,7 @@
       "group": "color",
       "name": "--dwc-color-success-text-light",
       "value": "var(--dwc-color-success-text-50)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.8102 0.160042 158.404)"
     },
     "--dwc-color-success-alt": {
       "group": "color",
@@ -7764,7 +7764,7 @@
       "group": "color",
       "name": "--dwc-color-on-success-text-alt",
       "value": "var(--dwc-color-success-text)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-warning-dark": {
       "group": "color",
@@ -7800,7 +7800,7 @@
       "group": "color",
       "name": "--dwc-color-warning-text",
       "value": "var(--dwc-color-warning-text-45)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-warning-light": {
       "group": "color",
@@ -7818,7 +7818,7 @@
       "group": "color",
       "name": "--dwc-color-warning-text-light",
       "value": "var(--dwc-color-warning-text-50)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.8102 0.165227 64.8007)"
     },
     "--dwc-color-warning-alt": {
       "group": "color",
@@ -7830,7 +7830,7 @@
       "group": "color",
       "name": "--dwc-color-on-warning-text-alt",
       "value": "var(--dwc-color-warning-text)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-danger-dark": {
       "group": "color",
@@ -7866,7 +7866,7 @@
       "group": "color",
       "name": "--dwc-color-danger-text",
       "value": "var(--dwc-color-danger-text-45)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-danger-light": {
       "group": "color",
@@ -7884,7 +7884,7 @@
       "group": "color",
       "name": "--dwc-color-danger-text-light",
       "value": "var(--dwc-color-danger-text-50)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.8102 0.240641 29.7575)"
     },
     "--dwc-color-danger-alt": {
       "group": "color",
@@ -7896,7 +7896,7 @@
       "group": "color",
       "name": "--dwc-color-on-danger-text-alt",
       "value": "var(--dwc-color-danger-text)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-info-dark": {
       "group": "color",
@@ -7932,7 +7932,7 @@
       "group": "color",
       "name": "--dwc-color-info-text",
       "value": "var(--dwc-color-info-text-45)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-info-light": {
       "group": "color",
@@ -7950,7 +7950,7 @@
       "group": "color",
       "name": "--dwc-color-info-text-light",
       "value": "var(--dwc-color-info-text-50)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.8102 0.2306 292.014)"
     },
     "--dwc-color-info-alt": {
       "group": "color",
@@ -7962,7 +7962,7 @@
       "group": "color",
       "name": "--dwc-color-on-info-text-alt",
       "value": "var(--dwc-color-info-text)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-gray-dark": {
       "group": "color",
@@ -7998,7 +7998,7 @@
       "group": "color",
       "name": "--dwc-color-gray-text",
       "value": "var(--dwc-color-gray-text-45)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-gray-light": {
       "group": "color",
@@ -8016,7 +8016,7 @@
       "group": "color",
       "name": "--dwc-color-gray-text-light",
       "value": "var(--dwc-color-gray-text-50)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-gray-alt": {
       "group": "color",
@@ -8028,7 +8028,7 @@
       "group": "color",
       "name": "--dwc-color-on-gray-text-alt",
       "value": "var(--dwc-color-gray-text)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-default-dark": {
       "group": "color",
@@ -8064,7 +8064,7 @@
       "group": "color",
       "name": "--dwc-color-default-text",
       "value": "var(--dwc-color-default-text-45)",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "computed": "oklch(0.7801 0.00867959 268.858)"
     },
     "--dwc-color-default-light": {
       "group": "color",
@@ -8082,7 +8082,7 @@
       "group": "color",
       "name": "--dwc-color-default-text-light",
       "value": "var(--dwc-color-default-text-50)",
-      "computed": "oklch(0.75 0.00867959 268.858)"
+      "computed": "oklch(0.8102 0.00867959 268.858)"
     },
     "--dwc-color-default-alt": {
       "group": "color",
@@ -8094,7 +8094,7 @@
       "group": "color",
       "name": "--dwc-color-on-default-text-alt",
       "value": "var(--dwc-color-primary-text)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-focus-ring-default": {
       "group": "focus",
@@ -9271,8 +9271,8 @@
     "--dwc-color-primary-text-45": {
       "group": "color",
       "name": "--dwc-color-primary-text-45",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-45": {
       "group": "color",
@@ -9289,8 +9289,8 @@
     "--dwc-color-primary-text-50": {
       "group": "color",
       "name": "--dwc-color-primary-text-50",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-50": {
       "group": "color",
@@ -9307,8 +9307,8 @@
     "--dwc-color-primary-text-55": {
       "group": "color",
       "name": "--dwc-color-primary-text-55",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-55": {
       "group": "color",
@@ -9325,8 +9325,8 @@
     "--dwc-color-primary-text-60": {
       "group": "color",
       "name": "--dwc-color-primary-text-60",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-60": {
       "group": "color",
@@ -9343,8 +9343,8 @@
     "--dwc-color-primary-text-65": {
       "group": "color",
       "name": "--dwc-color-primary-text-65",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-65": {
       "group": "color",
@@ -9361,8 +9361,8 @@
     "--dwc-color-primary-text-70": {
       "group": "color",
       "name": "--dwc-color-primary-text-70",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-70": {
       "group": "color",
@@ -9379,8 +9379,8 @@
     "--dwc-color-primary-text-75": {
       "group": "color",
       "name": "--dwc-color-primary-text-75",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-75": {
       "group": "color",
@@ -9397,8 +9397,8 @@
     "--dwc-color-primary-text-80": {
       "group": "color",
       "name": "--dwc-color-primary-text-80",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-80": {
       "group": "color",
@@ -9415,8 +9415,8 @@
     "--dwc-color-primary-text-85": {
       "group": "color",
       "name": "--dwc-color-primary-text-85",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-85": {
       "group": "color",
@@ -9433,8 +9433,8 @@
     "--dwc-color-primary-text-90": {
       "group": "color",
       "name": "--dwc-color-primary-text-90",
-      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.253545 263.526)"
+      "value": "oklch( from var(--dwc-color-primary-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.253545 263.526)"
     },
     "--dwc-color-on-primary-text-90": {
       "group": "color",
@@ -9643,8 +9643,8 @@
     "--dwc-color-success-text-45": {
       "group": "color",
       "name": "--dwc-color-success-text-45",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-45": {
       "group": "color",
@@ -9661,8 +9661,8 @@
     "--dwc-color-success-text-50": {
       "group": "color",
       "name": "--dwc-color-success-text-50",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-50": {
       "group": "color",
@@ -9679,8 +9679,8 @@
     "--dwc-color-success-text-55": {
       "group": "color",
       "name": "--dwc-color-success-text-55",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-55": {
       "group": "color",
@@ -9697,8 +9697,8 @@
     "--dwc-color-success-text-60": {
       "group": "color",
       "name": "--dwc-color-success-text-60",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-60": {
       "group": "color",
@@ -9715,8 +9715,8 @@
     "--dwc-color-success-text-65": {
       "group": "color",
       "name": "--dwc-color-success-text-65",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-65": {
       "group": "color",
@@ -9733,8 +9733,8 @@
     "--dwc-color-success-text-70": {
       "group": "color",
       "name": "--dwc-color-success-text-70",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-70": {
       "group": "color",
@@ -9751,8 +9751,8 @@
     "--dwc-color-success-text-75": {
       "group": "color",
       "name": "--dwc-color-success-text-75",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-75": {
       "group": "color",
@@ -9769,8 +9769,8 @@
     "--dwc-color-success-text-80": {
       "group": "color",
       "name": "--dwc-color-success-text-80",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-80": {
       "group": "color",
@@ -9787,8 +9787,8 @@
     "--dwc-color-success-text-85": {
       "group": "color",
       "name": "--dwc-color-success-text-85",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-85": {
       "group": "color",
@@ -9805,8 +9805,8 @@
     "--dwc-color-success-text-90": {
       "group": "color",
       "name": "--dwc-color-success-text-90",
-      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.160042 158.404)"
+      "value": "oklch( from var(--dwc-color-success-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.160042 158.404)"
     },
     "--dwc-color-on-success-text-90": {
       "group": "color",
@@ -10015,8 +10015,8 @@
     "--dwc-color-warning-text-45": {
       "group": "color",
       "name": "--dwc-color-warning-text-45",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-45": {
       "group": "color",
@@ -10033,8 +10033,8 @@
     "--dwc-color-warning-text-50": {
       "group": "color",
       "name": "--dwc-color-warning-text-50",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-50": {
       "group": "color",
@@ -10051,8 +10051,8 @@
     "--dwc-color-warning-text-55": {
       "group": "color",
       "name": "--dwc-color-warning-text-55",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-55": {
       "group": "color",
@@ -10069,8 +10069,8 @@
     "--dwc-color-warning-text-60": {
       "group": "color",
       "name": "--dwc-color-warning-text-60",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-60": {
       "group": "color",
@@ -10087,8 +10087,8 @@
     "--dwc-color-warning-text-65": {
       "group": "color",
       "name": "--dwc-color-warning-text-65",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-65": {
       "group": "color",
@@ -10105,8 +10105,8 @@
     "--dwc-color-warning-text-70": {
       "group": "color",
       "name": "--dwc-color-warning-text-70",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-70": {
       "group": "color",
@@ -10123,8 +10123,8 @@
     "--dwc-color-warning-text-75": {
       "group": "color",
       "name": "--dwc-color-warning-text-75",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-75": {
       "group": "color",
@@ -10141,8 +10141,8 @@
     "--dwc-color-warning-text-80": {
       "group": "color",
       "name": "--dwc-color-warning-text-80",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-80": {
       "group": "color",
@@ -10159,8 +10159,8 @@
     "--dwc-color-warning-text-85": {
       "group": "color",
       "name": "--dwc-color-warning-text-85",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-85": {
       "group": "color",
@@ -10177,8 +10177,8 @@
     "--dwc-color-warning-text-90": {
       "group": "color",
       "name": "--dwc-color-warning-text-90",
-      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.165227 64.8007)"
+      "value": "oklch( from var(--dwc-color-warning-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.165227 64.8007)"
     },
     "--dwc-color-on-warning-text-90": {
       "group": "color",
@@ -10387,8 +10387,8 @@
     "--dwc-color-danger-text-45": {
       "group": "color",
       "name": "--dwc-color-danger-text-45",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-45": {
       "group": "color",
@@ -10405,8 +10405,8 @@
     "--dwc-color-danger-text-50": {
       "group": "color",
       "name": "--dwc-color-danger-text-50",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-50": {
       "group": "color",
@@ -10423,8 +10423,8 @@
     "--dwc-color-danger-text-55": {
       "group": "color",
       "name": "--dwc-color-danger-text-55",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-55": {
       "group": "color",
@@ -10441,8 +10441,8 @@
     "--dwc-color-danger-text-60": {
       "group": "color",
       "name": "--dwc-color-danger-text-60",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-60": {
       "group": "color",
@@ -10459,8 +10459,8 @@
     "--dwc-color-danger-text-65": {
       "group": "color",
       "name": "--dwc-color-danger-text-65",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-65": {
       "group": "color",
@@ -10477,8 +10477,8 @@
     "--dwc-color-danger-text-70": {
       "group": "color",
       "name": "--dwc-color-danger-text-70",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-70": {
       "group": "color",
@@ -10495,8 +10495,8 @@
     "--dwc-color-danger-text-75": {
       "group": "color",
       "name": "--dwc-color-danger-text-75",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-75": {
       "group": "color",
@@ -10513,8 +10513,8 @@
     "--dwc-color-danger-text-80": {
       "group": "color",
       "name": "--dwc-color-danger-text-80",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-80": {
       "group": "color",
@@ -10531,8 +10531,8 @@
     "--dwc-color-danger-text-85": {
       "group": "color",
       "name": "--dwc-color-danger-text-85",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-85": {
       "group": "color",
@@ -10549,8 +10549,8 @@
     "--dwc-color-danger-text-90": {
       "group": "color",
       "name": "--dwc-color-danger-text-90",
-      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.240641 29.7575)"
+      "value": "oklch( from var(--dwc-color-danger-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.240641 29.7575)"
     },
     "--dwc-color-on-danger-text-90": {
       "group": "color",
@@ -10759,8 +10759,8 @@
     "--dwc-color-info-text-45": {
       "group": "color",
       "name": "--dwc-color-info-text-45",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-45": {
       "group": "color",
@@ -10777,8 +10777,8 @@
     "--dwc-color-info-text-50": {
       "group": "color",
       "name": "--dwc-color-info-text-50",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-50": {
       "group": "color",
@@ -10795,8 +10795,8 @@
     "--dwc-color-info-text-55": {
       "group": "color",
       "name": "--dwc-color-info-text-55",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-55": {
       "group": "color",
@@ -10813,8 +10813,8 @@
     "--dwc-color-info-text-60": {
       "group": "color",
       "name": "--dwc-color-info-text-60",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-60": {
       "group": "color",
@@ -10831,8 +10831,8 @@
     "--dwc-color-info-text-65": {
       "group": "color",
       "name": "--dwc-color-info-text-65",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-65": {
       "group": "color",
@@ -10849,8 +10849,8 @@
     "--dwc-color-info-text-70": {
       "group": "color",
       "name": "--dwc-color-info-text-70",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-70": {
       "group": "color",
@@ -10867,8 +10867,8 @@
     "--dwc-color-info-text-75": {
       "group": "color",
       "name": "--dwc-color-info-text-75",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-75": {
       "group": "color",
@@ -10885,8 +10885,8 @@
     "--dwc-color-info-text-80": {
       "group": "color",
       "name": "--dwc-color-info-text-80",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-80": {
       "group": "color",
@@ -10903,8 +10903,8 @@
     "--dwc-color-info-text-85": {
       "group": "color",
       "name": "--dwc-color-info-text-85",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-85": {
       "group": "color",
@@ -10921,8 +10921,8 @@
     "--dwc-color-info-text-90": {
       "group": "color",
       "name": "--dwc-color-info-text-90",
-      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.2306 292.014)"
+      "value": "oklch( from var(--dwc-color-info-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.2306 292.014)"
     },
     "--dwc-color-on-info-text-90": {
       "group": "color",
@@ -11131,8 +11131,8 @@
     "--dwc-color-gray-text-45": {
       "group": "color",
       "name": "--dwc-color-gray-text-45",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-45": {
       "group": "color",
@@ -11149,8 +11149,8 @@
     "--dwc-color-gray-text-50": {
       "group": "color",
       "name": "--dwc-color-gray-text-50",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-50": {
       "group": "color",
@@ -11167,8 +11167,8 @@
     "--dwc-color-gray-text-55": {
       "group": "color",
       "name": "--dwc-color-gray-text-55",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-55": {
       "group": "color",
@@ -11185,8 +11185,8 @@
     "--dwc-color-gray-text-60": {
       "group": "color",
       "name": "--dwc-color-gray-text-60",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-60": {
       "group": "color",
@@ -11203,8 +11203,8 @@
     "--dwc-color-gray-text-65": {
       "group": "color",
       "name": "--dwc-color-gray-text-65",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-65": {
       "group": "color",
@@ -11221,8 +11221,8 @@
     "--dwc-color-gray-text-70": {
       "group": "color",
       "name": "--dwc-color-gray-text-70",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-70": {
       "group": "color",
@@ -11239,8 +11239,8 @@
     "--dwc-color-gray-text-75": {
       "group": "color",
       "name": "--dwc-color-gray-text-75",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-75": {
       "group": "color",
@@ -11257,8 +11257,8 @@
     "--dwc-color-gray-text-80": {
       "group": "color",
       "name": "--dwc-color-gray-text-80",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-80": {
       "group": "color",
@@ -11275,8 +11275,8 @@
     "--dwc-color-gray-text-85": {
       "group": "color",
       "name": "--dwc-color-gray-text-85",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-85": {
       "group": "color",
@@ -11293,8 +11293,8 @@
     "--dwc-color-gray-text-90": {
       "group": "color",
       "name": "--dwc-color-gray-text-90",
-      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-gray-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.0000298275 23.6195)"
     },
     "--dwc-color-on-gray-text-90": {
       "group": "color",
@@ -11503,8 +11503,8 @@
     "--dwc-color-default-text-45": {
       "group": "color",
       "name": "--dwc-color-default-text-45",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 33%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(42% + var(--dwc-dark-mode) * 36.01%) c h )",
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-45": {
       "group": "color",
@@ -11521,8 +11521,8 @@
     "--dwc-color-default-text-50": {
       "group": "color",
       "name": "--dwc-color-default-text-50",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 37.02%) c h )",
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-50": {
       "group": "color",
@@ -11539,8 +11539,8 @@
     "--dwc-color-default-text-55": {
       "group": "color",
       "name": "--dwc-color-default-text-55",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 38.74%) c h )",
+      "computed": "oklch(0.8274 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-55": {
       "group": "color",
@@ -11557,8 +11557,8 @@
     "--dwc-color-default-text-60": {
       "group": "color",
       "name": "--dwc-color-default-text-60",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 41.75%) c h )",
+      "computed": "oklch(0.8575 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-60": {
       "group": "color",
@@ -11575,8 +11575,8 @@
     "--dwc-color-default-text-65": {
       "group": "color",
       "name": "--dwc-color-default-text-65",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 43.04%) c h )",
+      "computed": "oklch(0.8704 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-65": {
       "group": "color",
@@ -11593,8 +11593,8 @@
     "--dwc-color-default-text-70": {
       "group": "color",
       "name": "--dwc-color-default-text-70",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 45.19%) c h )",
+      "computed": "oklch(0.8919 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-70": {
       "group": "color",
@@ -11611,8 +11611,8 @@
     "--dwc-color-default-text-75": {
       "group": "color",
       "name": "--dwc-color-default-text-75",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 31%) c h )",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 47.77%) c h )",
+      "computed": "oklch(0.9177 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-75": {
       "group": "color",
@@ -11629,8 +11629,8 @@
     "--dwc-color-default-text-80": {
       "group": "color",
       "name": "--dwc-color-default-text-80",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 36%) c h )",
-      "computed": "oklch(0.8 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 50.35%) c h )",
+      "computed": "oklch(0.9435 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-80": {
       "group": "color",
@@ -11647,8 +11647,8 @@
     "--dwc-color-default-text-85": {
       "group": "color",
       "name": "--dwc-color-default-text-85",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 44%) c h )",
-      "computed": "oklch(0.88 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 53.79%) c h )",
+      "computed": "oklch(0.9779 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-85": {
       "group": "color",
@@ -11665,8 +11665,8 @@
     "--dwc-color-default-text-90": {
       "group": "color",
       "name": "--dwc-color-default-text-90",
-      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 51%) c h )",
-      "computed": "oklch(0.95 0.0000298275 23.6195)"
+      "value": "oklch( from var(--dwc-color-default-seed) calc(44% + var(--dwc-dark-mode) * 55%) c h )",
+      "computed": "oklch(0.99 0.0000298275 23.6195)"
     },
     "--dwc-color-on-default-text-90": {
       "group": "color",
@@ -11744,7 +11744,7 @@
       "group": "color",
       "name": "--dwc-color-primary-text",
       "value": "var(--dwc-color-primary-text-45)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-primary-light": {
       "group": "color",
@@ -11762,7 +11762,7 @@
       "group": "color",
       "name": "--dwc-color-primary-text-light",
       "value": "var(--dwc-color-primary-text-50)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.8102 0.253545 263.526)"
     },
     "--dwc-color-primary-alt": {
       "group": "color",
@@ -11774,7 +11774,7 @@
       "group": "color",
       "name": "--dwc-color-on-primary-text-alt",
       "value": "var(--dwc-color-primary-text)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-color-success-dark": {
       "group": "color",
@@ -11810,7 +11810,7 @@
       "group": "color",
       "name": "--dwc-color-success-text",
       "value": "var(--dwc-color-success-text-45)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-success-light": {
       "group": "color",
@@ -11828,7 +11828,7 @@
       "group": "color",
       "name": "--dwc-color-success-text-light",
       "value": "var(--dwc-color-success-text-50)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.8102 0.160042 158.404)"
     },
     "--dwc-color-success-alt": {
       "group": "color",
@@ -11840,7 +11840,7 @@
       "group": "color",
       "name": "--dwc-color-on-success-text-alt",
       "value": "var(--dwc-color-success-text)",
-      "computed": "oklch(0.75 0.160042 158.404)"
+      "computed": "oklch(0.7801 0.160042 158.404)"
     },
     "--dwc-color-warning-dark": {
       "group": "color",
@@ -11876,7 +11876,7 @@
       "group": "color",
       "name": "--dwc-color-warning-text",
       "value": "var(--dwc-color-warning-text-45)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-warning-light": {
       "group": "color",
@@ -11894,7 +11894,7 @@
       "group": "color",
       "name": "--dwc-color-warning-text-light",
       "value": "var(--dwc-color-warning-text-50)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.8102 0.165227 64.8007)"
     },
     "--dwc-color-warning-alt": {
       "group": "color",
@@ -11906,7 +11906,7 @@
       "group": "color",
       "name": "--dwc-color-on-warning-text-alt",
       "value": "var(--dwc-color-warning-text)",
-      "computed": "oklch(0.75 0.165227 64.8007)"
+      "computed": "oklch(0.7801 0.165227 64.8007)"
     },
     "--dwc-color-danger-dark": {
       "group": "color",
@@ -11942,7 +11942,7 @@
       "group": "color",
       "name": "--dwc-color-danger-text",
       "value": "var(--dwc-color-danger-text-45)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-danger-light": {
       "group": "color",
@@ -11960,7 +11960,7 @@
       "group": "color",
       "name": "--dwc-color-danger-text-light",
       "value": "var(--dwc-color-danger-text-50)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.8102 0.240641 29.7575)"
     },
     "--dwc-color-danger-alt": {
       "group": "color",
@@ -11972,7 +11972,7 @@
       "group": "color",
       "name": "--dwc-color-on-danger-text-alt",
       "value": "var(--dwc-color-danger-text)",
-      "computed": "oklch(0.75 0.240641 29.7575)"
+      "computed": "oklch(0.7801 0.240641 29.7575)"
     },
     "--dwc-color-info-dark": {
       "group": "color",
@@ -12008,7 +12008,7 @@
       "group": "color",
       "name": "--dwc-color-info-text",
       "value": "var(--dwc-color-info-text-45)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-info-light": {
       "group": "color",
@@ -12026,7 +12026,7 @@
       "group": "color",
       "name": "--dwc-color-info-text-light",
       "value": "var(--dwc-color-info-text-50)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.8102 0.2306 292.014)"
     },
     "--dwc-color-info-alt": {
       "group": "color",
@@ -12038,7 +12038,7 @@
       "group": "color",
       "name": "--dwc-color-on-info-text-alt",
       "value": "var(--dwc-color-info-text)",
-      "computed": "oklch(0.75 0.2306 292.014)"
+      "computed": "oklch(0.7801 0.2306 292.014)"
     },
     "--dwc-color-gray-dark": {
       "group": "color",
@@ -12074,7 +12074,7 @@
       "group": "color",
       "name": "--dwc-color-gray-text",
       "value": "var(--dwc-color-gray-text-45)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-gray-light": {
       "group": "color",
@@ -12092,7 +12092,7 @@
       "group": "color",
       "name": "--dwc-color-gray-text-light",
       "value": "var(--dwc-color-gray-text-50)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-gray-alt": {
       "group": "color",
@@ -12104,7 +12104,7 @@
       "group": "color",
       "name": "--dwc-color-on-gray-text-alt",
       "value": "var(--dwc-color-gray-text)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-default-dark": {
       "group": "color",
@@ -12140,7 +12140,7 @@
       "group": "color",
       "name": "--dwc-color-default-text",
       "value": "var(--dwc-color-default-text-45)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.7801 0.0000298275 23.6195)"
     },
     "--dwc-color-default-light": {
       "group": "color",
@@ -12158,7 +12158,7 @@
       "group": "color",
       "name": "--dwc-color-default-text-light",
       "value": "var(--dwc-color-default-text-50)",
-      "computed": "oklch(0.75 0.0000298275 23.6195)"
+      "computed": "oklch(0.8102 0.0000298275 23.6195)"
     },
     "--dwc-color-default-alt": {
       "group": "color",
@@ -12170,7 +12170,7 @@
       "group": "color",
       "name": "--dwc-color-on-default-text-alt",
       "value": "var(--dwc-color-primary-text)",
-      "computed": "oklch(0.75 0.253545 263.526)"
+      "computed": "oklch(0.7801 0.253545 263.526)"
     },
     "--dwc-focus-ring-default": {
       "group": "focus",

@@ -1,7 +1,9 @@
 # dwc-upload
 ![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--upload-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
 
-The `BBjFileChooser<dwc-upload>` provides methods for manipulating a UI file uploader control.
+The `<dwc-upload>` provides methods for manipulating a UI file uploader control.
+
+
 
 
 ## Properties 

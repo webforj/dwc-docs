@@ -1,8 +1,10 @@
 # dwc-file-chooser
 ![Documentation Type](https://img.shields.io/badge/Documentation-web--components-%23006aff) ![Tag Name](https://img.shields.io/badge/Component-dwc--file--chooser-%23006aff)  ![Encapsulation](https://img.shields.io/badge/Encapsulation-shadow-%23006aff)
 
-The `BBjFileChooser<bbj-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories
+The `<dwc-file-chooser>` provides methods for manipulating a UI file chooser to select files and directories
 from the server.
+
+
 
 
 ## Properties 
