@@ -15,11 +15,13 @@ The official Figma kit for DWC, the Dynamic Web Client behind webforJ and the BB
 
 ## Preview
 
-<iframe
-  title="DWC Design Kit on Figma"
-  style="border: 1px solid var(--dwc-border-color); border-radius: var(--dwc-border-radius-m); width: 100%; height: 560px;"
-  src="https://embed.figma.com/design/xZVIDRnF7FJ3Dibb5At2lU/DWC-Design-Kit?node-id=6707-254&embed-host=dwc-docs"
-  allowfullscreen></iframe>
+<a href="https://www.figma.com/community/file/1682060886525639971/dwc-design-kit" target="_blank" rel="noopener noreferrer">
+  <img
+    src="https://cdn.webforj.com/webforj-documentation/figma/dwc-design-kit-cover.jpg"
+    alt="DWC Design Kit on Figma Community"
+    style="border: 1px solid var(--dwc-border-color); border-radius: var(--dwc-border-radius-m); width: 100%;"
+    loading="lazy">
+</a>
 
 ## Versions
 
