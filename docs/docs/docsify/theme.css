@@ -872,3 +872,34 @@ video {
     padding: 4rem 1.5rem 2rem !important;
   }
 }
+
+/* Keep Order Desk previews in light/dark pairs, even on narrow screens. */
+.swing-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem 1rem;
+  max-width: 27rem;
+  margin: 1rem 0;
+}
+
+.swing-gallery a {
+  display: grid;
+  gap: .25rem;
+  font-size: .875rem;
+}
+
+.swing-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--dwc-border-color);
+  box-sizing: border-box;
+  border-radius: var(--dwc-border-radius);
+}
+
+@media (min-width: 58rem) {
+  .swing-gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 52rem;
+  }
+}

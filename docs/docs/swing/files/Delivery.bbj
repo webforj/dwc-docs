@@ -1,0 +1,38 @@
+use com.basis.dwc.swing.laf.DwcLookAndFeel
+use com.basis.dwc.swing.laf.ButtonTheme
+use javax.swing.JComponent
+
+javax.swing.UIManager@.setLookAndFeel(new DwcLookAndFeel@())
+gui! = BBjAPI().openSysGui("X0")
+window! = gui!.addWindow(80, 80, 384, 190, "Delivery address", $00090083$)
+email! = window!.addEditBox(101, 16, 12, 352, 52, "", $$)
+save! = window!.addButton(102, 16, 100, 112, 32, "Save", $$)
+status! = window!.addStaticText(103, 16, 148, 352, 24, "", $$)
+
+email!.putClientProperty("dwc.label", "Delivery email")
+email!.putClientProperty("dwc.required", java.lang.Boolean.TRUE)
+button! = cast(JComponent@, save!)
+button!.putClientProperty("dwc.theme", ButtonTheme@.PRIMARY)
+
+save!.setCallback(save!.ON_BUTTON_PUSH, "save_address")
+window!.setCallback(window!.ON_CLOSE, "done")
+process_events
+
+save_address:
+missing = len(cvs(email!.getText(), 3)) = 0
+if missing then
+    rem Add room below the input for one line of helper text.
+    email!.setSize(email!.getWidth(), 78)
+    email!.putClientProperty("dwc.invalid", java.lang.Boolean.TRUE)
+    email!.putClientProperty("dwc.helperText", "Enter a delivery email.")
+    status!.setText("")
+else
+    email!.putClientProperty("dwc.invalid", java.lang.Boolean.FALSE)
+    email!.putClientProperty("dwc.helperText", "")
+    email!.setSize(email!.getWidth(), 52)
+    status!.setText("Delivery address saved.")
+endif
+return
+
+done:
+release

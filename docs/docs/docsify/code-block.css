@@ -170,27 +170,21 @@ body.flavor-BBj [data-flavor]:not([data-flavor="BBj"]) {
   color: var(--dwc-color-danger-text) !important;
 }
 
-/* Success/error feedback bubble - sit right next to the button */
-.docsify-copy-code-button .success,
-.docsify-copy-code-button .error {
-  padding: var(--dwc-space-2xs) var(--dwc-space-xs) !important;
-  font-size: var(--dwc-font-size-s) !important;
-  font-weight: var(--dwc-font-weight-medium) !important;
-  border-radius: var(--dwc-border-radius-s) !important;
-  right: 100% !important;
-  margin-right: var(--dwc-space-s);
+/* Keep only the current action or result in the button's accessible name. */
+.docsify-copy-code-button {
+  user-select: none;
 }
 
-.docsify-copy-code-button.success .success {
-  background: var(--dwc-color-success-alt);
-  color: var(--dwc-color-success-text);
-  border: 1px solid var(--dwc-border-color-success-emphasis);
-  transform: translate3d(0, -50%, 0) !important;
+.docsify-copy-code-button:not(.success) .success,
+.docsify-copy-code-button:not(.error) .error,
+.docsify-copy-code-button.success .label,
+.docsify-copy-code-button.error .label {
+  display: none;
 }
 
+.docsify-copy-code-button.success .success,
 .docsify-copy-code-button.error .error {
-  background: var(--dwc-color-danger-alt);
-  color: var(--dwc-color-danger-text);
-  border: 1px solid var(--dwc-border-color-danger-emphasis);
-  transform: translate3d(0, -50%, 0) !important;
+  position: static;
+  opacity: 1;
+  transform: none;
 }
