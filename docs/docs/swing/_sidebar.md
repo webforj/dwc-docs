@@ -2,6 +2,8 @@
 
 [Introduction](swing/)
 
+[Downloads](swing/downloads.md)
+
 [Order Desk screenshot gallery](swing/order-desk.md)
 
 - Guide

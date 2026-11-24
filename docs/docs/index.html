@@ -12,7 +12,7 @@
   <script nomodule src="//cdn.webforj.com/next/dwc-ui.js"></script>
 
   <link rel="stylesheet" href="//cdn.webforj.com/next/dwc-ui.css" />
-  <link rel="stylesheet" href="docsify/theme.css?v=72f1a9721a" />
+  <link rel="stylesheet" href="docsify/theme.css?v=433c6c908b" />
   <link rel="stylesheet" href="docsify/theme-toggle/theme-toggle.css" />
   <link rel="stylesheet" href="docsify/version-selector/version-selector.css" />
   <link rel="stylesheet" href="docsify/code-block.css?v=3d90e26cb6" />
@@ -63,6 +63,26 @@
         theme: 'material',
       },
       plugins: [
+        function swingDownloads(hook) {
+          let releaseTable;
+          hook.beforeEach(function (content, next) {
+            const table = /<!-- swing-releases -->[\s\S]*?<!-- \/swing-releases -->/;
+            if (!table.test(content)) return next(content);
+
+            // Load the release table only on Downloads. The guide includes working
+            // links for offline previews and for readers who cannot reach the CDN.
+            if (!releaseTable) {
+              releaseTable = new Promise(function (resolve) {
+                const script = document.createElement('script');
+                script.src = 'https://cdn.webforj.com/dwc-swing-laf/releases.js';
+                script.onload = () => resolve(window.dwcSwingReleaseTable);
+                script.onerror = () => resolve(null);
+                document.head.appendChild(script);
+              });
+            }
+            releaseTable.then(markdown => next(markdown ? content.replace(table, () => markdown) : content));
+          });
+        },
         function (hook) {
           var year = new Date().getFullYear();
           hook.beforeEach(function (content) {

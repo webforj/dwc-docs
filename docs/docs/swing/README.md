@@ -4,7 +4,7 @@ A BBj application can use both WebUI and DWC screens. WebUI displays Swing contr
 
 The visual match is **best effort**. Swing and DWC draw their controls differently, and BBj draws some details itself, such as menu-button arrows. You can use the same light or dark palette across the application and still see small differences when moving between screens.
 
-<a href="https://cdn.webforj.com/dwc-swing-laf/0.2.0/dwc-swing-laf.jar">Download the DWC theme JAR (0.2.0)</a> · Java 21 or newer · Both palettes and the Inter fonts are included.
+Get the theme JAR or try the standalone Order Desk demo from the [downloads page](swing/downloads.md). Both require Java 21 or newer. The theme includes both palettes and the Inter fonts.
 
 ## Screenshot gallery
 

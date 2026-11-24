@@ -903,3 +903,11 @@ video {
     max-width: 52rem;
   }
 }
+
+@media (max-width: 32rem) {
+  body[data-page="swing/downloads.md"] .markdown-section :is(th, td) {
+    padding: .5rem .3rem;
+    letter-spacing: normal;
+    overflow-wrap: anywhere;
+  }
+}

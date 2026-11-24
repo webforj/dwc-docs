@@ -15,6 +15,6 @@ Compare the same order in DWC Light and DWC Dark. Select a thumbnail to open the
 
 ## Try Order Desk
 
-<a href="https://cdn.webforj.com/dwc-swing-laf/0.2.0/dwc-swing-laf-demo.jar">Download the standalone Order Desk demo (0.2.0)</a>. The demo includes the theme. With Java 21 or newer, open a terminal in the download folder and run <code>java -jar dwc-swing-laf-demo.jar</code>.
+Open [Downloads](swing/downloads.md) and select **Demo JAR** under **Order Desk**. The demo includes the theme. With Java 21 or newer, open a terminal in the download folder and run <code>java -jar dwc-swing-laf-demo.jar</code>.
 
 In Order Desk, choose **View → DWC light** or **View → DWC dark**, then choose **View → Primary color**. Compare the selected order, the active **Details** tab, and the **Save order** button. They share the primary color. **Delete** keeps its danger color in every example.

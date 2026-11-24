@@ -10,7 +10,7 @@ Save the following program as **Delivery.java**.
 
 [Delivery.java](files/Delivery.java ':include :type=code java')
 
-<a href="https://cdn.webforj.com/dwc-swing-laf/0.2.0/dwc-swing-laf.jar">Download the DWC theme JAR</a> into the same folder. Open a terminal there and run the program.
+Open [Downloads](swing/downloads.md), select **Theme JAR**, and save it in the same folder as **Delivery.java**. Open a terminal there and run the program.
 
 ```sh
 java -cp dwc-swing-laf.jar Delivery.java

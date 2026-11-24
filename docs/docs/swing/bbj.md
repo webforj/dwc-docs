@@ -8,7 +8,7 @@ Create a folder on the BBj server that BBjServices can read. Save the following 
 
 [Delivery.bbj](files/Delivery.bbj ':include :type=code bbj')
 
-<a href="https://cdn.webforj.com/dwc-swing-laf/0.2.0/dwc-swing-laf.jar">Download the DWC theme JAR</a> into the same folder. Use the full server paths to the JAR and the program when you configure Enterprise Manager.
+Open [Downloads](swing/downloads.md), select **Theme JAR**, and save it in the same folder as **Delivery.bbj**. Use the full server paths to the JAR and the program when you configure Enterprise Manager.
 
 ## 2. Create the client classpath
 
